@@ -3,3 +3,5 @@ ATK.BSDBridge.continuation_of_bsd
 ATK.BSDBridge.continuation_unique
 ATK.BSDBridge.bsd_iff_rankEquality
 ATK.BSDBridge.bsd_of_material
+ATK.BSDExplosion.explosion_refutes
+ATK.BSDExplosion.bsd_iff_no_explosion
