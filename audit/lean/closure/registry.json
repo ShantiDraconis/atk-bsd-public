@@ -1,0 +1,32 @@
+{
+  "_doc": "Linha de fechamento: CLOSED_MATH é calculado por scripts/closure_gate.py a partir destas entradas. Um certificado é uma declaração SEM hipóteses de tipo exatamente um dos alvos. Pontes e explosões são rotas.",
+  "problem": "BSD",
+  "imports": [
+    "ATK"
+  ],
+  "main_claim": "BSD",
+  "targets": {
+    "BSD": "ATK.BSDBridge.BSDRank",
+    "¬BSD": "¬ ATK.BSDBridge.BSDRank"
+  },
+  "negations": {
+    "BSD": "¬BSD"
+  },
+  "closures": [],
+  "bridges": [
+    {
+      "claim": "BSD",
+      "decl": "ATK.BSDBridge.bsd_of_H",
+      "hypothesis": "ATK.BSDBridge.H_BSD",
+      "status": "H1 publicada, não formalizada; H2 aberta"
+    }
+  ],
+  "explosions": [
+    {
+      "claim": "¬BSD",
+      "decl": "ATK.BSDExplosion.explosion_refutes",
+      "hypothesis": "ATK.BSDExplosion.RankDiscrepancy",
+      "status": "nenhuma testemunha conhecida"
+    }
+  ]
+}
