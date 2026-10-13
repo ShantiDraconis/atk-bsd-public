@@ -12,8 +12,25 @@ demonstrada · **NÃO_ENUNCIÁVEL** = o alvo exato não existe na Mathlib v4.34.
 Para toda curva elíptica `E/ℚ`: `posto E(ℚ) = ord_{s=1} L(E, s)`, e o coeficiente líder de
 `L(E, s)` em `s = 1` é dado pela fórmula BSD (período, regulador, Tamagawa, `Ш`, torção).
 
-A Mathlib v4.34.1 tem curvas de Weierstrass e a lei de grupo, mas não a função `L(E, s)` com
-continuação analítica até `s = 1`. **Estado no portão: NÃO_ENUNCIÁVEL.**
+**Mudança de estado.** A Mathlib v4.34.1 define a série L de uma curva de Weierstrass sobre um
+corpo de números, com os fatores locais corretos em todo primo (via modelo minimal):
+`WeierstrassCurve.LFunction` / `WeierstrassCurve.LSeries`. Com isso a forma oficial do Clay
+(posto = ordem de anulação em `s = 1`) **ficou enunciável**: `ATK.BSDBridge.BSDRank`. O que a
+Mathlib não tem é a continuação analítica — que entra como hipótese (H1), como no NS.
+
+### Ponte no formato NS — certificada no kernel
+
+| Peça | Declaração (`audit/lean/ATK/BSDBridge.lean`) |
+|---|---|
+| Alvo exato | `BSDRank`: toda `E/ℚ` elíptica tem `L` inteira igual a `E.LSeries` em `Re s > 3/2`, com `ord_{s=1} L = r` finito e `Module.rank ℤ E(ℚ) = r` |
+| Hipótese H | `H_BSD := AnalyticContinuation ∧ RankEquality` |
+| Ponte | `bsd_of_H : H_BSD → BSDRank` |
+| Bem-posto | `continuation_unique`: a continuação é única (princípio da identidade) — o alvo não escolhe `L` livremente |
+| Força de H | H1 (continuação) = **teorema publicado e aceito** (modularidade: Wiles, Taylor–Wiles, BCDT), **não formalizado** — análogo do NS; H2 (posto) = **aberto**; com H1, `BSDRank ↔ RankEquality` (`bsd_iff_rankEquality`) |
+| Programa | `bsd_of_material`: `BSDClosure` com o 1º parâmetro fixado em `H_BSD` alimenta a ponte |
+| Kernel | **5/5 CERTIFIED** — Lean 4.34.1 + Mathlib v4.34.1 (workflow `audit-kernel`) |
+
+**Estado no portão: CONDICIONAL** — alvo exato; H1 com prova externa não formalizada; H2 em aberto.
 
 ## 2. Varredura do conteúdo
 
@@ -25,24 +42,27 @@ build, firewall e reprodutibilidade — o próprio arquivo diz que não afirma p
 | # | Item | Por que é condicional | O que fechar |
 |---|---|---|---|
 | D1 | `BSDClosure R T Q` / `MaterialBSDProducer` (`imports/lean/MCore/Material/Closure.lean`) | **Certificado pelo kernel** (`audit/Vacuity.lean`): `MaterialBSDProducer R T Q ↔ R ∧ T ∧ Q` (`producer_iff`); vale com `True` (`producer_trivial`) e falha com `False` (`producer_false`). Todo o conteúdo está nos três parâmetros | Fixar `R`, `T`, `Q` como os enunciados reais (igualdade de posto; positividade/finitude da torção; identidade do coeficiente líder) |
-| D2 | Enunciados reais | Dependem de `L(E, s)` e de `Ш` | Formalizar `L(E, s)` com continuação analítica (via modularidade) — fundação anterior ao problema |
+| D2 | Enunciados reais | Posto: **feito** (`BSDRank`, seção 0). Coeficiente líder (forma refinada, não exigida pelo Clay) ainda depende de `Ш`, regulador e períodos | Formalizar H1 (continuação, via modularidade); para a forma refinada, `Ш` e o regulador |
 | D3 | "realizable elliptic-curve domain" (alvo registrado em `atk-math-core-public`, 3 átomos) | Mesmo diagnóstico de D1: conjunção de três alvos abertos | Idem D1/D2 |
 | D4 | Numérica (reticulado de Mordell–Weil, M-Core `m-core-bsd/bsd_lattice`) | Evidência por curva, não teorema universal | Manter como evidência; não contar como fechamento |
 | D5 | Compilação | `Closure.lean` importa `MCore`, ausente aqui. (`audit/Vacuity.lean` compila só com Lean core — workflow `vacuity-check`) | CI a partir do commit de origem (`provenance/`) |
 
 ## 4. Falsificador exato
 
-Uma curva `E/ℚ` com `posto E(ℚ) ≠ ord_{s=1} L(E, s)`, ou com coeficiente líder diferente da
-fórmula BSD. Não enunciável na Mathlib v4.34.1.
+Uma curva `E/ℚ` com `posto E(ℚ) ≠ ord_{s=1} L(E, s)` — agora enunciável: refuta `RankEquality` e, dada
+H1, `BSDRank` (`bsd_iff_rankEquality`). O coeficiente líder diferente da fórmula BSD refuta só a
+forma refinada.
 
 ## 5. Condição para mudar o estado
 
-NÃO_ENUNCIÁVEL → ABERTO quando `L(E, s)` e os termos da fórmula forem formalizados; só então um
-fechamento pode ser avaliado pelo portão.
+CONDICIONAL → FECHADO somente com uma declaração de tipo `BSDRank` aceita pelo portão (o que exige
+H1 formalizada e H2 provada), sem `sorry` e só com os axiomas padrão.
 
 ---
 
-**English summary.** Status CONDITIONAL / gate NOT STATABLE (no `L(E,s)` with analytic
-continuation in Mathlib). Kernel-certified finding: `MaterialBSDProducer R T Q` is exactly
+**English summary.** Status CONDITIONAL. BSD became statable: Mathlib v4.34.1 has the L-series of
+an elliptic curve, so the Clay rank form is `BSDRank`, with a kernel-checked bridge
+`AnalyticContinuation ∧ RankEquality → BSDRank` (5/5). H1 is modularity (published, not
+formalized); H2 is open. Kernel-certified finding: `MaterialBSDProducer R T Q` is exactly
 `R ∧ T ∧ Q` — it holds for `True` and fails for `False`; all content lives in the parameters,
 which must become the real BSD statements.
