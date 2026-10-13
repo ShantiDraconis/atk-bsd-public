@@ -41,6 +41,25 @@ Mathlib não tem é a continuação analítica — que entra como hipótese (H1)
 | Dicotomia | `bsd_iff_no_explosion : AnalyticContinuation → (BSDRank ↔ IsEmpty RankDiscrepancy)` |
 | Estado | **nenhuma testemunha conhecida**; para ordem ≤ 1 a igualdade é teorema (Gross–Zagier, Kolyvagin), logo uma explosão exigiria ordem analítica ≥ 2 |
 
+### Linha de fechamento — CLOSED_MATH calculado pelo kernel
+
+Mesmo formato das linhas condicional e de explosão: **alvo exato** → **certificado** (declaração
+sem hipóteses, de tipo exatamente o alvo) → **portão** (`audit/lean/scripts/closure_gate.py`:
+kernel + axiomas padrão + controles) → **bandeira** calculada, nunca escrita à mão.
+
+| Alegação | Alvo exato | CLOSED_MATH | Certificado | Rotas certificadas até ela |
+|---|---|---|---|---|
+| BSD | `ATK.BSDBridge.BSDRank` | **false** | — | ponte `bsd_of_H` (H1 não formalizada, H2 aberta) |
+| ¬BSD | `¬ ATK.BSDBridge.BSDRank` | **false** | — | explosão `explosion_refutes` (sem testemunha) |
+
+Controles do portão (todos OK, run `38387846055`): aceita uma decisão verdadeira de problema-brinquedo;
+recusa alvo como `axiom`; recusa `sorry`; recusa a ponte e a linha de explosão oferecidas como
+certificado (falta H / falta a testemunha); recusa `alvo ∨ ¬alvo` (teorema vazio).
+
+Para mudar uma bandeira para `true`, basta acrescentar a `audit/lean/closure/registry.json`
+uma declaração que o kernel aceite com o tipo exato — vinda de uma prova de H (pela ponte) ou de
+uma testemunha (pela explosão). Nenhuma outra edição altera o resultado.
+
 ## 2. Varredura do conteúdo
 
 1 arquivo Lean · 0 `axiom` · 0 `sorry`/`admit`. `CERTIFICATES/FINAL_REPRO.md` ("GREEN") certifica
