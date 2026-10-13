@@ -32,6 +32,15 @@ Mathlib não tem é a continuação analítica — que entra como hipótese (H1)
 
 **Estado no portão: CONDICIONAL** — alvo exato; H1 com prova externa não formalizada; H2 em aberto.
 
+### Linha de explosão — certificada no kernel
+
+| Peça | Declaração (`audit/lean/ATK/BSDExplosion.lean`) |
+|---|---|
+| Testemunha de explosão | `RankDiscrepancy`: curva `E/ℚ` + continuação inteira `L` com `ord_{s=1} L ≠ posto` |
+| Refutação | `explosion_refutes : RankDiscrepancy → ¬ BSDRank` (usa a unicidade da continuação) |
+| Dicotomia | `bsd_iff_no_explosion : AnalyticContinuation → (BSDRank ↔ IsEmpty RankDiscrepancy)` |
+| Estado | **nenhuma testemunha conhecida**; para ordem ≤ 1 a igualdade é teorema (Gross–Zagier, Kolyvagin), logo uma explosão exigiria ordem analítica ≥ 2 |
+
 ## 2. Varredura do conteúdo
 
 1 arquivo Lean · 0 `axiom` · 0 `sorry`/`admit`. `CERTIFICATES/FINAL_REPRO.md` ("GREEN") certifica
