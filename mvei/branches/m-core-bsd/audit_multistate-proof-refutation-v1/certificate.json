@@ -1,0 +1,589 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "audit/multistate-proof-refutation-v1",
+ "branch_state": "parada",
+ "head_commit": "20f96533d64d04e3db4df0f186f255529a2d6750",
+ "head_commit_date": "2026-09-19T10:39:49+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "20f96533d64d04e3db4df0f186f255529a2d6750",
+   "date": "2026-09-19T10:39:49+02:00",
+   "subject": "ci: remove umbrella clean rebuild from BSD certification"
+  },
+  {
+   "commit": "64b418f6abf088b9856ff3c2d8955f249ca932a5",
+   "date": "2026-09-19T10:38:04+02:00",
+   "subject": "fix: align R1 exact model coefficient unpacking with 1933a1"
+  },
+  {
+   "commit": "bf62e631c50ae07810f29dfba4717b88128b07fc",
+   "date": "2026-09-19T09:42:42+02:00",
+   "subject": "ci: enforce targeted fast-fail certification builds"
+  },
+  {
+   "commit": "c305e62c0ceb73ac56f2e70285cf772cf2132648",
+   "date": "2026-09-19T09:42:39+02:00",
+   "subject": "ci: add global NO-UMBRELLA regression firewall"
+  },
+  {
+   "commit": "a9a7506649539122909de5c39b228cef17f81219",
+   "date": "2026-09-19T03:56:41+02:00",
+   "subject": "ci: certify BSD 1933a1 regulator from rigorous R1 and R2"
+  },
+  {
+   "commit": "7f1e67be50ed8192684050dccda8e5b47e5c350f",
+   "date": "2026-09-19T03:56:38+02:00",
+   "subject": "test: add interval regulator certificate reducer"
+  },
+  {
+   "commit": "bd28debde23aad37eb45df091a290d774d51751b",
+   "date": "2026-09-19T03:56:35+02:00",
+   "subject": "test: add rigorous canonical-height interval certificate producer"
+  },
+  {
+   "commit": "365d195bd26c157bb629199510eb0b79dbc9d033",
+   "date": "2026-09-19T03:54:09+02:00",
+   "subject": "ci: execute BSD 1933a1 R1 fail-closed evidence test"
+  },
+  {
+   "commit": "a3f1973fe312920e9d47e17b5efa0128c6c83b8b",
+   "date": "2026-09-19T03:54:02+02:00",
+   "subject": "audit: lock BSD 1933a1 regulator-stage certification map"
+  },
+  {
+   "commit": "de25f892bd6d56ec40469a71aa7c5721b8710373",
+   "date": "2026-09-19T03:53:58+02:00",
+   "subject": "test: add fail-closed BSD 1933a1 R1 evidence producer"
+  },
+  {
+   "commit": "0d5d0112cfa85e07f2a27d814c5dac8a890e2e43",
+   "date": "2026-09-19T03:53:21+02:00",
+   "subject": "ci: produce and validate BSD 1933a1 R2 certificate artifact"
+  },
+  {
+   "commit": "174b68d8afef6dc99f0ed323a791acb3085d80c3",
+   "date": "2026-09-19T03:53:13+02:00",
+   "subject": "test: validate BSD 1933a1 R2 certificate payload"
+  },
+  {
+   "commit": "94aeb5aeb748181369c8e3a5fd365eb7e7d3f363",
+   "date": "2026-09-19T03:53:10+02:00",
+   "subject": "test: produce fail-closed BSD 1933a1 R2 certificate"
+  },
+  {
+   "commit": "f396eb53bf7b459ce04586c563bd1514b9286f1f",
+   "date": "2026-09-19T03:51:09+02:00",
+   "subject": "ci: execute BSD 1933a1 R2 saturation certificate"
+  },
+  {
+   "commit": "dbc5219fa900ac7f18998146bcfcd0ef211abf66",
+   "date": "2026-09-19T03:49:01+02:00",
+   "subject": "test: add independent BSD 1933a1 saturation certificate driver"
+  },
+  {
+   "commit": "9b947401380a0af91f7728ab555b11dd0c140ef2",
+   "date": "2026-09-19T03:48:57+02:00",
+   "subject": "audit: map exact BSD 1933a1 regulator blockers"
+  },
+  {
+   "commit": "c12eb21d8ed385d33b5095fcca01932d65163c0c",
+   "date": "2026-09-19T03:46:09+02:00",
+   "subject": "audit: narrow BSD 1933a1 p1933 local-height attack"
+  },
+  {
+   "commit": "7b12b381b11930ca29195bd6b202469452bc66ec",
+   "date": "2026-09-19T03:46:07+02:00",
+   "subject": "audit: strengthen BSD 1933a1 R2 reference evidence"
+  },
+  {
+   "commit": "21c86ea329054cef12d7e323f59b931f005855f2",
+   "date": "2026-09-19T03:46:04+02:00",
+   "subject": "audit: correct BSD 1933a1 canonical-height references"
+  },
+  {
+   "commit": "02f6e7817162c8a5f553780744263939f7daa68e",
+   "date": "2026-09-19T03:45:10+02:00",
+   "subject": "audit: compress BSD 1933a1 R1 R2 dense attack"
+  },
+  {
+   "commit": "7592fca224170170c9a35443b134d2540fcba400",
+   "date": "2026-09-19T03:45:07+02:00",
+   "subject": "test: implement BSD 1933a1 descent saturation gate"
+  },
+  {
+   "commit": "2bb363b50ec09191c323f0cf37e494b22d513df8",
+   "date": "2026-09-19T03:45:04+02:00",
+   "subject": "test: implement BSD 1933a1 local-height certification scaffold"
+  },
+  {
+   "commit": "d4729bf325bb18d879ba744cdfbd0b6ef7e64d78",
+   "date": "2026-09-19T03:44:14+02:00",
+   "subject": "audit: lock BSD 1933a1 descent saturation target for R2"
+  },
+  {
+   "commit": "ed4e643904e3c798634b0ae25e835374ddc0c58e",
+   "date": "2026-09-19T03:44:11+02:00",
+   "subject": "audit: lock BSD 1933a1 reduction data for R1"
+  },
+  {
+   "commit": "df82c102faaf18781ecad5650c9c07944dbe5bb5",
+   "date": "2026-09-19T03:43:17+02:00",
+   "subject": "test: gate BSD 1933a1 R1 R2 regulator promotion"
+  },
+  {
+   "commit": "1932a57144b148b3d9b44ebf8ec36f6311191502",
+   "date": "2026-09-19T03:43:15+02:00",
+   "subject": "audit: attack BSD 1933a1 Mordell-Weil basis index"
+  },
+  {
+   "commit": "70aa90d946282dc7c7a13f8cc7cec5011e6d5cea",
+   "date": "2026-09-19T03:43:12+02:00",
+   "subject": "audit: attack BSD 1933a1 rigorous local heights"
+  },
+  {
+   "commit": "105213f4967254d9995ddab1cdb9e785aafc965d",
+   "date": "2026-09-19T03:42:27+02:00",
+   "subject": "audit: compress BSD 1933a1 regulator residue"
+  },
+  {
+   "commit": "bf4e02eda48b5fc7fe8dd9e8788ace66eba4956a",
+   "date": "2026-09-19T03:42:25+02:00",
+   "subject": "proof: close exact BSD 1933a1 point arithmetic layer"
+  },
+  {
+   "commit": "168a84f46627eaafba1c31ee971190aa4d743b3c",
+   "date": "2026-09-19T03:41:25+02:00",
+   "subject": "audit: define BSD 1933a1 regulator certification path"
+  },
+  {
+   "commit": "e340ddfde0168b995c6f19a53902f6b0caf1dddf",
+   "date": "2026-09-19T03:41:21+02:00",
+   "subject": "test: attack BSD 1933a1 Neron-Tate regulator"
+  },
+  {
+   "commit": "38fdda3e8eca311b385b363ab35bbc8f4e305eb0",
+   "date": "2026-09-19T03:40:42+02:00",
+   "subject": "audit: record BSD 1933a1 interval collision inputs"
+  },
+  {
+   "commit": "41b52a8c29191ef01f9011e67856910277d64af6",
+   "date": "2026-09-19T03:40:39+02:00",
+   "subject": "test: add fail-closed BSD 1933a1 interval collision"
+  },
+  {
+   "commit": "0b7b2ed263da31cb312606c913c86781b1d7efd0",
+   "date": "2026-09-19T03:39:48+02:00",
+   "subject": "audit: formalize BSD rank-two test vector 1933a1"
+  },
+  {
+   "commit": "92f043863d108dd83a1b9099cc2067a04c991de1",
+   "date": "2026-09-19T03:39:46+02:00",
+   "subject": "audit: freeze BSD rank-two test vector 1933a1"
+  },
+  {
+   "commit": "2140de61c87e83a05dd931d7f8c4da754bfd09a9",
+   "date": "2026-09-19T03:37:58+02:00",
+   "subject": "cert: define BSD bridge laboratory certificate contract"
+  },
+  {
+   "commit": "848cd4412e96548412781a867810b92ed83d8847",
+   "date": "2026-09-19T03:37:48+02:00",
+   "subject": "build: include BSD bridge laboratory certificate"
+  },
+  {
+   "commit": "ed2bbe78b80f1d095a908d879562af8e53f95e4b",
+   "date": "2026-09-19T03:37:38+02:00",
+   "subject": "ci: certify BSD bridge laboratory fail-closed gate"
+  },
+  {
+   "commit": "89a98ab08e08d0da29d8b1b0eaca3472985d884f",
+   "date": "2026-09-19T03:37:28+02:00",
+   "subject": "audit: add dense BSD bridge laboratory certificate gate"
+  },
+  {
+   "commit": "1fef261f21a0bc301f2a1673aaece391c87d470c",
+   "date": "2026-09-19T03:30:12+02:00",
+   "subject": "audit: close incompatible BSD G3 archimedean routes"
+  },
+  {
+   "commit": "94bf4e7faeada0857e348733d45d551fbd3abc33",
+   "date": "2026-09-19T03:26:29+02:00",
+   "subject": "audit: attack BSD G3 direct archimedean operator"
+  },
+  {
+   "commit": "55c710c86fe72e0c8e366422570c5e1ee3e7d304",
+   "date": "2026-09-19T01:52:33+02:00",
+   "subject": "build: include BSD G3 audit modules in umbrella"
+  },
+  {
+   "commit": "ff9ccda6e0395bce20605618ff24d473b84553a4",
+   "date": "2026-09-19T01:52:10+02:00",
+   "subject": "ci: harden BSD G0-G3 physical certificate gate"
+  },
+  {
+   "commit": "300a0fde47d4863606a8a152570496e8ac2322ac",
+   "date": "2026-09-18T23:25:59+02:00",
+   "subject": "audit: materialize BSD G3 BSD_G3_OPERATOR_DAG.md"
+  },
+  {
+   "commit": "8eb107b41ce87c7b80e9f15bc6fe0dfd04586204",
+   "date": "2026-09-18T23:25:56+02:00",
+   "subject": "audit: materialize BSD G3 BSD_G3_DIRECT_ARCHIMEDEAN_SEARCH.json"
+  },
+  {
+   "commit": "c08b7141d0abe32b16af2c23fa21b688801c9f67",
+   "date": "2026-09-18T23:25:53+02:00",
+   "subject": "audit: materialize BSD G3 NumberFieldComplexSecondDerivativeHeightOperator.lean"
+  },
+  {
+   "commit": "51b155df9ee632fa2d3d30cb0485e85ee7409f32",
+   "date": "2026-09-18T23:01:00+02:00",
+   "subject": "audit: prune p-adic comparison route for BSD complex target"
+  },
+  {
+   "commit": "e837a70b1e9a09c9a5bc43fca3030684e7844c9b",
+   "date": "2026-09-18T22:56:22+02:00",
+   "subject": "audit: attack BSD G3 operator candidates"
+  },
+  {
+   "commit": "0c5265f66f97f3193a8bf53e54fd32ccbccd0b47",
+   "date": "2026-09-18T22:49:10+02:00",
+   "subject": "cert: materialize BSD G3 open-bridge classification"
+  },
+  {
+   "commit": "6521fdcd4c9bc9ca2c30b7ba545268866f46c56e",
+   "date": "2026-09-18T21:40:09+02:00",
+   "subject": "ci: trigger certificate after Actions re-enabled"
+  },
+  {
+   "commit": "a4cc029143bab8407cfc338ac408b300e8b01f9b",
+   "date": "2026-09-18T20:49:54+02:00",
+   "subject": "ci: enable manual dispatch for BSD dense certificate"
+  },
+  {
+   "commit": "2d0a755983547906128068418524e369250f90a0",
+   "date": "2026-09-18T20:07:29+02:00",
+   "subject": "audit(bsd): start universal 8x5 with rank-part/full-endpoint separation"
+  },
+  {
+   "commit": "bac91ed02b810c18b4dfc2408a1a2930c960702b",
+   "date": "2026-09-18T19:51:08+02:00",
+   "subject": "ci: complete dense BSD G0-G3 true-false audit"
+  },
+  {
+   "commit": "ec12082b8fb49c07c5fbf1c7fd7d9d96a1498c37",
+   "date": "2026-09-18T19:35:00+02:00",
+   "subject": "ci: run dense BSD G0-G3 true-false audit"
+  },
+  {
+   "commit": "7ac5545cb46916652fb8c7096f5bda5720000ccc",
+   "date": "2026-09-18T19:34:29+02:00",
+   "subject": "audit: record BSD G0-G3 true-false collision manifest"
+  },
+  {
+   "commit": "a00bf46ea4dfe021e1f11705e5feefb4eb297d9b",
+   "date": "2026-09-18T19:34:18+02:00",
+   "subject": "audit: add dense BSD true-false closed-model collision oracle"
+  },
+  {
+   "commit": "b5f429ddc2706ffbc8b67d68889486a70de20884",
+   "date": "2026-09-18T11:48:23+02:00",
+   "subject": "audit: formalize canonical 18-test backward matrix"
+  },
+  {
+   "commit": "60bc34fa948c33795c749ce0a5f99bba6f6aee79",
+   "date": "2026-09-18T11:39:53+02:00",
+   "subject": "audit: define hypothetical initial closed-system contract"
+  },
+  {
+   "commit": "9f21faed1bd52897554af28edc7d4e648f0abfbb",
+   "date": "2026-09-18T07:11:24+02:00",
+   "subject": "audit: add isolated multistate proof/refutation certification protocol"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Audit8x5.A_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.A = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.HC_blocking",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.HC = .blocking"
+  },
+  {
+   "name": "MCore.Audit8x5.K_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.K = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.Q_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.Q = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.S_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.S = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.final_audit_not_certified",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Nonempty (ProofCertificate k14_final_node)"
+  },
+  {
+   "name": "MCore.Audit8x5.rank_core_not_certified",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Nonempty (ProofCertificate k13_open_core_node)"
+  },
+  {
+   "name": "MCore.Audit8x5.rank_part_reduction",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : BSDArithmeticAnalyticData) : BSDRankPart d ↔ BSDRankEquality d.toRankData"
+  },
+  {
+   "name": "MCore.BackwardAudit.P_on_1933a1",
+   "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
+   "line": 9,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": on1933a1 1 0"
+  },
+  {
+   "name": "MCore.BackwardAudit.PplusQ_on_curve",
+   "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": on1933a1 5 (-13)"
+  },
+  {
+   "name": "MCore.BackwardAudit.Q_on_1933a1",
+   "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
+   "line": 11,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": on1933a1 2 2"
+  },
+  {
+   "name": "MCore.BackwardAudit.adapted_control_rejected",
+   "file": "lean/MCore/BackwardAudit/BSDBridgeLabCertificate.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.bridgeLabMayPromote MCore.BackwardAudit.adaptedNegativeControl = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.audited_set_leaves_operator_open",
+   "file": "lean/MCore/BackwardAudit/NumberFieldComplexSecondDerivativeHeightOperator.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.exactOperatorCertifiedInAuditedSet = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.banwait_not_exact",
+   "file": "lean/MCore/BackwardAudit/NumberFieldComplexSecondDerivativeHeightOperator.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.banwaitAudit.exactMatch = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.circular_control_rejected",
+   "file": "lean/MCore/BackwardAudit/BSDBridgeLabCertificate.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.bridgeLabMayPromote MCore.BackwardAudit.circularNegativeControl = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.closedModel_ne_provedClosed",
+   "file": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.ModelStatus.closedModel ≠ MCore.BackwardAudit.ModelStatus.provedClosed"
+  },
+  {
+   "name": "MCore.BackwardAudit.current_bridge_lab_fail_closed",
+   "file": "lean/MCore/BackwardAudit/BSDBridgeLabCertificate.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.bridgeLabMayPromote MCore.BackwardAudit.currentBSDBridgeLab = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.exact_point_layer_closed",
+   "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
+   "line": 20,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": on1933a1 1 0 ∧ on1933a1 2 2 ∧ on1933a1 5 (-13)"
+  },
+  {
+   "name": "MCore.BackwardAudit.false_witness_refutes_rank_part",
+   "file": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (w : MCore.BackwardAudit.IndependentFalseWitness), ¬MCore.BSDRankPart w.data"
+  },
+  {
+   "name": "MCore.BackwardAudit.g3_false_has_no_certified_independent_witness",
+   "file": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.independentFalseWitnessCertified = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.g3_true_first_recorded_collision_is_operator",
+   "file": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.g3TrueDelta.operatorMismatch = true"
+  },
+  {
+   "name": "MCore.BackwardAudit.generalized_negation_check",
+   "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (-13 : Int) = -8 - 5"
+  },
+  {
+   "name": "MCore.BackwardAudit.gross_zagier_not_exact",
+   "file": "lean/MCore/BackwardAudit/NumberFieldComplexSecondDerivativeHeightOperator.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.grossZagierAudit.exactMatch = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.line_through_PQ",
+   "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
+   "line": 12,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (2 : Int) * 1 - 2 = 0 ∧ (2 : Int) * 2 - 4 = 0"
+  },
+  {
+   "name": "MCore.BackwardAudit.positive_true_control_promotes",
+   "file": "lean/MCore/BackwardAudit/BSDBridgeLabCertificate.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.bridgeLabMayPromote MCore.BackwardAudit.positiveTrueControl = true"
+  },
+  {
+   "name": "MCore.BackwardAudit.testVector1933a1_constants",
+   "file": "lean/MCore/BackwardAudit/BSDTestVector1933A1.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": testVector1933a1.tamagawaProduct = 1 ∧ testVector1933a1.torsionOrder = 1"
+  },
+  {
+   "name": "MCore.BackwardAudit.testVector1933a1_fail_closed",
+   "file": "lean/MCore/BackwardAudit/BSDTestVector1933A1.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": testVector1933a1NumericsCertified = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.testVector1933a1_rank2",
+   "file": "lean/MCore/BackwardAudit/BSDTestVector1933A1.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": testVector1933a1.mwRank = 2 ∧ testVector1933a1.analyticRank = 2"
+  },
+  {
+   "name": "MCore.BackwardAudit.third_intersection_on_curve",
+   "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": on1933a1 5 8"
+  },
+  {
+   "name": "MCore.BackwardAudit.yun_zhang_not_exact",
+   "file": "lean/MCore/BackwardAudit/NumberFieldComplexSecondDerivativeHeightOperator.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.yunZhangAudit.exactMatch = false"
+  }
+ ],
+ "closed": 23,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Audit8x5.lean": "bd0613f58469f1a71cdd54ff7c95c41c5e6da3a74944223552bc95d45e76753b",
+  "lean/MCore/BackwardAudit/BSDBridgeLabCertificate.lean": "97f60c8df2d50d2870ba7909d14788e1d670fb1f531cb874a10349371efc80a6",
+  "lean/MCore/BackwardAudit/BSDTestVector1933A1.lean": "cacd2acb5c0d248cd18e985b2b787074a6b0333fabf3bac9d47719688cbadbf3",
+  "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean": "6b4b21c0ba5b0a2a096dc51c738bad70904a1d761ad72ebc9b1a3bda46070bf5",
+  "lean/MCore/BackwardAudit/NumberFieldComplexSecondDerivativeHeightOperator.lean": "694bd2ebf0f97e8f5302301e38e5af63ae6fd37fe0c33cec0dfc2ac3d269e488",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K14.lean": "ed01ddf91006fbc50791f6f86b03ee77f52385bb11cac98759aa9fa1ad776010",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "0d1398d34f0bd8dae3615c522317f2f147da523dbeed59a7b0ae76b2e370584d"
+}

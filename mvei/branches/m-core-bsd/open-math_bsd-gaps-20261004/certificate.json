@@ -1,0 +1,285 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "open-math/bsd-gaps-20261004",
+ "branch_state": "parada",
+ "head_commit": "527370e96984a5762161f76c9ad41ae41fb57237",
+ "head_commit_date": "2026-10-04T13:48:46+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "527370e96984a5762161f76c9ad41ae41fb57237",
+   "date": "2026-10-04T13:48:46+02:00",
+   "subject": "add BSD rank-refined kernel-pressure audit"
+  },
+  {
+   "commit": "08857f1546071b0ff1dddc07dae9e743a2f781b8",
+   "date": "2026-10-04T13:37:46+02:00",
+   "subject": "checkpoint compressed OPEN_MATH min-cut before forcing"
+  },
+  {
+   "commit": "70046fcc17c682f139161bae6163456682126a6d",
+   "date": "2026-10-04T01:49:15+02:00",
+   "subject": "add CoverageExpansion.lean forward-only skeleton"
+  },
+  {
+   "commit": "97dfca2506f2c5cf8b1ac999a4d41a49b55db6e3",
+   "date": "2026-10-04T01:40:29+02:00",
+   "subject": "add P06_BSD_GAPS_RankAndRefined.issue.md issue template"
+  },
+  {
+   "commit": "8984db8c8f7dd7c4cf02823299fd6ee4f67be0a2",
+   "date": "2026-10-04T01:40:27+02:00",
+   "subject": "add P06_BSD_GAPS_RankAndRefined.lean open-math contract"
+  },
+  {
+   "commit": "a40f4fe17257a63e959ab7d259d9028cce08d057",
+   "date": "2026-10-04T01:00:31+02:00",
+   "subject": "BSD: import real-number API for refined identity"
+  },
+  {
+   "commit": "4144d05ce32f57239a4d1d8f25f1e35ffdf6d286",
+   "date": "2026-10-04T00:57:11+02:00",
+   "subject": "BSD: fix Lake manifest package-name parsing"
+  },
+  {
+   "commit": "118630753dbc09b7e9f26d9340797b622492c4b2",
+   "date": "2026-10-04T00:56:46+02:00",
+   "subject": "BSD: include terminal kernel endpoint in default build"
+  },
+  {
+   "commit": "a3b78a191818a4911a15db1d39853bcf46a3edb2",
+   "date": "2026-10-04T00:56:40+02:00",
+   "subject": "BSD: add exact terminal kernel endpoint and axiom audit"
+  },
+  {
+   "commit": "2e7973a8d6c72264abd60c14610e0b9f78710714",
+   "date": "2026-10-04T00:56:09+02:00",
+   "subject": "BSD: resolve and pin Mathlib v4.19.0 manifest"
+  },
+  {
+   "commit": "0c6a89777df90d8ac20dcd1645e5bceda1e87b7e",
+   "date": "2026-10-04T00:55:15+02:00",
+   "subject": "BSD: pin Mathlib v4.19.0 for genuine elliptic-curve domain"
+  },
+  {
+   "commit": "1d3b41e76ab36aa0ce637185db8650cde400146c",
+   "date": "2026-10-04T00:48:33+02:00",
+   "subject": "BSD: include exhaustive cover assembler in prekernel audit"
+  },
+  {
+   "commit": "e52b6145b57aff0a4e698ca7464019db99f01e93",
+   "date": "2026-10-04T00:48:27+02:00",
+   "subject": "BSD: include exhaustive domain-cover assembly in build"
+  },
+  {
+   "commit": "bebcd3fdef6b9a4f836c6ac20cb1953f22119b1d",
+   "date": "2026-10-04T00:48:22+02:00",
+   "subject": "BSD: add exhaustive domain-cover assembler for partial theorem reuse"
+  },
+  {
+   "commit": "579bc42767a8e16275fb2fe3ffd0581c7475a798",
+   "date": "2026-10-04T00:48:02+02:00",
+   "subject": "BSD: include certified-prefix reuse in prekernel audit"
+  },
+  {
+   "commit": "e602ae0afa34c60fd6f067aae759b89d8e7917ba",
+   "date": "2026-10-04T00:47:55+02:00",
+   "subject": "BSD: include certified prefix reuse in build"
+  },
+  {
+   "commit": "2741d8f675dfdbce2123de45ec9f51145433876d",
+   "date": "2026-10-04T00:47:50+02:00",
+   "subject": "BSD: reuse K0-K14 firewall and K11 external provenance explicitly"
+  },
+  {
+   "commit": "bb0f709eae6ceb9b748f72143c0faf1a7881d21d",
+   "date": "2026-10-04T00:47:17+02:00",
+   "subject": "BSD: extend prekernel audit to concrete domain and certificate families"
+  },
+  {
+   "commit": "aa0c08b2201e5b40b085c688b966a3b548d29e66",
+   "date": "2026-10-04T00:47:10+02:00",
+   "subject": "BSD: extend axiom audit through concrete certificate families"
+  },
+  {
+   "commit": "d411f95fc26b2a0f1547074f76af8ea6c217d7fd",
+   "date": "2026-10-04T00:47:00+02:00",
+   "subject": "BSD: include concrete domain and certificate families in build"
+  },
+  {
+   "commit": "7b38b889bf3224337965f4f081849b3c0a98d3c8",
+   "date": "2026-10-04T00:46:55+02:00",
+   "subject": "BSD: normalize certificate projection syntax before kernel run"
+  },
+  {
+   "commit": "1f418062bb2900f1de82c04f3dc62ce94b1d1c43",
+   "date": "2026-10-04T00:46:47+02:00",
+   "subject": "BSD: decompose rank and refined inhabitants into curvewise certificate families"
+  },
+  {
+   "commit": "f887e4aa1c3acd6a42f90dd188bd102491ed797d",
+   "date": "2026-10-04T00:46:31+02:00",
+   "subject": "BSD: bind terminal producer to genuine elliptic curves over Q"
+  },
+  {
+   "commit": "66dd72884be43999a6dc5bf8c2aff8f16305b29f",
+   "date": "2026-10-04T00:45:13+02:00",
+   "subject": "BSD: add realizable producer prekernel manifest"
+  },
+  {
+   "commit": "95fa0daa6c480e431f1295a0493391b768cca384",
+   "date": "2026-10-04T00:44:59+02:00",
+   "subject": "BSD: include producer axiom audit in prekernel check"
+  },
+  {
+   "commit": "aea7e89d265c4451db91c311b35f9131a1e77754",
+   "date": "2026-10-04T00:44:52+02:00",
+   "subject": "BSD: add kernel axiom audit for realizable producer"
+  },
+  {
+   "commit": "39ad6a1fd2569433fcfff180c8944186b03dc082",
+   "date": "2026-10-04T00:44:44+02:00",
+   "subject": "BSD: avoid false positive in prekernel placeholder audit"
+  },
+  {
+   "commit": "86a525f1b8944e1184b25cbb7c15a0086d9bd368",
+   "date": "2026-10-04T00:44:04+02:00",
+   "subject": "BSD: document exact two-producer min-cut and certificate reuse"
+  },
+  {
+   "commit": "53a99718939e8c8197394e38596931b79726978f",
+   "date": "2026-10-04T00:44:02+02:00",
+   "subject": "BSD: add prekernel audit for realizable producer package"
+  },
+  {
+   "commit": "fc4d6c9a2882834fd9414a687870cf85992089cd",
+   "date": "2026-10-04T00:43:47+02:00",
+   "subject": "BSD: include realizable producer package in MCore build"
+  },
+  {
+   "commit": "9eb3619253aaede320f88a9986934bc1796895d3",
+   "date": "2026-10-04T00:43:40+02:00",
+   "subject": "BSD: split rank/refined producers and add exact terminal assembly"
+  },
+  {
+   "commit": "aa4487fa9d38a3e8dac22ee906b78fe590403495",
+   "date": "2026-10-04T00:43:21+02:00",
+   "subject": "BSD: add realizable producer and reuse K8-K14 rank chain"
+  },
+  {
+   "commit": "c1e7b245726c4c65f5f9f878acefb86460746f4a",
+   "date": "2026-09-21T11:05:18+01:00",
+   "subject": "atk: advance semantic gate past certified firewall"
+  },
+  {
+   "commit": "6fb0fe59d5fb86cbfc4b6089214862cad3861aab",
+   "date": "2026-09-21T11:03:16+01:00",
+   "subject": "atk: use project core for D01 firewall"
+  },
+  {
+   "commit": "c7793b4f8b1bbaaacf4c66f50836accbfb74f2cd",
+   "date": "2026-09-21T11:02:32+01:00",
+   "subject": "atk: add CI for atk-d01-universal-firewall"
+  },
+  {
+   "commit": "8c1602993364994ca07c508eadb2b16f82142779",
+   "date": "2026-09-21T11:02:17+01:00",
+   "subject": "atk: add D01 universal-endpoint firewall"
+  },
+  {
+   "commit": "01830831d830e45563ff98ddd5fda60312943ef7",
+   "date": "2026-09-21T10:33:06+01:00",
+   "subject": "atk: add fail-closed semantic promotion gate"
+  },
+  {
+   "commit": "dfa710de6a8646640db8b7010e3e00d439091d31",
+   "date": "2026-09-21T01:43:31+01:00",
+   "subject": "atk: reduce HARD sentinel to exact kernel lookup"
+  },
+  {
+   "commit": "c3c8387efd503c1806fe8bcefd9eafb37473b046",
+   "date": "2026-09-21T01:25:32+01:00",
+   "subject": "atk: build local dependency graph before HARD kernel check"
+  },
+  {
+   "commit": "8f8b4cbf334002459b5836b6b9f2ced4c396ac11",
+   "date": "2026-09-21T01:24:44+01:00",
+   "subject": "atk: enforce explicit fail-closed HARD gate"
+  },
+  {
+   "commit": "3be24cfe8635a17b95b4911471f55875f090bd87",
+   "date": "2026-09-21T01:17:45+01:00",
+   "subject": "atk: advance to fail-closed HARD TheoremKernel gate"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "P06.BSD.Coverage.new_coverage_in_expansion",
+   "file": "lean/P06/BSD/Coverage/CoverageExpansion.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S SNew : CurveSubdomain) {E : EllipticCurveQ} (hE : SNew.contains E) : (expandCoverage S SNew).contains E"
+  },
+  {
+   "name": "P06.BSD.Coverage.old_coverage_in_expansion",
+   "file": "lean/P06/BSD/Coverage/CoverageExpansion.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S SNew : CurveSubdomain) {E : EllipticCurveQ} (hE : S.contains E) : (expandCoverage S SNew).contains E"
+  },
+  {
+   "name": "P06.BSD.Coverage.residual_expansion_iff",
+   "file": "lean/P06/BSD/Coverage/CoverageExpansion.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S SNew : CurveSubdomain) (E : EllipticCurveQ) : (expandCoverage S SNew).residual E ↔ S.residual E ∧ SNew.residual E"
+  }
+ ],
+ "closed": 3,
+ "files_sha256": {
+  "lake-manifest.json": "347a8be44c83bf1e791eee474fe8f87803974566745bdb0a84fd1fb7387633d0",
+  "lakefile.toml": "5006fffba299b7bf53be83b8d2350115f2ecb62ae47432c090b376a1e78df85a",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BSD/CertificateFamilies.lean": "45d94746fae1aaadb59e6ff0f67b8e92e62efe294c355b35e030f71880ee2fff",
+  "lean/MCore/BSD/CertifiedPrefixReuse.lean": "40c63eaf63ee22f369bd31c1d2af13fb1c2229be21920e4a36a891da9ce6886a",
+  "lean/MCore/BSD/ConcreteDomain.lean": "fea6ac476560569749e6d1e719157cee10063a51b82d63423fb8319ad3750f82",
+  "lean/MCore/BSD/DomainCover.lean": "f5ed08b40169161e46acdeacd8ae6eb94a343a3bbf47c300e7cb9f095dbc1566",
+  "lean/MCore/BSD/RealizableProducer.lean": "feebc1c18cec92303034952df07f8555407ad9c9f1eea675b93c4965333958e9",
+  "lean/MCore/BSD/TerminalAssembly.lean": "d1e003abe20d399fc845c5d91a8544e9b9881f889c487863e912f4542aa20f8b",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K14.lean": "ed01ddf91006fbc50791f6f86b03ee77f52385bb11cac98759aa9fa1ad776010",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9",
+  "lean/P06/BSD/Coverage/CoverageExpansion.lean": "7d248b808a49073c455a0a47e36ac6ed903045f89c32a64914be496b75bfbe6b"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "04868eb468ed1f28d7816fa6c9c7f6ad3f341f3926beda4ecf52327805b16920"
+}

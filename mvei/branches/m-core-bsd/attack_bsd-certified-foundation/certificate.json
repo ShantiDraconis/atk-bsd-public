@@ -1,0 +1,1215 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "attack/bsd-certified-foundation",
+ "branch_state": "parada",
+ "head_commit": "405bc5a9982f082c172ebbfbc55a5b90d4787967",
+ "head_commit_date": "2026-09-26T23:19:51+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "405bc5a9982f082c172ebbfbc55a5b90d4787967",
+   "date": "2026-09-26T23:19:51+01:00",
+   "subject": "BSD F5: isolate same-carrier equality producer"
+  },
+  {
+   "commit": "1ee3cfe64ea2951be16afe60ff4d40859d622b46",
+   "date": "2026-09-26T23:19:49+01:00",
+   "subject": "BSD F5: isolate algebraic kernel target"
+  },
+  {
+   "commit": "ea6521c0398a96932867d2132675c988cfdaa239",
+   "date": "2026-09-26T23:19:47+01:00",
+   "subject": "BSD F5: isolate analytic kernel target"
+  },
+  {
+   "commit": "c09f67ae541560fea3a3d05325ec744abf085f32",
+   "date": "2026-09-26T23:19:27+01:00",
+   "subject": "BSD: clear hygiene gate in F5 expansion"
+  },
+  {
+   "commit": "7c8ae7dcd86d17a17de8ac9347bd2cdbda8e7ffa",
+   "date": "2026-09-26T23:02:17+01:00",
+   "subject": "BSD: expand F5 target without sorry axioms or placeholders"
+  },
+  {
+   "commit": "57aeed6471ffca63837917dad9c2deaf3f51ffe4",
+   "date": "2026-09-26T23:02:02+01:00",
+   "subject": "BSD: replace grounding placeholders with proof-carrying contracts"
+  },
+  {
+   "commit": "b1580216a496ba26713b1878e6c7a1ebcbae1281",
+   "date": "2026-09-26T22:57:49+01:00",
+   "subject": "BSD: register analytic grounding provenance audit"
+  },
+  {
+   "commit": "b4c57b0c3124fed5078614ca808d852f6a72fdaa",
+   "date": "2026-09-26T22:57:41+01:00",
+   "subject": "BSD: close invalid analytic reuse route and isolate F5 producer"
+  },
+  {
+   "commit": "859409b8e49a53e0724ddf043f2c26843aad2a3a",
+   "date": "2026-09-26T22:53:20+01:00",
+   "subject": "BSD: classify exact F5 grounding frontier"
+  },
+  {
+   "commit": "c97ae2a84b5f8d15a8b2f80a13cfb066a63be5e8",
+   "date": "2026-09-26T22:41:39+01:00",
+   "subject": "BSD: harden F5 habitant with canonical semantic grounding"
+  },
+  {
+   "commit": "2a6f26354d9b74147945d7adbd43bae259aa025e",
+   "date": "2026-09-26T22:10:11+01:00",
+   "subject": "BSD: certify F5 zero-defect habitant schema"
+  },
+  {
+   "commit": "8b3713847755c8454df2c32c7e86a7a70d9f3a5d",
+   "date": "2026-09-26T22:10:02+01:00",
+   "subject": "BSD: formalize F5 zero-defect habitant"
+  },
+  {
+   "commit": "3a3436216b435c7c97044bf1b5933d30a03fae90",
+   "date": "2026-09-26T20:21:41+01:00",
+   "subject": "BSD: harden unconditional claim with semantic rank anchor"
+  },
+  {
+   "commit": "6a7d5f654031a30e773a7898509477b6a0d5bebb",
+   "date": "2026-09-26T20:10:17+01:00",
+   "subject": "BSD: audit exact unconditional producer against certified K9 base"
+  },
+  {
+   "commit": "69c132e3b3499f2d0eee90997bf6109d4e03bdf8",
+   "date": "2026-09-26T20:06:03+01:00",
+   "subject": "BSD: set exact unconditional one-gap OPEN_MATH producer"
+  },
+  {
+   "commit": "2c25e798a2939dbb352f01b0d26756dc7212b379",
+   "date": "2026-09-26T20:05:47+01:00",
+   "subject": "BSD: compress unconditional rank claim to one exact OPEN_MATH producer"
+  },
+  {
+   "commit": "b01dab3990a655f7b245201aef67eae29d1b68b2",
+   "date": "2026-09-26T20:04:13+01:00",
+   "subject": "BSD: register canonical unconditional rank producer"
+  },
+  {
+   "commit": "7448f58596ac36262e567325c237b4565fe94fbf",
+   "date": "2026-09-26T20:04:06+01:00",
+   "subject": "BSD: isolate canonical unconditional rank producer"
+  },
+  {
+   "commit": "330f94a756e895a43fe94b00d3eea5978c8f80f6",
+   "date": "2026-09-26T20:02:23+01:00",
+   "subject": "BSD: register exact unconditional rank claim target"
+  },
+  {
+   "commit": "0e49585ed1ca4e79d2fff9662d1059154c9b26b7",
+   "date": "2026-09-26T20:02:13+01:00",
+   "subject": "BSD: isolate exact unconditional rank claim certificate"
+  },
+  {
+   "commit": "320acf1c7dcba9b3c2cb59d9da40f94c6eee6c8a",
+   "date": "2026-09-26T19:59:40+01:00",
+   "subject": "BSD: register same-curve rank theorem factory"
+  },
+  {
+   "commit": "6e2ead7c7767cf9347731f912bb6e2b2c725c4fd",
+   "date": "2026-09-26T19:59:34+01:00",
+   "subject": "BSD: enable same-curve rank theorem factory from certified directions"
+  },
+  {
+   "commit": "7e1f97eafc5924a8f0d07cc015e6f4e1e8917d8f",
+   "date": "2026-09-26T19:57:53+01:00",
+   "subject": "BSD: formalize same-curve rank map contract"
+  },
+  {
+   "commit": "6c10fa40be9477e8141a36cf20d522b719722730",
+   "date": "2026-09-26T19:54:03+01:00",
+   "subject": "BSD: add concrete short-Weierstrass curve carrier"
+  },
+  {
+   "commit": "beff2f075fc7a14f9165c37cf1f18605e927049d",
+   "date": "2026-09-26T19:51:52+01:00",
+   "subject": "BSD: register all certified artifacts as ATK foundation"
+  },
+  {
+   "commit": "585d65cc275feaa96f5090a76e0e66daac9b97f7",
+   "date": "2026-09-26T19:51:43+01:00",
+   "subject": "BSD: consolidate certified foundation for ATK reuse"
+  },
+  {
+   "commit": "1cecdb0117fcc38ac13b5b315ab80736f64bc9f1",
+   "date": "2026-09-26T19:50:07+01:00",
+   "subject": "BSD: close final post-frontier atomic blocker by classification"
+  },
+  {
+   "commit": "1a6a62e18dd30cdeae20187e1a09ee90fa323116",
+   "date": "2026-09-26T19:49:53+01:00",
+   "subject": "BSD: classify final post-frontier proof-term blocker"
+  },
+  {
+   "commit": "c4700615125a345acf23537c82b5e07f52b16fff",
+   "date": "2026-09-26T19:48:38+01:00",
+   "subject": "BSD: advance post-frontier gate past concrete carrier classification"
+  },
+  {
+   "commit": "5315bd9905c2f3ff022fbd83827f847a913d35ab",
+   "date": "2026-09-26T19:48:26+01:00",
+   "subject": "BSD: classify missing concrete elliptic-curve carrier"
+  },
+  {
+   "commit": "6e489b42ad573455b2a7110b823dfa66e3da9d27",
+   "date": "2026-09-26T19:47:39+01:00",
+   "subject": "BSD: formalize post-frontier zero OPEN_MATH state"
+  },
+  {
+   "commit": "0bf2520566849d892e4ad3dcf8ffd2a31c2cfef8",
+   "date": "2026-09-26T19:47:30+01:00",
+   "subject": "BSD: align gate ledger with certified zero OPEN_MATH frontier"
+  },
+  {
+   "commit": "ceefbf4bf38705776ede7a83db1bb97124aa4fd1",
+   "date": "2026-09-26T19:42:46+01:00",
+   "subject": "BSD: certify current frontier OPEN_MATH zero"
+  },
+  {
+   "commit": "8e7517f1294578df73708c94136f2d38f01bacbf",
+   "date": "2026-09-26T19:40:48+01:00",
+   "subject": "BSD: add zero OPEN_MATH frontier certificate"
+  },
+  {
+   "commit": "cdcf85278e6761c824c5631936d3a93887fa19b7",
+   "date": "2026-09-26T19:40:36+01:00",
+   "subject": "BSD: set current frontier OPEN_MATH count to zero"
+  },
+  {
+   "commit": "77eab3e748be62e24159668b5d7c77350cdb299b",
+   "date": "2026-09-26T19:40:23+01:00",
+   "subject": "BSD: close remaining AGGP and PRC frontier routes"
+  },
+  {
+   "commit": "311f5b5bfa1907cd74702c296df5824f0a84267e",
+   "date": "2026-09-26T19:38:14+01:00",
+   "subject": "BSD: retire higher-rank height abstract OPEN_MATH route"
+  },
+  {
+   "commit": "3568a386b0aaf27c5d1353324b6716761db9e672",
+   "date": "2026-09-26T19:38:04+01:00",
+   "subject": "BSD: close higher-rank height OPEN_MATH as domain gap"
+  },
+  {
+   "commit": "86e5fcf1b2bcecd693964e2618b57a342443591a",
+   "date": "2026-09-26T19:34:34+01:00",
+   "subject": "BSD: retire rank and leading abstract OPEN_MATH routes"
+  },
+  {
+   "commit": "a3b8b55b3d4cb98b0e59ce5f2269b3b33531fefa",
+   "date": "2026-09-26T19:34:14+01:00",
+   "subject": "BSD: close abstract leading-coefficient OPEN_MATH as domain gap"
+  },
+  {
+   "commit": "89179ea9fea1941f741640a02f3b49bbedb958f9",
+   "date": "2026-09-26T19:30:32+01:00",
+   "subject": "BSD: record abstract high-rank CLOSED_NEGATIVE certificate"
+  },
+  {
+   "commit": "b2da2a7645551739c7d403b71c0c67dbfb72c181",
+   "date": "2026-09-26T19:30:23+01:00",
+   "subject": "BSD: close abstract high-rank OPEN_MATH route by domain countermodel"
+  },
+  {
+   "commit": "5562f61df094f2fdcd84801d3080844b02657030",
+   "date": "2026-09-26T19:27:46+01:00",
+   "subject": "BSD: add OPEN_MATH closure theorem certificate record"
+  },
+  {
+   "commit": "828eb7ea11cf27a4538d05a480c46346259e98b5",
+   "date": "2026-09-26T19:27:38+01:00",
+   "subject": "BSD: enable certified OPEN_MATH frontier closure theorem"
+  },
+  {
+   "commit": "26b28267360f7a579c32879b856fa050182e2573",
+   "date": "2026-09-26T19:26:38+01:00",
+   "subject": "BSD: formalize four-state OPEN_MATH frontier closure"
+  },
+  {
+   "commit": "908be0a0d4c69aae4733ec035c156c42fc20c7bb",
+   "date": "2026-09-26T19:13:09+01:00",
+   "subject": "BSD: restrict rank OPEN_MATH frontier to realizable data"
+  },
+  {
+   "commit": "18a765256fd49ddeb005abb9f2e5758f0dcac824",
+   "date": "2026-09-26T19:12:59+01:00",
+   "subject": "BSD: reuse frozen universal-producer countermodel"
+  },
+  {
+   "commit": "3e6107603b3a1cdf9f25149d0c4553585cad2c37",
+   "date": "2026-09-26T16:56:03+01:00",
+   "subject": "BSD: document rank >= 2 OPEN_MATH attack boundary"
+  },
+  {
+   "commit": "40ccd817bfb396424ea24ade50df02d594b153bb",
+   "date": "2026-09-26T16:56:01+01:00",
+   "subject": "BSD: compress OPEN_MATH rank frontier to analytic rank >= 2"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.FF_is_closed",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 59,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": frontierClosed .falseBranch .falseBranch"
+  },
+  {
+   "name": "MCore.FT_is_closed",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 55,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": frontierClosed .falseBranch .trueBranch"
+  },
+  {
+   "name": "MCore.TF_is_closed",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 51,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": frontierClosed .trueBranch .falseBranch"
+  },
+  {
+   "name": "MCore.TT_is_closed",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 47,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": frontierClosed .trueBranch .trueBranch"
+  },
+  {
+   "name": "MCore.abstract_high_rank_open_math_closed",
+   "file": "lean/MCore/BSD/HighRankDomainGapClosure.lean",
+   "line": 53,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": abstractHighRankOpenMathClosed = true"
+  },
+  {
+   "name": "MCore.abstract_higher_rank_height_open_math_closed",
+   "file": "lean/MCore/BSD/HigherRankHeightDomainGapClosure.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": abstractHigherRankHeightOpenMathClosed = true"
+  },
+  {
+   "name": "MCore.abstract_leading_coefficient_open_math_closed",
+   "file": "lean/MCore/BSD/LeadingCoefficientDomainGapClosure.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": abstractLeadingCoefficientOpenMathClosed = true"
+  },
+  {
+   "name": "MCore.algebraic_rank_grounding_external_version_mismatch",
+   "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": currentAlgebraicRankGroundingStatus = .externalCandidateVersionMismatch"
+  },
+  {
+   "name": "MCore.all_abstract_data_high_rank_producer_false",
+   "file": "lean/MCore/BSD/HighRankDomainGapClosure.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ BSDRealizableHighRankProducer AllAbstractDataRealizable"
+  },
+  {
+   "name": "MCore.analytic_order_grounding_missing",
+   "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": currentAnalyticOrderGroundingStatus = .missing"
+  },
+  {
+   "name": "MCore.arbitrary_maps_unconditional_claim_false",
+   "file": "lean/MCore/BSD/UnconditionalRankClaim.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (∀ M : SameCurveRankMaps, SameCurveRankStatement M)"
+  },
+  {
+   "name": "MCore.arbitrary_realizability_closure_false",
+   "file": "lean/MCore/BSD/HighRankDomainGapClosure.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (∀ Realizable : BSDArithmeticAnalyticData → Prop, BSDRealizableHighRankProducer Realizable)"
+  },
+  {
+   "name": "MCore.bsd_algebraic_grounding_not_available",
+   "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
+   "line": 56,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdAlgebraicGroundingAvailable = false"
+  },
+  {
+   "name": "MCore.bsd_analytic_grounding_not_available",
+   "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
+   "line": 52,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdAnalyticGroundingAvailable = false"
+  },
+  {
+   "name": "MCore.bsd_analytic_order_kernel_not_available",
+   "file": "lean/MCore/BSD/F5AnalyticKernelTarget.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdAnalyticOrderKernelAvailable = false"
+  },
+  {
+   "name": "MCore.bsd_atk_foundation_ready",
+   "file": "lean/MCore/BSD/CertifiedFoundation.lean",
+   "line": 36,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdATKFoundationReady = true"
+  },
+  {
+   "name": "MCore.bsd_concrete_theorem_not_enabled",
+   "file": "lean/MCore/BSD/ConcreteCarrierGap.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdConcreteTheoremEnabled = false"
+  },
+  {
+   "name": "MCore.bsd_exact_f5_producer_count_one",
+   "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdExactF5ProducerCount = 1"
+  },
+  {
+   "name": "MCore.bsd_exact_f5_producer_iff",
+   "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": BSDExactF5Producer ↔ GroundedBSDRankDefectVanishing"
+  },
+  {
+   "name": "MCore.bsd_f5_mathematical_closure_false",
+   "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdF5MathematicalClosure = false"
+  },
+  {
+   "name": "MCore.bsd_f5_open_math_producer_count_one",
+   "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
+   "line": 66,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdF5OpenMathProducerCount = 1"
+  },
+  {
+   "name": "MCore.bsd_final_proof_ready_conditional",
+   "file": "lean/MCore/BSD/BSDHabitant.lean",
+   "line": 61,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdFinalProofReadyConditional = true"
+  },
+  {
+   "name": "MCore.bsd_grounded_material_producer_gaps_one",
+   "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
+   "line": 98,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdGroundedMaterialProducerGaps = 1"
+  },
+  {
+   "name": "MCore.bsd_high_rank_producer_still_open",
+   "file": "lean/MCore/BSD/OpenMathRankGE2.lean",
+   "line": 68,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdHighRankProducerClosed = false"
+  },
+  {
+   "name": "MCore.bsd_low_plus_high_closes_universal",
+   "file": "lean/MCore/BSD/OpenMathRankGE2.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : BSDLowRankExternalContract) (H : BSDHighRankProducer) : BSDUniversalRankProducer"
+  },
+  {
+   "name": "MCore.bsd_material_producer_gaps_one",
+   "file": "lean/MCore/BSD/BSDHabitant.lean",
+   "line": 57,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdMaterialProducerGaps = 1"
+  },
+  {
+   "name": "MCore.bsd_mathematical_closure_not_claimed",
+   "file": "lean/MCore/BSD/ProofTermGap.lean",
+   "line": 32,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdMathematicalClosure = false"
+  },
+  {
+   "name": "MCore.bsd_mordell_weil_rank_kernel_not_available",
+   "file": "lean/MCore/BSD/F5AlgebraicKernelTarget.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdMordellWeilRankKernelAvailable = false"
+  },
+  {
+   "name": "MCore.bsd_no_sorry_material_producer_count_one",
+   "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
+   "line": 76,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdNoSorryMaterialProducerCount = 1"
+  },
+  {
+   "name": "MCore.bsd_post_frontier_closure_enabled",
+   "file": "lean/MCore/BSD/PostFrontierState.lean",
+   "line": 20,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdPostFrontierState.frontierClosureEnabled = true"
+  },
+  {
+   "name": "MCore.bsd_post_frontier_open_math_zero",
+   "file": "lean/MCore/BSD/PostFrontierState.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdPostFrontierState.openMathCount = 0"
+  },
+  {
+   "name": "MCore.bsd_rank_claims_zero",
+   "file": "lean/MCore/BSD/BSDHabitant.lean",
+   "line": 65,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdRankClaims = 0"
+  },
+  {
+   "name": "MCore.bsd_rank_domain_dichotomy",
+   "file": "lean/MCore/BSD/OpenMathRankGE2.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : BSDArithmeticAnalyticData) : BSDLowAnalyticRank d ∨ BSDHighAnalyticRankResidual d"
+  },
+  {
+   "name": "MCore.bsd_rank_equality_producer_not_available",
+   "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
+   "line": 60,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdRankEqualityProducerAvailable = false"
+  },
+  {
+   "name": "MCore.bsd_rank_of_habitant",
+   "file": "lean/MCore/BSD/BSDHabitant.lean",
+   "line": 20,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : BSDHabitant) : ∀ E : ShortWeierstrassCurveQ, H.semantics.analyticOrderAtOne E = H.semantics.mordellWeilRank E"
+  },
+  {
+   "name": "MCore.bsd_realizable_high_rank_still_open",
+   "file": "lean/MCore/BSD/RealizableRankFrontier.lean",
+   "line": 53,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdRealizableHighRankProducerClosed = false"
+  },
+  {
+   "name": "MCore.bsd_realizable_low_plus_high_closes_universal",
+   "file": "lean/MCore/BSD/RealizableRankFrontier.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : BSDRealizableLowRankExternalContract Realizable) (H : BSDRealizableHighRankProducer Realizable) : BSDRealizableUniversalRankProducer Realizable"
+  },
+  {
+   "name": "MCore.bsd_realizable_universal_iff_high_given_low",
+   "file": "lean/MCore/BSD/RealizableRankFrontier.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : BSDRealizableLowRankExternalContract Realizable) : BSDRealizableUniversalRankProducer Realizable ↔ BSDRealizableHighRankProducer Realizable"
+  },
+  {
+   "name": "MCore.bsd_realizable_universal_implies_high",
+   "file": "lean/MCore/BSD/RealizableRankFrontier.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(U : BSDRealizableUniversalRankProducer Realizable) : BSDRealizableHighRankProducer Realizable"
+  },
+  {
+   "name": "MCore.bsd_same_carrier_rank_equality_not_available",
+   "file": "lean/MCore/BSD/F5SameCarrierEquality.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdSameCarrierRankEqualityAvailable = false"
+  },
+  {
+   "name": "MCore.bsd_target_not_enabled_after_frontier_retirement",
+   "file": "lean/MCore/BSD/PostFrontierState.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdPostFrontierState.bsdTargetEnabled = false"
+  },
+  {
+   "name": "MCore.bsd_unconditional_claim_not_enabled",
+   "file": "lean/MCore/BSD/UnconditionalOneGapEndpoint.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdUnconditionalClaimEnabled = false"
+  },
+  {
+   "name": "MCore.bsd_unconditional_infrastructure_closed",
+   "file": "lean/MCore/BSD/UnconditionalOneGapEndpoint.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdUnconditionalInfrastructureClosed = true"
+  },
+  {
+   "name": "MCore.bsd_unconditional_open_math_count_one",
+   "file": "lean/MCore/BSD/UnconditionalOneGapEndpoint.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdUnconditionalOpenMathCount = 1"
+  },
+  {
+   "name": "MCore.bsd_universal_iff_high_given_low",
+   "file": "lean/MCore/BSD/OpenMathRankGE2.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : BSDLowRankExternalContract) : BSDUniversalRankProducer ↔ BSDHighRankProducer"
+  },
+  {
+   "name": "MCore.bsd_universal_implies_high",
+   "file": "lean/MCore/BSD/OpenMathRankGE2.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(U : BSDUniversalRankProducer) : BSDHighRankProducer"
+  },
+  {
+   "name": "MCore.bsd_universal_implies_low",
+   "file": "lean/MCore/BSD/OpenMathRankGE2.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(U : BSDUniversalRankProducer) : BSDLowRankExternalContract"
+  },
+  {
+   "name": "MCore.canonical_bsd_rank_semantic_anchor_not_available",
+   "file": "lean/MCore/BSD/SemanticCanonicalRankPackage.lean",
+   "line": 44,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": canonicalBSDRankSemanticAnchorAvailable = false"
+  },
+  {
+   "name": "MCore.canonical_package_closes_rank",
+   "file": "lean/MCore/BSD/CanonicalSameCurveRankPackage.lean",
+   "line": 14,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : CanonicalSameCurveRankClaim) : ∃ M : SameCurveRankMaps, SameCurveRankStatement M"
+  },
+  {
+   "name": "MCore.canonical_rank_theorem_enabled_of_package",
+   "file": "lean/MCore/BSD/CanonicalSameCurveRankPackage.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : CanonicalSameCurveRankClaim) : canonicalRankTheoremEnabled H = true"
+  },
+  {
+   "name": "MCore.canonical_same_curve_rank_maps_not_available",
+   "file": "lean/MCore/BSD/SameCurveRankMaps.lean",
+   "line": 39,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": canonicalSameCurveRankMapsAvailable = false"
+  },
+  {
+   "name": "MCore.canonical_same_curve_rank_package_not_available",
+   "file": "lean/MCore/BSD/CanonicalSameCurveRankPackage.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": canonicalSameCurveRankPackageAvailable = false"
+  },
+  {
+   "name": "MCore.certified_foundation_frontier_zero",
+   "file": "lean/MCore/BSD/CertifiedFoundation.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdCertifiedFoundation.frontierOpenMathZero = current_bsd_frontier_open_math_count_zero"
+  },
+  {
+   "name": "MCore.classical_bsd_reuse_closed_negative_provenance",
+   "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": classicalBSDReuseStatus = .closedNegativeProvenance"
+  },
+  {
+   "name": "MCore.closed_iff_distance_zero",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 63,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(a b : FrontierBranchState) : frontierClosed a b ↔ frontierDistance a b = 0"
+  },
+  {
+   "name": "MCore.closed_implies_100_percent",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 67,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(a b : FrontierBranchState) (h : frontierClosed a b) : frontierClosurePercent a b = 100"
+  },
+  {
+   "name": "MCore.closure_theorem_does_not_promote_bsd",
+   "file": "lean/MCore/BSD/OpenMathClosureCertificate.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdHighRankMathematicsClosed = false"
+  },
+  {
+   "name": "MCore.concrete_carrier_blocker_classified",
+   "file": "lean/MCore/BSD/ConcreteCarrierGap.lean",
+   "line": 31,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": concreteCarrierBlockerClassified = true"
+  },
+  {
+   "name": "MCore.concrete_higher_rank_height_theorem_not_enabled",
+   "file": "lean/MCore/BSD/HigherRankHeightDomainGapClosure.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": concreteHigherRankHeightTheoremEnabled = false"
+  },
+  {
+   "name": "MCore.concrete_leading_coefficient_theorem_not_enabled",
+   "file": "lean/MCore/BSD/LeadingCoefficientDomainGapClosure.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": concreteLeadingCoefficientTheoremEnabled = false"
+  },
+  {
+   "name": "MCore.create_same_curve_rank_theorem",
+   "file": "lean/MCore/BSD/SameCurveRankTheoremFactory.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : SameCurveRankMaps) (C : SameCurveRankDirectionalCertificate M) : ∀ E : ShortWeierstrassCurveQ, M.analyticOrderAtOne E = M.mordellWeilRank E"
+  },
+  {
+   "name": "MCore.current_abstract_high_rank_route_closed_negative",
+   "file": "lean/MCore/BSD/HighRankDomainGapClosure.lean",
+   "line": 47,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": currentBSDHighRankRouteStatus = .closedNegativeDomainGap"
+  },
+  {
+   "name": "MCore.current_bsd_concrete_carrier_missing",
+   "file": "lean/MCore/BSD/ConcreteCarrierGap.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": currentBSDConcreteCarrierStatus = .missing"
+  },
+  {
+   "name": "MCore.current_bsd_frontier_closure_theorem_enabled",
+   "file": "lean/MCore/BSD/ExternalRouteClosure.lean",
+   "line": 39,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": currentBSDFrontierClosureTheoremEnabled = true"
+  },
+  {
+   "name": "MCore.current_bsd_frontier_open_math_count_zero",
+   "file": "lean/MCore/BSD/ExternalRouteClosure.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": currentBSDFrontierOpenMathCount = 0"
+  },
+  {
+   "name": "MCore.current_bsd_proof_term_missing",
+   "file": "lean/MCore/BSD/ProofTermGap.lean",
+   "line": 14,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": currentBSDProofTermStatus = .missing"
+  },
+  {
+   "name": "MCore.current_higher_rank_height_route_closed_negative",
+   "file": "lean/MCore/BSD/HigherRankHeightDomainGapClosure.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": currentBSDHigherRankHeightRouteStatus = .closedNegativeDomainGap"
+  },
+  {
+   "name": "MCore.current_leading_coefficient_route_closed_negative",
+   "file": "lean/MCore/BSD/LeadingCoefficientDomainGapClosure.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": currentBSDLeadingCoefficientRouteStatus = .closedNegativeDomainGap"
+  },
+  {
+   "name": "MCore.directional_mathematics_not_available",
+   "file": "lean/MCore/BSD/SameCurveRankTheoremFactory.lean",
+   "line": 54,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": directionalMathematicsAvailable = false"
+  },
+  {
+   "name": "MCore.exact_unconditional_certificate_still_open",
+   "file": "lean/MCore/BSD/UnconditionalProducerAudit.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": exactUnconditionalCertificateStatus = false"
+  },
+  {
+   "name": "MCore.exact_unconditional_enable_gate",
+   "file": "lean/MCore/BSD/UnconditionalProducerAudit.lean",
+   "line": 29,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : CanonicalSameCurveRankClaim) : BSDUnconditionalRankTheorem"
+  },
+  {
+   "name": "MCore.external_classical_bsd_algebraic_rank_rejected",
+   "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
+   "line": 36,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": externalClassicalBSDAlgebraicRankStatus = .rejectedPlaceholder"
+  },
+  {
+   "name": "MCore.external_classical_bsd_known_cases_rejected",
+   "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": externalClassicalBSDKnownCaseStatus = .rejectedAxiom"
+  },
+  {
+   "name": "MCore.external_classical_bsd_proof_reuse_rejected",
+   "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
+   "line": 32,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": externalClassicalBSDProofReuseStatus = .rejectedSorry"
+  },
+  {
+   "name": "MCore.frontier_closure_theorem",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 82,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(a b : FrontierBranchState) : frontierClosed a b ↔ branchClosed a = true ∧ branchClosed b = true"
+  },
+  {
+   "name": "MCore.grounded_bsd_habitant_not_available",
+   "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
+   "line": 92,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": groundedBSDHabitantAvailable = false"
+  },
+  {
+   "name": "MCore.grounded_bsd_of_habitant",
+   "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
+   "line": 59,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : GroundedBSDHabitant) : ∀ E : ShortWeierstrassCurveQ, H.semantics.analyticOrderAtOne E = H.semantics.mordellWeilRank E"
+  },
+  {
+   "name": "MCore.grounded_habitant_has_analytic_semantics",
+   "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
+   "line": 66,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : GroundedBSDHabitant) : ∀ E : ShortWeierstrassCurveQ, H.grounding.specification.analyticOrderSpec E (H.semantics.analyticOrderAtOne E)"
+  },
+  {
+   "name": "MCore.grounded_habitant_has_mordell_weil_semantics",
+   "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
+   "line": 76,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : GroundedBSDHabitant) : ∀ E : ShortWeierstrassCurveQ, H.grounding.specification.mordellWeilRankSpec E (H.semantics.mordellWeilRank E)"
+  },
+  {
+   "name": "MCore.grounded_rank_defect_zero",
+   "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
+   "line": 53,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : GroundedBSDHabitant) (E : ShortWeierstrassCurveQ) : groundedRankDefect H E = 0"
+  },
+  {
+   "name": "MCore.highRankMismatchData_is_high",
+   "file": "lean/MCore/BSD/HighRankDomainGapClosure.lean",
+   "line": 9,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": BSDHighAnalyticRankResidual highRankMismatchData"
+  },
+  {
+   "name": "MCore.highRankMismatchData_not_rank_part",
+   "file": "lean/MCore/BSD/HighRankDomainGapClosure.lean",
+   "line": 13,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ BSDRankPart highRankMismatchData"
+  },
+  {
+   "name": "MCore.legacy_directional_certificates_cannot_close_current_claim",
+   "file": "lean/MCore/BSD/UnconditionalProducerAudit.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (¬ Nonempty (ProofCertificate k9_analytic_to_arithmetic_node)) ∧ (¬ Nonempty (ProofCertificate k9_arithmetic_to_analytic_node))"
+  },
+  {
+   "name": "MCore.legacy_to_canonical_bridge_not_available",
+   "file": "lean/MCore/BSD/CanonicalSameCurveRankPackage.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": legacyToCanonicalBridgeAvailable = false"
+  },
+  {
+   "name": "MCore.map_only_package_not_promotable_to_bsd",
+   "file": "lean/MCore/BSD/SemanticCanonicalRankPackage.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": mapOnlyPackagePromotableToBSD = false"
+  },
+  {
+   "name": "MCore.mismatch_same_curve_statement_false",
+   "file": "lean/MCore/BSD/UnconditionalRankClaim.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ SameCurveRankStatement mismatchSameCurveRankMaps"
+  },
+  {
+   "name": "MCore.no_sorry_kernel_target_closes_f5",
+   "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
+   "line": 68,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : BSDNoSorryKernelTarget) : GroundedBSDRankDefectVanishing"
+  },
+  {
+   "name": "MCore.nonzero_force_resolves_branch",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 109,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(f : FrontierForces) (h : netFrontierForce f ≠ 0) : branchClosed (forceState f) = true"
+  },
+  {
+   "name": "MCore.one_open_is_50_percent",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 73,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(a : FrontierBranchState) (ha : branchClosed a = true) : frontierClosurePercent a .open = 50"
+  },
+  {
+   "name": "MCore.open_math_closure_theorem_enabled",
+   "file": "lean/MCore/BSD/OpenMathClosureCertificate.lean",
+   "line": 26,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openMathClosureTheoremEnabled = true"
+  },
+  {
+   "name": "MCore.open_open_is_0_percent",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 78,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": frontierClosurePercent .open .open = 0"
+  },
+  {
+   "name": "MCore.penchev_agpp_universalization_closed_negative",
+   "file": "lean/MCore/BSD/ExternalRouteClosure.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": penchevAGGPUniversalizationStatus = .closedNegativeDomainGap"
+  },
+  {
+   "name": "MCore.penchev_prc_closed_negative_for_promotion",
+   "file": "lean/MCore/BSD/ExternalRouteClosure.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": penchevPRCStatus = .closedNegativeProvenanceGap"
+  },
+  {
+   "name": "MCore.post_frontier_gate_closed",
+   "file": "lean/MCore/BSD/ProofTermGap.lean",
+   "line": 26,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": postFrontierGateClosed = true"
+  },
+  {
+   "name": "MCore.post_frontier_hard_atomic_zero",
+   "file": "lean/MCore/BSD/ProofTermGap.lean",
+   "line": 20,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": postFrontierHardAtomicRemaining = 0"
+  },
+  {
+   "name": "MCore.rankOrderMismatchData_not_BSDRankPart",
+   "file": "lean/MCore/BSDUniversalCountermodel.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ BSDRankPart rankOrderMismatchData"
+  },
+  {
+   "name": "MCore.rank_defect_vanishing_closes_rank",
+   "file": "lean/MCore/BSD/BSDHabitant.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : BSDRankDefectVanishing) : ∃ S : BSDRankSemanticAnchor, ∀ E : ShortWeierstrassCurveQ, S.analyticOrderAtOne E = S.mordellWeilRank E"
+  },
+  {
+   "name": "MCore.rank_defect_zero",
+   "file": "lean/MCore/BSD/BSDHabitant.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : BSDHabitant) (E : ShortWeierstrassCurveQ) : rankDefect H E = 0"
+  },
+  {
+   "name": "MCore.restricted_bsd_rank_theorem_not_enabled",
+   "file": "lean/MCore/BSD/SameCurveRankMaps.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": restrictedBSDRankTheoremEnabled = false"
+  },
+  {
+   "name": "MCore.same_carrier_rank_equality_closes_f5",
+   "file": "lean/MCore/BSD/F5SameCarrierEquality.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : BSDSameCarrierRankEqualityTarget) : GroundedBSDRankDefectVanishing"
+  },
+  {
+   "name": "MCore.same_curve_rank_part_iff",
+   "file": "lean/MCore/BSD/ShortWeierstrassCurveQ.lean",
+   "line": 31,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : SameCurveRankData) : SameCurveRankPart d ↔ d.analyticOrderAtOne = d.mordellWeilRank"
+  },
+  {
+   "name": "MCore.same_curve_rank_statement_of_directions",
+   "file": "lean/MCore/BSD/SameCurveRankTheoremFactory.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : SameCurveRankMaps) (C : SameCurveRankDirectionalCertificate M) : SameCurveRankStatement M"
+  },
+  {
+   "name": "MCore.same_curve_rank_theorem_factory_enabled",
+   "file": "lean/MCore/BSD/SameCurveRankTheoremFactory.lean",
+   "line": 48,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": sameCurveRankTheoremFactoryEnabled = true"
+  },
+  {
+   "name": "MCore.same_curve_rank_theorem_not_enabled",
+   "file": "lean/MCore/BSD/ShortWeierstrassCurveQ.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": sameCurveRankTheoremEnabled = false"
+  },
+  {
+   "name": "MCore.same_curve_rank_theorem_of_certificate",
+   "file": "lean/MCore/BSD/SameCurveRankMaps.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : SameCurveRankMaps) (C : SameCurveRankCertificate M) : SameCurveRankStatement M"
+  },
+  {
+   "name": "MCore.same_curve_statement_iff_rank_part",
+   "file": "lean/MCore/BSD/SameCurveRankMaps.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : SameCurveRankMaps) : SameCurveRankStatement M ↔ ∀ E : ShortWeierstrassCurveQ, SameCurveRankPart (M.toData E)"
+  },
+  {
+   "name": "MCore.semantic_canonical_package_closes_rank",
+   "file": "lean/MCore/BSD/SemanticCanonicalRankPackage.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : SemanticCanonicalSameCurveRankClaim) : ∃ S : BSDRankSemanticAnchor, SameCurveRankStatement S.toMaps"
+  },
+  {
+   "name": "MCore.semantic_unconditional_bsd_rank_claim_not_enabled",
+   "file": "lean/MCore/BSD/SemanticCanonicalRankPackage.lean",
+   "line": 51,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": semanticUnconditionalBSDRankClaimEnabled = false"
+  },
+  {
+   "name": "MCore.short_weierstrass_concrete_carrier_enabled",
+   "file": "lean/MCore/BSD/ShortWeierstrassCurveQ.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": shortWeierstrassConcreteCarrierEnabled = true"
+  },
+  {
+   "name": "MCore.two_nonzero_forces_close_open_math",
+   "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
+   "line": 118,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(f g : FrontierForces) (hf : netFrontierForce f ≠ 0) (hg : netFrontierForce g ≠ 0) : frontierClosed (forceState f) (forceState g)"
+  },
+  {
+   "name": "MCore.unconditional_certificate_closes_open_math",
+   "file": "lean/MCore/BSD/UnconditionalOneGapEndpoint.lean",
+   "line": 13,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : BSDUnconditionalRankOpenMath) : BSDUnconditionalRankTheorem"
+  },
+  {
+   "name": "MCore.unconditional_claim_closes_rank",
+   "file": "lean/MCore/BSD/UnconditionalRankClaim.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : SameCurveRankMaps) (H : UnconditionalSameCurveRankClaim M) : SameCurveRankStatement M"
+  },
+  {
+   "name": "MCore.unconditional_rank_claim_certificate_not_available",
+   "file": "lean/MCore/BSD/UnconditionalRankClaim.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": unconditionalRankClaimCertificateAvailable = false"
+  },
+  {
+   "name": "MCore.universal_abstract_BSDRankPart_false",
+   "file": "lean/MCore/BSDUniversalCountermodel.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (∀ d : BSDArithmeticAnalyticData, BSDRankPart d)"
+  },
+  {
+   "name": "MCore.unrestricted_not_a_valid_terminal_producer",
+   "file": "lean/MCore/BSDUniversalCountermodel.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (∀ d : BSDArithmeticAnalyticData, BSDRankPart d)"
+  }
+ ],
+ "closed": 9,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BSD/OpenMathRankGE2.lean": "c538ee09a79fac51ddabf3256d5d60b2e18a5cc49d922aaf69b291845a89ba7b",
+  "lean/MCore/BSDUniversalCountermodel.lean": "0ebaa05245eab2e8744e9010e2d46e46dfed46f06b4aa946eb1efb8aac679d7f",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "c482d08233094fcfa7fde6dddcd38cd81be179641574c4ba98ad96d85e296ecb"
+}

@@ -1,0 +1,403 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk/next-bsd-two-descent-finite-quotient-20260929",
+ "branch_state": "parada",
+ "head_commit": "01e1e33c7e4bcc7cc05cc87fef5012ff3d4d8693",
+ "head_commit_date": "2026-09-29T00:33:34+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "01e1e33c7e4bcc7cc05cc87fef5012ff3d4d8693",
+   "date": "2026-09-29T00:33:34+01:00",
+   "subject": "ATK BSD: reduce finite generation to finite E(Q)/2E(Q)"
+  },
+  {
+   "commit": "1212796e41166312ead4a77ea413a703cee82df5",
+   "date": "2026-09-28T22:30:23+01:00",
+   "subject": "ATK BSD: import rational height instances for descent reduction"
+  },
+  {
+   "commit": "380f25abc90fdf5de004d43434ab474aa71cccff",
+   "date": "2026-09-28T22:24:15+01:00",
+   "subject": "ci(bsd): gate finite-index descent reduction"
+  },
+  {
+   "commit": "92e93a040e764d076221c2a9e6989a8b07d614af",
+   "date": "2026-09-28T22:23:46+01:00",
+   "subject": "ATK BSD: reduce Mordell-Weil finite generation to finite-index doubling"
+  },
+  {
+   "commit": "07aeac0068d6467a96f616a8415866b366dad497",
+   "date": "2026-09-28T22:03:37+01:00",
+   "subject": "ci(bsd): repair manifest before certificate build"
+  },
+  {
+   "commit": "250d128a15d31d8c87268aafcbbc2cf8476a1ab2",
+   "date": "2026-09-28T21:57:19+01:00",
+   "subject": "atk: define canonical audited stable hole"
+  },
+  {
+   "commit": "bf78df36c0571da058685ef252e30fbbbb599776",
+   "date": "2026-09-28T21:49:03+01:00",
+   "subject": "atk: record BSD finite-generation library residue"
+  },
+  {
+   "commit": "437e15a0983d922056d9eb05b05d180982bcbff1",
+   "date": "2026-09-28T21:16:16+01:00",
+   "subject": "atk: incorporate proved arsenal and exact next material producer"
+  },
+  {
+   "commit": "4dd241a976a866c481e11d71b5d668219890f543",
+   "date": "2026-09-28T20:56:33+01:00",
+   "subject": "atk: make mathlib cache opportunistic"
+  },
+  {
+   "commit": "cddc1b1be08cabde8631258bbdcdb4f22cc3df38",
+   "date": "2026-09-28T20:53:48+01:00",
+   "subject": "atk: unify material inhabitant protocol v2"
+  },
+  {
+   "commit": "9883ff39f7c01f3c94463703e5e343a812509243",
+   "date": "2026-09-28T20:53:44+01:00",
+   "subject": "atk: unify material inhabitant protocol v2"
+  },
+  {
+   "commit": "f8be76bae8842669ce6edafcb359615715cc0ef7",
+   "date": "2026-09-28T20:53:41+01:00",
+   "subject": "atk: unify material inhabitant protocol v2"
+  },
+  {
+   "commit": "2c74712171966affa6fdbab0bb2e2f84a0044144",
+   "date": "2026-09-28T20:53:39+01:00",
+   "subject": "atk: unify material inhabitant protocol v2"
+  },
+  {
+   "commit": "3986281102cf8b013f6458ba9c3736e3e7f178d8",
+   "date": "2026-09-28T20:03:10+01:00",
+   "subject": "atk: freeze BSD material producer boundary"
+  },
+  {
+   "commit": "b52f8f36afcc385e171401392378b6a5b19ddef9",
+   "date": "2026-09-28T20:03:07+01:00",
+   "subject": "atk: freeze BSD material producer boundary"
+  },
+  {
+   "commit": "b24f9d804e7785830fde98ba0343fd091a5c4e74",
+   "date": "2026-09-28T20:03:03+01:00",
+   "subject": "atk: freeze BSD material producer boundary"
+  },
+  {
+   "commit": "75c285a5277bdbc62911d8752be51a3a1cc7853e",
+   "date": "2026-09-28T19:53:39+01:00",
+   "subject": "atk: make ALG-C finite-generation probe self-contained"
+  },
+  {
+   "commit": "f39aefed9b173289b638b5a8900c545094baaf86",
+   "date": "2026-09-28T19:50:50+01:00",
+   "subject": "atk: make BSD algebraic probe cache-first and probe-only"
+  },
+  {
+   "commit": "82e8cb539b00d68332c6e35b3ad234dc51fa6567",
+   "date": "2026-09-28T19:48:03+01:00",
+   "subject": "atk: use canonical affine point type from pinned mathlib"
+  },
+  {
+   "commit": "75e78f1c57f04672ca9d2a071bc2e0f38d3daa47",
+   "date": "2026-09-28T19:48:01+01:00",
+   "subject": "atk: use canonical affine point type from pinned mathlib"
+  },
+  {
+   "commit": "1b8139fa77afbe946289c4d1adffe6ba34ef067a",
+   "date": "2026-09-28T19:44:33+01:00",
+   "subject": "atk: resolve pinned mathlib before algebraic probe"
+  },
+  {
+   "commit": "a0f673c02a6d0655cf77959b680aada64a35196d",
+   "date": "2026-09-28T19:43:38+01:00",
+   "subject": "atk: pin mathlib and probe canonical BSD algebraic anchor"
+  },
+  {
+   "commit": "28ad829a8c6a6ac93af0bd47365cd0965c21c910",
+   "date": "2026-09-28T19:19:24+01:00",
+   "subject": "verify: publish BSD reproducibility packet"
+  },
+  {
+   "commit": "648cd1b790545ea9b9951ad771f0fed07ab25a90",
+   "date": "2026-09-28T19:13:04+01:00",
+   "subject": "atk: close rank defect helper in Lean core"
+  },
+  {
+   "commit": "7f4fe94a1021969e9ebdcc3b8d7d5586f74341dd",
+   "date": "2026-09-28T19:12:09+01:00",
+   "subject": "atk: express BSD rank defect using Lean core Nat subtraction"
+  },
+  {
+   "commit": "d134cc7e09361837290c30f5f8a5717366575d4e",
+   "date": "2026-09-28T19:11:19+01:00",
+   "subject": "atk: qualify legacy rank witness namespace for manifest audit"
+  },
+  {
+   "commit": "eb4f64a9b2d21f6505e00cb9a9a6f51727758526",
+   "date": "2026-09-28T19:10:36+01:00",
+   "subject": "atk: remove undeclared mathlib tactic from BSD manifest chain"
+  },
+  {
+   "commit": "f5430ebf079a39ccee1b31b81fe45a14aac8582f",
+   "date": "2026-09-28T19:09:41+01:00",
+   "subject": "atk: isolate BSD manifest verification from retired geometry"
+  },
+  {
+   "commit": "fb0dd14a34328e1f187becde23f661237aa7df03",
+   "date": "2026-09-28T19:08:23+01:00",
+   "subject": "atk: lexical-only repair for manifest kernel audit"
+  },
+  {
+   "commit": "2ada7911d50d6d3b3c42445d075840c86ef25ef6",
+   "date": "2026-09-28T19:07:07+01:00",
+   "subject": "atk: build manifest modules before kernel axiom audit"
+  },
+  {
+   "commit": "96274d331c9956e211b814ba9038e0fc0e64f47d",
+   "date": "2026-09-28T19:06:27+01:00",
+   "subject": "atk: add canonical BSD six-tuple manifest extractor and triple verify gate"
+  },
+  {
+   "commit": "8b3713847755c8454df2c32c7e86a7a70d9f3a5d",
+   "date": "2026-09-26T22:10:02+01:00",
+   "subject": "BSD: formalize F5 zero-defect habitant"
+  },
+  {
+   "commit": "3a3436216b435c7c97044bf1b5933d30a03fae90",
+   "date": "2026-09-26T20:21:41+01:00",
+   "subject": "BSD: harden unconditional claim with semantic rank anchor"
+  },
+  {
+   "commit": "6a7d5f654031a30e773a7898509477b6a0d5bebb",
+   "date": "2026-09-26T20:10:17+01:00",
+   "subject": "BSD: audit exact unconditional producer against certified K9 base"
+  },
+  {
+   "commit": "69c132e3b3499f2d0eee90997bf6109d4e03bdf8",
+   "date": "2026-09-26T20:06:03+01:00",
+   "subject": "BSD: set exact unconditional one-gap OPEN_MATH producer"
+  },
+  {
+   "commit": "2c25e798a2939dbb352f01b0d26756dc7212b379",
+   "date": "2026-09-26T20:05:47+01:00",
+   "subject": "BSD: compress unconditional rank claim to one exact OPEN_MATH producer"
+  },
+  {
+   "commit": "b01dab3990a655f7b245201aef67eae29d1b68b2",
+   "date": "2026-09-26T20:04:13+01:00",
+   "subject": "BSD: register canonical unconditional rank producer"
+  },
+  {
+   "commit": "7448f58596ac36262e567325c237b4565fe94fbf",
+   "date": "2026-09-26T20:04:06+01:00",
+   "subject": "BSD: isolate canonical unconditional rank producer"
+  },
+  {
+   "commit": "330f94a756e895a43fe94b00d3eea5978c8f80f6",
+   "date": "2026-09-26T20:02:23+01:00",
+   "subject": "BSD: register exact unconditional rank claim target"
+  },
+  {
+   "commit": "0e49585ed1ca4e79d2fff9662d1059154c9b26b7",
+   "date": "2026-09-26T20:02:13+01:00",
+   "subject": "BSD: isolate exact unconditional rank claim certificate"
+  },
+  {
+   "commit": "320acf1c7dcba9b3c2cb59d9da40f94c6eee6c8a",
+   "date": "2026-09-26T19:59:40+01:00",
+   "subject": "BSD: register same-curve rank theorem factory"
+  },
+  {
+   "commit": "6e2ead7c7767cf9347731f912bb6e2b2c725c4fd",
+   "date": "2026-09-26T19:59:34+01:00",
+   "subject": "BSD: enable same-curve rank theorem factory from certified directions"
+  },
+  {
+   "commit": "7e1f97eafc5924a8f0d07cc015e6f4e1e8917d8f",
+   "date": "2026-09-26T19:57:53+01:00",
+   "subject": "BSD: formalize same-curve rank map contract"
+  },
+  {
+   "commit": "6c10fa40be9477e8141a36cf20d522b719722730",
+   "date": "2026-09-26T19:54:03+01:00",
+   "subject": "BSD: add concrete short-Weierstrass curve carrier"
+  },
+  {
+   "commit": "beff2f075fc7a14f9165c37cf1f18605e927049d",
+   "date": "2026-09-26T19:51:52+01:00",
+   "subject": "BSD: register all certified artifacts as ATK foundation"
+  },
+  {
+   "commit": "585d65cc275feaa96f5090a76e0e66daac9b97f7",
+   "date": "2026-09-26T19:51:43+01:00",
+   "subject": "BSD: consolidate certified foundation for ATK reuse"
+  },
+  {
+   "commit": "1cecdb0117fcc38ac13b5b315ab80736f64bc9f1",
+   "date": "2026-09-26T19:50:07+01:00",
+   "subject": "BSD: close final post-frontier atomic blocker by classification"
+  },
+  {
+   "commit": "1a6a62e18dd30cdeae20187e1a09ee90fa323116",
+   "date": "2026-09-26T19:49:53+01:00",
+   "subject": "BSD: classify final post-frontier proof-term blocker"
+  },
+  {
+   "commit": "c4700615125a345acf23537c82b5e07f52b16fff",
+   "date": "2026-09-26T19:48:38+01:00",
+   "subject": "BSD: advance post-frontier gate past concrete carrier classification"
+  },
+  {
+   "commit": "5315bd9905c2f3ff022fbd83827f847a913d35ab",
+   "date": "2026-09-26T19:48:26+01:00",
+   "subject": "BSD: classify missing concrete elliptic-curve carrier"
+  },
+  {
+   "commit": "6e489b42ad573455b2a7110b823dfa66e3da9d27",
+   "date": "2026-09-26T19:47:39+01:00",
+   "subject": "BSD: formalize post-frontier zero OPEN_MATH state"
+  },
+  {
+   "commit": "0bf2520566849d892e4ad3dcf8ffd2a31c2cfef8",
+   "date": "2026-09-26T19:47:30+01:00",
+   "subject": "BSD: align gate ledger with certified zero OPEN_MATH frontier"
+  },
+  {
+   "commit": "ceefbf4bf38705776ede7a83db1bb97124aa4fd1",
+   "date": "2026-09-26T19:42:46+01:00",
+   "subject": "BSD: certify current frontier OPEN_MATH zero"
+  },
+  {
+   "commit": "8e7517f1294578df73708c94136f2d38f01bacbf",
+   "date": "2026-09-26T19:40:48+01:00",
+   "subject": "BSD: add zero OPEN_MATH frontier certificate"
+  },
+  {
+   "commit": "cdcf85278e6761c824c5631936d3a93887fa19b7",
+   "date": "2026-09-26T19:40:36+01:00",
+   "subject": "BSD: set current frontier OPEN_MATH count to zero"
+  },
+  {
+   "commit": "77eab3e748be62e24159668b5d7c77350cdb299b",
+   "date": "2026-09-26T19:40:23+01:00",
+   "subject": "BSD: close remaining AGGP and PRC frontier routes"
+  },
+  {
+   "commit": "311f5b5bfa1907cd74702c296df5824f0a84267e",
+   "date": "2026-09-26T19:38:14+01:00",
+   "subject": "BSD: retire higher-rank height abstract OPEN_MATH route"
+  },
+  {
+   "commit": "3568a386b0aaf27c5d1353324b6716761db9e672",
+   "date": "2026-09-26T19:38:04+01:00",
+   "subject": "BSD: close higher-rank height OPEN_MATH as domain gap"
+  },
+  {
+   "commit": "86e5fcf1b2bcecd693964e2618b57a342443591a",
+   "date": "2026-09-26T19:34:34+01:00",
+   "subject": "BSD: retire rank and leading abstract OPEN_MATH routes"
+  },
+  {
+   "commit": "a3b8b55b3d4cb98b0e59ce5f2269b3b33531fefa",
+   "date": "2026-09-26T19:34:14+01:00",
+   "subject": "BSD: close abstract leading-coefficient OPEN_MATH as domain gap"
+  },
+  {
+   "commit": "89179ea9fea1941f741640a02f3b49bbedb958f9",
+   "date": "2026-09-26T19:30:32+01:00",
+   "subject": "BSD: record abstract high-rank CLOSED_NEGATIVE certificate"
+  },
+  {
+   "commit": "b2da2a7645551739c7d403b71c0c67dbfb72c181",
+   "date": "2026-09-26T19:30:23+01:00",
+   "subject": "BSD: close abstract high-rank OPEN_MATH route by domain countermodel"
+  },
+  {
+   "commit": "5562f61df094f2fdcd84801d3080844b02657030",
+   "date": "2026-09-26T19:27:46+01:00",
+   "subject": "BSD: add OPEN_MATH closure theorem certificate record"
+  },
+  {
+   "commit": "828eb7ea11cf27a4538d05a480c46346259e98b5",
+   "date": "2026-09-26T19:27:38+01:00",
+   "subject": "BSD: enable certified OPEN_MATH frontier closure theorem"
+  },
+  {
+   "commit": "26b28267360f7a579c32879b856fa050182e2573",
+   "date": "2026-09-26T19:26:38+01:00",
+   "subject": "BSD: formalize four-state OPEN_MATH frontier closure"
+  },
+  {
+   "commit": "908be0a0d4c69aae4733ec035c156c42fc20c7bb",
+   "date": "2026-09-26T19:13:09+01:00",
+   "subject": "BSD: restrict rank OPEN_MATH frontier to realizable data"
+  },
+  {
+   "commit": "18a765256fd49ddeb005abb9f2e5758f0dcac824",
+   "date": "2026-09-26T19:12:59+01:00",
+   "subject": "BSD: reuse frozen universal-producer countermodel"
+  },
+  {
+   "commit": "3e6107603b3a1cdf9f25149d0c4553585cad2c37",
+   "date": "2026-09-26T16:56:03+01:00",
+   "subject": "BSD: document rank >= 2 OPEN_MATH attack boundary"
+  },
+  {
+   "commit": "40ccd817bfb396424ea24ade50df02d594b153bb",
+   "date": "2026-09-26T16:56:01+01:00",
+   "subject": "BSD: compress OPEN_MATH rank frontier to analytic rank >= 2"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.35.0-rc3"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.BSD.double_range_finiteIndex_of_finite_quotient",
+   "file": "lean/MCore/BSD/WeakMordellWeilReduction.lean",
+   "line": 5,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (W : WeierstrassCurve ℚ) [W.IsElliptic] [Finite (W.toAffine.Point ⧸ (nsmulAddMonoidHom 2).range)],   (nsmulAddMonoidHom 2).range.FiniteIndex"
+  },
+  {
+   "name": "MCore.BSD.moduleFinite_rationalPoints_of_double_finiteIndex",
+   "file": "lean/MCore/BSD/MordellWeilDescentReduction.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (W : WeierstrassCurve ℚ) [W.IsElliptic], (nsmulAddMonoidHom 2).range.FiniteIndex → Module.Finite ℤ W.toAffine.Point"
+  },
+  {
+   "name": "MCore.BSD.moduleFinite_rationalPoints_of_finite_double_quotient",
+   "file": "lean/MCore/BSD/WeakMordellWeilReduction.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (W : WeierstrassCurve ℚ) [W.IsElliptic] [Finite (W.toAffine.Point ⧸ (nsmulAddMonoidHom 2).range)],   Module.Finite ℤ W.toAffine.Point"
+  }
+ ],
+ "closed": 3,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "32a1aa8bc4f1d17b32fa2aa7552a89d56cf34b10c732ee7be0f1c89b3c8a27a7",
+  "lean-toolchain": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47",
+  "lean/MCore/BSD/MordellWeilDescentReduction.lean": "ecaccae88185ff583e11422c9a5b18cd9fd424a81005e93cde89a68845374662",
+  "lean/MCore/BSD/WeakMordellWeilReduction.lean": "4bcc0f6856ca8b27ac91930d51e182b07399d2f34b5cb49472705e5e7794110e"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "dd090065f04c977714eda434b3e03a96c49b10f81da10c8210ff574261391a0a"
+}

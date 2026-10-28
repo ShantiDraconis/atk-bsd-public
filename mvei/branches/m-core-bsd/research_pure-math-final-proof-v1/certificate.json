@@ -1,0 +1,136 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "research/pure-math-final-proof-v1",
+ "branch_state": "parada",
+ "head_commit": "0ef6b929df77326a90533b56e53dc4987f8855e6",
+ "head_commit_date": "2026-09-20T09:04:24+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "0ef6b929df77326a90533b56e53dc4987f8855e6",
+   "date": "2026-09-20T09:04:24+01:00",
+   "subject": "audit: preserve stabilization-kernel exact-crossing line"
+  },
+  {
+   "commit": "f45d3bf65e4070ab8095c9100e9fff92b6c2fb55",
+   "date": "2026-09-20T08:42:02+01:00",
+   "subject": "audit: record observed state-2 behavioral signature"
+  },
+  {
+   "commit": "8bdcd93802096dca3732ac6a93fe198e66732150",
+   "date": "2026-09-20T08:38:58+01:00",
+   "subject": "audit: install behavioral signature calculator protocol"
+  },
+  {
+   "commit": "d4323fe48eacc16a60200c4ff915a8dab5d15250",
+   "date": "2026-09-20T04:06:19+01:00",
+   "subject": "audit: install behavioral signature calculator contract"
+  },
+  {
+   "commit": "57b32c374e2bc4719c9d3232f05b0017bc3d12cb",
+   "date": "2026-09-20T01:46:25+01:00",
+   "subject": "cert: freeze GREEN 32979ceb"
+  },
+  {
+   "commit": "32979cebcb5e6e95f23b2f9812ab4fcdfa0ba130",
+   "date": "2026-09-20T00:50:58+01:00",
+   "subject": "research: add Lean parallel residual return interface"
+  },
+  {
+   "commit": "49e1a2a9114b937ff3b0cd8a3b38f75bfdabf984",
+   "date": "2026-09-20T00:48:50+01:00",
+   "subject": "research: wire parallel closure chain to exact frontier"
+  },
+  {
+   "commit": "c9ea1e6e522ecd5c6fc455e1a28d3310fcd16393",
+   "date": "2026-09-20T00:31:25+01:00",
+   "subject": "research: map pure-math path to exact final frontier"
+  },
+  {
+   "commit": "fd9401e7c05b5fcb2a84e6ea22418c596e55b650",
+   "date": "2026-09-19T11:24:46+02:00",
+   "subject": "cert: record green frontier certificate 2026-09-19"
+  },
+  {
+   "commit": "f98be3a7f6dccdb01aa09fa83915cef97c85adfa",
+   "date": "2026-09-19T10:46:29+02:00",
+   "subject": "ci: explicitly certify witness kernel"
+  },
+  {
+   "commit": "2c218efc5b457511a0f43288ad03bdb069429f56",
+   "date": "2026-09-19T10:43:02+02:00",
+   "subject": "attack: isolate BSD rank witness constructor kernel"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.BackwardAudit.bsd_constructor_closes_rank_part",
+   "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(W : BSDWitnessConstructor) : ∀ d : MCore.BSDArithmeticAnalyticData, MCore.BSDOpenCore d"
+  },
+  {
+   "name": "MCore.BackwardAudit.bsd_constructor_iff_rank_contract",
+   "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": BSDWitnessConstructor ↔ RankPartWitnessContract"
+  },
+  {
+   "name": "MCore.BackwardAudit.bsd_witness_constructor_still_open",
+   "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
+   "line": 32,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": bsdWitnessConstructorBuilt = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.constructor_to_rank_contract",
+   "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
+   "line": 11,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(W : BSDWitnessConstructor) : RankPartWitnessContract"
+  },
+  {
+   "name": "MCore.BackwardAudit.rank_contract_to_constructor",
+   "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(W : RankPartWitnessContract) : BSDWitnessConstructor"
+  },
+  {
+   "name": "MCore.Research.return_to_primary",
+   "file": "lean/MCore/Research/ParallelClosure.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Goal : Prop} (a : ParallelAttack Goal) (h : a.Residual) : Goal"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Research/ParallelClosure.lean": "0f9b91a26222e1fe7299d37a24d394082889720616d5a6944d1ddacf97177b6a"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "2658c92dce7e9cec387031bf03d23dd5b8fd9dfb84337b34600f58501764bee8"
+}

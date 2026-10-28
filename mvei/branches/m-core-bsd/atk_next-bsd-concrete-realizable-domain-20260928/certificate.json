@@ -1,0 +1,215 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk/next-bsd-concrete-realizable-domain-20260928",
+ "branch_state": "parada",
+ "head_commit": "9be97dca5ea6a3ac44af521f835fddf208682187",
+ "head_commit_date": "2026-09-28T18:39:02+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "9be97dca5ea6a3ac44af521f835fddf208682187",
+   "date": "2026-09-28T18:39:02+01:00",
+   "subject": "atk: audit BSD realizability fence and fail closed on nominal domain"
+  },
+  {
+   "commit": "472ef3a64f34f6015919bfcda2a08a10c56e5926",
+   "date": "2026-09-28T18:37:08+01:00",
+   "subject": "atk: make extraction provenance shallow-clone safe"
+  },
+  {
+   "commit": "ba4b9d5b687a4c1c7adb9045894cca7728d2fd61",
+   "date": "2026-09-28T18:35:21+01:00",
+   "subject": "atk: extract BSD stable hole across three saturation passes"
+  },
+  {
+   "commit": "1377e2e799533e9e0447e401771bb8c10179db41",
+   "date": "2026-09-21T22:38:05+01:00",
+   "subject": "atk: activate BSD realizability failproof"
+  },
+  {
+   "commit": "29b1b392999f2cab0c5b49a86cc95e123a6cada5",
+   "date": "2026-09-21T22:38:02+01:00",
+   "subject": "atk: recover certified BSD universal-producer countermodel"
+  },
+  {
+   "commit": "7c24f3797f6b373c00f86d6a6475eaf37d023e6a",
+   "date": "2026-09-21T21:16:16+01:00",
+   "subject": "atk: wire current terminal reduction into umbrella build"
+  },
+  {
+   "commit": "a96eb694bcfc7771d2f9f36295a21b5b3b7978cc",
+   "date": "2026-09-21T21:15:35+01:00",
+   "subject": "atk(bsd): restrict universal rank producer to a realizable family"
+  },
+  {
+   "commit": "c1e7b245726c4c65f5f9f878acefb86460746f4a",
+   "date": "2026-09-21T11:05:18+01:00",
+   "subject": "atk: advance semantic gate past certified firewall"
+  },
+  {
+   "commit": "6fb0fe59d5fb86cbfc4b6089214862cad3861aab",
+   "date": "2026-09-21T11:03:16+01:00",
+   "subject": "atk: use project core for D01 firewall"
+  },
+  {
+   "commit": "c7793b4f8b1bbaaacf4c66f50836accbfb74f2cd",
+   "date": "2026-09-21T11:02:32+01:00",
+   "subject": "atk: add CI for atk-d01-universal-firewall"
+  },
+  {
+   "commit": "8c1602993364994ca07c508eadb2b16f82142779",
+   "date": "2026-09-21T11:02:17+01:00",
+   "subject": "atk: add D01 universal-endpoint firewall"
+  },
+  {
+   "commit": "01830831d830e45563ff98ddd5fda60312943ef7",
+   "date": "2026-09-21T10:33:06+01:00",
+   "subject": "atk: add fail-closed semantic promotion gate"
+  },
+  {
+   "commit": "dfa710de6a8646640db8b7010e3e00d439091d31",
+   "date": "2026-09-21T01:43:31+01:00",
+   "subject": "atk: reduce HARD sentinel to exact kernel lookup"
+  },
+  {
+   "commit": "c3c8387efd503c1806fe8bcefd9eafb37473b046",
+   "date": "2026-09-21T01:25:32+01:00",
+   "subject": "atk: build local dependency graph before HARD kernel check"
+  },
+  {
+   "commit": "8f8b4cbf334002459b5836b6b9f2ced4c396ac11",
+   "date": "2026-09-21T01:24:44+01:00",
+   "subject": "atk: enforce explicit fail-closed HARD gate"
+  },
+  {
+   "commit": "3be24cfe8635a17b95b4911471f55875f090bd87",
+   "date": "2026-09-21T01:17:45+01:00",
+   "subject": "atk: advance to fail-closed HARD TheoremKernel gate"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.StableHoleExtraction.bsd_pass_a",
+   "file": "lean/Extraction/BSDPassA.lean",
+   "line": 6,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(F : BSDRealizableFamily) : BSDRankPartOnFamily F"
+  },
+  {
+   "name": "MCore.StableHoleExtraction.bsd_pass_b",
+   "file": "lean/Extraction/BSDPassB.lean",
+   "line": 6,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(F : BSDRealizableFamily) : BSDRankPartOnFamily F"
+  },
+  {
+   "name": "MCore.StableHoleExtraction.bsd_pass_c",
+   "file": "lean/Extraction/BSDPassC.lean",
+   "line": 6,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(F : BSDRealizableFamily) : BSDRankPartOnFamily F"
+  },
+  {
+   "name": "MCore.StableHoleExtraction.current_realizable_family_does_not_exclude_mismatch",
+   "file": "lean/Extraction/BSDFenceAudit.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ BSDRankPartOnFamily mismatchFamily"
+  },
+  {
+   "name": "MCore.StableHoleExtraction.expanded_normalizes",
+   "file": "lean/Extraction/BSDStableHoleNormalization.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(F : BSDRealizableFamily) : (∀ E : F.Curve, (F.toData E).analyticOrderAtOne = (F.toData E).mordellWeilRank) ↔ BSDStableHole F"
+  },
+  {
+   "name": "MCore.StableHoleExtraction.mismatch_is_in_current_family_image",
+   "file": "lean/Extraction/BSDFenceAudit.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∃ (F : BSDRealizableFamily) (E : F.Curve), F.toData E = rankOrderMismatchData"
+  },
+  {
+   "name": "MCore.StableHoleExtraction.passA_normalizes",
+   "file": "lean/Extraction/BSDStableHoleNormalization.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(F : BSDRealizableFamily) : BSDRankPartOnFamily F ↔ BSDStableHole F"
+  },
+  {
+   "name": "MCore.StableHoleExtraction.unrestricted_fence",
+   "file": "lean/Extraction/BSDStableHoleNormalization.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (∀ d : BSDArithmeticAnalyticData, BSDRankPart d)"
+  },
+  {
+   "name": "MCore.bsd_rank_part_on_family_apply",
+   "file": "lean/MCore/BackwardAudit/D01RealizableDomain.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (F : MCore.BSDRealizableFamily), MCore.BSDRankPartOnFamily F → ∀ (E : F.Curve), MCore.BSDRankPart (F.toData E)"
+  }
+ ],
+ "closed": 6,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/Extraction/BSDFenceAudit.lean": "4676c6365bd1ea9b9e9d967bdb542f6b0d3bf4eba73ac9b403ee8126d243e922",
+  "lean/Extraction/BSDStableHoleNormalization.lean": "a1060d0b6edc47160c5e57159d6e27f6097521691ca736e996474b4a91213b2e",
+  "lean/MCore.lean": "f1e579fc3266f02ea226049d28b646b7e274797722926b00859ad3bf07ace6ec",
+  "lean/MCore/AttackDAG/K3AlgebraAttacks.lean": "c76c177447069d02936aaf3bcc243225459baf94c756d8ce11313ea63d57eaf1",
+  "lean/MCore/Audit.lean": "2073dffa499a29e19d8171c07d175606a327263f81e52c3e34b8adb183efe7c6",
+  "lean/MCore/BSDUniversalCountermodel.lean": "0ebaa05245eab2e8744e9010e2d46e46dfed46f06b4aa946eb1efb8aac679d7f",
+  "lean/MCore/BackwardAudit/D01RealizableDomain.lean": "2044f41201080b519fd415b982b4a85c1967307e6820c3ccde73192aee108065",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/Frontier/K3Gaps.lean": "02d594363d98ebade1bd21a486c49129fe1fe780f58b18ce925fd28a2da7fbd0",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K14.lean": "ed01ddf91006fbc50791f6f86b03ee77f52385bb11cac98759aa9fa1ad776010",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "46028312cfa6e8b2c5b365ced509dd4cd6e31f7dd6f2ba4fb605687e5734d597"
+}

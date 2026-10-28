@@ -1,0 +1,460 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk/first-real-open-math-bsd-20261005",
+ "branch_state": "parada",
+ "head_commit": "d7ceb22779e79078d9411eabb5412483101fba0c",
+ "head_commit_date": "2026-10-05T14:14:42+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "d7ceb22779e79078d9411eabb5412483101fba0c",
+   "date": "2026-10-05T14:14:42+02:00",
+   "subject": "forcing: expose BSD residual proof fields"
+  },
+  {
+   "commit": "93326146ab94406b80cc1f9e35a080436c6dcc87",
+   "date": "2026-10-05T13:52:23+02:00",
+   "subject": "ci: force exact material inhabitant search"
+  },
+  {
+   "commit": "f00b38168eee78e76ec4df5c43566106796773e1",
+   "date": "2026-10-05T13:51:45+02:00",
+   "subject": "forcing: add direct material inhabitant search"
+  },
+  {
+   "commit": "4c9c6aec0ea34efc8cfec4f0ececc3e30063a15d",
+   "date": "2026-10-05T13:12:12+02:00",
+   "subject": "ci: build forcing module through Lake library path"
+  },
+  {
+   "commit": "233faeaca398983929da69be82ea96fc4516a87e",
+   "date": "2026-10-05T13:11:02+02:00",
+   "subject": "ci: run first-real-open-math forcing kernel"
+  },
+  {
+   "commit": "bf9fdcffa09aa52d162a6ebbcff8dcab868ef73e",
+   "date": "2026-10-05T13:10:38+02:00",
+   "subject": "forcing: expose first real open-math target"
+  },
+  {
+   "commit": "fa08b258a4bf1654d627c6be81e826939420cae9",
+   "date": "2026-10-04T12:37:37+02:00",
+   "subject": "P06 BSD: certify dense conditional frontier GREEN"
+  },
+  {
+   "commit": "a3edf6209a143db063939ada57869b41e49a708f",
+   "date": "2026-10-04T02:08:23+02:00",
+   "subject": "BSD: fix known-pair merge to logical conjunction"
+  },
+  {
+   "commit": "a37247c5354345313ba199c7217c43d2a908fbf8",
+   "date": "2026-10-04T01:55:22+02:00",
+   "subject": "P06 BSD: include partition-kernel equivalences in certified build"
+  },
+  {
+   "commit": "f23b86537d10b7b468756ece97b822911e00e0e2",
+   "date": "2026-10-04T01:55:17+02:00",
+   "subject": "P06 BSD: add partition certificates and exact terminal equivalence"
+  },
+  {
+   "commit": "0f5b3060ac5c648a2bd6884906593b9b82ea9937",
+   "date": "2026-10-04T01:54:39+02:00",
+   "subject": "BSD: include refined certificate algebra in certified build"
+  },
+  {
+   "commit": "6d1a25b98ce53885467ccaf6d55f787e64d66ed9",
+   "date": "2026-10-04T01:54:34+02:00",
+   "subject": "BSD: densify refined certificates via defect, side and quotient forms"
+  },
+  {
+   "commit": "7ceb2e4427b1533853c9abbf336e934fd29caa09",
+   "date": "2026-10-04T01:54:05+02:00",
+   "subject": "P06 BSD: include dense subdomain algebra and known expansion"
+  },
+  {
+   "commit": "91c4e357c8ce599d84d014a44ab7b92719e6c7a0",
+   "date": "2026-10-04T01:53:58+02:00",
+   "subject": "P06 BSD: add incremental known-class expansion laws"
+  },
+  {
+   "commit": "db7ccc998df67038cbcfb0ba92bd69b232242b4e",
+   "date": "2026-10-04T01:53:39+02:00",
+   "subject": "BSD: add subdomain algebra and monotone residual transport"
+  },
+  {
+   "commit": "ed53ce86830b41c4901a78b963547de698d05fe5",
+   "date": "2026-10-04T01:42:12+02:00",
+   "subject": "P06 BSD: extend firewall to residual open-math inhabitants"
+  },
+  {
+   "commit": "1618882f809150b55ef0aa2d45c441ad5ae2f7e8",
+   "date": "2026-10-04T01:42:03+02:00",
+   "subject": "P06 BSD: isolate residual P2 open mathematics"
+  },
+  {
+   "commit": "3bdded672c5494c7dec534cd5b989101be8fc8fb",
+   "date": "2026-10-04T01:42:01+02:00",
+   "subject": "P06 BSD: isolate residual P1 open mathematics"
+  },
+  {
+   "commit": "41799d9fae96473c21c963fabe3bdad8e502b1aa",
+   "date": "2026-10-04T01:38:51+02:00",
+   "subject": "P06 BSD: include exact residual frontier in certified build"
+  },
+  {
+   "commit": "b4537387b96c92108ad8aa5d7f59fe27575a56a3",
+   "date": "2026-10-04T01:38:43+02:00",
+   "subject": "P06 BSD: expose exact known/residual P1-P2 frontier"
+  },
+  {
+   "commit": "b44186b52dd2172e804d479ca577baf44fe2db5d",
+   "date": "2026-10-04T01:38:17+02:00",
+   "subject": "BSD: include residual frontier decomposition in certified build"
+  },
+  {
+   "commit": "189f8229850290f1b9cb382e32936e311be3c2cc",
+   "date": "2026-10-04T01:38:12+02:00",
+   "subject": "BSD: isolate exact residual frontiers for P1 and P2"
+  },
+  {
+   "commit": "ea610aaae6f114eab3a984b7fb5bfa0612f97015",
+   "date": "2026-10-04T01:37:49+02:00",
+   "subject": "P06 BSD: freeze kernel-green structural checkpoint"
+  },
+  {
+   "commit": "8f964fbb599f7371c0ffa2ab30e2219a0ab63d74",
+   "date": "2026-10-04T01:31:29+02:00",
+   "subject": "P06 BSD: enforce open-math isolation in certificate workflow"
+  },
+  {
+   "commit": "cbab0d8935734c2f8945f08d0b5810988e076038",
+   "date": "2026-10-04T01:31:18+02:00",
+   "subject": "P06 BSD: add open-math leakage firewall"
+  },
+  {
+   "commit": "3a4861dce7740929b6772587db4fae8ad72828e0",
+   "date": "2026-10-04T01:30:59+02:00",
+   "subject": "BSD: include refined algebra laws in certified build"
+  },
+  {
+   "commit": "af4c00f3c2b8bd5065a758c7f1b0f083775d6bfd",
+   "date": "2026-10-04T01:30:57+02:00",
+   "subject": "P06 BSD: import terminal kernel theorem used by specification"
+  },
+  {
+   "commit": "d4268610f187b20b6f934550dd4566c5a5b0b0f7",
+   "date": "2026-10-04T01:30:46+02:00",
+   "subject": "BSD: formalize refined identity operators, defect, quotient and positivity laws"
+  },
+  {
+   "commit": "69289f4e71285b042c5b46f04f4b34c04cb3cdfb",
+   "date": "2026-10-04T01:30:30+02:00",
+   "subject": "P06 BSD: register P06 Lean library"
+  },
+  {
+   "commit": "35f8c51f9c72532a8e74e135cb6e52bd4c5da113",
+   "date": "2026-10-04T01:26:38+02:00",
+   "subject": "P06 BSD: preserve Mathlib cache in clean reproduction"
+  },
+  {
+   "commit": "7c9c140f98bb522dd78d521e687a069c97044334",
+   "date": "2026-10-04T01:26:30+02:00",
+   "subject": "P06 BSD: include specification and concrete producer in certified build"
+  },
+  {
+   "commit": "87e33a953ddfe8cceb464c2f7f227873d9808f1b",
+   "date": "2026-10-04T01:26:24+02:00",
+   "subject": "P06 BSD: isolate P1/P2 open mathematics outside MCore"
+  },
+  {
+   "commit": "d36655979de7715fabf22f058374136b676ef081",
+   "date": "2026-10-04T01:26:22+02:00",
+   "subject": "P06 BSD: add no-sorry concrete producer assembly"
+  },
+  {
+   "commit": "9059b68e9e32b585e12f719ef3d38966c300c0f6",
+   "date": "2026-10-04T01:26:20+02:00",
+   "subject": "P06 BSD: add exact no-sorry terminal specification"
+  },
+  {
+   "commit": "a40f4fe17257a63e959ab7d259d9028cce08d057",
+   "date": "2026-10-04T01:00:31+02:00",
+   "subject": "BSD: import real-number API for refined identity"
+  },
+  {
+   "commit": "4144d05ce32f57239a4d1d8f25f1e35ffdf6d286",
+   "date": "2026-10-04T00:57:11+02:00",
+   "subject": "BSD: fix Lake manifest package-name parsing"
+  },
+  {
+   "commit": "118630753dbc09b7e9f26d9340797b622492c4b2",
+   "date": "2026-10-04T00:56:46+02:00",
+   "subject": "BSD: include terminal kernel endpoint in default build"
+  },
+  {
+   "commit": "a3b78a191818a4911a15db1d39853bcf46a3edb2",
+   "date": "2026-10-04T00:56:40+02:00",
+   "subject": "BSD: add exact terminal kernel endpoint and axiom audit"
+  },
+  {
+   "commit": "2e7973a8d6c72264abd60c14610e0b9f78710714",
+   "date": "2026-10-04T00:56:09+02:00",
+   "subject": "BSD: resolve and pin Mathlib v4.19.0 manifest"
+  },
+  {
+   "commit": "0c6a89777df90d8ac20dcd1645e5bceda1e87b7e",
+   "date": "2026-10-04T00:55:15+02:00",
+   "subject": "BSD: pin Mathlib v4.19.0 for genuine elliptic-curve domain"
+  },
+  {
+   "commit": "1d3b41e76ab36aa0ce637185db8650cde400146c",
+   "date": "2026-10-04T00:48:33+02:00",
+   "subject": "BSD: include exhaustive cover assembler in prekernel audit"
+  },
+  {
+   "commit": "e52b6145b57aff0a4e698ca7464019db99f01e93",
+   "date": "2026-10-04T00:48:27+02:00",
+   "subject": "BSD: include exhaustive domain-cover assembly in build"
+  },
+  {
+   "commit": "bebcd3fdef6b9a4f836c6ac20cb1953f22119b1d",
+   "date": "2026-10-04T00:48:22+02:00",
+   "subject": "BSD: add exhaustive domain-cover assembler for partial theorem reuse"
+  },
+  {
+   "commit": "579bc42767a8e16275fb2fe3ffd0581c7475a798",
+   "date": "2026-10-04T00:48:02+02:00",
+   "subject": "BSD: include certified-prefix reuse in prekernel audit"
+  },
+  {
+   "commit": "e602ae0afa34c60fd6f067aae759b89d8e7917ba",
+   "date": "2026-10-04T00:47:55+02:00",
+   "subject": "BSD: include certified prefix reuse in build"
+  },
+  {
+   "commit": "2741d8f675dfdbce2123de45ec9f51145433876d",
+   "date": "2026-10-04T00:47:50+02:00",
+   "subject": "BSD: reuse K0-K14 firewall and K11 external provenance explicitly"
+  },
+  {
+   "commit": "bb0f709eae6ceb9b748f72143c0faf1a7881d21d",
+   "date": "2026-10-04T00:47:17+02:00",
+   "subject": "BSD: extend prekernel audit to concrete domain and certificate families"
+  },
+  {
+   "commit": "aa0c08b2201e5b40b085c688b966a3b548d29e66",
+   "date": "2026-10-04T00:47:10+02:00",
+   "subject": "BSD: extend axiom audit through concrete certificate families"
+  },
+  {
+   "commit": "d411f95fc26b2a0f1547074f76af8ea6c217d7fd",
+   "date": "2026-10-04T00:47:00+02:00",
+   "subject": "BSD: include concrete domain and certificate families in build"
+  },
+  {
+   "commit": "7b38b889bf3224337965f4f081849b3c0a98d3c8",
+   "date": "2026-10-04T00:46:55+02:00",
+   "subject": "BSD: normalize certificate projection syntax before kernel run"
+  },
+  {
+   "commit": "1f418062bb2900f1de82c04f3dc62ce94b1d1c43",
+   "date": "2026-10-04T00:46:47+02:00",
+   "subject": "BSD: decompose rank and refined inhabitants into curvewise certificate families"
+  },
+  {
+   "commit": "f887e4aa1c3acd6a42f90dd188bd102491ed797d",
+   "date": "2026-10-04T00:46:31+02:00",
+   "subject": "BSD: bind terminal producer to genuine elliptic curves over Q"
+  },
+  {
+   "commit": "66dd72884be43999a6dc5bf8c2aff8f16305b29f",
+   "date": "2026-10-04T00:45:13+02:00",
+   "subject": "BSD: add realizable producer prekernel manifest"
+  },
+  {
+   "commit": "95fa0daa6c480e431f1295a0493391b768cca384",
+   "date": "2026-10-04T00:44:59+02:00",
+   "subject": "BSD: include producer axiom audit in prekernel check"
+  },
+  {
+   "commit": "aea7e89d265c4451db91c311b35f9131a1e77754",
+   "date": "2026-10-04T00:44:52+02:00",
+   "subject": "BSD: add kernel axiom audit for realizable producer"
+  },
+  {
+   "commit": "39ad6a1fd2569433fcfff180c8944186b03dc082",
+   "date": "2026-10-04T00:44:44+02:00",
+   "subject": "BSD: avoid false positive in prekernel placeholder audit"
+  },
+  {
+   "commit": "86a525f1b8944e1184b25cbb7c15a0086d9bd368",
+   "date": "2026-10-04T00:44:04+02:00",
+   "subject": "BSD: document exact two-producer min-cut and certificate reuse"
+  },
+  {
+   "commit": "53a99718939e8c8197394e38596931b79726978f",
+   "date": "2026-10-04T00:44:02+02:00",
+   "subject": "BSD: add prekernel audit for realizable producer package"
+  },
+  {
+   "commit": "fc4d6c9a2882834fd9414a687870cf85992089cd",
+   "date": "2026-10-04T00:43:47+02:00",
+   "subject": "BSD: include realizable producer package in MCore build"
+  },
+  {
+   "commit": "9eb3619253aaede320f88a9986934bc1796895d3",
+   "date": "2026-10-04T00:43:40+02:00",
+   "subject": "BSD: split rank/refined producers and add exact terminal assembly"
+  },
+  {
+   "commit": "aa4487fa9d38a3e8dac22ee906b78fe590403495",
+   "date": "2026-10-04T00:43:21+02:00",
+   "subject": "BSD: add realizable producer and reuse K8-K14 rank chain"
+  },
+  {
+   "commit": "c1e7b245726c4c65f5f9f878acefb86460746f4a",
+   "date": "2026-09-21T11:05:18+01:00",
+   "subject": "atk: advance semantic gate past certified firewall"
+  },
+  {
+   "commit": "6fb0fe59d5fb86cbfc4b6089214862cad3861aab",
+   "date": "2026-09-21T11:03:16+01:00",
+   "subject": "atk: use project core for D01 firewall"
+  },
+  {
+   "commit": "c7793b4f8b1bbaaacf4c66f50836accbfb74f2cd",
+   "date": "2026-09-21T11:02:32+01:00",
+   "subject": "atk: add CI for atk-d01-universal-firewall"
+  },
+  {
+   "commit": "8c1602993364994ca07c508eadb2b16f82142779",
+   "date": "2026-09-21T11:02:17+01:00",
+   "subject": "atk: add D01 universal-endpoint firewall"
+  },
+  {
+   "commit": "01830831d830e45563ff98ddd5fda60312943ef7",
+   "date": "2026-09-21T10:33:06+01:00",
+   "subject": "atk: add fail-closed semantic promotion gate"
+  },
+  {
+   "commit": "dfa710de6a8646640db8b7010e3e00d439091d31",
+   "date": "2026-09-21T01:43:31+01:00",
+   "subject": "atk: reduce HARD sentinel to exact kernel lookup"
+  },
+  {
+   "commit": "c3c8387efd503c1806fe8bcefd9eafb37473b046",
+   "date": "2026-09-21T01:25:32+01:00",
+   "subject": "atk: build local dependency graph before HARD kernel check"
+  },
+  {
+   "commit": "8f8b4cbf334002459b5836b6b9f2ced4c396ac11",
+   "date": "2026-09-21T01:24:44+01:00",
+   "subject": "atk: enforce explicit fail-closed HARD gate"
+  },
+  {
+   "commit": "3be24cfe8635a17b95b4911471f55875f090bd87",
+   "date": "2026-09-21T01:17:45+01:00",
+   "subject": "atk: advance to fail-closed HARD TheoremKernel gate"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "P06.BSD.OpenMath.bsd_p1_residual",
+   "file": "open_math/P06_BSD_P1_Residual.lean",
+   "line": 14,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": Nonempty (RankOnResidual M S)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.bsd_p1_universal_rank",
+   "file": "open_math/P06_BSD_P1_P2.lean",
+   "line": 15,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": P06.BSD.BSDP1 M"
+  },
+  {
+   "name": "P06.BSD.OpenMath.bsd_p2_residual",
+   "file": "open_math/P06_BSD_P2_Residual.lean",
+   "line": 14,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": Nonempty (RefinedOnResidual M S)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.bsd_p2_universal_refined",
+   "file": "open_math/P06_BSD_P1_P2.lean",
+   "line": 19,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": P06.BSD.BSDP2 M"
+  },
+  {
+   "name": "P06.BSD.OpenMath.close_terminal_from_residuals",
+   "file": "lean/P06/BSD/OpenMath/ForcingKernel.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} (hRankKnown : Nonempty (RankOnSubdomain M S)) (hRefinedKnown : Nonempty (RefinedOnSubdomain M S)) (hP1 : FirstRealOpenMathP1 M S) (hP2 : FirstRealOpenMathP2 M S) : BSDTerminal M"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "347a8be44c83bf1e791eee474fe8f87803974566745bdb0a84fd1fb7387633d0",
+  "lakefile.toml": "e9b8ecdc3025d1b5c33b994ec8d8391e18c5ca02d6b4e2102fccb026b93d89f8",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BSD/CertificateFamilies.lean": "45d94746fae1aaadb59e6ff0f67b8e92e62efe294c355b35e030f71880ee2fff",
+  "lean/MCore/BSD/CertifiedPrefixReuse.lean": "40c63eaf63ee22f369bd31c1d2af13fb1c2229be21920e4a36a891da9ce6886a",
+  "lean/MCore/BSD/ConcreteDomain.lean": "fea6ac476560569749e6d1e719157cee10063a51b82d63423fb8319ad3750f82",
+  "lean/MCore/BSD/DomainCover.lean": "f5ed08b40169161e46acdeacd8ae6eb94a343a3bbf47c300e7cb9f095dbc1566",
+  "lean/MCore/BSD/RealizableProducer.lean": "feebc1c18cec92303034952df07f8555407ad9c9f1eea675b93c4965333958e9",
+  "lean/MCore/BSD/RefinedAlgebra.lean": "e07e5acff6572628c7a7786dfc3db2f724bc5f118760597746a1c3582cffa89d",
+  "lean/MCore/BSD/ResidualFrontier.lean": "bc7bd2b47fec2b7a53db8818bf3d54774d8f3bb75d09afc72fc5a216dc594044",
+  "lean/MCore/BSD/TerminalAssembly.lean": "d1e003abe20d399fc845c5d91a8544e9b9881f889c487863e912f4542aa20f8b",
+  "lean/MCore/BSD/TerminalKernel.lean": "628b53974aca8afebfbdbfcbd4ec3e812303e00f0d51ff344a4bd345e000bc64",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K14.lean": "ed01ddf91006fbc50791f6f86b03ee77f52385bb11cac98759aa9fa1ad776010",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9",
+  "lean/P06/BSD/ConcreteBSDProducer.lean": "79f653b6b1d0785599b0aff8a06f02a9581c3ac598ddce9a1af34018c86081ca",
+  "lean/P06/BSD/Frontier.lean": "3b0f24ce383ae0d83a2843e978b216f34d237065358b8aad930ccd268192d6d5",
+  "lean/P06/BSD/OpenMath/ForcingKernel.lean": "02f3947afde5b7ffa330a5eedf2eb13525758841d6a8ae7cb28be202185a9c06",
+  "lean/P06/BSD/Spec.lean": "f8b3d314d9a42485d6922a40a2de94841633b662e5d5e260066ad350b3511d13"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "baae1ab26a2ed1d387a7e63cff5ea9c12a1189d559501619e0fd9566fe63d65e"
+}

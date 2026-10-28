@@ -1,0 +1,7 @@
+b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-bsd/h2-archimedean-failclosed/lake-manifest.json
+c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae  branches/m-core-bsd/h2-archimedean-failclosed/lakefile.toml
+55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-bsd/h2-archimedean-failclosed/lean-toolchain
+c3a0f7386881b8c2a1d0c00b6ba5268c851951f73d78966da5dcd867d17056a2  branches/m-core-bsd/h2-archimedean-failclosed/lean/MCore/B6/Decomposition.lean
+26877d6ba5581412832e829de1d42d16fda138dc026c5070ed5931a6699bce33  branches/m-core-bsd/h2-archimedean-failclosed/lean/MCore/B6/Normalization.lean
+7343852b0c3e834122b58033810dec169805ff4c1c6df8dbcff541d28fa7981d  branches/m-core-bsd/h2-archimedean-failclosed/lean/MCore/B6/Status.lean
+00cefd280f2c0a0efaeeb7f710846be38b6f93f7195e9de17f196e7cc279f228  branches/m-core-bsd/h2-archimedean-failclosed/lean/MCore/S2/B6Conditional.lean

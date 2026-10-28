@@ -1,0 +1,328 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk/bsd-lowrank-material-bridge-20261007",
+ "branch_state": "parada",
+ "head_commit": "ead8bc557fab7cae347020b94c90c8ba055a9704",
+ "head_commit_date": "2026-10-07T19:06:31+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "ead8bc557fab7cae347020b94c90c8ba055a9704",
+   "date": "2026-10-07T19:06:31+02:00",
+   "subject": "Fix analytic rank material structure sort"
+  },
+  {
+   "commit": "b6b7d53be3ff426d1a3f1045dda635fc3b0420f7",
+   "date": "2026-10-07T15:47:01+02:00",
+   "subject": "BSD: fix material payload universe and real imports"
+  },
+  {
+   "commit": "125d1d128b90c5f85f35eb520ee8416230f02fe1",
+   "date": "2026-10-07T06:47:58+02:00",
+   "subject": "BSD: audit material promotion probe and bridge axioms"
+  },
+  {
+   "commit": "2c09e7df68b95f298c85e56ad2c1a23bd06cdade",
+   "date": "2026-10-07T06:47:46+02:00",
+   "subject": "BSD: add fail-closed material promotion audit"
+  },
+  {
+   "commit": "e86f2c8bda2ad947dc02de68797bb4fbb7e86f03",
+   "date": "2026-10-07T06:47:44+02:00",
+   "subject": "BSD: add canonical full material endpoint probe"
+  },
+  {
+   "commit": "818b10ea29bc1bc29dd61a2651d4f203ed674d65",
+   "date": "2026-10-07T06:47:25+02:00",
+   "subject": "BSD: include analytic material layer in canonical build"
+  },
+  {
+   "commit": "3a808657c7dafda9e9b6838227a6a8b4839250cf",
+   "date": "2026-10-07T06:47:20+02:00",
+   "subject": "BSD: bind material promotion to analytic vanishing order at one"
+  },
+  {
+   "commit": "7afbde28c5b28650a6fedfbbc5bdbd0dd0d8fe5a",
+   "date": "2026-10-07T06:47:03+02:00",
+   "subject": "BSD: include material promotion layer in canonical build"
+  },
+  {
+   "commit": "244b3de7348d71136e5c0f17f94cefe37b67a8ec",
+   "date": "2026-10-07T06:46:46+02:00",
+   "subject": "BSD: add fail-closed promoted-by-material payload and full endpoint structure"
+  },
+  {
+   "commit": "3a76a613fac0db2103257868619a1be80efc44ce",
+   "date": "2026-10-07T06:37:34+02:00",
+   "subject": "BSD: restore pinned mathlib manifest for concrete low-rank build"
+  },
+  {
+   "commit": "33c24dfae42db70b2bf17e90d2c27cb69ff97758",
+   "date": "2026-10-07T06:37:32+02:00",
+   "subject": "BSD: restore pinned mathlib dependency for concrete low-rank build"
+  },
+  {
+   "commit": "f1c4d0dbb5dc64b8e312091f39183bbf3e5840c1",
+   "date": "2026-10-07T06:24:51+02:00",
+   "subject": "BSD: include concrete low-rank elliptic-curve bridge"
+  },
+  {
+   "commit": "9e1e2e64b7f3a1604b0e1119de29e53f21533098",
+   "date": "2026-10-07T06:24:46+02:00",
+   "subject": "BSD: bind low-rank material bridge to genuine elliptic curves"
+  },
+  {
+   "commit": "d3b0e67f18c5d04b4a37a4db38c7fbc93f73dec4",
+   "date": "2026-10-07T06:21:08+02:00",
+   "subject": "BSD: include low-rank material endpoint bridge"
+  },
+  {
+   "commit": "d97593254a975b3aac7e02b93c68b1341a3ef9cf",
+   "date": "2026-10-07T06:21:00+02:00",
+   "subject": "BSD: connect low-rank material inhabitant to K12/K13 endpoint"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.BSDAnalyticMaterial.AnalyticLowRankMaterial.openCore",
+   "file": "lean/MCore/BSDAnalyticMaterial.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {E : MCore.BSDConcreteLowRank.EllipticCurveQ} {A : MCore.BSDAnalyticMaterial.EllipticCurveAnalyticData E},   MCore.BSDAnalyticMaterial.AnalyticLowRankMaterial E A →     MCore.BSDOpenCore (MCore.BSDConcreteLowRank.toBSDDatum E A.toRankData)"
+  },
+  {
+   "name": "MCore.BSDAnalyticMaterial.AnalyticLowRankMaterial.rank_eq_analyticOrder",
+   "file": "lean/MCore/BSDAnalyticMaterial.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {E : MCore.BSDConcreteLowRank.EllipticCurveQ} {A : MCore.BSDAnalyticMaterial.EllipticCurveAnalyticData E},   MCore.BSDAnalyticMaterial.AnalyticLowRankMaterial E A →     MCore.BSDAnalyticMaterial.analyticRankAtOne A.Lgerm = MCore.BSDConcreteLowRank.genuineMordellWeilRank E"
+  },
+  {
+   "name": "MCore.BSDAnalyticMaterial.BSDUniversalAnalyticRankMaterial.rank_equality",
+   "file": "lean/MCore/BSDAnalyticMaterial.lean",
+   "line": 123,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (P : MCore.BSDAnalyticMaterial.BSDUniversalAnalyticRankMaterial) (E : MCore.BSDConcreteLowRank.EllipticCurveQ),   MCore.BSDAnalyticMaterial.analyticRankAtOne (P.analyticData E).Lgerm =     MCore.BSDConcreteLowRank.genuineMordellWeilRank E"
+  },
+  {
+   "name": "MCore.BSDAnalyticMaterial.analyticRankAtOne_coe_order",
+   "file": "lean/MCore/BSDAnalyticMaterial.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.BSDAnalyticMaterial.FiniteAnalyticGermAtOne), ↑(MCore.BSDAnalyticMaterial.analyticRankAtOne D) = ⋯.order"
+  },
+  {
+   "name": "MCore.BSDAnalyticMaterial.analyticRankAtOne_eq_zero_iff",
+   "file": "lean/MCore/BSDAnalyticMaterial.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.BSDAnalyticMaterial.FiniteAnalyticGermAtOne), MCore.BSDAnalyticMaterial.analyticRankAtOne D = 0 ↔ D.L 1 ≠ 0"
+  },
+  {
+   "name": "MCore.BSDAnalyticMaterial.centralValue_eq_zero_of_analyticRank_pos",
+   "file": "lean/MCore/BSDAnalyticMaterial.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.BSDAnalyticMaterial.FiniteAnalyticGermAtOne), 0 < MCore.BSDAnalyticMaterial.analyticRankAtOne D → D.L 1 = 0"
+  },
+  {
+   "name": "MCore.BSDConcreteLowRank.ConcreteLowRankInhabitant.openCore",
+   "file": "lean/MCore/BSDConcreteLowRank.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {E : MCore.BSDConcreteLowRank.EllipticCurveQ} {A : MCore.BSDConcreteLowRank.AnalyticRankData E},   MCore.BSDConcreteLowRank.ConcreteLowRankInhabitant E A → MCore.BSDOpenCore (MCore.BSDConcreteLowRank.toBSDDatum E A)"
+  },
+  {
+   "name": "MCore.BSDConcreteLowRank.ConcreteLowRankInhabitant.rankPart",
+   "file": "lean/MCore/BSDConcreteLowRank.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {E : MCore.BSDConcreteLowRank.EllipticCurveQ} {A : MCore.BSDConcreteLowRank.AnalyticRankData E},   MCore.BSDConcreteLowRank.ConcreteLowRankInhabitant E A → MCore.BSDRankPart (MCore.BSDConcreteLowRank.toBSDDatum E A)"
+  },
+  {
+   "name": "MCore.BSDConcreteLowRank.ConcreteLowRankInhabitant.rank_eq_analyticOrder",
+   "file": "lean/MCore/BSDConcreteLowRank.lean",
+   "line": 100,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {E : MCore.BSDConcreteLowRank.EllipticCurveQ} {A : MCore.BSDConcreteLowRank.AnalyticRankData E},   MCore.BSDConcreteLowRank.ConcreteLowRankInhabitant E A →     A.analyticOrderAtOne = MCore.BSDConcreteLowRank.genuineMordellWeilRank E"
+  },
+  {
+   "name": "MCore.BSDLowRankInhabitant.openCore",
+   "file": "lean/MCore/BSDLowRankMaterial.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BSDArithmeticAnalyticData}, MCore.BSDLowRankInhabitant d → MCore.BSDOpenCore d"
+  },
+  {
+   "name": "MCore.BSDLowRankInhabitant.rankEquality",
+   "file": "lean/MCore/BSDLowRankMaterial.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BSDArithmeticAnalyticData}, MCore.BSDLowRankInhabitant d → MCore.BSDRankEquality d.toRankData"
+  },
+  {
+   "name": "MCore.BSDLowRankInhabitant.rankPart",
+   "file": "lean/MCore/BSDLowRankMaterial.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BSDArithmeticAnalyticData}, MCore.BSDLowRankInhabitant d → MCore.BSDRankPart d"
+  },
+  {
+   "name": "MCore.BSDMaterialEndpointProbe.promotedBSDMaterial_sound",
+   "file": "formal/BSDMaterialEndpointProbe.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : ProbeBSDStatement) : (∀ E, BSDOpenCore (universalRankDatum p.analyticOrderAtOne E)) ∧ (∀ E, p.shaFinite E) ∧ (∀ E, BSDRefinedIdentity (p.refinedData E))"
+  },
+  {
+   "name": "MCore.BSDMaterialPromotion.BSDFullMaterialPayload.rankPart",
+   "file": "lean/MCore/BSDMaterialPromotion.lean",
+   "line": 119,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (P : MCore.BSDMaterialPromotion.BSDFullMaterialPayload) (E : MCore.BSDConcreteLowRank.EllipticCurveQ),   MCore.BSDOpenCore (MCore.BSDMaterialPromotion.universalRankDatum P.analyticOrderAtOne E)"
+  },
+  {
+   "name": "MCore.BSDMaterialPromotion.BSDFullMaterialPayload.refined",
+   "file": "lean/MCore/BSDMaterialPromotion.lean",
+   "line": 131,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (P : MCore.BSDMaterialPromotion.BSDFullMaterialPayload) (E : MCore.BSDConcreteLowRank.EllipticCurveQ),   MCore.BSDMaterialPromotion.BSDRefinedIdentity (P.refinedData E)"
+  },
+  {
+   "name": "MCore.BSDMaterialPromotion.BSDFullMaterialPayload.sha_finite",
+   "file": "lean/MCore/BSDMaterialPromotion.lean",
+   "line": 125,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (P : MCore.BSDMaterialPromotion.BSDFullMaterialPayload) (E : MCore.BSDConcreteLowRank.EllipticCurveQ), P.shaFinite E"
+  },
+  {
+   "name": "MCore.BSDMaterialPromotion.BSDMaterialPromotionCertificate.sound",
+   "file": "lean/MCore/BSDMaterialPromotion.lean",
+   "line": 145,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (C : MCore.BSDMaterialPromotion.BSDMaterialPromotionCertificate),   (∀ (E : MCore.BSDConcreteLowRank.EllipticCurveQ),       MCore.BSDOpenCore (MCore.BSDMaterialPromotion.universalRankDatum C.payload.analyticOrderAtOne E)) ∧     (∀ (E : MCore.BSDConcreteLowRank.EllipticCurveQ), C.payload.shaFinite E) ∧       ∀ (E : MCore.BSDConcreteLowRank.EllipticCurveQ),         MCore.BSDMaterialPromotion.BSDRe"
+  },
+  {
+   "name": "MCore.BSDMaterialPromotion.BSDUniversalRankMaterial.openCore",
+   "file": "lean/MCore/BSDMaterialPromotion.lean",
+   "line": 86,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {analyticOrderAtOne : MCore.BSDConcreteLowRank.EllipticCurveQ → ℕ},   MCore.BSDMaterialPromotion.BSDUniversalRankMaterial analyticOrderAtOne →     ∀ (E : MCore.BSDConcreteLowRank.EllipticCurveQ),       MCore.BSDOpenCore (MCore.BSDMaterialPromotion.universalRankDatum analyticOrderAtOne E)"
+  },
+  {
+   "name": "MCore.BSDMaterialPromotion.BSDUniversalRankMaterial.rank_equality",
+   "file": "lean/MCore/BSDMaterialPromotion.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {analyticOrderAtOne : MCore.BSDConcreteLowRank.EllipticCurveQ → ℕ},   MCore.BSDMaterialPromotion.BSDUniversalRankMaterial analyticOrderAtOne →     ∀ (E : MCore.BSDConcreteLowRank.EllipticCurveQ),       analyticOrderAtOne E = MCore.BSDConcreteLowRank.genuineMordellWeilRank E"
+  },
+  {
+   "name": "MCore.BSDMaterialPromotion.lowRankPromotion_of_material",
+   "file": "lean/MCore/BSDMaterialPromotion.lean",
+   "line": 156,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {E : MCore.BSDConcreteLowRank.EllipticCurveQ} {A : MCore.BSDConcreteLowRank.AnalyticRankData E},   A.analyticOrderAtOne ≤ 1 →     (A.analyticOrderAtOne = 0 → MCore.BSDConcreteLowRank.genuineMordellWeilRank E = 0) →       (A.analyticOrderAtOne = 1 → MCore.BSDConcreteLowRank.genuineMordellWeilRank E = 1) →         MCore.BSDOpenCore (MCore.BSDConcreteLowRank.toBSDDatum E A)"
+  },
+  {
+   "name": "MCore.BSDMaterialPromotion.material_apriori_bound_BSD_lowRank",
+   "file": "lean/MCore/BSDMaterialPromotion.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {E : MCore.BSDConcreteLowRank.EllipticCurveQ} {A : MCore.BSDConcreteLowRank.AnalyticRankData E},   MCore.BSDMaterialPromotion.BSDLowRankMaterialEndpoint E A →     MCore.BSDOpenCore (MCore.BSDConcreteLowRank.toBSDDatum E A)"
+  },
+  {
+   "name": "MCore.BSDMaterialPromotion.rank_eq_analyticRank_lowRank",
+   "file": "lean/MCore/BSDMaterialPromotion.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {E : MCore.BSDConcreteLowRank.EllipticCurveQ} {A : MCore.BSDConcreteLowRank.AnalyticRankData E},   MCore.BSDMaterialPromotion.BSDLowRankMaterialEndpoint E A →     A.analyticOrderAtOne = MCore.BSDConcreteLowRank.genuineMordellWeilRank E"
+  },
+  {
+   "name": "MCore.bsdLowRank_bridge_preserves_universal_open_frontier",
+   "file": "lean/MCore/BSDLowRankMaterial.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k11_rank_core_node.status = MCore.SignatureStatus.openBridge ∧   MCore.k12_rank_part_node.status = MCore.SignatureStatus.openBridge ∧     MCore.k13_open_core_node.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.bsdLowRank_material_to_openCore",
+   "file": "lean/MCore/BSDLowRankMaterial.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BSDArithmeticAnalyticData),   d.analyticOrderAtOne ≤ 1 → MCore.BSDLowRankMaterialCertificate d → MCore.BSDOpenCore d"
+  },
+  {
+   "name": "MCore.bsdLowRank_material_to_rankPart",
+   "file": "lean/MCore/BSDLowRankMaterial.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BSDArithmeticAnalyticData),   d.analyticOrderAtOne ≤ 1 → MCore.BSDLowRankMaterialCertificate d → MCore.BSDRankPart d"
+  }
+ ],
+ "closed": 25,
+ "files_sha256": {
+  "formal/BSDMaterialEndpointProbe.lean": "0f45633b9430d26d87d06e981d37f0e3d397ac546ac38f8c495d39b65c373937",
+  "lake-manifest.json": "347a8be44c83bf1e791eee474fe8f87803974566745bdb0a84fd1fb7387633d0",
+  "lakefile.toml": "e9b8ecdc3025d1b5c33b994ec8d8391e18c5ca02d6b4e2102fccb026b93d89f8",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BSDAnalyticMaterial.lean": "071db35bb4c98d569449b6a44ee6097e954b4cbd216e71447197792a697e56fd",
+  "lean/MCore/BSDConcreteLowRank.lean": "0cfe8613ec2e514e95bb64491dad1132af21dfac7fbe753770a2bed7cc56565d",
+  "lean/MCore/BSDLowRankMaterial.lean": "e084c57c1a2cc997fceb8997224dfd0c6ff39d20c1338cb89e3d2bd0aadfb586",
+  "lean/MCore/BSDMaterialPromotion.lean": "ac44117a56d31c91b31298a993af2af4f65b67430c4a309586cb428816a54bea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "5404ed06bcc0fc064462fe4eac5228d84b873f1bf5d3d5353430b0549abead11"
+}

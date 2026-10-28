@@ -1,0 +1,383 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "h2-archimedean-failclosed",
+ "branch_state": "parada",
+ "head_commit": "46a604e4bcc253098a381da006b451d821e22ee5",
+ "head_commit_date": "2026-09-18T06:08:32+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "46a604e4bcc253098a381da006b451d821e22ee5",
+   "date": "2026-09-18T06:08:32+02:00",
+   "subject": "ci: install Lean toolchain before dense H2/H3 reproduction"
+  },
+  {
+   "commit": "3288418ad0bcb7f2e244d5a1fe50479e01efa0f2",
+   "date": "2026-09-18T04:17:50+02:00",
+   "subject": "h2: run fail-closed Python and Lean certificate checks"
+  },
+  {
+   "commit": "5bb0671f51273283600e9fdbbc000598c2106b6f",
+   "date": "2026-09-18T04:17:39+02:00",
+   "subject": "h2: add fail-closed tests"
+  },
+  {
+   "commit": "eaeec674327d449a5e4ddd0cd7162d10bc995263",
+   "date": "2026-09-18T04:17:37+02:00",
+   "subject": "h2: add fail-closed enclosure driver"
+  },
+  {
+   "commit": "0cbb24d8cb8d3e2e0afcf08e8cad51be1c40620b",
+   "date": "2026-09-18T04:17:35+02:00",
+   "subject": "h2: add heights Python package"
+  },
+  {
+   "commit": "ae7775a587282f0d3a975ac39981e89526e6f64d",
+   "date": "2026-09-18T04:17:24+02:00",
+   "subject": "h2: add Python package root"
+  },
+  {
+   "commit": "3463ef3aa3b2d21bb508fd25950ba3f16ee7b95d",
+   "date": "2026-09-18T04:17:22+02:00",
+   "subject": "h3: add conditional Gram determinant surface"
+  },
+  {
+   "commit": "a9aba1bb83759d166df5b904aa6b55944f768522",
+   "date": "2026-09-18T04:17:20+02:00",
+   "subject": "h2: add fail-closed certificate carrier"
+  },
+  {
+   "commit": "4f31202dbe77d5e263eed2acc8b29dd7dd1fa8c2",
+   "date": "2026-09-18T04:17:17+02:00",
+   "subject": "h2: formalize normalization and series obligations"
+  },
+  {
+   "commit": "9c8cff344e378d85cc3f5c030c0ebfa24e023891",
+   "date": "2026-09-18T02:15:45+02:00",
+   "subject": "height-cert: add reproducible GitHub Actions runner"
+  },
+  {
+   "commit": "4cd2544f21452327f461b4f38b1d0438a5e5101d",
+   "date": "2026-09-18T02:15:43+02:00",
+   "subject": "height-cert: add exact H1 finite-local certificate"
+  },
+  {
+   "commit": "02f1ab13c9e7eec2c698f8acf1d03ddc3f62cc8a",
+   "date": "2026-09-18T02:15:40+02:00",
+   "subject": "height-cert: add PARI Python dependencies"
+  },
+  {
+   "commit": "692b7979a73893d5820d96415575e53c1dd23c05",
+   "date": "2026-09-17T21:30:36+02:00",
+   "subject": "s2: formalize fail-closed conditional B6.3-B6.4 interfaces"
+  },
+  {
+   "commit": "e318a6881b20ae2fee5a21f28d54e2e6c7f0dc4b",
+   "date": "2026-09-17T21:23:19+02:00",
+   "subject": "s2: add B6.4 saturation-index negative control"
+  },
+  {
+   "commit": "ededddc77188664394f8e435b79ed19ebe1feba3",
+   "date": "2026-09-17T21:23:09+02:00",
+   "subject": "s2: add B6.3 rank-domain negative control"
+  },
+  {
+   "commit": "0a8ca7beaab4bac5203743fa0908c6641c6ca46d",
+   "date": "2026-09-17T21:22:58+02:00",
+   "subject": "s2: add fail-closed independent PARI rank2 control script"
+  },
+  {
+   "commit": "58d15d7bfc39c28799d421c28c9f41ef59d5298b",
+   "date": "2026-09-17T21:14:17+02:00",
+   "subject": "s2: add fail-closed theorem map for B6.3 and B6.4"
+  },
+  {
+   "commit": "8ce9573e82cb3b3a53ad624e84f689f467de91fd",
+   "date": "2026-09-17T21:14:03+02:00",
+   "subject": "s2: isolate exact B6.3 and B6.4 mathematical obligations"
+  },
+  {
+   "commit": "37d27fa1379f7baf9730f16d7fc77d71f07b7714",
+   "date": "2026-09-17T18:41:27+02:00",
+   "subject": "fix: synchronize B6 normalization with symbolic factorial carrier"
+  },
+  {
+   "commit": "eeeecf3ca062050d1e0e9c484e2247df076163b4",
+   "date": "2026-09-17T18:41:19+02:00",
+   "subject": "audit: preserve S1 702a1b60 mechanical failure"
+  },
+  {
+   "commit": "702a1b6023faa4ed2426de79904e17438fc3e6c6",
+   "date": "2026-09-17T18:33:06+02:00",
+   "subject": "fix: use integer carrier for B6 S1 mechanical normalization"
+  },
+  {
+   "commit": "90e9538f1a086c4f66020f40a210ee192e77edff",
+   "date": "2026-09-17T18:19:45+02:00",
+   "subject": "fix: type B6 rational normalization explicitly"
+  },
+  {
+   "commit": "7d8490568d5cdcbb26f334ef6a91be6acf5067fc",
+   "date": "2026-09-17T17:15:14+02:00",
+   "subject": "audit: record B6 S1 decomposition contract"
+  },
+  {
+   "commit": "f6ccebbc5e08f3cb145631c068ba4d1dae8d9749",
+   "date": "2026-09-17T17:15:01+02:00",
+   "subject": "CI: certify B6 S1 normalization without promotion"
+  },
+  {
+   "commit": "9974096494f26f14d6f08ef1f77e5f1eb0a11c69",
+   "date": "2026-09-17T17:14:42+02:00",
+   "subject": "KR2/B6: include S1 decomposition in MCore build"
+  },
+  {
+   "commit": "73465532a5ead818a710e1eaf4d321fd41cdd82b",
+   "date": "2026-09-17T17:14:35+02:00",
+   "subject": "KR2/B6: encode explicit non-promotion status"
+  },
+  {
+   "commit": "9ec94889cc36c42052f584c5175d54a7c384b17d",
+   "date": "2026-09-17T17:14:26+02:00",
+   "subject": "KR2/B6: formalize mechanical normalizations"
+  },
+  {
+   "commit": "b6413b123c85bab2e8b4556616bd6808af03f241",
+   "date": "2026-09-17T17:14:15+02:00",
+   "subject": "KR2/B6: add fail-closed decomposition types"
+  },
+  {
+   "commit": "83506c57c2e83249791957e72cca8f54e0fa2397",
+   "date": "2026-09-17T16:15:14+02:00",
+   "subject": "audit: test exact number-field derivative-two routes for B6"
+  },
+  {
+   "commit": "f7bbcdd1c0ea882aac81cdc999a48e2e23c5f834",
+   "date": "2026-09-17T16:08:46+02:00",
+   "subject": "audit: supersede B6 fail-fast state without losing route history"
+  },
+  {
+   "commit": "0873499d5ecc5bacc1bfd79e667cc3008adcdaea",
+   "date": "2026-09-17T16:08:22+02:00",
+   "subject": "audit: synchronize frontier with refined rank2 B6 blocker"
+  },
+  {
+   "commit": "8d80933c27791a9a984f886b2034b684cd8b3967",
+   "date": "2026-09-17T16:08:08+02:00",
+   "subject": "audit: reconcile dense rank2 state with refined B6 frontier"
+  },
+  {
+   "commit": "bc085d674ee38c0bb668680965f9fb9900030893",
+   "date": "2026-09-17T15:51:15+02:00",
+   "subject": "audit: prune false complex rank2 height routes and sharpen B6 blocker"
+  },
+  {
+   "commit": "3a5a9e26b577e518419bd6c94566ebd2998af939",
+   "date": "2026-09-17T15:46:50+02:00",
+   "subject": "audit: isolate B6 archimedean-p-adic fail-fast obstruction"
+  },
+  {
+   "commit": "cb5a354c83d1b559312d23c6128fdd6ba9ffbef1",
+   "date": "2026-09-17T14:37:28+02:00",
+   "subject": "audit: isolate theorem-backed rank2 p-adic and plectic evidence"
+  },
+  {
+   "commit": "7456e87dadd33c39a8b34b752ccd6a30ce9ae235",
+   "date": "2026-09-17T13:49:16+02:00",
+   "subject": "audit: classify current rank-2 cycle-height routes and isolate exact blocker"
+  },
+  {
+   "commit": "431112841094df41668232e16a7108b59ce24e1e",
+   "date": "2026-09-17T13:21:08+02:00",
+   "subject": "audit: add fail-closed cross-repository certified import protocol"
+  },
+  {
+   "commit": "ac6acbfefd1084845051c7cccff7453e440dee08",
+   "date": "2026-09-17T13:12:12+02:00",
+   "subject": "audit: compress rank2 research flow into three dense fail-closed gates"
+  },
+  {
+   "commit": "cf3893ae0fbfda54f8134d9b8c6fb3bf12e5f324",
+   "date": "2026-09-17T12:59:47+02:00",
+   "subject": "evidence: register rank-2 plectic and CM fastlane sources"
+  },
+  {
+   "commit": "fd202986f88823799b8907b4c4f35940293300a0",
+   "date": "2026-09-17T12:25:07+02:00",
+   "subject": "audit: isolate KR2.5 Z2 cycle-height bridge contract"
+  },
+  {
+   "commit": "dd04c79d7a65ac1c9c18d5d8aed8642d6dcf40af",
+   "date": "2026-09-17T10:55:36+02:00",
+   "subject": "audit: classify rank-2 cycle and height literature without overpromotion"
+  },
+  {
+   "commit": "5193c8e3adcfe4fe324a515104669eb78933be1a",
+   "date": "2026-09-17T10:52:14+02:00",
+   "subject": "audit: reverse engineer KR2.3 independent arithmetic invariants"
+  },
+  {
+   "commit": "8eebc5a6d3468f2a2b2687fb67dacbfde519f173",
+   "date": "2026-09-17T10:22:43+02:00",
+   "subject": "audit: reverse engineer KR2.2 analytic leading coefficient gate"
+  },
+  {
+   "commit": "b4681abcc4b636c1d7c4294c4e207f4cb3db135e",
+   "date": "2026-09-17T10:22:26+02:00",
+   "subject": "audit: codify global gap-reduction and stopping protocol"
+  },
+  {
+   "commit": "be0a7f294e4f56456e91811fa26455d9e0ad8ab7",
+   "date": "2026-09-17T09:48:36+02:00",
+   "subject": "audit: add KR2 normalization registry contract"
+  },
+  {
+   "commit": "4547b50d97185d3e8d6d9691afabb676e7cd5381",
+   "date": "2026-09-17T09:48:27+02:00",
+   "subject": "audit: restore and harden KR2 canonical specification"
+  },
+  {
+   "commit": "15986d903728a61b606802fb28310b9395c3a0bf",
+   "date": "2026-09-17T09:48:13+02:00",
+   "subject": "audit: harden KR2 canonical specification"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.B6.analyticLeading_def",
+   "file": "lean/MCore/B6/Normalization.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.B6.RankTwoData), MCore.B6.analyticLeading D = (D.LDerivTwoAtOne, 2)"
+  },
+  {
+   "name": "MCore.B6.b63_remains_open_math",
+   "file": "lean/MCore/B6/Status.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.B6.s1Status.b63 = MCore.B6.ScientificStatus.openMath"
+  },
+  {
+   "name": "MCore.B6.b64_remains_open_math",
+   "file": "lean/MCore/B6/Status.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.B6.s1Status.b64 = MCore.B6.ScientificStatus.openMath"
+  },
+  {
+   "name": "MCore.B6.b65_is_only_conditional",
+   "file": "lean/MCore/B6/Status.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.B6.s1Status.b65 = MCore.B6.ScientificStatus.conditional"
+  },
+  {
+   "name": "MCore.B6.b6_remains_open",
+   "file": "lean/MCore/B6/Status.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.B6.s1Status.b6 = MCore.B6.ScientificStatus.openBridge"
+  },
+  {
+   "name": "MCore.B6.bridgeComposition_is_conditional",
+   "file": "lean/MCore/B6/Normalization.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.B6.RankTwoData),   MCore.B6.DerivativeHeightBridge D → MCore.B6.HeightRegulatorBridge D → D.LDerivTwoAtOne = 2 * D.neronTateRegulator"
+  },
+  {
+   "name": "MCore.B6.conditionalAssembly",
+   "file": "lean/MCore/B6/Decomposition.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.B6.RankTwoData),   MCore.B6.DerivativeHeightBridge D → MCore.B6.HeightRegulatorBridge D → D.LDerivTwoAtOne = 2 * D.neronTateRegulator"
+  },
+  {
+   "name": "MCore.B6.rankTwo_typed",
+   "file": "lean/MCore/B6/Normalization.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.B6.RankTwoData), D.analyticRank = 2"
+  },
+  {
+   "name": "MCore.Heights.h2_certified_of_certificate",
+   "file": "lean/MCore/Heights/H2_Certificate.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : ArchimedeanSeriesData} (c : H2Certificate D) : H2_ARCHIMEDEAN_CERTIFIED c"
+  },
+  {
+   "name": "MCore.Heights.independent_of_positive_gram",
+   "file": "lean/MCore/Heights/H3_Regulator.lean",
+   "line": 8,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h1 h2 h12 : ℝ) (hD : 0 < gramDet h1 h2 h12) : 0 < gramDet h1 h2 h12"
+  },
+  {
+   "name": "MCore.Heights.term_bound_available",
+   "file": "lean/MCore/Heights/ArchimedeanSeries.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : ArchimedeanSeriesData) (i : ℕ) : |D.term i| ≤ D.C"
+  },
+  {
+   "name": "MCore.S2.b6_3_conditional",
+   "file": "lean/MCore/S2/B6Conditional.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : MCore.B6.RankTwoData) (h : B6_3_Statement D) : MCore.B6.DerivativeHeightBridge D"
+  },
+  {
+   "name": "MCore.S2.b6_4_conditional",
+   "file": "lean/MCore/S2/B6Conditional.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : MCore.B6.RankTwoData) (h : B6_4_Statement D) : MCore.B6.HeightRegulatorBridge D"
+  },
+  {
+   "name": "MCore.S2.b6_5_conditional",
+   "file": "lean/MCore/S2/B6Conditional.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : MCore.B6.RankTwoData) (h3 : B6_3_Statement D) (h4 : B6_4_Statement D) : D.LDerivTwoAtOne = (2 : Int) * D.neronTateRegulator"
+  }
+ ],
+ "closed": 11,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/B6/Decomposition.lean": "c3a0f7386881b8c2a1d0c00b6ba5268c851951f73d78966da5dcd867d17056a2",
+  "lean/MCore/B6/Normalization.lean": "26877d6ba5581412832e829de1d42d16fda138dc026c5070ed5931a6699bce33",
+  "lean/MCore/B6/Status.lean": "7343852b0c3e834122b58033810dec169805ff4c1c6df8dbcff541d28fa7981d",
+  "lean/MCore/S2/B6Conditional.lean": "00cefd280f2c0a0efaeeb7f710846be38b6f93f7195e9de17f196e7cc279f228"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "1e1daff107472afd43b7f4d65b3631293fe9983ee4cda8fd2accf9efdd8abb3e"
+}

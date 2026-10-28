@@ -1,0 +1,3135 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk/bsd-local-order-20261006",
+ "branch_state": "parada",
+ "head_commit": "54116374061e1671d1c5605bb4340467224cd699",
+ "head_commit_date": "2026-10-07T02:26:45+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "54116374061e1671d1c5605bb4340467224cd699",
+   "date": "2026-10-07T02:26:45+02:00",
+   "subject": "fix: make BSD open-to-closed binders explicit"
+  },
+  {
+   "commit": "a0a93207b7c7d0b8587425a5f9c8e48dd03f90ea",
+   "date": "2026-10-07T01:40:19+02:00",
+   "subject": "fix: make BSD terminal polarity operations explicit"
+  },
+  {
+   "commit": "a8633ad90fd28003a03bf5093651f2205f7f50ce",
+   "date": "2026-10-07T01:34:34+02:00",
+   "subject": "fix: type BSD terminal phase binders explicitly"
+  },
+  {
+   "commit": "c55742355f33132fa193879cb228772bf5427ae3",
+   "date": "2026-10-07T01:20:53+02:00",
+   "subject": "CI: compress BSD global external certificate to one canonical build"
+  },
+  {
+   "commit": "e990e890d5a33f4724d20d08aa35330e1387c54c",
+   "date": "2026-10-07T01:20:21+02:00",
+   "subject": "BSD: add canonical global external structural certificate"
+  },
+  {
+   "commit": "c49bc5b8e87d0eea92cee020bdb4ca2fa041f139",
+   "date": "2026-10-07T01:04:33+02:00",
+   "subject": "CI: cancel stale BSD unified builds automatically"
+  },
+  {
+   "commit": "f5e11409586e29e27a1b442f6098fee5bacb9b09",
+   "date": "2026-10-06T23:26:48+02:00",
+   "subject": "ci: retrigger unified BSD structural build"
+  },
+  {
+   "commit": "0603a7a4171a1405b249ed774e697dc8888bd70d",
+   "date": "2026-10-06T23:10:12+02:00",
+   "subject": "ci: trigger unified BSD structural build"
+  },
+  {
+   "commit": "ade8c2c1b875b8929a4aa4bc4ce4fb0bdb0fbd98",
+   "date": "2026-10-06T22:37:26+02:00",
+   "subject": "CI: unify BSD structural cube final-root closed-math and certificate"
+  },
+  {
+   "commit": "972e54ef48e66731cb551b1ffece1330f4ec5962",
+   "date": "2026-10-06T22:36:52+02:00",
+   "subject": "CI: route BSD local-order branch through unified build"
+  },
+  {
+   "commit": "0b20590588378631f422cf1531a8adb906d00fd3",
+   "date": "2026-10-06T22:36:45+02:00",
+   "subject": "CI: fold bsd-local-order-probe.yml into unified BSD build"
+  },
+  {
+   "commit": "16d8d99b6c56ab5a57957bcc49b68e904dcd3a1f",
+   "date": "2026-10-06T22:36:42+02:00",
+   "subject": "CI: fold bsd-closed-math.yml into unified BSD build"
+  },
+  {
+   "commit": "5cb6fd51bf9a4ee0d25d162b25a5082992797634",
+   "date": "2026-10-06T22:36:38+02:00",
+   "subject": "CI: fold bsd-final-root.yml into unified BSD build"
+  },
+  {
+   "commit": "3ab56653a475f522c39cbced26dde6c55213b469",
+   "date": "2026-10-06T22:36:35+02:00",
+   "subject": "CI: fold bsd-dual-endpoint-cube.yml into unified BSD build"
+  },
+  {
+   "commit": "066c3a808a1ce320a9c8d6dd503f5689a2544f8f",
+   "date": "2026-10-06T22:34:59+02:00",
+   "subject": "ci: trigger BSD dual endpoint cube run"
+  },
+  {
+   "commit": "f752b0898eea2b6e8a826dbe14bce93dca6da018",
+   "date": "2026-10-06T21:13:05+02:00",
+   "subject": "CI: build BSD dual endpoint cube"
+  },
+  {
+   "commit": "ace219a1e38ceb9ca6d6afc09b181c58592d98c8",
+   "date": "2026-10-06T21:12:54+02:00",
+   "subject": "BSD: formalize dual endpoint cube and material payload cut"
+  },
+  {
+   "commit": "10599eba429efb9e1391ddf4eaa89a09374a5eb5",
+   "date": "2026-10-06T19:56:26+02:00",
+   "subject": "CI: certify OPEN to CLOSED terminal transition"
+  },
+  {
+   "commit": "8da52c670c26187fdd3eb1d397cc4a9abb871db6",
+   "date": "2026-10-06T19:56:19+02:00",
+   "subject": "BSD: formalize OPEN tends to CLOSED terminal transition"
+  },
+  {
+   "commit": "75627081f35b97bd21e8d932351d8f79623f42c4",
+   "date": "2026-10-06T19:55:26+02:00",
+   "subject": "CI: certify OPEN CLOSED view separation"
+  },
+  {
+   "commit": "ce0c62646d4b91eac514eb0fe217c674eb76cb99",
+   "date": "2026-10-06T19:55:20+02:00",
+   "subject": "BSD: separate OPEN CLOSED views from shared endpoint payload"
+  },
+  {
+   "commit": "a3b4bdb11fb81ac721e7e1ffafe5cb1d9995c5e4",
+   "date": "2026-10-06T19:53:58+02:00",
+   "subject": "CI: certify OPEN CLOSED terminal duality"
+  },
+  {
+   "commit": "156d34526375a56b78016c40c6915e221c661fe6",
+   "date": "2026-10-06T19:53:49+02:00",
+   "subject": "BSD: formalize OPEN CLOSED terminal duality"
+  },
+  {
+   "commit": "7964aa55d58ef25729a15ce0b72251e54935c375",
+   "date": "2026-10-06T19:51:23+02:00",
+   "subject": "CI: certify terminal ratio normalization"
+  },
+  {
+   "commit": "597029ee1084dd0af133873b25059128a1f5ad67",
+   "date": "2026-10-06T19:50:20+02:00",
+   "subject": "BSD: formalize terminal 0-1 and 0-2 diagonal normalization"
+  },
+  {
+   "commit": "fb61633fa0e3adaa809cbbd17c75e7edfe59efc6",
+   "date": "2026-10-06T19:50:13+02:00",
+   "subject": "CI: certify terminal diagonal closure"
+  },
+  {
+   "commit": "161378a4fdfbadfad184db3d65bfd0e5c1282a3a",
+   "date": "2026-10-06T19:50:03+02:00",
+   "subject": "BSD: formalize 0-1 to 1-1 and 0-2 to 2-2 terminal closure"
+  },
+  {
+   "commit": "caba133e681218f9d2942aafd5c9a330b02bd499",
+   "date": "2026-10-06T19:47:06+02:00",
+   "subject": "CI: certify center stability terminal bit collapse"
+  },
+  {
+   "commit": "38a03e60093fe462be61c52b791036dcbbdba17b",
+   "date": "2026-10-06T19:46:58+02:00",
+   "subject": "BSD: formalize center stability and Boolean side collapse"
+  },
+  {
+   "commit": "82eebdfd53712578ac83d76a6a5d9a4f6bd26315",
+   "date": "2026-10-06T19:45:33+02:00",
+   "subject": "CI: certify closed 0-1-2 conjuncture signature"
+  },
+  {
+   "commit": "5878986c665ec32f176ae62f0a5c2d255d88b0c2",
+   "date": "2026-10-06T19:45:22+02:00",
+   "subject": "BSD: formalize closed 0-1-2 conjuncture signature"
+  },
+  {
+   "commit": "491e2bd3d6e2b4d431a7b8247c7357e6f5359328",
+   "date": "2026-10-06T19:42:02+02:00",
+   "subject": "CI: certify terminal signature cycle"
+  },
+  {
+   "commit": "7748395ad7cc198978de9e60237b58fc94a35cfe",
+   "date": "2026-10-06T19:41:50+02:00",
+   "subject": "BSD: formalize terminal Endpoint Gap Habitant Inhabitant cycle"
+  },
+  {
+   "commit": "da954938f8474f2b49924281d913f57b8be958e2",
+   "date": "2026-10-06T19:35:14+02:00",
+   "subject": "BSD: fix sign-flip guard kernel proof"
+  },
+  {
+   "commit": "afe8c72fa28023537a1e082b03d78dec90e26ce3",
+   "date": "2026-10-06T19:24:18+02:00",
+   "subject": "CI: persist CLOSED_MATH olean before dependent guards"
+  },
+  {
+   "commit": "48f3ee8e375a901014798e40eaa24e2dec5ee7cf",
+   "date": "2026-10-06T19:22:22+02:00",
+   "subject": "BSD: publish endpoint fixed-cycle certificate"
+  },
+  {
+   "commit": "2af68e398ac87c0d2f22b63d7264bb4beffa4030",
+   "date": "2026-10-06T19:20:24+02:00",
+   "subject": "CI: certify endpoint fixed-cycle signature"
+  },
+  {
+   "commit": "202cf5b8bd87648c74fa02f688630fec51fc3587",
+   "date": "2026-10-06T19:20:16+02:00",
+   "subject": "BSD: formalize FINAL_ROOT endpoint fixed-cycle signature"
+  },
+  {
+   "commit": "f5464b467d1439433166612790164e15b4bb675a",
+   "date": "2026-10-06T19:19:52+02:00",
+   "subject": "BSD: remove elaboration sorryAx from no-reentry certificate"
+  },
+  {
+   "commit": "09876017ddf66ea8cfd2333a494ef4308b4cd86a",
+   "date": "2026-10-06T19:15:32+02:00",
+   "subject": "CI: prebuild FINAL_ROOT before CLOSED_MATH master"
+  },
+  {
+   "commit": "0ef82622fd5b97a7b289049bc78ee7d0a88d196b",
+   "date": "2026-10-06T18:52:23+02:00",
+   "subject": "CI: include BSD sign-flip guard in CLOSED_MATH"
+  },
+  {
+   "commit": "313db1b8dcf67e6d65131af71ae1cf9673961781",
+   "date": "2026-10-06T18:52:03+02:00",
+   "subject": "BSD: formalize terminal sign-flip guard"
+  },
+  {
+   "commit": "b02c6c248ce549cb351c6c6339887c6813c2eeb0",
+   "date": "2026-10-06T18:46:01+02:00",
+   "subject": "BSD: add academic CLOSED_MATH certificate record"
+  },
+  {
+   "commit": "9d79d01f719c28b1aea37f140845e751fad5640c",
+   "date": "2026-10-06T18:45:32+02:00",
+   "subject": "CI: certify BSD CLOSED_MATH structural master"
+  },
+  {
+   "commit": "ea0a0c8eee71a175214f5c58e7ebd3ae43b33a9b",
+   "date": "2026-10-06T18:45:16+02:00",
+   "subject": "BSD: materialize CLOSED_MATH structural certificates"
+  },
+  {
+   "commit": "dbb4dded629bfc9c5a298a7f6e3294c3461736ee",
+   "date": "2026-10-06T18:43:50+02:00",
+   "subject": "BSD: add publication manifest for sealed FINAL_ROOT"
+  },
+  {
+   "commit": "af8340b819f04a79e942c650c7949b8bb49122d8",
+   "date": "2026-10-06T18:42:46+02:00",
+   "subject": "BSD: remove redundant noncomputable open-math alias"
+  },
+  {
+   "commit": "83ccc4a69a450b47c9292285c9485c3c904fc8dc",
+   "date": "2026-10-06T18:42:10+02:00",
+   "subject": "CI: certify BSD structural FINAL_ROOT"
+  },
+  {
+   "commit": "1597f03f5366bb4c45940425725b544f61960d55",
+   "date": "2026-10-06T18:41:52+02:00",
+   "subject": "BSD: close structural FINAL_ROOT to two scientific leaves"
+  },
+  {
+   "commit": "54428b97d024e392b6ee0727392dc827a9c74bd0",
+   "date": "2026-10-06T18:39:44+02:00",
+   "subject": "BSD: reference canonical realized Mordell-Weil rank"
+  },
+  {
+   "commit": "3eb4508b8c57aafbf1d8938b8b13c94e61735a2f",
+   "date": "2026-10-06T18:39:41+02:00",
+   "subject": "BSD: bind rank realization directly to MCore concrete domain"
+  },
+  {
+   "commit": "b2f666f46ee968531f299bf321c1798e992d602f",
+   "date": "2026-10-06T18:37:00+02:00",
+   "subject": "BSD: include realized rank and analytic order in P06 build graph"
+  },
+  {
+   "commit": "236268a18c3dabe2262a77e6cf19249d9ac7b041",
+   "date": "2026-10-06T18:36:58+02:00",
+   "subject": "BSD: remove rank-realization import cycle"
+  },
+  {
+   "commit": "6eec6429c14b21d0221c4ea1353b36218e1dfa59",
+   "date": "2026-10-06T18:36:31+02:00",
+   "subject": "BSD: make analytic frontier a library wrapper"
+  },
+  {
+   "commit": "3ad0ff0a8efb3ea1383291980ecb09bb854f8056",
+   "date": "2026-10-06T18:36:29+02:00",
+   "subject": "BSD: seal fast mincut against open_math imports"
+  },
+  {
+   "commit": "4d388f10bcc01e4f378868d885b4305bc4783783",
+   "date": "2026-10-06T18:36:05+02:00",
+   "subject": "BSD: promote genuine Mordell-Weil rank into library"
+  },
+  {
+   "commit": "b7b2540d9e16fe8a09a84c7fc3bd32c3c0ad973c",
+   "date": "2026-10-06T18:36:02+02:00",
+   "subject": "BSD: promote analytic order kernel into library"
+  },
+  {
+   "commit": "788d0db1d60a834a824af000b6d37eda4e313b57",
+   "date": "2026-10-06T18:28:02+02:00",
+   "subject": "BSD: minimize analytic-order kernel to required endpoint"
+  },
+  {
+   "commit": "04caef7bfd90f72c78eab301a736adef7968008a",
+   "date": "2026-10-06T18:09:19+02:00",
+   "subject": "BSD: import complex analytic instances for order-at-one probe"
+  },
+  {
+   "commit": "67d1d9e9f7dac85b7660c35bff804775e8c77aaf",
+   "date": "2026-10-06T18:09:01+02:00",
+   "subject": "fix(bsd probe): import full Mathlib analytic complex instances"
+  },
+  {
+   "commit": "263dcaa391f8382c63c46c615eb68c946bf6071f",
+   "date": "2026-10-06T16:51:55+02:00",
+   "subject": "BSD: import complex analytic instances for order probe"
+  },
+  {
+   "commit": "61613d5e3f1990fe40f7231f86f5969708e2a810",
+   "date": "2026-10-06T16:28:45+02:00",
+   "subject": "fix(bsd probe): import complex field instances explicitly"
+  },
+  {
+   "commit": "224d9b8367f669a04fa19e51ea3755a31aefeb11",
+   "date": "2026-10-06T16:27:15+02:00",
+   "subject": "CI: compile compressed BSD rank mincut"
+  },
+  {
+   "commit": "cec88af4f0395abba1fb271b9109756c49b3e586",
+   "date": "2026-10-06T16:26:55+02:00",
+   "subject": "BSD: compress realized rank part to one material equality"
+  },
+  {
+   "commit": "855d282cc9619122323b41e6a1f56a3bc5835dd0",
+   "date": "2026-10-06T16:22:26+02:00",
+   "subject": "CI: probe BSD analytic order at one"
+  },
+  {
+   "commit": "5a0ee2e31a9ac3dc3e630cc80d9e29a6581bf81d",
+   "date": "2026-10-06T16:22:23+02:00",
+   "subject": "BSD: materialize finite analytic order at s=1"
+  },
+  {
+   "commit": "f804ecb78e1ac86053489b0f1ab43a8cef42f043",
+   "date": "2026-10-04T20:32:11+02:00",
+   "subject": "P06 gate: reuse canonical rational point group"
+  },
+  {
+   "commit": "cc293b5103d8d7531bf0051eacc87587d389d577",
+   "date": "2026-10-04T20:28:39+02:00",
+   "subject": "P06 gate: prove quotient difference before doubling membership"
+  },
+  {
+   "commit": "4fe101e797884d82231c89b6915ef086056b73b4",
+   "date": "2026-10-04T20:24:17+02:00",
+   "subject": "P06 gate: construct doubling image membership directly"
+  },
+  {
+   "commit": "864e43dde1513f03d653d2a01f57e8215a97896a",
+   "date": "2026-10-04T20:20:39+02:00",
+   "subject": "P06 gate: normalize analytic shift contradiction"
+  },
+  {
+   "commit": "dc59d0c045a047979327cc0e43096e607566e51a",
+   "date": "2026-10-04T20:16:24+02:00",
+   "subject": "P06 gate: mark doubling image noncomputable"
+  },
+  {
+   "commit": "bf7430d19ba9bbfa21527c6372d178ee57d408f5",
+   "date": "2026-10-04T20:13:46+02:00",
+   "subject": "P06 gate: orient analytic shift contradiction"
+  },
+  {
+   "commit": "26caadfe5f48860e1ef42b74b7c60aac9d9e72f6",
+   "date": "2026-10-04T20:12:58+02:00",
+   "subject": "P06 gate: make analytic independence contradiction explicit"
+  },
+  {
+   "commit": "9ba98cd05e837bf35b0198ce9108f93cee33ad18",
+   "date": "2026-10-04T20:09:58+02:00",
+   "subject": "P06 gate: align Mordell-Weil realization with pinned API"
+  },
+  {
+   "commit": "51a6e22852b4d5d58b764733b4770c5849132754",
+   "date": "2026-10-04T20:09:13+02:00",
+   "subject": "P06 gate: remove unavailable torsion-finrank theorem from pin"
+  },
+  {
+   "commit": "9c5740e97ea0acebc999d80caa546e1af692d1d6",
+   "date": "2026-10-04T20:05:44+02:00",
+   "subject": "P06 gate: prove rank01 residual propositionally"
+  },
+  {
+   "commit": "5aea8cd6cffc2df3029fb89b162aafaf5a9e13bb",
+   "date": "2026-10-04T20:05:37+02:00",
+   "subject": "P06 gate: prove rank01 residual complement propositionally"
+  },
+  {
+   "commit": "e561f9a7e062f307afcadc51bcfc902d8910fa86",
+   "date": "2026-10-04T20:01:49+02:00",
+   "subject": "P06 gate: replace rank0 omega contradictions"
+  },
+  {
+   "commit": "b37ea8828ac2f9b6b940c5924dbfc8595ede2b20",
+   "date": "2026-10-04T19:58:55+02:00",
+   "subject": "P06 gate: inline refined torsion positivity obligation"
+  },
+  {
+   "commit": "701c41adc89f47f1bc02c8ad4d7a1dfd1c1565b8",
+   "date": "2026-10-04T19:58:03+02:00",
+   "subject": "P06 gate: use canonical residual torsion target"
+  },
+  {
+   "commit": "5687c4c1958a9f801591ed71f35c2b084ab33df9",
+   "date": "2026-10-04T19:55:24+02:00",
+   "subject": "P06 gate: make torsion realization pin-compatible"
+  },
+  {
+   "commit": "6be117db14aadc8efbfc5ff448497f827088c513",
+   "date": "2026-10-04T19:54:09+02:00",
+   "subject": "P06 gate: fix pinned torsion realization syntax"
+  },
+  {
+   "commit": "999fa5f1cf3892863fab7619f6cc24ffe359b669",
+   "date": "2026-10-04T19:51:38+02:00",
+   "subject": "P06 gate: fix P2 toy residual construction syntax"
+  },
+  {
+   "commit": "f3445da580a417496a3ed0df6a3b0a06f247153f",
+   "date": "2026-10-04T19:48:33+02:00",
+   "subject": "P06 gate: fix P2 toy residual proof block"
+  },
+  {
+   "commit": "e230f59c4aa2d4e9948bee6d233307ab904a52b1",
+   "date": "2026-10-04T19:47:54+02:00",
+   "subject": "P06 gate: compile open math as topological Lean modules"
+  },
+  {
+   "commit": "b174e3ebc082ad88ba218f2eec5183f5f7647d94",
+   "date": "2026-10-04T19:44:03+02:00",
+   "subject": "P06 gate: emit open math object files during kernel check"
+  },
+  {
+   "commit": "ca60c50d208c860872385db1f3ae3bc97c265f44",
+   "date": "2026-10-04T19:40:23+02:00",
+   "subject": "P06 gate: compile open math in dependency order"
+  },
+  {
+   "commit": "623387d4f439142479cbd62e893c691a9fde2eb5",
+   "date": "2026-10-04T19:35:41+02:00",
+   "subject": "P06 gate: add repository root to Lean import path"
+  },
+  {
+   "commit": "a032ff5982a39a009bfa0e6a39cec38677f0fb6b",
+   "date": "2026-10-04T19:32:32+02:00",
+   "subject": "P06 gate: compile open math from repository module root"
+  },
+  {
+   "commit": "ce4ea2aee708654766542785e98a89623b9d7042",
+   "date": "2026-10-04T19:29:16+02:00",
+   "subject": "P06 gate: remove unavailable pinned finite-generation claim"
+  },
+  {
+   "commit": "9c2e853a7dea9b2178ef22a0fcf398b741b1407f",
+   "date": "2026-10-04T19:29:02+02:00",
+   "subject": "P06 gate: stop weak Mordell-Weil at pinned finite-index boundary"
+  },
+  {
+   "commit": "ff81adf744898c3269ff030407a48c2b26b6ac20",
+   "date": "2026-10-04T19:29:00+02:00",
+   "subject": "P06 gate: use pinned elliptic curve group API"
+  },
+  {
+   "commit": "d87a629489438a021f8cdce5787480544e567cad",
+   "date": "2026-10-04T19:27:28+02:00",
+   "subject": "P06 gate: import frozen subdomain algebra explicitly"
+  },
+  {
+   "commit": "a08f88968604cea2fc183b8550f9a30279053125",
+   "date": "2026-10-04T19:23:30+02:00",
+   "subject": "P06 gate: compile and audit all open math sources"
+  },
+  {
+   "commit": "aefca8a36e0851abe56f3f8d42eb1fb0002d6574",
+   "date": "2026-10-04T18:18:26+02:00",
+   "subject": "P06: expose total material min-cut"
+  },
+  {
+   "commit": "cc2398c4f3060a2829e4fe11f68e0f20a0752c64",
+   "date": "2026-10-04T18:17:10+02:00",
+   "subject": "P06: expose analytic-order realization min-cut"
+  },
+  {
+   "commit": "52142bc458729d28e147c957e2032f04fe4d0acc",
+   "date": "2026-10-04T18:12:21+02:00",
+   "subject": "P06 weak Mordell-Weil: fix quotient representative orientation"
+  },
+  {
+   "commit": "e9ae3cd7647c1e6fefe5dcc648a4a6edebe38dc1",
+   "date": "2026-10-04T18:11:56+02:00",
+   "subject": "P06 rank0: force weak Mordell-Weil through finite representatives"
+  },
+  {
+   "commit": "652a599badd4a26e9209e7b686bf8be96d02948d",
+   "date": "2026-10-04T17:42:34+02:00",
+   "subject": "P06 open math: remove legacy placeholder inhabitant"
+  },
+  {
+   "commit": "467ce59e627f8727091602eda536512a7c95784b",
+   "date": "2026-10-04T17:42:31+02:00",
+   "subject": "P06 open math: remove legacy placeholder inhabitant"
+  },
+  {
+   "commit": "63d9d002bf51db0cddc3e4918ad38dfda45abb2f",
+   "date": "2026-10-04T17:42:29+02:00",
+   "subject": "P06 open math: remove legacy placeholder inhabitant"
+  },
+  {
+   "commit": "77d6286befedbf9b8ab4a67a8f38c9c750c04a0d",
+   "date": "2026-10-04T17:36:46+02:00",
+   "subject": "P06 rank0: force Mordell-Weil finite generation through doubling descent"
+  },
+  {
+   "commit": "4d8d59699c1a055e6d94aab522749e5e2c4ed499",
+   "date": "2026-10-04T17:34:48+02:00",
+   "subject": "P06 rank0: fix torsion finrank theorem namespace"
+  },
+  {
+   "commit": "8b42c9af8362541126a14edc7f8e11cd4648e674",
+   "date": "2026-10-04T17:34:20+02:00",
+   "subject": "P06 rank0: force Mordell-Weil rank from rational point group"
+  },
+  {
+   "commit": "6e0cb9b4991f2eeef6907e536a67361660106111",
+   "date": "2026-10-04T17:34:16+02:00",
+   "subject": "P06 OPEN_MATH: include rank01 higher-rank cut in forcing check"
+  },
+  {
+   "commit": "67813755d644e6a2188c3f1b953e1beb0b831400",
+   "date": "2026-10-04T17:34:05+02:00",
+   "subject": "P06 OPEN_MATH: make rank01 plus higher-rank theorem close universal P1"
+  },
+  {
+   "commit": "af9faa9abdbb931e440ce472727e4f1534c75b7b",
+   "date": "2026-10-04T17:33:42+02:00",
+   "subject": "P06 OPEN_MATH: isolate exact higher-rank residual after rank 0/1 mining"
+  },
+  {
+   "commit": "96b7f5bdabceefaa3190b4ce92594b6655a61670",
+   "date": "2026-10-04T17:32:04+02:00",
+   "subject": "P06 OPEN_MATH: include refined-field independence audit"
+  },
+  {
+   "commit": "74139b9a7960256ca582fb07c5eb9de0fa149f33",
+   "date": "2026-10-04T17:31:55+02:00",
+   "subject": "P06 OPEN_MATH: prove refined identity independent of positive torsion and rank data"
+  },
+  {
+   "commit": "dcd96cd42de4f739605108921c4ffd81d1515e4f",
+   "date": "2026-10-04T17:30:54+02:00",
+   "subject": "P06 OPEN_MATH: include torsion realization bridge in forcing check"
+  },
+  {
+   "commit": "dba208f3db0c51c71827ef299a378f2343ef22fc",
+   "date": "2026-10-04T17:30:32+02:00",
+   "subject": "P06 OPEN_MATH: isolate rational torsion finiteness and realization bridge"
+  },
+  {
+   "commit": "8cc7778c486e2907b07147abbcccac2655d50fba",
+   "date": "2026-10-04T17:26:45+02:00",
+   "subject": "P06 rank0: isolate Mordell-Weil rank realization min-cut"
+  },
+  {
+   "commit": "2c5483fe4141766ee858ab7a0c9e7d53db28c69a",
+   "date": "2026-10-04T16:11:03+02:00",
+   "subject": "P06 rank0: reduce material theorem to exact counterexample exclusion"
+  },
+  {
+   "commit": "bc117218c3b7013e16e62e1efa2f6c15a47f79f0",
+   "date": "2026-10-04T16:01:10+02:00",
+   "subject": "P06 rank0: make literal placeholder audit clean"
+  },
+  {
+   "commit": "e3c50220c72ec9dc112c11e21af3099e21423f3a",
+   "date": "2026-10-04T16:00:42+02:00",
+   "subject": "P06 rank0: remove false universal material attempt"
+  },
+  {
+   "commit": "7f2e882d51db1ed18fa4bb5ff203f829fbb12a7b",
+   "date": "2026-10-04T16:00:18+02:00",
+   "subject": "P06 OPEN_MATH: include obstruction kernel in local forcing check"
+  },
+  {
+   "commit": "aa42b665d3d821a7ccc9317be5e37d344ecc83de",
+   "date": "2026-10-04T16:00:08+02:00",
+   "subject": "P06 OPEN_MATH: isolate exact residual obstruction witnesses"
+  },
+  {
+   "commit": "d434bafb1afc736bf00b8dcc322021d8eee4e688",
+   "date": "2026-10-04T15:59:31+02:00",
+   "subject": "P06 OPEN_MATH: check nonuniformity and material target markers"
+  },
+  {
+   "commit": "f79a2ad978572b7daebfeb8b646c1432927a4a42",
+   "date": "2026-10-04T15:58:57+02:00",
+   "subject": "P06 OPEN_MATH: prove P2 nonuniformity and isolate model-realization gap"
+  },
+  {
+   "commit": "9c2bd1a944c2e86717cea65724434f579aeac88f",
+   "date": "2026-10-04T15:58:35+02:00",
+   "subject": "P06 OPEN_MATH: make P2 hole target-specific"
+  },
+  {
+   "commit": "3a023d8cc20792b22b4ae20955dcfc09999fd4ea",
+   "date": "2026-10-04T15:58:33+02:00",
+   "subject": "P06 OPEN_MATH: make P1 hole target-specific and prove nonuniformity"
+  },
+  {
+   "commit": "74a9064f4bcd1d753f2ceb7739ad6b3a8ec22629",
+   "date": "2026-10-04T15:57:26+02:00",
+   "subject": "P06 rank0: prove arbitrary model cannot force material theorem"
+  },
+  {
+   "commit": "2426ee43066a83f5d6b31071b3582d5594f847c3",
+   "date": "2026-10-04T14:26:43+02:00",
+   "subject": "P06 mining: isolate analytic rank-zero class"
+  },
+  {
+   "commit": "a2446ed4955b58ff8fb7341f5b17a22bd8b946f2",
+   "date": "2026-10-04T14:13:41+02:00",
+   "subject": "P06 mining: audit frozen known subdomains"
+  },
+  {
+   "commit": "03f6822301afaba7c23d6c4c21664f9b1c058396",
+   "date": "2026-10-04T14:07:05+02:00",
+   "subject": "P06 forcing: record residual mining obligations"
+  },
+  {
+   "commit": "5336987bfcd692e5de74852b177e4ac3bb01c2e4",
+   "date": "2026-10-04T13:53:39+02:00",
+   "subject": "P06 OPEN_MATH: prove torsion positivity is not structural"
+  },
+  {
+   "commit": "742a2b07b8c536d2d7ab58f93e83166466255bf5",
+   "date": "2026-10-04T13:53:37+02:00",
+   "subject": "P06 OPEN_MATH: add forcing aggregation checks"
+  },
+  {
+   "commit": "7879fdee39c269873e0dde8a735e56e6184c42a0",
+   "date": "2026-10-04T13:53:35+02:00",
+   "subject": "P06 OPEN_MATH: add local forcing checker"
+  },
+  {
+   "commit": "8f91eed3eaefbb4d17def2a982c21013cfb7b03a",
+   "date": "2026-10-04T13:39:13+02:00",
+   "subject": "P06 OPEN_MATH: isolate quotient-form P2 residual attack"
+  },
+  {
+   "commit": "9e62e7ae74e50f30fe44a530ef814b778da0f67b",
+   "date": "2026-10-04T13:39:11+02:00",
+   "subject": "P06 OPEN_MATH: isolate material P1 residual attack"
+  },
+  {
+   "commit": "1190fcfa47085974c9d57fefecbee32ab04f0a12",
+   "date": "2026-10-04T13:39:08+02:00",
+   "subject": "P06 OPEN_MATH: add forcing contracts from frozen kernel"
+  },
+  {
+   "commit": "a3edf6209a143db063939ada57869b41e49a708f",
+   "date": "2026-10-04T02:08:23+02:00",
+   "subject": "BSD: fix known-pair merge to logical conjunction"
+  },
+  {
+   "commit": "a37247c5354345313ba199c7217c43d2a908fbf8",
+   "date": "2026-10-04T01:55:22+02:00",
+   "subject": "P06 BSD: include partition-kernel equivalences in certified build"
+  },
+  {
+   "commit": "f23b86537d10b7b468756ece97b822911e00e0e2",
+   "date": "2026-10-04T01:55:17+02:00",
+   "subject": "P06 BSD: add partition certificates and exact terminal equivalence"
+  },
+  {
+   "commit": "0f5b3060ac5c648a2bd6884906593b9b82ea9937",
+   "date": "2026-10-04T01:54:39+02:00",
+   "subject": "BSD: include refined certificate algebra in certified build"
+  },
+  {
+   "commit": "6d1a25b98ce53885467ccaf6d55f787e64d66ed9",
+   "date": "2026-10-04T01:54:34+02:00",
+   "subject": "BSD: densify refined certificates via defect, side and quotient forms"
+  },
+  {
+   "commit": "7ceb2e4427b1533853c9abbf336e934fd29caa09",
+   "date": "2026-10-04T01:54:05+02:00",
+   "subject": "P06 BSD: include dense subdomain algebra and known expansion"
+  },
+  {
+   "commit": "91c4e357c8ce599d84d014a44ab7b92719e6c7a0",
+   "date": "2026-10-04T01:53:58+02:00",
+   "subject": "P06 BSD: add incremental known-class expansion laws"
+  },
+  {
+   "commit": "db7ccc998df67038cbcfb0ba92bd69b232242b4e",
+   "date": "2026-10-04T01:53:39+02:00",
+   "subject": "BSD: add subdomain algebra and monotone residual transport"
+  },
+  {
+   "commit": "ed53ce86830b41c4901a78b963547de698d05fe5",
+   "date": "2026-10-04T01:42:12+02:00",
+   "subject": "P06 BSD: extend firewall to residual open-math inhabitants"
+  },
+  {
+   "commit": "1618882f809150b55ef0aa2d45c441ad5ae2f7e8",
+   "date": "2026-10-04T01:42:03+02:00",
+   "subject": "P06 BSD: isolate residual P2 open mathematics"
+  },
+  {
+   "commit": "3bdded672c5494c7dec534cd5b989101be8fc8fb",
+   "date": "2026-10-04T01:42:01+02:00",
+   "subject": "P06 BSD: isolate residual P1 open mathematics"
+  },
+  {
+   "commit": "41799d9fae96473c21c963fabe3bdad8e502b1aa",
+   "date": "2026-10-04T01:38:51+02:00",
+   "subject": "P06 BSD: include exact residual frontier in certified build"
+  },
+  {
+   "commit": "b4537387b96c92108ad8aa5d7f59fe27575a56a3",
+   "date": "2026-10-04T01:38:43+02:00",
+   "subject": "P06 BSD: expose exact known/residual P1-P2 frontier"
+  },
+  {
+   "commit": "b44186b52dd2172e804d479ca577baf44fe2db5d",
+   "date": "2026-10-04T01:38:17+02:00",
+   "subject": "BSD: include residual frontier decomposition in certified build"
+  },
+  {
+   "commit": "189f8229850290f1b9cb382e32936e311be3c2cc",
+   "date": "2026-10-04T01:38:12+02:00",
+   "subject": "BSD: isolate exact residual frontiers for P1 and P2"
+  },
+  {
+   "commit": "ea610aaae6f114eab3a984b7fb5bfa0612f97015",
+   "date": "2026-10-04T01:37:49+02:00",
+   "subject": "P06 BSD: freeze kernel-green structural checkpoint"
+  },
+  {
+   "commit": "8f964fbb599f7371c0ffa2ab30e2219a0ab63d74",
+   "date": "2026-10-04T01:31:29+02:00",
+   "subject": "P06 BSD: enforce open-math isolation in certificate workflow"
+  },
+  {
+   "commit": "cbab0d8935734c2f8945f08d0b5810988e076038",
+   "date": "2026-10-04T01:31:18+02:00",
+   "subject": "P06 BSD: add open-math leakage firewall"
+  },
+  {
+   "commit": "3a4861dce7740929b6772587db4fae8ad72828e0",
+   "date": "2026-10-04T01:30:59+02:00",
+   "subject": "BSD: include refined algebra laws in certified build"
+  },
+  {
+   "commit": "af4c00f3c2b8bd5065a758c7f1b0f083775d6bfd",
+   "date": "2026-10-04T01:30:57+02:00",
+   "subject": "P06 BSD: import terminal kernel theorem used by specification"
+  },
+  {
+   "commit": "d4268610f187b20b6f934550dd4566c5a5b0b0f7",
+   "date": "2026-10-04T01:30:46+02:00",
+   "subject": "BSD: formalize refined identity operators, defect, quotient and positivity laws"
+  },
+  {
+   "commit": "69289f4e71285b042c5b46f04f4b34c04cb3cdfb",
+   "date": "2026-10-04T01:30:30+02:00",
+   "subject": "P06 BSD: register P06 Lean library"
+  },
+  {
+   "commit": "35f8c51f9c72532a8e74e135cb6e52bd4c5da113",
+   "date": "2026-10-04T01:26:38+02:00",
+   "subject": "P06 BSD: preserve Mathlib cache in clean reproduction"
+  },
+  {
+   "commit": "7c9c140f98bb522dd78d521e687a069c97044334",
+   "date": "2026-10-04T01:26:30+02:00",
+   "subject": "P06 BSD: include specification and concrete producer in certified build"
+  },
+  {
+   "commit": "87e33a953ddfe8cceb464c2f7f227873d9808f1b",
+   "date": "2026-10-04T01:26:24+02:00",
+   "subject": "P06 BSD: isolate P1/P2 open mathematics outside MCore"
+  },
+  {
+   "commit": "d36655979de7715fabf22f058374136b676ef081",
+   "date": "2026-10-04T01:26:22+02:00",
+   "subject": "P06 BSD: add no-sorry concrete producer assembly"
+  },
+  {
+   "commit": "9059b68e9e32b585e12f719ef3d38966c300c0f6",
+   "date": "2026-10-04T01:26:20+02:00",
+   "subject": "P06 BSD: add exact no-sorry terminal specification"
+  },
+  {
+   "commit": "a40f4fe17257a63e959ab7d259d9028cce08d057",
+   "date": "2026-10-04T01:00:31+02:00",
+   "subject": "BSD: import real-number API for refined identity"
+  },
+  {
+   "commit": "4144d05ce32f57239a4d1d8f25f1e35ffdf6d286",
+   "date": "2026-10-04T00:57:11+02:00",
+   "subject": "BSD: fix Lake manifest package-name parsing"
+  },
+  {
+   "commit": "118630753dbc09b7e9f26d9340797b622492c4b2",
+   "date": "2026-10-04T00:56:46+02:00",
+   "subject": "BSD: include terminal kernel endpoint in default build"
+  },
+  {
+   "commit": "a3b78a191818a4911a15db1d39853bcf46a3edb2",
+   "date": "2026-10-04T00:56:40+02:00",
+   "subject": "BSD: add exact terminal kernel endpoint and axiom audit"
+  },
+  {
+   "commit": "2e7973a8d6c72264abd60c14610e0b9f78710714",
+   "date": "2026-10-04T00:56:09+02:00",
+   "subject": "BSD: resolve and pin Mathlib v4.19.0 manifest"
+  },
+  {
+   "commit": "0c6a89777df90d8ac20dcd1645e5bceda1e87b7e",
+   "date": "2026-10-04T00:55:15+02:00",
+   "subject": "BSD: pin Mathlib v4.19.0 for genuine elliptic-curve domain"
+  },
+  {
+   "commit": "1d3b41e76ab36aa0ce637185db8650cde400146c",
+   "date": "2026-10-04T00:48:33+02:00",
+   "subject": "BSD: include exhaustive cover assembler in prekernel audit"
+  },
+  {
+   "commit": "e52b6145b57aff0a4e698ca7464019db99f01e93",
+   "date": "2026-10-04T00:48:27+02:00",
+   "subject": "BSD: include exhaustive domain-cover assembly in build"
+  },
+  {
+   "commit": "bebcd3fdef6b9a4f836c6ac20cb1953f22119b1d",
+   "date": "2026-10-04T00:48:22+02:00",
+   "subject": "BSD: add exhaustive domain-cover assembler for partial theorem reuse"
+  },
+  {
+   "commit": "579bc42767a8e16275fb2fe3ffd0581c7475a798",
+   "date": "2026-10-04T00:48:02+02:00",
+   "subject": "BSD: include certified-prefix reuse in prekernel audit"
+  },
+  {
+   "commit": "e602ae0afa34c60fd6f067aae759b89d8e7917ba",
+   "date": "2026-10-04T00:47:55+02:00",
+   "subject": "BSD: include certified prefix reuse in build"
+  },
+  {
+   "commit": "2741d8f675dfdbce2123de45ec9f51145433876d",
+   "date": "2026-10-04T00:47:50+02:00",
+   "subject": "BSD: reuse K0-K14 firewall and K11 external provenance explicitly"
+  },
+  {
+   "commit": "bb0f709eae6ceb9b748f72143c0faf1a7881d21d",
+   "date": "2026-10-04T00:47:17+02:00",
+   "subject": "BSD: extend prekernel audit to concrete domain and certificate families"
+  },
+  {
+   "commit": "aa0c08b2201e5b40b085c688b966a3b548d29e66",
+   "date": "2026-10-04T00:47:10+02:00",
+   "subject": "BSD: extend axiom audit through concrete certificate families"
+  },
+  {
+   "commit": "d411f95fc26b2a0f1547074f76af8ea6c217d7fd",
+   "date": "2026-10-04T00:47:00+02:00",
+   "subject": "BSD: include concrete domain and certificate families in build"
+  },
+  {
+   "commit": "7b38b889bf3224337965f4f081849b3c0a98d3c8",
+   "date": "2026-10-04T00:46:55+02:00",
+   "subject": "BSD: normalize certificate projection syntax before kernel run"
+  },
+  {
+   "commit": "1f418062bb2900f1de82c04f3dc62ce94b1d1c43",
+   "date": "2026-10-04T00:46:47+02:00",
+   "subject": "BSD: decompose rank and refined inhabitants into curvewise certificate families"
+  },
+  {
+   "commit": "f887e4aa1c3acd6a42f90dd188bd102491ed797d",
+   "date": "2026-10-04T00:46:31+02:00",
+   "subject": "BSD: bind terminal producer to genuine elliptic curves over Q"
+  },
+  {
+   "commit": "66dd72884be43999a6dc5bf8c2aff8f16305b29f",
+   "date": "2026-10-04T00:45:13+02:00",
+   "subject": "BSD: add realizable producer prekernel manifest"
+  },
+  {
+   "commit": "95fa0daa6c480e431f1295a0493391b768cca384",
+   "date": "2026-10-04T00:44:59+02:00",
+   "subject": "BSD: include producer axiom audit in prekernel check"
+  },
+  {
+   "commit": "aea7e89d265c4451db91c311b35f9131a1e77754",
+   "date": "2026-10-04T00:44:52+02:00",
+   "subject": "BSD: add kernel axiom audit for realizable producer"
+  },
+  {
+   "commit": "39ad6a1fd2569433fcfff180c8944186b03dc082",
+   "date": "2026-10-04T00:44:44+02:00",
+   "subject": "BSD: avoid false positive in prekernel placeholder audit"
+  },
+  {
+   "commit": "86a525f1b8944e1184b25cbb7c15a0086d9bd368",
+   "date": "2026-10-04T00:44:04+02:00",
+   "subject": "BSD: document exact two-producer min-cut and certificate reuse"
+  },
+  {
+   "commit": "53a99718939e8c8197394e38596931b79726978f",
+   "date": "2026-10-04T00:44:02+02:00",
+   "subject": "BSD: add prekernel audit for realizable producer package"
+  },
+  {
+   "commit": "fc4d6c9a2882834fd9414a687870cf85992089cd",
+   "date": "2026-10-04T00:43:47+02:00",
+   "subject": "BSD: include realizable producer package in MCore build"
+  },
+  {
+   "commit": "9eb3619253aaede320f88a9986934bc1796895d3",
+   "date": "2026-10-04T00:43:40+02:00",
+   "subject": "BSD: split rank/refined producers and add exact terminal assembly"
+  },
+  {
+   "commit": "aa4487fa9d38a3e8dac22ee906b78fe590403495",
+   "date": "2026-10-04T00:43:21+02:00",
+   "subject": "BSD: add realizable producer and reuse K8-K14 rank chain"
+  },
+  {
+   "commit": "c1e7b245726c4c65f5f9f878acefb86460746f4a",
+   "date": "2026-09-21T11:05:18+01:00",
+   "subject": "atk: advance semantic gate past certified firewall"
+  },
+  {
+   "commit": "6fb0fe59d5fb86cbfc4b6089214862cad3861aab",
+   "date": "2026-09-21T11:03:16+01:00",
+   "subject": "atk: use project core for D01 firewall"
+  },
+  {
+   "commit": "c7793b4f8b1bbaaacf4c66f50836accbfb74f2cd",
+   "date": "2026-09-21T11:02:32+01:00",
+   "subject": "atk: add CI for atk-d01-universal-firewall"
+  },
+  {
+   "commit": "8c1602993364994ca07c508eadb2b16f82142779",
+   "date": "2026-09-21T11:02:17+01:00",
+   "subject": "atk: add D01 universal-endpoint firewall"
+  },
+  {
+   "commit": "01830831d830e45563ff98ddd5fda60312943ef7",
+   "date": "2026-09-21T10:33:06+01:00",
+   "subject": "atk: add fail-closed semantic promotion gate"
+  },
+  {
+   "commit": "dfa710de6a8646640db8b7010e3e00d439091d31",
+   "date": "2026-09-21T01:43:31+01:00",
+   "subject": "atk: reduce HARD sentinel to exact kernel lookup"
+  },
+  {
+   "commit": "c3c8387efd503c1806fe8bcefd9eafb37473b046",
+   "date": "2026-09-21T01:25:32+01:00",
+   "subject": "atk: build local dependency graph before HARD kernel check"
+  },
+  {
+   "commit": "8f8b4cbf334002459b5836b6b9f2ced4c396ac11",
+   "date": "2026-09-21T01:24:44+01:00",
+   "subject": "atk: enforce explicit fail-closed HARD gate"
+  },
+  {
+   "commit": "3be24cfe8635a17b95b4911471f55875f090bd87",
+   "date": "2026-09-21T01:17:45+01:00",
+   "subject": "atk: advance to fail-closed HARD TheoremKernel gate"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.empty_le",
+   "file": "lean/MCore/BSD/SubdomainAlgebra.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S : MCore.BSD.CertifiedCurveSubdomain), MCore.BSD.CertifiedCurveSubdomain.empty ⊑ S"
+  },
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.inter_le_left",
+   "file": "lean/MCore/BSD/SubdomainAlgebra.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S T : MCore.BSD.CertifiedCurveSubdomain), S.inter T ⊑ S"
+  },
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.inter_le_right",
+   "file": "lean/MCore/BSD/SubdomainAlgebra.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S T : MCore.BSD.CertifiedCurveSubdomain), S.inter T ⊑ T"
+  },
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.le_refl",
+   "file": "lean/MCore/BSD/SubdomainAlgebra.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S : MCore.BSD.CertifiedCurveSubdomain), S ⊑ S"
+  },
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.le_trans",
+   "file": "lean/MCore/BSD/SubdomainAlgebra.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {S T U : MCore.BSD.CertifiedCurveSubdomain}, S ⊑ T → T ⊑ U → S ⊑ U"
+  },
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.le_union_left",
+   "file": "lean/MCore/BSD/SubdomainAlgebra.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S T : MCore.BSD.CertifiedCurveSubdomain), S ⊑ S.union T"
+  },
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.le_union_right",
+   "file": "lean/MCore/BSD/SubdomainAlgebra.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S T : MCore.BSD.CertifiedCurveSubdomain), T ⊑ S.union T"
+  },
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.le_univ",
+   "file": "lean/MCore/BSD/SubdomainAlgebra.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S : MCore.BSD.CertifiedCurveSubdomain), S ⊑ MCore.BSD.CertifiedCurveSubdomain.univ"
+  },
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.partition",
+   "file": "lean/MCore/BSD/ResidualFrontier.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S : MCore.BSD.CertifiedCurveSubdomain) (E : MCore.BSD.EllipticCurveQ), S.contains E ∨ S.residual E"
+  },
+  {
+   "name": "MCore.BSD.CertifiedCurveSubdomain.residual_antitone",
+   "file": "lean/MCore/BSD/SubdomainAlgebra.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {S T : MCore.BSD.CertifiedCurveSubdomain}, S ⊑ T → ∀ (E : MCore.BSD.EllipticCurveQ), T.residual E → S.residual E"
+  },
+  {
+   "name": "MCore.BSD.ConcreteBSDModel.every_curve_realizable",
+   "file": "lean/MCore/BSD/ConcreteDomain.lean",
+   "line": 73,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.BSD.ConcreteBSDModel) (E : MCore.BSD.EllipticCurveQ), M.toRealizableDomain.Realizable E"
+  },
+  {
+   "name": "MCore.BSD.RealizableBSDProducer.refined",
+   "file": "lean/MCore/BSD/RealizableProducer.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   MCore.BSD.RealizableBSDProducer D → ∀ (E : D.Curve), D.Realizable E → D.RefinedFormula E"
+  },
+  {
+   "name": "MCore.BSD.RealizableBSDProducer.toAnalyticToArithmetic",
+   "file": "lean/MCore/BSD/RealizableProducer.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   MCore.BSD.RealizableBSDProducer D →     ∀ (E : D.Curve), D.Realizable E → MCore.BSDAnalyticToArithmetic (D.toArithmeticAnalyticData E).toRankData"
+  },
+  {
+   "name": "MCore.BSD.RealizableBSDProducer.toArithmeticToAnalytic",
+   "file": "lean/MCore/BSD/RealizableProducer.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   MCore.BSD.RealizableBSDProducer D →     ∀ (E : D.Curve), D.Realizable E → MCore.BSDArithmeticToAnalytic (D.toArithmeticAnalyticData E).toRankData"
+  },
+  {
+   "name": "MCore.BSD.RealizableBSDProducer.toK13OpenCore",
+   "file": "lean/MCore/BSD/RealizableProducer.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   MCore.BSD.RealizableBSDProducer D → ∀ (E : D.Curve), D.Realizable E → MCore.BSDOpenCore (D.toArithmeticAnalyticData E)"
+  },
+  {
+   "name": "MCore.BSD.RealizableBSDProducer.toK8RankEquality",
+   "file": "lean/MCore/BSD/RealizableProducer.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   MCore.BSD.RealizableBSDProducer D →     ∀ (E : D.Curve), D.Realizable E → MCore.BSDRankEquality (D.toArithmeticAnalyticData E).toRankData"
+  },
+  {
+   "name": "MCore.BSD.RealizableBSDProducer.toRankTwoDirections",
+   "file": "lean/MCore/BSD/RealizableProducer.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   MCore.BSD.RealizableBSDProducer D →     ∀ (E : D.Curve), D.Realizable E → MCore.BSDRankTwoDirections (D.toArithmeticAnalyticData E).toRankData"
+  },
+  {
+   "name": "MCore.BSD.RealizableBSDRankProducer.toK10",
+   "file": "lean/MCore/BSD/TerminalAssembly.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   MCore.BSD.RealizableBSDRankProducer D →     ∀ (E : D.Curve), D.Realizable E → MCore.BSDRankTwoDirections (D.toArithmeticAnalyticData E).toRankData"
+  },
+  {
+   "name": "MCore.BSD.RealizableBSDRankProducer.toK12",
+   "file": "lean/MCore/BSD/TerminalAssembly.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   MCore.BSD.RealizableBSDRankProducer D →     ∀ (E : D.Curve), D.Realizable E → MCore.BSDRankPart (D.toArithmeticAnalyticData E)"
+  },
+  {
+   "name": "MCore.BSD.RealizableBSDRankProducer.toK8",
+   "file": "lean/MCore/BSD/TerminalAssembly.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   MCore.BSD.RealizableBSDRankProducer D →     ∀ (E : D.Curve), D.Realizable E → MCore.BSDRankEquality (D.toArithmeticAnalyticData E).toRankData"
+  },
+  {
+   "name": "MCore.BSD.RealizableEllipticCurveDomain.rankEquality_iff",
+   "file": "lean/MCore/BSD/RealizableProducer.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.BSD.RealizableEllipticCurveDomain) (E : D.Curve),   D.RankEquality E ↔ D.analyticOrderAtOne E = D.mordellWeilRank E"
+  },
+  {
+   "name": "MCore.BSD.RefinedBSDCurveCertificate.toIdentity",
+   "file": "lean/MCore/BSD/CertificateFamilies.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BSD.BSDRefinedData}, MCore.BSD.RefinedBSDCurveCertificate d → MCore.BSD.RefinedBSDIdentity d"
+  },
+  {
+   "name": "MCore.BSD.RefinedBSDEqualityCertificate.defect_eq_zero",
+   "file": "lean/MCore/BSD/RefinedCertificateAlgebra.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BSD.BSDRefinedData}, MCore.BSD.RefinedBSDEqualityCertificate d → MCore.BSD.refinedDefect d = 0"
+  },
+  {
+   "name": "MCore.BSD.RefinedBSDEqualityCertificate.quotient_eq",
+   "file": "lean/MCore/BSD/RefinedCertificateAlgebra.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BSD.BSDRefinedData},   MCore.BSD.RefinedBSDEqualityCertificate d →     0 < d.torsionOrder → d.leadingCoefficient = MCore.BSD.refinedRHS d / ↑d.torsionOrder ^ 2"
+  },
+  {
+   "name": "MCore.BSD.RefinedBSDEqualityCertificate.sides_eq",
+   "file": "lean/MCore/BSD/RefinedCertificateAlgebra.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BSD.BSDRefinedData},   MCore.BSD.RefinedBSDEqualityCertificate d → MCore.BSD.refinedLHS d = MCore.BSD.refinedRHS d"
+  },
+  {
+   "name": "MCore.BSD.analytic_continuation_provenance_reused",
+   "file": "lean/MCore/BSD/CertifiedPrefixReuse.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.bsdInputStatus MCore.BSDInput.analyticContinuation = MCore.BSDInputStatus.establishedExternal"
+  },
+  {
+   "name": "MCore.BSD.certificate_families_close_kernel",
+   "file": "lean/MCore/BSD/TerminalKernel.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.BSD.ConcreteBSDModel},   Nonempty (MCore.BSD.ConcreteRankCertificateFamily M) →     Nonempty (MCore.BSD.ConcreteRefinedCertificateFamily M) → Nonempty (MCore.BSD.ConcreteBSDProducer M)"
+  },
+  {
+   "name": "MCore.BSD.concrete_terminal_kernel_iff_atomic",
+   "file": "lean/MCore/BSD/TerminalKernel.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.BSD.ConcreteBSDModel},   Nonempty (MCore.BSD.ConcreteBSDProducer M) ↔     Nonempty (MCore.BSD.ConcreteBSDRankProducer M) ∧ Nonempty (MCore.BSD.ConcreteBSDRefinedProducer M)"
+  },
+  {
+   "name": "MCore.BSD.ellipticCurveQ_nonempty",
+   "file": "lean/MCore/BSD/ConcreteDomain.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty MCore.BSD.EllipticCurveQ"
+  },
+  {
+   "name": "MCore.BSD.exhaustive_cover_closes_kernel",
+   "file": "lean/MCore/BSD/TerminalKernel.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.BSD.ConcreteBSDModel} {C : MCore.BSD.CurveDomainCover},   Nonempty (MCore.BSD.PiecewiseRankProducer M C) →     Nonempty (MCore.BSD.PiecewiseRefinedProducer M C) → Nonempty (MCore.BSD.ConcreteBSDProducer M)"
+  },
+  {
+   "name": "MCore.BSD.exhaustive_cover_sufficient",
+   "file": "lean/MCore/BSD/DomainCover.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.BSD.ConcreteBSDModel} {C : MCore.BSD.CurveDomainCover},   Nonempty (MCore.BSD.PiecewiseRankProducer M C) →     Nonempty (MCore.BSD.PiecewiseRefinedProducer M C) → Nonempty (MCore.BSD.ConcreteBSDProducer M)"
+  },
+  {
+   "name": "MCore.BSD.functional_equation_provenance_reused",
+   "file": "lean/MCore/BSD/CertifiedPrefixReuse.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.bsdInputStatus MCore.BSDInput.functionalEquation = MCore.BSDInputStatus.establishedExternal"
+  },
+  {
+   "name": "MCore.BSD.genuine_curve_domain_reused",
+   "file": "lean/MCore/BSD/CertifiedPrefixReuse.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty MCore.BSD.EllipticCurveQ"
+  },
+  {
+   "name": "MCore.BSD.leadingCoefficient_positive_of_identity",
+   "file": "lean/MCore/BSD/RefinedAlgebra.lean",
+   "line": 76,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BSD.BSDRefinedData),   MCore.BSD.RefinedBSDIdentity d →     0 < d.torsionOrder →       0 < d.realPeriod → 0 < d.regulator → 0 < d.shaOrder → 0 < d.tamagawaProduct → 0 < d.leadingCoefficient"
+  },
+  {
+   "name": "MCore.BSD.modularity_provenance_reused",
+   "file": "lean/MCore/BSD/CertifiedPrefixReuse.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.bsdInputStatus MCore.BSDInput.modularity = MCore.BSDInputStatus.establishedExternal"
+  },
+  {
+   "name": "MCore.BSD.nonempty_combine",
+   "file": "lean/MCore/BSD/TerminalAssembly.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   Nonempty (MCore.BSD.RealizableBSDRankProducer D) →     Nonempty (MCore.BSD.RealizableBSDRefinedProducer D) → Nonempty (MCore.BSD.RealizableBSDProducer D)"
+  },
+  {
+   "name": "MCore.BSD.nonempty_producer_iff_rank_and_refined",
+   "file": "lean/MCore/BSD/TerminalAssembly.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   Nonempty (MCore.BSD.RealizableBSDProducer D) ↔     Nonempty (MCore.BSD.RealizableBSDRankProducer D) ∧ Nonempty (MCore.BSD.RealizableBSDRefinedProducer D)"
+  },
+  {
+   "name": "MCore.BSD.p1_iff_subdomain_and_residual",
+   "file": "lean/MCore/BSD/ResidualFrontier.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.BSD.ConcreteBSDModel} {S : MCore.BSD.CertifiedCurveSubdomain},   Nonempty (MCore.BSD.ConcreteBSDRankProducer M) ↔     Nonempty (MCore.BSD.RankOnSubdomain M S) ∧ Nonempty (MCore.BSD.RankOnResidual M S)"
+  },
+  {
+   "name": "MCore.BSD.p2_iff_subdomain_and_residual",
+   "file": "lean/MCore/BSD/ResidualFrontier.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.BSD.ConcreteBSDModel} {S : MCore.BSD.CertifiedCurveSubdomain},   Nonempty (MCore.BSD.ConcreteBSDRefinedProducer M) ↔     Nonempty (MCore.BSD.RefinedOnSubdomain M S) ∧ Nonempty (MCore.BSD.RefinedOnResidual M S)"
+  },
+  {
+   "name": "MCore.BSD.positiveControlCurve_delta",
+   "file": "lean/MCore/BSD/ConcreteDomain.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BSD.positiveControlCurve.Δ = 64"
+  },
+  {
+   "name": "MCore.BSD.producer_min_cut_kernel_statement",
+   "file": "lean/MCore/BSD/ProducerAudit.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : RealizableEllipticCurveDomain} : Nonempty (RealizableBSDProducer D) ↔ Nonempty (RealizableBSDRankProducer D) ∧ Nonempty (RealizableBSDRefinedProducer D)"
+  },
+  {
+   "name": "MCore.BSD.refinedIdentity_iff_defect_eq_zero",
+   "file": "lean/MCore/BSD/RefinedAlgebra.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BSD.BSDRefinedData), MCore.BSD.RefinedBSDIdentity d ↔ MCore.BSD.refinedDefect d = 0"
+  },
+  {
+   "name": "MCore.BSD.refinedIdentity_iff_lhs_eq_rhs",
+   "file": "lean/MCore/BSD/RefinedAlgebra.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BSD.BSDRefinedData), MCore.BSD.RefinedBSDIdentity d ↔ MCore.BSD.refinedLHS d = MCore.BSD.refinedRHS d"
+  },
+  {
+   "name": "MCore.BSD.refinedIdentity_iff_quotient",
+   "file": "lean/MCore/BSD/RefinedAlgebra.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BSD.BSDRefinedData),   0 < d.torsionOrder →     (MCore.BSD.RefinedBSDIdentity d ↔ d.leadingCoefficient = MCore.BSD.refinedRHS d / ↑d.torsionOrder ^ 2)"
+  },
+  {
+   "name": "MCore.BSD.refinedRHS_nonnegative",
+   "file": "lean/MCore/BSD/RefinedAlgebra.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BSD.BSDRefinedData), 0 ≤ d.realPeriod → 0 ≤ d.regulator → 0 ≤ MCore.BSD.refinedRHS d"
+  },
+  {
+   "name": "MCore.BSD.refinedRHS_positive",
+   "file": "lean/MCore/BSD/RefinedAlgebra.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BSD.BSDRefinedData),   0 < d.realPeriod → 0 < d.regulator → 0 < d.shaOrder → 0 < d.tamagawaProduct → 0 < MCore.BSD.refinedRHS d"
+  },
+  {
+   "name": "MCore.BSD.refined_defect_family_sufficient",
+   "file": "lean/MCore/BSD/RefinedCertificateAlgebra.lean",
+   "line": 99,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.BSD.ConcreteBSDModel},   Nonempty (MCore.BSD.ConcreteRefinedDefectFamily M) → Nonempty (MCore.BSD.ConcreteBSDRefinedProducer M)"
+  },
+  {
+   "name": "MCore.BSD.refined_family_sufficient",
+   "file": "lean/MCore/BSD/CertificateFamilies.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.BSD.ConcreteBSDModel},   Nonempty (MCore.BSD.ConcreteRefinedCertificateFamily M) → Nonempty (MCore.BSD.ConcreteBSDRefinedProducer M)"
+  },
+  {
+   "name": "MCore.BSD.remainingAtomicProducerCount_eq_two",
+   "file": "lean/MCore/BSD/TerminalAssembly.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BSD.remainingAtomicProducerCount = 2"
+  },
+  {
+   "name": "MCore.BSD.reusable_prefix_does_not_change_min_cut",
+   "file": "lean/MCore/BSD/CertifiedPrefixReuse.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   Nonempty (MCore.BSD.RealizableBSDProducer D) ↔     Nonempty (MCore.BSD.RealizableBSDRankProducer D) ∧ Nonempty (MCore.BSD.RealizableBSDRefinedProducer D)"
+  },
+  {
+   "name": "MCore.BSD.terminal_kernel_iff_atomic",
+   "file": "lean/MCore/BSD/TerminalKernel.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.BSD.RealizableEllipticCurveDomain},   Nonempty (MCore.BSD.RealizableBSDProducer D) ↔     Nonempty (MCore.BSD.RealizableBSDRankProducer D) ∧ Nonempty (MCore.BSD.RealizableBSDRefinedProducer D)"
+  },
+  {
+   "name": "MCore.BSD.torsion_ne_zero_of_positive",
+   "file": "lean/MCore/BSD/RefinedAlgebra.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BSD.BSDRefinedData}, 0 < d.torsionOrder → ↑d.torsionOrder ≠ 0"
+  },
+  {
+   "name": "MCore.BSD.torsion_sq_ne_zero_of_positive",
+   "file": "lean/MCore/BSD/RefinedAlgebra.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BSD.BSDRefinedData}, 0 < d.torsionOrder → ↑d.torsionOrder ^ 2 ≠ 0"
+  },
+  {
+   "name": "MCore.BSDUniversalFirewall.finite_sample_does_not_force_universal",
+   "file": "lean/MCore/BackwardAudit/D01UniversalFirewall.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ ((∀ x ∈ ([false] : List Bool), Formula x) → (∀ x : Bool, Formula x))"
+  },
+  {
+   "name": "MCore.BSDUniversalFirewall.sampled_case_passes",
+   "file": "lean/MCore/BackwardAudit/D01UniversalFirewall.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ x ∈ ([false] : List Bool), Formula x"
+  },
+  {
+   "name": "MCore.BSDUniversalFirewall.universal_formula_fails",
+   "file": "lean/MCore/BackwardAudit/D01UniversalFirewall.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ ∀ x : Bool, Formula x"
+  },
+  {
+   "name": "P06.BSD.BSDCubeUpToThree_count",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 88,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": BSDCubeUpToThree.length = 14"
+  },
+  {
+   "name": "P06.BSD.CLOSED_CLOSED_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 54,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": CLOSED_CLOSED_BSD = [.closed, .closed]"
+  },
+  {
+   "name": "P06.BSD.CLOSED_CLOSED_CLOSED_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 60,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": CLOSED_CLOSED_CLOSED_BSD = [.closed, .closed, .closed]"
+  },
+  {
+   "name": "P06.BSD.CLOSED_CLOSED_OPEN_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 78,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": CLOSED_CLOSED_OPEN_BSD = [.closed, .closed, .open]"
+  },
+  {
+   "name": "P06.BSD.CLOSED_OPEN_CLOSED_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 75,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": CLOSED_OPEN_CLOSED_BSD = [.closed, .open, .closed]"
+  },
+  {
+   "name": "P06.BSD.CLOSED_OPEN_OPEN_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 69,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": CLOSED_OPEN_OPEN_BSD = [.closed, .open, .open]"
+  },
+  {
+   "name": "P06.BSD.FULL_BSD_eq_GLOBAL_EXTERNAL_CERTIFICATE",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 145,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : FULL_BSD_State G refined ↔ GLOBAL_EXTERNAL_CERTIFICATE_BSD G refined"
+  },
+  {
+   "name": "P06.BSD.OPEN_BSD_ne_CLOSED_BSD",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 43,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OPEN_BSD ≠ CLOSED_BSD"
+  },
+  {
+   "name": "P06.BSD.OPEN_CLOSED_BSD_ne_CLOSED_OPEN_BSD",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 47,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OPEN_CLOSED_BSD ≠ CLOSED_OPEN_BSD"
+  },
+  {
+   "name": "P06.BSD.OPEN_CLOSED_CLOSED_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 72,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OPEN_CLOSED_CLOSED_BSD = [.open, .closed, .closed]"
+  },
+  {
+   "name": "P06.BSD.OPEN_CLOSED_OPEN_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 66,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OPEN_CLOSED_OPEN_BSD = [.open, .closed, .open]"
+  },
+  {
+   "name": "P06.BSD.OPEN_OPEN_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 51,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OPEN_OPEN_BSD = [.open, .open]"
+  },
+  {
+   "name": "P06.BSD.OPEN_OPEN_CLOSED_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 63,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OPEN_OPEN_CLOSED_BSD = [.open, .open, .closed]"
+  },
+  {
+   "name": "P06.BSD.OPEN_OPEN_OPEN_BSD_defined",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 57,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OPEN_OPEN_OPEN_BSD = [.open, .open, .open]"
+  },
+  {
+   "name": "P06.BSD.OpenMath.analyticShiftModel_not_P1",
+   "file": "open_math/P06_AnalyticField_Independence.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) : ¬ P06.BSD.BSDP1 (analyticShiftModel M)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.analytic_field_independence",
+   "file": "open_math/P06_AnalyticField_Independence.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) : ∃ M' : ConcreteBSDModel, (∀ E, M'.mordellWeilRank E = M.mordellWeilRank E) ∧ (∀ E, M'.refinedData E = M.refinedData E) ∧ ¬ P06.BSD.BSDP1 M'"
+  },
+  {
+   "name": "P06.BSD.OpenMath.bsd_p1_from_known_and_residual",
+   "file": "open_math/P06_BSD_P1_Residual.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hKnown : Nonempty (RankOnSubdomain M S)) (hResidual : BSDP1ResidualOpenMath M S) : BSDP1 M"
+  },
+  {
+   "name": "P06.BSD.OpenMath.bsd_p2_from_known_and_residual",
+   "file": "open_math/P06_BSD_P2_Residual.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hKnown : Nonempty (RefinedOnSubdomain M S)) (hResidual : BSDP2ResidualOpenMath M S) : BSDP2 M"
+  },
+  {
+   "name": "P06.BSD.OpenMath.bsd_terminal_from_open_math",
+   "file": "open_math/P06_BSD_P1_P2.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hP1 : BSDP1OpenMath M) (hP2 : BSDP2OpenMath M) : P06.BSD.BSDTerminal M"
+  },
+  {
+   "name": "P06.BSD.OpenMath.doublingFiniteIndex_of_representatives",
+   "file": "open_math/P06_WeakMordellWeil_Producer.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{E : EllipticCurveQ} (R : DoublingRepresentativeSystem E) : MordellWeilDoublingFiniteIndex E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.doublingRepresentativeQuotientMap_surjective",
+   "file": "open_math/P06_WeakMordellWeil_Producer.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{E : EllipticCurveQ} (R : DoublingRepresentativeSystem E) : Function.Surjective (doublingRepresentativeQuotientMap R)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.finite_doublingQuotient_of_representatives",
+   "file": "open_math/P06_WeakMordellWeil_Producer.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{E : EllipticCurveQ} (R : DoublingRepresentativeSystem E) : Finite (RationalPointGroup E ⧸ DoublingImage E)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.frozenEmptySeed_rank_residual_is_universal",
+   "file": "open_math/P06_KNOWN_Mining.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(E : EllipticCurveQ) : FrozenKnownSeed.residual E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.frozenEmptySeed_refined_residual_is_universal",
+   "file": "open_math/P06_KNOWN_Mining.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(E : EllipticCurveQ) : FrozenKnownSeed.residual E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.ge_two_implies_rank01_residual",
+   "file": "open_math/P06_Rank01_HigherRankCut.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} (h : 2 ≤ M.analyticOrderAtOne E) : (Rank01Subdomain M).residual E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.genuineP1Material_iff_BSDP1",
+   "file": "open_math/P06_Total_Material_Mincut.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) : GenuineP1Material analytic ↔ P06.BSD.BSDP1 (mordellWeilRealizedModel analytic refined)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.genuineP1Material_iff_rank0_rank1_higher",
+   "file": "open_math/P06_Total_Material_Mincut.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(analytic : EllipticCurveQ → Nat) : GenuineP1Material analytic ↔ (∀ E, analytic E = 0 → genuineMordellWeilRank E = 0) ∧ (∀ E, analytic E = 1 → genuineMordellWeilRank E = 1) ∧ (∀ E, 2 ≤ analytic E → analytic E = genuineMordellWeilRank E)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.genuineP2Material_iff_BSDP2",
+   "file": "open_math/P06_Total_Material_Mincut.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) : GenuineP2Material refined ↔ P06.BSD.BSDP2 (mordellWeilRealizedModel analytic refined)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.genuineP2Material_of_torsion_and_quotient",
+   "file": "open_math/P06_Total_Material_Mincut.lean",
+   "line": 108,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{refined : EllipticCurveQ → BSDRefinedData} (hTor : ∀ E, 0 < (refined E).torsionOrder) (hQuot : ∀ E, (refined E).leadingCoefficient = MCore.BSD.refinedRHS (refined E) / ((refined E).torsionOrder : ℝ)^2) : GenuineP2Material refined"
+  },
+  {
+   "name": "P06.BSD.OpenMath.genuine_rank0_material_iff",
+   "file": "open_math/P06_MordellWeil_Realization.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) : GenuineRank0Material analytic ↔ Rank0ArithmeticMaterial (mordellWeilRealizedModel analytic refined)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.higher_rank_of_p1_rank01_residual",
+   "file": "open_math/P06_Rank01_HigherRankCut.lean",
+   "line": 99,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} (hP1 : BSD_P1_Producer M (Rank01Subdomain M)) : HigherRankResidualP1 M"
+  },
+  {
+   "name": "P06.BSD.OpenMath.mordellWeilRealizedModel_analytic",
+   "file": "open_math/P06_MordellWeil_Realization.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (mordellWeilRealizedModel analytic refined).analyticOrderAtOne E = analytic E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.mordellWeilRealizedModel_rank",
+   "file": "open_math/P06_MordellWeil_Realization.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (mordellWeilRealizedModel analytic refined).mordellWeilRank E = genuineMordellWeilRank E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.mordellWeilRealizedModel_refined",
+   "file": "open_math/P06_MordellWeil_Realization.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (mordellWeilRealizedModel analytic refined).refinedData E = refined E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.no_uniform_P1",
+   "file": "open_math/P1_ATTACK.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (∀ M : ConcreteBSDModel, ∀ S : CertifiedCurveSubdomain, P1MaterialTarget M S)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.no_uniform_P2",
+   "file": "open_math/P2_TORSION_ATTACK.lean",
+   "line": 65,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (∀ M : ConcreteBSDModel, ∀ S : CertifiedCurveSubdomain, P2MaterialTarget M S)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.no_universal_rank0_material",
+   "file": "open_math/P06_Rank0_FrontierAudit.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (∀ M : ConcreteBSDModel, Rank0ArithmeticMaterial M)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.not_material_produces_rank0_counterexample",
+   "file": "open_math/P06_Rank0_Exclusion.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} (h : ¬ Rank0ArithmeticMaterial M) : Nonempty (Rank0Counterexample M)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p1_material_obligation_iff_producer",
+   "file": "open_math/P06_MiningStatus.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} : P1RankResidualObligation M S ↔ BSD_P1_Producer M S"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p1_obstruction_of_residual_rank_mismatch",
+   "file": "open_math/ObstructionKernel.lean",
+   "line": 5,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} {E : EllipticCurveQ} (hResidual : S.residual E) (hMismatch : M.analyticOrderAtOne E ≠ M.mordellWeilRank E) : ¬ P1MaterialTarget M S"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p1_of_rank01_and_higher_rank",
+   "file": "open_math/P06_Rank01_HigherRankCut.lean",
+   "line": 79,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} (h0 : Rank0ArithmeticMaterial M) (h1 : Rank1ArithmeticMaterial M) (hHigher : HigherRankResidualP1 M) : P06.BSD.BSDP1 M"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p1_producer_forces_no_residual_mismatch",
+   "file": "open_math/ObstructionKernel.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} (hP1 : P1MaterialTarget M S) : ∀ E : EllipticCurveQ, S.residual E → M.analyticOrderAtOne E = M.mordellWeilRank E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p1_toy_all_residual",
+   "file": "open_math/P1_ATTACK.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(E : EllipticCurveQ) : p1ToySubdomain.residual E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p1_toy_good_residual",
+   "file": "open_math/P1_ATTACK.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": P1MaterialTarget p1ToyGoodModel p1ToySubdomain"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p1_toy_no_residual",
+   "file": "open_math/P1_ATTACK.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ BSD_P1_Producer p1ToyModel p1ToySubdomain"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p2_material_obligations_suffice",
+   "file": "open_math/P06_MiningStatus.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} (hTor : P2TorsionPositiveObligation M S) (hQuot : P2QuotientIdentityObligation M S) : BSD_P2_Producer M S"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p2_obstruction_of_residual_defect_ne_zero",
+   "file": "open_math/ObstructionKernel.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} {E : EllipticCurveQ} (hResidual : S.residual E) (hDefect : MCore.BSD.refinedDefect (M.refinedData E) ≠ 0) : ¬ P2MaterialTarget M S"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p2_obstruction_of_residual_quotient_mismatch",
+   "file": "open_math/ObstructionKernel.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} {E : EllipticCurveQ} (hResidual : S.residual E) (hTor : 0 < (M.refinedData E).torsionOrder) (hMismatch : (M.refinedData E).leadingCoefficient ≠ MCore.BSD.refinedRHS (M.refinedData E) / ((M.refinedData E).torsionOrder : ℝ)^2) : ¬ P2MaterialTarget M S"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p2_producer_forces_residual_defect_zero",
+   "file": "open_math/ObstructionKernel.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} (hP2 : P2MaterialTarget M S) : ∀ E : EllipticCurveQ, S.residual E → MCore.BSD.refinedDefect (M.refinedData E) = 0"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p2_torsion_toy_all_residual",
+   "file": "open_math/P2_TORSION_ATTACK.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(E : EllipticCurveQ) : p2TorsionToySubdomain.residual E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p2_toy_good_residual",
+   "file": "open_math/P2_TORSION_ATTACK.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": P2MaterialTarget p2ToyGoodModel p2TorsionToySubdomain"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p2_toy_no_residual",
+   "file": "open_math/P2_TORSION_ATTACK.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ P2MaterialTarget p2TorsionToyModel p2TorsionToySubdomain"
+  },
+  {
+   "name": "P06.BSD.OpenMath.p2_toy_no_torsion_nontrivial",
+   "file": "open_math/P2_TORSION_ATTACK.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Lemma_Torsion_Nontrivial p2TorsionToyModel p2TorsionToySubdomain"
+  },
+  {
+   "name": "P06.BSD.OpenMath.positiveTorsionBadRefinedData_defect",
+   "file": "open_math/P06_RefinedField_Independence.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": MCore.BSD.refinedDefect positiveTorsionBadRefinedData = -1"
+  },
+  {
+   "name": "P06.BSD.OpenMath.positiveTorsionBadRefinedData_defect_ne_zero",
+   "file": "open_math/P06_RefinedField_Independence.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": MCore.BSD.refinedDefect positiveTorsionBadRefinedData ≠ 0"
+  },
+  {
+   "name": "P06.BSD.OpenMath.positiveTorsionBadRefinedData_torsion",
+   "file": "open_math/P06_RefinedField_Independence.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": 0 < positiveTorsionBadRefinedData.torsionOrder"
+  },
+  {
+   "name": "P06.BSD.OpenMath.quotientWitness_to_identity",
+   "file": "open_math/P2_ATTACK.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} {E : EllipticCurveQ} (W : ResidualP2QuotientWitness M S E) : RefinedBSDIdentity (M.refinedData E)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank01_residual_P1_iff_higher_rank",
+   "file": "open_math/P06_Rank01_HigherRankCut.lean",
+   "line": 109,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} : BSD_P1_Producer M (Rank01Subdomain M) ↔ HigherRankResidualP1 M"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank01_residual_iff",
+   "file": "open_math/P06_Rank01_HigherRankCut.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} : (Rank01Subdomain M).residual E ↔ M.analyticOrderAtOne E ≠ 0 ∧ M.analyticOrderAtOne E ≠ 1"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank01_residual_iff_ge_two",
+   "file": "open_math/P06_Rank01_HigherRankCut.lean",
+   "line": 65,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} : (Rank01Subdomain M).residual E ↔ 2 ≤ M.analyticOrderAtOne E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank01_residual_implies_ge_two",
+   "file": "open_math/P06_Rank01_HigherRankCut.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} (h : (Rank01Subdomain M).residual E) : 2 ≤ M.analyticOrderAtOne E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank0_compression_requires_material",
+   "file": "open_math/P06_Rank0_Class.lean",
+   "line": 55,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} (h : Rank0ArithmeticMaterial M) : Nonempty (RankOnSubdomain M (MCore.BSD.CertifiedCurveSubdomain.union FrozenKnownSeed (Rank0Subdomain M)))"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank0_counterexample_refutes_material",
+   "file": "open_math/P06_Rank0_Exclusion.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} (C : Rank0Counterexample M) : ¬ Rank0ArithmeticMaterial M"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank0_material_iff_no_counterexample",
+   "file": "open_math/P06_Rank0_Exclusion.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} : Rank0ArithmeticMaterial M ↔ ¬ Nonempty (Rank0Counterexample M)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank0_material_iff_no_positive_rank_at_zero",
+   "file": "open_math/P06_Rank0_Exclusion.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} : Rank0ArithmeticMaterial M ↔ ∀ E : EllipticCurveQ, M.analyticOrderAtOne E = 0 → ¬ 0 < M.mordellWeilRank E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank0_residual_iff",
+   "file": "open_math/P06_Rank0_Class.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} : (Rank0Subdomain M).residual E ↔ M.analyticOrderAtOne E ≠ 0"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank0_toy_all_in_class",
+   "file": "open_math/P06_Rank0_FrontierAudit.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(E : EllipticCurveQ) : (Rank0Subdomain rank0ToyModel).contains E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank0_toy_counterexample_nonempty",
+   "file": "open_math/P06_Rank0_Exclusion.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty (Rank0Counterexample rank0ToyModel)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank0_toy_no_material",
+   "file": "open_math/P06_Rank0_FrontierAudit.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Rank0ArithmeticMaterial rank0ToyModel"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rankProducer_iff_universalRealizedRankEquality",
+   "file": "open_math/P06_FastRankMincut.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Nonempty (MCore.BSD.ConcreteBSDRankProducer (fullyRealizedRankModel G refined)) ↔ UniversalRealizedRankEquality G"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rank_field_independence_at_analytic_zero",
+   "file": "open_math/P06_RankField_Independence.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} (hE : M.analyticOrderAtOne E = 0) : ¬ Rank0ArithmeticMaterial (withMordellWeilRank M (fun _ => 1))"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rationalTorsionSubgroup_nonempty",
+   "file": "open_math/P2_TorsionRealization.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(E : EllipticCurveQ) : Nonempty (RationalTorsionSubgroup E)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.rationalTorsion_card_pos_of_finite",
+   "file": "open_math/P2_TorsionRealization.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(E : EllipticCurveQ) [Finite (RationalTorsionSubgroup E)] : 0 < Nat.card (RationalTorsionSubgroup E)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.refined_field_independence_on_nonempty_residual",
+   "file": "open_math/P06_RefinedField_Independence.lean",
+   "line": 69,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (S : CertifiedCurveSubdomain) (hResidual : ∃ E : EllipticCurveQ, S.residual E) : ∃ M' : ConcreteBSDModel, (∀ E, M'.mordellWeilRank E = M.mordellWeilRank E) ∧ (∀ E, M'.analyticOrderAtOne E = M.analyticOrderAtOne E) ∧ (∀ E : EllipticCurveQ, S.residual E → 0 < (M'.refinedData E).torsionOrder) ∧ ¬ P2MaterialTarget M' S"
+  },
+  {
+   "name": "P06.BSD.OpenMath.same_analytic_refined_data_do_not_force_rank0",
+   "file": "open_math/P06_RankField_Independence.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (hZero : ∃ E : EllipticCurveQ, M.analyticOrderAtOne E = 0) : ∃ M' : ConcreteBSDModel, (∀ E, M'.analyticOrderAtOne E = M.analyticOrderAtOne E) ∧ (∀ E, M'.refinedData E = M.refinedData E) ∧ ¬ Rank0ArithmeticMaterial M'"
+  },
+  {
+   "name": "P06.BSD.OpenMath.terminal_iff_total_material",
+   "file": "open_math/P06_Total_Material_Mincut.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) : P06.BSD.BSDTerminal (mordellWeilRealizedModel analytic refined) ↔ GenuineP1Material analytic ∧ GenuineP2Material refined"
+  },
+  {
+   "name": "P06.BSD.OpenMath.torsion_nontrivial_of_realization",
+   "file": "open_math/P2_TorsionRealization.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} (hFinite : RationalTorsionFiniteOnResidual S) (hRealized : TorsionOrderRealized M S) : Lemma_Torsion_Nontrivial M S"
+  },
+  {
+   "name": "P06.BSD.OpenMath.torsion_positive_does_not_force_P2",
+   "file": "open_math/P06_RefinedField_Independence.lean",
+   "line": 96,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (∀ M : ConcreteBSDModel, ∀ S : CertifiedCurveSubdomain, (∀ E : EllipticCurveQ, S.residual E → 0 < (M.refinedData E).torsionOrder) → P2MaterialTarget M S)"
+  },
+  {
+   "name": "P06.BSD.OpenMath.universalRealizedRankEquality_of_rankProducer",
+   "file": "open_math/P06_FastRankMincut.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} (R : MCore.BSD.ConcreteBSDRankProducer (fullyRealizedRankModel G refined)) : UniversalRealizedRankEquality G"
+  },
+  {
+   "name": "P06.BSD.OpenMath.weakMordellWeilProducer_to_descent",
+   "file": "open_math/P06_WeakMordellWeil_Producer.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(W : WeakMordellWeilProducer) : MordellWeilDescentProducer"
+  },
+  {
+   "name": "P06.BSD.OpenMath.weakMordellWeilProducer_to_finiteIndex",
+   "file": "open_math/P06_WeakMordellWeil_Producer.lean",
+   "line": 79,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(W : WeakMordellWeilProducer) : ∀ E : EllipticCurveQ, MordellWeilDoublingFiniteIndex E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.withAnalyticOrder_analytic",
+   "file": "open_math/P06_AnalyticField_Independence.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (a : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withAnalyticOrder M a).analyticOrderAtOne E = a E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.withAnalyticOrder_rank",
+   "file": "open_math/P06_AnalyticField_Independence.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (a : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withAnalyticOrder M a).mordellWeilRank E = M.mordellWeilRank E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.withAnalyticOrder_refined",
+   "file": "open_math/P06_AnalyticField_Independence.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (a : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withAnalyticOrder M a).refinedData E = M.refinedData E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.withMordellWeilRank_analytic",
+   "file": "open_math/P06_RankField_Independence.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (r : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withMordellWeilRank M r).analyticOrderAtOne E = M.analyticOrderAtOne E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.withMordellWeilRank_rank",
+   "file": "open_math/P06_RankField_Independence.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (r : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withMordellWeilRank M r).mordellWeilRank E = r E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.withMordellWeilRank_refined",
+   "file": "open_math/P06_RankField_Independence.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (r : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withMordellWeilRank M r).refinedData E = M.refinedData E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.withRefinedData_analytic",
+   "file": "open_math/P06_RefinedField_Independence.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (d : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (withRefinedData M d).analyticOrderAtOne E = M.analyticOrderAtOne E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.withRefinedData_rank",
+   "file": "open_math/P06_RefinedField_Independence.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (d : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (withRefinedData M d).mordellWeilRank E = M.mordellWeilRank E"
+  },
+  {
+   "name": "P06.BSD.OpenMath.withRefinedData_refined",
+   "file": "open_math/P06_RefinedField_Independence.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : ConcreteBSDModel) (d : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (withRefinedData M d).refinedData E = d E"
+  },
+  {
+   "name": "P06.BSD.analyticRankAtOne_coe_order",
+   "file": "lean/P06/BSD/AnalyticOrderAtOne.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : P06.BSD.FiniteAnalyticGermAtOne), ↑(P06.BSD.analyticRankAtOne D) = ⋯.order"
+  },
+  {
+   "name": "P06.BSD.analyticRankAtOne_eq_zero_iff",
+   "file": "lean/P06/BSD/AnalyticOrderAtOne.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : P06.BSD.FiniteAnalyticGermAtOne), P06.BSD.analyticRankAtOne D = 0 ↔ D.L 1 ≠ 0"
+  },
+  {
+   "name": "P06.BSD.boolean_choice_payload_invariant",
+   "file": "lean/P06/BSD/CenterStability.lean",
+   "line": 43,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Bool) (G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : PhasePayload (TerminalPhase.chooseSide b) G refined ↔ PhasePayload TerminalPhase.core G refined"
+  },
+  {
+   "name": "P06.BSD.both_diagonals_same_endpoint",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 60,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio11 G refined ↔ RatioPayload ratio22 G refined"
+  },
+  {
+   "name": "P06.BSD.bsdPayload_implies_finalRoot",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 180,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} {ShaFinite : EllipticCurveQ → Prop} (p : BSDMaterialPayload G refined ShaFinite) : BSDTerminal (fullyRealizedBSDModel G refined)"
+  },
+  {
+   "name": "P06.BSD.bsdPayload_implies_scientificEndpoint",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 171,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} {ShaFinite : EllipticCurveQ → Prop} (p : BSDMaterialPayload G refined ShaFinite) : ScientificEndpoint G refined"
+  },
+  {
+   "name": "P06.BSD.bsd_dual_endpoint_from_material_endpoint",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 105,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} (h : Endpoint G refined) : BSDDualEndpointState G refined"
+  },
+  {
+   "name": "P06.BSD.bsd_dual_endpoint_projects_closed",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 124,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} (h : BSDDualEndpointState G refined) : ViewPayload .closed G refined"
+  },
+  {
+   "name": "P06.BSD.bsd_dual_endpoint_projects_open",
+   "file": "lean/P06/BSD/DualEndpointCube.lean",
+   "line": 117,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} (h : BSDDualEndpointState G refined) : ViewPayload .open G refined"
+  },
+  {
+   "name": "P06.BSD.centerStability",
+   "file": "lean/P06/BSD/CenterStability.lean",
+   "line": 80,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (CenterStabilityCertificate G refined)"
+  },
+  {
+   "name": "P06.BSD.centralValue_eq_zero_of_analyticRank_pos",
+   "file": "lean/P06/BSD/AnalyticOrderAtOne.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : P06.BSD.FiniteAnalyticGermAtOne), 0 < P06.BSD.analyticRankAtOne D → D.L 1 = 0"
+  },
+  {
+   "name": "P06.BSD.choose_false_is_start",
+   "file": "lean/P06/BSD/CenterStability.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalPhase.chooseSide false = .start"
+  },
+  {
+   "name": "P06.BSD.choose_true_is_finish",
+   "file": "lean/P06/BSD/CenterStability.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalPhase.chooseSide true = .finish"
+  },
+  {
+   "name": "P06.BSD.chosen_side_contracts_to_core",
+   "file": "lean/P06/BSD/CenterStability.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Bool) : (TerminalPhase.chooseSide b).contract = .core"
+  },
+  {
+   "name": "P06.BSD.closedConjuncture",
+   "file": "lean/P06/BSD/ClosedConjuncture.lean",
+   "line": 99,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (ClosedConjunctureCertificate G refined)"
+  },
+  {
+   "name": "P06.BSD.closedMathStructural",
+   "file": "lean/P06/BSD/ClosedMath.lean",
+   "line": 57,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty ClosedMathStructuralCertificate"
+  },
+  {
+   "name": "P06.BSD.closedMath_iff_negOpenMath",
+   "file": "lean/P06/BSD/TerminalDuality.lean",
+   "line": 70,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ClosedMath G refined ↔ NegOpenMath G refined"
+  },
+  {
+   "name": "P06.BSD.closedView_ne_openView",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 14,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathView.closed ≠ MathView.open"
+  },
+  {
+   "name": "P06.BSD.closed_reverse_payload_equivalent",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 60,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload .closed G refined ↔ ViewPayload MathView.closed.reverse G refined"
+  },
+  {
+   "name": "P06.BSD.closed_stays_closed",
+   "file": "lean/P06/BSD/OpenToClosed.lean",
+   "line": 12,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathView.closed.tend = .closed"
+  },
+  {
+   "name": "P06.BSD.diagonalClosure",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 95,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (DiagonalClosureCertificate G refined)"
+  },
+  {
+   "name": "P06.BSD.diagonal_payloads_same_endpoint",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 89,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio11 G refined ↔ RatioPayload ratio22 G refined"
+  },
+  {
+   "name": "P06.BSD.diagonalize_01",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": diagonalize ratio01 = ratio11"
+  },
+  {
+   "name": "P06.BSD.diagonalize_02",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": diagonalize ratio02 = ratio22"
+  },
+  {
+   "name": "P06.BSD.diagonalize_11_fixed",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": diagonalize ratio11 = ratio11"
+  },
+  {
+   "name": "P06.BSD.diagonalize_22_fixed",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": diagonalize ratio22 = ratio22"
+  },
+  {
+   "name": "P06.BSD.diagonalize_terminal_idempotent_01",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": diagonalize (diagonalize ratio01) = diagonalize ratio01"
+  },
+  {
+   "name": "P06.BSD.diagonalize_terminal_idempotent_02",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": diagonalize (diagonalize ratio02) = diagonalize ratio02"
+  },
+  {
+   "name": "P06.BSD.endpoint_normalization_idempotent",
+   "file": "lean/P06/BSD/EndpointBehavior.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ScientificEndpoint G refined ↔ ScientificEndpoint G refined"
+  },
+  {
+   "name": "P06.BSD.endpoint_to_gap",
+   "file": "lean/P06/BSD/TerminalSignature.lean",
+   "line": 29,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Endpoint G refined → Gap G refined"
+  },
+  {
+   "name": "P06.BSD.finalRoot_endpoint_cycle",
+   "file": "lean/P06/BSD/EndpointBehavior.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : (BSDTerminal (fullyRealizedBSDModel G refined) ↔ ScientificEndpoint G refined) ∧ (ScientificEndpoint G refined ↔ BSDTerminal (fullyRealizedBSDModel G refined))"
+  },
+  {
+   "name": "P06.BSD.finalRoot_eq_mathematicalEndpoint",
+   "file": "lean/P06/BSD/EndpointBehavior.lean",
+   "line": 11,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDTerminal (fullyRealizedBSDModel G refined) ↔ ScientificEndpoint G refined"
+  },
+  {
+   "name": "P06.BSD.finalRoot_iff_scientificFrontier",
+   "file": "lean/P06/BSD/FinalRoot.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDTerminal (fullyRealizedBSDModel G refined) ↔ UniversalRealizedRankEquality G ∧ UniversalRefinedBSDIdentity refined"
+  },
+  {
+   "name": "P06.BSD.finalRoot_iff_terminalSignature",
+   "file": "lean/P06/BSD/TerminalSignature.lean",
+   "line": 90,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDTerminal (fullyRealizedBSDModel G refined) ↔ Endpoint G refined"
+  },
+  {
+   "name": "P06.BSD.gap_to_habitant",
+   "file": "lean/P06/BSD/TerminalSignature.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Gap G refined → Habitant G refined"
+  },
+  {
+   "name": "P06.BSD.global_external_structural_certified",
+   "file": "lean/P06/BSD/GlobalExternalCertificate.lean",
+   "line": 51,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty BSDGlobalExternalStructuralCertificate"
+  },
+  {
+   "name": "P06.BSD.global_material_state_iff_dual_endpoint",
+   "file": "lean/P06/BSD/GlobalExternalCertificate.lean",
+   "line": 55,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : GLOBAL_EXTERNAL_CERTIFICATE_BSD G refined ↔ BSDDualEndpointState G refined"
+  },
+  {
+   "name": "P06.BSD.habitant_to_inhabitant",
+   "file": "lean/P06/BSD/TerminalSignature.lean",
+   "line": 39,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Habitant G refined → Inhabitant G refined"
+  },
+  {
+   "name": "P06.BSD.inhabitant_to_endpoint",
+   "file": "lean/P06/BSD/TerminalSignature.lean",
+   "line": 44,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Inhabitant G refined → Endpoint G refined"
+  },
+  {
+   "name": "P06.BSD.mathematicalEndpoint_eq_finalRoot",
+   "file": "lean/P06/BSD/EndpointBehavior.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ScientificEndpoint G refined ↔ BSDTerminal (fullyRealizedBSDModel G refined)"
+  },
+  {
+   "name": "P06.BSD.neg_signedRankDefect_eq_zero_iff",
+   "file": "lean/P06/BSD/SignFlipGuard.lean",
+   "line": 31,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (E : EllipticCurveQ) : - signedRankDefect G E = 0 ↔ signedRankDefect G E = 0"
+  },
+  {
+   "name": "P06.BSD.normalize_01",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio01.normalize = ratio11"
+  },
+  {
+   "name": "P06.BSD.normalize_02",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio02.normalize = ratio22"
+  },
+  {
+   "name": "P06.BSD.normalize_11",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio11.normalize = ratio11"
+  },
+  {
+   "name": "P06.BSD.normalize_22",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio22.normalize = ratio22"
+  },
+  {
+   "name": "P06.BSD.not_iff_not_self",
+   "file": "lean/P06/BSD/SignFlipGuard.lean",
+   "line": 4,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(P : Prop) : ¬ (P ↔ ¬ P)"
+  },
+  {
+   "name": "P06.BSD.openMath_iff_closedMath",
+   "file": "lean/P06/BSD/TerminalDuality.lean",
+   "line": 56,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : OpenMath G refined ↔ ClosedMath G refined"
+  },
+  {
+   "name": "P06.BSD.openMath_iff_negClosedMath",
+   "file": "lean/P06/BSD/TerminalDuality.lean",
+   "line": 63,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : OpenMath G refined ↔ NegClosedMath G refined"
+  },
+  {
+   "name": "P06.BSD.openToClosed",
+   "file": "lean/P06/BSD/OpenToClosed.lean",
+   "line": 56,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (OpenToClosedCertificate G refined)"
+  },
+  {
+   "name": "P06.BSD.openView_ne_closedView",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 10,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathView.open ≠ MathView.closed"
+  },
+  {
+   "name": "P06.BSD.open_closed_payload_equivalent",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload .open G refined ↔ ViewPayload .closed G refined"
+  },
+  {
+   "name": "P06.BSD.open_closed_views_distinct",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathView.open ≠ MathView.closed"
+  },
+  {
+   "name": "P06.BSD.open_reverse_payload_equivalent",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 53,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload .open G refined ↔ ViewPayload MathView.open.reverse G refined"
+  },
+  {
+   "name": "P06.BSD.open_tends_closed",
+   "file": "lean/P06/BSD/OpenToClosed.lean",
+   "line": 9,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathView.open.tend = .closed"
+  },
+  {
+   "name": "P06.BSD.open_tends_closed_same_endpoint",
+   "file": "lean/P06/BSD/OpenToClosed.lean",
+   "line": 31,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload .open G refined ↔ ViewPayload .closed G refined"
+  },
+  {
+   "name": "P06.BSD.p1_from_two_known_classes",
+   "file": "lean/P06/BSD/KnownExpansion.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S T : P06.BSD.CertifiedCurveSubdomain},   Nonempty (P06.BSD.RankOnSubdomain M S) →     Nonempty (P06.BSD.RankOnSubdomain M T) →       Nonempty (P06.BSD.RankOnResidual M (MCore.BSD.CertifiedCurveSubdomain.union S T)) → P06.BSD.BSDP1 M"
+  },
+  {
+   "name": "P06.BSD.p1_frontier_exact",
+   "file": "lean/P06/BSD/Frontier.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S : P06.BSD.CertifiedCurveSubdomain},   P06.BSD.BSDP1 M ↔ Nonempty (P06.BSD.RankOnSubdomain M S) ∧ Nonempty (P06.BSD.RankOnResidual M S)"
+  },
+  {
+   "name": "P06.BSD.p1_iff_partition_certificate",
+   "file": "lean/P06/BSD/PartitionKernel.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S : P06.BSD.CertifiedCurveSubdomain},   P06.BSD.BSDP1 M ↔ Nonempty (P06.BSD.P1PartitionCertificate M S)"
+  },
+  {
+   "name": "P06.BSD.p1_iff_universalRealizedRankEquality",
+   "file": "lean/P06/BSD/FinalRoot.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDP1 (fullyRealizedBSDModel G refined) ↔ UniversalRealizedRankEquality G"
+  },
+  {
+   "name": "P06.BSD.p1_of_rank_family",
+   "file": "lean/P06/BSD/ConcreteBSDProducer.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel}, Nonempty (P06.BSD.ConcreteRankCertificateFamily M) → P06.BSD.BSDP1 M"
+  },
+  {
+   "name": "P06.BSD.p2_from_two_known_classes",
+   "file": "lean/P06/BSD/KnownExpansion.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S T : P06.BSD.CertifiedCurveSubdomain},   Nonempty (P06.BSD.RefinedOnSubdomain M S) →     Nonempty (P06.BSD.RefinedOnSubdomain M T) →       Nonempty (P06.BSD.RefinedOnResidual M (MCore.BSD.CertifiedCurveSubdomain.union S T)) → P06.BSD.BSDP2 M"
+  },
+  {
+   "name": "P06.BSD.p2_frontier_exact",
+   "file": "lean/P06/BSD/Frontier.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S : P06.BSD.CertifiedCurveSubdomain},   P06.BSD.BSDP2 M ↔ Nonempty (P06.BSD.RefinedOnSubdomain M S) ∧ Nonempty (P06.BSD.RefinedOnResidual M S)"
+  },
+  {
+   "name": "P06.BSD.p2_iff_partition_certificate",
+   "file": "lean/P06/BSD/PartitionKernel.lean",
+   "line": 55,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S : P06.BSD.CertifiedCurveSubdomain},   P06.BSD.BSDP2 M ↔ Nonempty (P06.BSD.P2PartitionCertificate M S)"
+  },
+  {
+   "name": "P06.BSD.p2_iff_universalRefinedBSDIdentity",
+   "file": "lean/P06/BSD/FinalRoot.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDP2 (fullyRealizedBSDModel G refined) ↔ UniversalRefinedBSDIdentity refined"
+  },
+  {
+   "name": "P06.BSD.p2_of_refined_family",
+   "file": "lean/P06/BSD/ConcreteBSDProducer.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel}, Nonempty (P06.BSD.ConcreteRefinedCertificateFamily M) → P06.BSD.BSDP2 M"
+  },
+  {
+   "name": "P06.BSD.payload_implies_global_final_certificate",
+   "file": "lean/P06/BSD/GlobalExternalCertificate.lean",
+   "line": 77,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} {ShaFinite : EllipticCurveQ → Prop} (p : BSDMaterialPayload G refined ShaFinite) : BSDFinalClosureCertificate G refined ShaFinite"
+  },
+  {
+   "name": "P06.BSD.payload_implies_global_material_state",
+   "file": "lean/P06/BSD/GlobalExternalCertificate.lean",
+   "line": 67,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} {ShaFinite : EllipticCurveQ → Prop} (p : BSDMaterialPayload G refined ShaFinite) : GLOBAL_EXTERNAL_CERTIFICATE_BSD G refined"
+  },
+  {
+   "name": "P06.BSD.phase_payload_preserved_by_contraction",
+   "file": "lean/P06/BSD/ClosedConjuncture.lean",
+   "line": 68,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : TerminalPhase) (G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : PhasePayload p G refined ↔ PhasePayload p.contract G refined"
+  },
+  {
+   "name": "P06.BSD.phase_payload_preserved_by_reverse",
+   "file": "lean/P06/BSD/ClosedConjuncture.lean",
+   "line": 61,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : TerminalPhase) (G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : PhasePayload p G refined ↔ PhasePayload p.reverse G refined"
+  },
+  {
+   "name": "P06.BSD.polarity_neg_closed",
+   "file": "lean/P06/BSD/TerminalDuality.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathPolarity.neg .closed = .open"
+  },
+  {
+   "name": "P06.BSD.polarity_neg_involutive",
+   "file": "lean/P06/BSD/TerminalDuality.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : MathPolarity) : p.neg.neg = p"
+  },
+  {
+   "name": "P06.BSD.polarity_neg_open",
+   "file": "lean/P06/BSD/TerminalDuality.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathPolarity.neg .open = .closed"
+  },
+  {
+   "name": "P06.BSD.ratio01_payload_normalized",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 75,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio01 G refined ↔ RatioPayload ratio11 G refined"
+  },
+  {
+   "name": "P06.BSD.ratio01_to_11_preserves_endpoint",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 48,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio01 G refined ↔ RatioPayload ratio11 G refined"
+  },
+  {
+   "name": "P06.BSD.ratio01_to_core_after_contract",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 56,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio01.normalize.toPhase.contract = .core"
+  },
+  {
+   "name": "P06.BSD.ratio01_to_core_after_normalize",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 47,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio01.normalize.toPhase = .core"
+  },
+  {
+   "name": "P06.BSD.ratio02_payload_normalized",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 82,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio02 G refined ↔ RatioPayload ratio22 G refined"
+  },
+  {
+   "name": "P06.BSD.ratio02_to_22_preserves_endpoint",
+   "file": "lean/P06/BSD/DiagonalClosure.lean",
+   "line": 54,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio02 G refined ↔ RatioPayload ratio22 G refined"
+  },
+  {
+   "name": "P06.BSD.ratio02_to_core_after_contract",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 53,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio02.normalize.toPhase.contract = .core"
+  },
+  {
+   "name": "P06.BSD.ratio02_to_finish_after_normalize",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 50,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio02.normalize.toPhase = .finish"
+  },
+  {
+   "name": "P06.BSD.ratio_paths_hit_same_core",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 59,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio01.normalize.toPhase.contract = ratio02.normalize.toPhase.contract"
+  },
+  {
+   "name": "P06.BSD.reverse_chooseSide",
+   "file": "lean/P06/BSD/CenterStability.lean",
+   "line": 26,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Bool) : (TerminalPhase.chooseSide b).reverse = TerminalPhase.chooseSide (!b)"
+  },
+  {
+   "name": "P06.BSD.reverse_closed",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathView.closed.reverse = .open"
+  },
+  {
+   "name": "P06.BSD.reverse_involutive",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 28,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(v : MathView) : v.reverse.reverse = v"
+  },
+  {
+   "name": "P06.BSD.reverse_open",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathView.open.reverse = .closed"
+  },
+  {
+   "name": "P06.BSD.stable_is_core",
+   "file": "lean/P06/BSD/CenterStability.lean",
+   "line": 12,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalPhase.stable = .core"
+  },
+  {
+   "name": "P06.BSD.structural_minus_is_not_logical_negation",
+   "file": "lean/P06/BSD/TerminalDuality.lean",
+   "line": 101,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ¬ (OpenMath G refined ↔ ¬ OpenMath G refined)"
+  },
+  {
+   "name": "P06.BSD.tend_idempotent",
+   "file": "lean/P06/BSD/OpenToClosed.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(v : MathView) : v.tend.tend = v.tend"
+  },
+  {
+   "name": "P06.BSD.tend_preserves_payload",
+   "file": "lean/P06/BSD/OpenToClosed.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(v : MathView) (G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload v G refined ↔ ViewPayload v.tend G refined"
+  },
+  {
+   "name": "P06.BSD.terminalDuality",
+   "file": "lean/P06/BSD/TerminalDuality.lean",
+   "line": 95,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (TerminalDualityCertificate G refined)"
+  },
+  {
+   "name": "P06.BSD.terminalPhase_codes",
+   "file": "lean/P06/BSD/ClosedConjuncture.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalPhase.start.code = 0 ∧ TerminalPhase.core.code = 1 ∧ TerminalPhase.finish.code = 2"
+  },
+  {
+   "name": "P06.BSD.terminalPhase_contract_idempotent",
+   "file": "lean/P06/BSD/ClosedConjuncture.lean",
+   "line": 31,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : TerminalPhase) : (p.contract).contract = p.contract"
+  },
+  {
+   "name": "P06.BSD.terminalPhase_finish_to_core",
+   "file": "lean/P06/BSD/ClosedConjuncture.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalPhase.finish.contract = .core"
+  },
+  {
+   "name": "P06.BSD.terminalPhase_reverse_contract",
+   "file": "lean/P06/BSD/ClosedConjuncture.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : TerminalPhase) : p.reverse.contract = p.contract"
+  },
+  {
+   "name": "P06.BSD.terminalPhase_reverse_involutive",
+   "file": "lean/P06/BSD/ClosedConjuncture.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : TerminalPhase) : p.reverse.reverse = p"
+  },
+  {
+   "name": "P06.BSD.terminalPhase_start_to_core",
+   "file": "lean/P06/BSD/ClosedConjuncture.lean",
+   "line": 39,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalPhase.start.contract = .core"
+  },
+  {
+   "name": "P06.BSD.terminalRatioClosed",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 120,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (TerminalRatioCertificate G refined)"
+  },
+  {
+   "name": "P06.BSD.terminalRatio_normalize_idempotent_on_01",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio01.normalize.normalize = ratio01.normalize"
+  },
+  {
+   "name": "P06.BSD.terminalRatio_normalize_idempotent_on_02",
+   "file": "lean/P06/BSD/TerminalRatio.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ratio02.normalize.normalize = ratio02.normalize"
+  },
+  {
+   "name": "P06.BSD.terminal_cycle_inhabited_iff_endpoint",
+   "file": "lean/P06/BSD/TerminalSignature.lean",
+   "line": 75,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (Inhabitant G refined) ↔ Endpoint G refined"
+  },
+  {
+   "name": "P06.BSD.terminal_from_partition",
+   "file": "lean/P06/BSD/Frontier.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S : P06.BSD.CertifiedCurveSubdomain},   Nonempty (P06.BSD.RankOnSubdomain M S) →     Nonempty (P06.BSD.RankOnResidual M S) →       Nonempty (P06.BSD.RefinedOnSubdomain M S) → Nonempty (P06.BSD.RefinedOnResidual M S) → P06.BSD.BSDTerminal M"
+  },
+  {
+   "name": "P06.BSD.terminal_from_two_known_classes",
+   "file": "lean/P06/BSD/KnownExpansion.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S T : P06.BSD.CertifiedCurveSubdomain},   Nonempty (P06.BSD.RankOnSubdomain M S) →     Nonempty (P06.BSD.RankOnSubdomain M T) →       Nonempty (P06.BSD.RankOnResidual M (MCore.BSD.CertifiedCurveSubdomain.union S T)) →         Nonempty (P06.BSD.RefinedOnSubdomain M S) →           Nonempty (P06.BSD.RefinedOnSubdomain M T) →             Nonempty (P06.BSD.RefinedOnRes"
+  },
+  {
+   "name": "P06.BSD.terminal_iff_four_partition_terms",
+   "file": "lean/P06/BSD/PartitionKernel.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S : P06.BSD.CertifiedCurveSubdomain},   P06.BSD.BSDTerminal M ↔     Nonempty (P06.BSD.RankOnSubdomain M S) ∧       Nonempty (P06.BSD.RankOnResidual M S) ∧         Nonempty (P06.BSD.RefinedOnSubdomain M S) ∧ Nonempty (P06.BSD.RefinedOnResidual M S)"
+  },
+  {
+   "name": "P06.BSD.terminal_iff_p1_and_p2",
+   "file": "lean/P06/BSD/Spec.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : P06.BSD.ConcreteBSDModel), P06.BSD.BSDTerminal M ↔ P06.BSD.BSDP1 M ∧ P06.BSD.BSDP2 M"
+  },
+  {
+   "name": "P06.BSD.terminal_iff_partition_certificate",
+   "file": "lean/P06/BSD/PartitionKernel.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel} {S : P06.BSD.CertifiedCurveSubdomain},   P06.BSD.BSDTerminal M ↔ Nonempty (P06.BSD.BSDPartitionCertificate M S)"
+  },
+  {
+   "name": "P06.BSD.terminal_inhabitance_equivalence",
+   "file": "lean/P06/BSD/TerminalSignature.lean",
+   "line": 64,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (Endpoint G refined) ↔ Nonempty (Gap G refined)"
+  },
+  {
+   "name": "P06.BSD.terminal_of_certificate_families",
+   "file": "lean/P06/BSD/ConcreteBSDProducer.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel},   Nonempty (P06.BSD.ConcreteRankCertificateFamily M) →     Nonempty (P06.BSD.ConcreteRefinedCertificateFamily M) → P06.BSD.BSDTerminal M"
+  },
+  {
+   "name": "P06.BSD.terminal_of_p1_p2",
+   "file": "lean/P06/BSD/ConcreteBSDProducer.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : P06.BSD.ConcreteBSDModel}, P06.BSD.BSDP1 M → P06.BSD.BSDP2 M → P06.BSD.BSDTerminal M"
+  },
+  {
+   "name": "P06.BSD.terminal_signature_cycle",
+   "file": "lean/P06/BSD/TerminalSignature.lean",
+   "line": 49,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : (Endpoint G refined ↔ Gap G refined) ∧ (Gap G refined ↔ Habitant G refined) ∧ (Habitant G refined ↔ Inhabitant G refined) ∧ (Inhabitant G refined ↔ Endpoint G refined)"
+  },
+  {
+   "name": "P06.BSD.three_paths_hit_same_terminal_bit",
+   "file": "lean/P06/BSD/CenterStability.lean",
+   "line": 32,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalPhase.start.contract = TerminalPhase.core.contract ∧ TerminalPhase.finish.contract = TerminalPhase.core.contract"
+  },
+  {
+   "name": "P06.BSD.universalRealizedRankEquality_iff_defect_zero",
+   "file": "lean/P06/BSD/SignFlipGuard.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) : UniversalRealizedRankEquality G ↔ ∀ E : EllipticCurveQ, signedRankDefect G E = 0"
+  },
+  {
+   "name": "P06.BSD.universal_negative_defect_zero_iff_rank_leaf",
+   "file": "lean/P06/BSD/SignFlipGuard.lean",
+   "line": 36,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) : (∀ E : EllipticCurveQ, - signedRankDefect G E = 0) ↔ UniversalRealizedRankEquality G"
+  },
+  {
+   "name": "P06.BSD.viewSeparation",
+   "file": "lean/P06/BSD/ViewSeparation.lean",
+   "line": 92,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (ViewSeparationCertificate G refined)"
+  }
+ ],
+ "closed": 153,
+ "files_sha256": {
+  "lake-manifest.json": "347a8be44c83bf1e791eee474fe8f87803974566745bdb0a84fd1fb7387633d0",
+  "lakefile.toml": "e9b8ecdc3025d1b5c33b994ec8d8391e18c5ca02d6b4e2102fccb026b93d89f8",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BSD/CertificateFamilies.lean": "45d94746fae1aaadb59e6ff0f67b8e92e62efe294c355b35e030f71880ee2fff",
+  "lean/MCore/BSD/CertifiedPrefixReuse.lean": "40c63eaf63ee22f369bd31c1d2af13fb1c2229be21920e4a36a891da9ce6886a",
+  "lean/MCore/BSD/ConcreteDomain.lean": "fea6ac476560569749e6d1e719157cee10063a51b82d63423fb8319ad3750f82",
+  "lean/MCore/BSD/DomainCover.lean": "f5ed08b40169161e46acdeacd8ae6eb94a343a3bbf47c300e7cb9f095dbc1566",
+  "lean/MCore/BSD/ProducerAudit.lean": "21e214eea2eec074c6071d82851d0a1e6f73e0fb8adc90c077b1db6a358e8ef9",
+  "lean/MCore/BSD/RealizableProducer.lean": "feebc1c18cec92303034952df07f8555407ad9c9f1eea675b93c4965333958e9",
+  "lean/MCore/BSD/RefinedAlgebra.lean": "e07e5acff6572628c7a7786dfc3db2f724bc5f118760597746a1c3582cffa89d",
+  "lean/MCore/BSD/RefinedCertificateAlgebra.lean": "f01af609a179ce7792b88b20a35df57f88c7f455023b06936e65c533fe7b7918",
+  "lean/MCore/BSD/ResidualFrontier.lean": "bc7bd2b47fec2b7a53db8818bf3d54774d8f3bb75d09afc72fc5a216dc594044",
+  "lean/MCore/BSD/SubdomainAlgebra.lean": "2717468234de77da22d5467fd7730d8607f58ea7c1e73d7524a9ceaf9f6bfc35",
+  "lean/MCore/BSD/TerminalAssembly.lean": "d1e003abe20d399fc845c5d91a8544e9b9881f889c487863e912f4542aa20f8b",
+  "lean/MCore/BSD/TerminalKernel.lean": "628b53974aca8afebfbdbfcbd4ec3e812303e00f0d51ff344a4bd345e000bc64",
+  "lean/MCore/BackwardAudit/D01UniversalFirewall.lean": "4e25d655a4bca48f0830aac80c6a0098ed07f04a567bffc93cd915efb7fc9a5b",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K14.lean": "ed01ddf91006fbc50791f6f86b03ee77f52385bb11cac98759aa9fa1ad776010",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9",
+  "lean/P06/BSD/AnalyticOrderAtOne.lean": "527eba50ff1591209e7f699ecfe7672310aea6f5401e7e6788cf4bc78402ddd3",
+  "lean/P06/BSD/ConcreteBSDProducer.lean": "79f653b6b1d0785599b0aff8a06f02a9581c3ac598ddce9a1af34018c86081ca",
+  "lean/P06/BSD/FinalRoot.lean": "8344fc25dbddf0e5de0f50055a6a36acf3767e0f5ae87817c65f164bc28f9fc5",
+  "lean/P06/BSD/Frontier.lean": "3b0f24ce383ae0d83a2843e978b216f34d237065358b8aad930ccd268192d6d5",
+  "lean/P06/BSD/KnownExpansion.lean": "4bf50e2923099592c743ccc8d977f6ed3c567a1ae991f9153258422c08acf099",
+  "lean/P06/BSD/PartitionKernel.lean": "3e9a3671cd30683fadcf2c03562f1a766ab5a032aa86f6d51d234480a1488793",
+  "lean/P06/BSD/RankRealization.lean": "7f2c347fadd9fac8b8e1842ef57150553b9c80159a7c2ae6b79d3a37a530cbd5",
+  "lean/P06/BSD/Spec.lean": "6a7f7f8dbb7539ac9323454d0cb7fe1315a3428b57c3ff792f13bc54257b0608",
+  "open_math/ForcingKernel.lean": "5468f99d7c221f9406d3d066fa3e76ff44042d9810e4e643c8943cc43e46dfb2",
+  "open_math/ObstructionKernel.lean": "7823092207a655706199de11083b019387ba841fd18327225faedae66c6a098a",
+  "open_math/P06_AnalyticField_Independence.lean": "4f0549dcbc4bbbd4277a6f1a85ab96133894fe13e6c73a003e3071c77e362281",
+  "open_math/P06_BSD_P1_P2.lean": "2c3992783fe10a602d17e31faccd4d10b5085e3e01af564caf91e253545075cd",
+  "open_math/P06_BSD_P1_Residual.lean": "2043772fe4635e91d340716171823ac2b456d3de038e97516ef03fcbe47e6fc9",
+  "open_math/P06_BSD_P2_Residual.lean": "3e6c49ceb62ea2e6fe20c0706eff594e1e0c866e5afb3cfd6033681d714a6bf2",
+  "open_math/P06_FastRankMincut.lean": "477f002c6a73584ef2b08a3ff701f1db9d5d71fa1bc2d6ba46ec757f10e881e9",
+  "open_math/P06_KNOWN_Mining.lean": "2be9b66d8632d9d4b000103f7e19173db11785afd5ce761a08be3bd147d92365",
+  "open_math/P06_MiningStatus.lean": "23035d00d8eb978cb3417d7b6e54fabcd0c744a3fcc842812c105f91e758c780",
+  "open_math/P06_MordellWeil_DescentForcing.lean": "a6da0b5579fd3cd937f8cfd402de9692854bd07234f2b32c6fd3abcca371500f",
+  "open_math/P06_MordellWeil_Realization.lean": "ba6617b5ac44053f16e18d0776d53055dafc21395d50d1424118ae91c217724c",
+  "open_math/P06_Rank01_HigherRankCut.lean": "587f1b1d573cb10ab287a855b8bc4da69e08f5025f1bf15b604e8ec6d691a458",
+  "open_math/P06_Rank0_Class.lean": "ebfe28d260ac2947d8292dac4cec3ff297fb07c007ade295fd32075db2440de3",
+  "open_math/P06_Rank0_Exclusion.lean": "3b399c6948915f19c9664667cdeb7947b7160d5d9ea1aedce84ad0415544a2e4",
+  "open_math/P06_Rank0_FrontierAudit.lean": "67e49d4a5fde7447bfceca919f59ba48f74fb7ef496397d6dff7c0909f7ada87",
+  "open_math/P06_RankField_Independence.lean": "330a54a4eceb4667a652d4d4ee909633c3a0ddefee4e219aec13cb07153e8d71",
+  "open_math/P06_RefinedField_Independence.lean": "a9ce38c513b2b710cc55f38b0ec12f815fa0699ad69c001fe33d841e9b83d451",
+  "open_math/P06_Total_Material_Mincut.lean": "5e96854e4c9fa14851ea9f1dd41e22bce191d2722d830f2028db5d0d046a3c2f",
+  "open_math/P06_WeakMordellWeil_Producer.lean": "a5eeece2f7ab6d410966c7f766e8de12f95cdb2b2161cb59802853e64364e61d",
+  "open_math/P1_ATTACK.lean": "19bf8957f03875a8cefc34a8514effecd9a7f0eb8efeba58ded00df2c6377cdd",
+  "open_math/P2_ATTACK.lean": "1bd6c38fa0eb0940a27d7cc1f07912ea77481b1face5487e24d3b689125592af",
+  "open_math/P2_TORSION_ATTACK.lean": "e3621f18492ac2efbf9fd321b26e90b6ec29dae713c3705bd03999f11914ac7c",
+  "open_math/P2_TorsionRealization.lean": "42ed84e4848892274cf5991588a2567b6117b932406a2226b0b1566d2e9a0e65"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "1608f90cdd6359bd1fb9cfc3e794a13d0ebbef9f3529e79e3bc2d33ac58fb519"
+}

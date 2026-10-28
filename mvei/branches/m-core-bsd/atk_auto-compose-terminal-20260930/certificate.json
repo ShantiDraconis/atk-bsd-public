@@ -1,0 +1,544 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk/auto-compose-terminal-20260930",
+ "branch_state": "parada",
+ "head_commit": "753a962bd18909a8a4e682856951e1189507b811",
+ "head_commit_date": "2026-10-01T01:45:55+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "753a962bd18909a8a4e682856951e1189507b811",
+   "date": "2026-10-01T01:45:55+02:00",
+   "subject": "ATK: freeze exact final OPEN_MATH residual"
+  },
+  {
+   "commit": "f75f4842d35db30e07ff8c9b2a91258510c8ad34",
+   "date": "2026-10-01T01:39:43+02:00",
+   "subject": "ATK: validate BSD current-model fidelity counterexample"
+  },
+  {
+   "commit": "b4efe03cf950b98391102c83b7f24dd84327de26",
+   "date": "2026-10-01T01:39:25+02:00",
+   "subject": "ATK: formalize BSD current-model fidelity counterexample"
+  },
+  {
+   "commit": "2711622c34efba0d5875ecedfe6245e960d1e252",
+   "date": "2026-10-01T01:39:10+02:00",
+   "subject": "ATK: seed BSD model-fidelity test"
+  },
+  {
+   "commit": "bd39ff3203b8755acb9db920d2cb6d98e17dbdf2",
+   "date": "2026-10-01T01:36:14+02:00",
+   "subject": "ATK: compile rigorous BSD frontier from root"
+  },
+  {
+   "commit": "bb46170e3da4f919e693898f2d5cf664b98dfc9c",
+   "date": "2026-10-01T01:36:07+02:00",
+   "subject": "ATK: harden BSD Sha finiteness semantics"
+  },
+  {
+   "commit": "43cec95c23c7c8c515d8fd47c5cdd23fa3903355",
+   "date": "2026-10-01T01:05:38+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "beac885ed859f79670d4ef4509b4218399286a2f",
+   "date": "2026-09-30T23:38:27+02:00",
+   "subject": "ATK: validate exact field-by-field final producer"
+  },
+  {
+   "commit": "7a6bdf57de22b1a2e593f802c74bdecd72d38143",
+   "date": "2026-09-30T22:44:15+02:00",
+   "subject": "ATK: derive current height certificate from grounded state"
+  },
+  {
+   "commit": "538c5e1363536d38d958901354c3a3f89e4df08d",
+   "date": "2026-09-30T22:41:19+02:00",
+   "subject": "ATK: eliminate vacuous BSD height subgap and reduce final external to grounded habitant"
+  },
+  {
+   "commit": "f6a219e04eb7e4a0818fcf76195f23d060f66007",
+   "date": "2026-09-30T22:39:31+02:00",
+   "subject": "ATK: include exact final producer in root build"
+  },
+  {
+   "commit": "9a8537fe80e4bd8eda7071d8f382819aa7361e94",
+   "date": "2026-09-30T22:36:43+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "fee679a797a094393bb35461d4e8e9919bdb2de4",
+   "date": "2026-09-30T22:32:44+02:00",
+   "subject": "ATK: refine exact field-by-field final producer"
+  },
+  {
+   "commit": "5378b4bf4ad9c1d2e74c760b2d0c4039a5017d52",
+   "date": "2026-09-30T22:14:39+02:00",
+   "subject": "ATK: validate BSD exact final consequences"
+  },
+  {
+   "commit": "b91666fb99e54b637d74d2f8b320bcb6d22e2d3e",
+   "date": "2026-09-30T22:14:11+02:00",
+   "subject": "ATK: harden final mathematical consequences"
+  },
+  {
+   "commit": "5779a220dc9bb0bc9983bb5099cdbce969a0a478",
+   "date": "2026-09-30T22:09:04+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "bfe480a1e3c8362d73c5c33ce892f92206d3d853",
+   "date": "2026-09-30T22:05:20+02:00",
+   "subject": "ATK: exact field-by-field final producer"
+  },
+  {
+   "commit": "b3556b96895f4b49215ae353fd574768f26ca6c1",
+   "date": "2026-09-30T21:37:13+02:00",
+   "subject": "ATK: add exact BSD final producer"
+  },
+  {
+   "commit": "1775db835129a6e879f2a01138b55013a34e9ae8",
+   "date": "2026-09-30T21:25:38+02:00",
+   "subject": "ATK: use direct elan for FINAL_ROOT validation"
+  },
+  {
+   "commit": "35fac4315839c3f453b5a34306ad726387356137",
+   "date": "2026-09-30T21:24:24+02:00",
+   "subject": "ATK: validate FINAL_EXTERNAL and FINAL_ROOT"
+  },
+  {
+   "commit": "d05493b0ef8954e27e700e003c215fa6aa182911",
+   "date": "2026-09-30T21:23:26+02:00",
+   "subject": "ATK: finalize FinalExternal and FINAL_ROOT"
+  },
+  {
+   "commit": "f3ad9fd331006a42d3e9d7905849def3c41e06ac",
+   "date": "2026-09-30T20:37:27+02:00",
+   "subject": "ATK: use direct elan for FINAL_ROOT gate"
+  },
+  {
+   "commit": "a0fbb995f6e2b8c3b91bba7d767aaf7b0245c7f0",
+   "date": "2026-09-30T20:35:32+02:00",
+   "subject": "ATK: validate FINAL_EXTERNAL to FINAL_ROOT"
+  },
+  {
+   "commit": "206c01a92f60153418181ed648bdcee43771fef4",
+   "date": "2026-09-30T20:31:58+02:00",
+   "subject": "ATK: finalize FINAL_EXTERNAL and FINAL_ROOT"
+  },
+  {
+   "commit": "e6a109dc05b1de76f1bb329b77dbbe3f9358b800",
+   "date": "2026-09-30T17:42:15+02:00",
+   "subject": "ATK: load terminal producer modules into inhabitation miner"
+  },
+  {
+   "commit": "b0d440cc5e6db2b33831a3b144d38794ecda122e",
+   "date": "2026-09-30T17:38:35+02:00",
+   "subject": "ATK: mine direct producers of terminal inhabitant types"
+  },
+  {
+   "commit": "3599da55b20a45a3eea3363c43bb0bfdb53f9c2f",
+   "date": "2026-09-30T17:36:04+02:00",
+   "subject": "ATK: make type-unification mining fail-closed per declaration"
+  },
+  {
+   "commit": "f461039a1d08e42522b15d78494eee6a73ef02ad",
+   "date": "2026-09-30T17:34:34+02:00",
+   "subject": "ATK: make inhabitation miner robust to generated structure fields"
+  },
+  {
+   "commit": "832261870a4e4710b20f7a50a4ca63dded530dcf",
+   "date": "2026-09-30T17:32:55+02:00",
+   "subject": "ATK: strengthen inhabitation miner to definitional type unification"
+  },
+  {
+   "commit": "36d3fd91b5da12ed745858350fe80c76b6d72966",
+   "date": "2026-09-30T17:30:49+02:00",
+   "subject": "ATK: qualify structure projection names in miner"
+  },
+  {
+   "commit": "20bc3debfc5c81ba65bbb8cf2193d027d23920d8",
+   "date": "2026-09-30T17:28:00+02:00",
+   "subject": "ATK: make inhabitation miner telescope traversal version-stable"
+  },
+  {
+   "commit": "b75421399b8d34a6bb699e94c6a18a00409adb3c",
+   "date": "2026-09-30T17:25:17+02:00",
+   "subject": "ATK: complete Lean 4.19 telescope API adaptation"
+  },
+  {
+   "commit": "7d2d095be75a58384ca821c122fcb662349ccd36",
+   "date": "2026-09-30T17:23:13+02:00",
+   "subject": "ATK: fix Lean 4.19 inhabitation miner API"
+  },
+  {
+   "commit": "2d1a51c508ba69e9d7467e4db0e93d07fc04eb30",
+   "date": "2026-09-30T17:20:08+02:00",
+   "subject": "ATK: resolve mining through lake build"
+  },
+  {
+   "commit": "feb6e6ae47c367a2e7a9170183812e2291a03460",
+   "date": "2026-09-30T17:15:14+02:00",
+   "subject": "ATK: run field-by-field inhabitation mining"
+  },
+  {
+   "commit": "92fc8c4cc6f1ae66ff09df7d9e92d28451e418f5",
+   "date": "2026-09-30T17:15:00+02:00",
+   "subject": "ATK: add field-by-field inhabitation mining"
+  },
+  {
+   "commit": "0e7366fa22db88b3d54efa5a7b37390119d4f538",
+   "date": "2026-09-30T15:04:23+02:00",
+   "subject": "ATK: make BSD K9 counterexample proofs computational"
+  },
+  {
+   "commit": "c414f147283a79d089d6de5fb9398a6fd03a1812",
+   "date": "2026-09-30T15:03:13+02:00",
+   "subject": "ATK: restore classical decidability in BSD K9 audit"
+  },
+  {
+   "commit": "19a80bab3cd7557fab60673b51a0ec898f85ad37",
+   "date": "2026-09-30T15:00:59+02:00",
+   "subject": "ATK: resolve terminal modules through lake build"
+  },
+  {
+   "commit": "128df1d6f2cf7e24583a3281196d2f9e83ecf31c",
+   "date": "2026-09-30T15:00:56+02:00",
+   "subject": "ATK: make auto-compose dependency-free"
+  },
+  {
+   "commit": "371295b78dba9b322735535f56c1061e911fcdcc",
+   "date": "2026-09-30T14:12:37+02:00",
+   "subject": "ATK: decouple auto-compose from status metadata"
+  },
+  {
+   "commit": "af3b694008f99129b63e5779dd955e966830a86f",
+   "date": "2026-09-30T13:57:27+02:00",
+   "subject": "ATK: use direct Lean build for terminal composition"
+  },
+  {
+   "commit": "8dfdef9aaa28d1a99841fe64f8f1eea8316745d8",
+   "date": "2026-09-30T13:55:52+02:00",
+   "subject": "ATK: add minimal terminal auto-compose workflow"
+  },
+  {
+   "commit": "96148faeb97b793380209b1129bae76603d49a91",
+   "date": "2026-09-30T13:55:49+02:00",
+   "subject": "ATK: proof-first composition on terminal branch"
+  },
+  {
+   "commit": "b8b984132b29b09f168ac258072a755b9168f2e9",
+   "date": "2026-09-27T20:09:15+01:00",
+   "subject": "bsd: make raw-rank counterexample proofs decidable"
+  },
+  {
+   "commit": "18000eef4c5391dd990ab27caa219b339152a2b1",
+   "date": "2026-09-27T20:07:18+01:00",
+   "subject": "bsd: mark raw universal rank spec refuted and expose curve-derived target"
+  },
+  {
+   "commit": "c7610af869ae9a8c722411b3698065fd4d8dbe5c",
+   "date": "2026-09-27T20:07:04+01:00",
+   "subject": "bsd: falsify universal rank inequalities over raw BSDRankData"
+  },
+  {
+   "commit": "0dff429cedfb7daf5c0eeddb9ee5007c6d2f9669",
+   "date": "2026-09-27T20:02:17+01:00",
+   "subject": "bsd: collapse frontier to first empty producer types"
+  },
+  {
+   "commit": "410572bea457d4f704cd72af46a67826603b8f27",
+   "date": "2026-09-27T20:02:01+01:00",
+   "subject": "atk: freeze producer-first no-scaffold-escape rule"
+  },
+  {
+   "commit": "017cc7f1101eacd1b510df7ce6b1b1510ecb492e",
+   "date": "2026-09-27T20:01:59+01:00",
+   "subject": "bsd: producer-first remove resolution scaffold from canonical build"
+  },
+  {
+   "commit": "2e122dc56db958dcf2449fcc5379af2fa3e7208e",
+   "date": "2026-09-27T16:17:44+01:00",
+   "subject": "bsd: wire resolution mechanism into aggregate build"
+  },
+  {
+   "commit": "4a179fc4d7849b10cb57b8715f0730b0e96a950d",
+   "date": "2026-09-27T16:17:38+01:00",
+   "subject": "bsd: formalize full resolution mechanism and derive habitant"
+  },
+  {
+   "commit": "983b8b9e3756ba54c7c44e39787bcaa1073512e0",
+   "date": "2026-09-27T15:39:02+01:00",
+   "subject": "bsd: fix parametric frontier firewall proofs"
+  },
+  {
+   "commit": "4993f85293ed5194522bfdb9280e413e5ae53de9",
+   "date": "2026-09-27T15:38:35+01:00",
+   "subject": "bsd: expose grounded habitant construction frontier"
+  },
+  {
+   "commit": "239ea9475a0dbbd5e99a88e206a11a347f61ae64",
+   "date": "2026-09-27T15:38:12+01:00",
+   "subject": "bsd: wire full grounded certificate chain"
+  },
+  {
+   "commit": "00bf3473b89c08a1a6b6a95ac66c851bf7babab0",
+   "date": "2026-09-27T15:38:04+01:00",
+   "subject": "bsd: add BSD_GROUNDED_CHAIN.md"
+  },
+  {
+   "commit": "cc6124577de2234bd26c43eeedda0941bb8b3ba8",
+   "date": "2026-09-27T15:38:01+01:00",
+   "subject": "bsd: add BSDConstructionFrontier.lean"
+  },
+  {
+   "commit": "6758cb59304d4a269447d41036db30278e48c9a8",
+   "date": "2026-09-27T15:38:00+01:00",
+   "subject": "bsd: add BSDCompositeCertificate.lean"
+  },
+  {
+   "commit": "96fed2e4b0e84893bf4b97792cfe55c32a218580",
+   "date": "2026-09-27T15:37:55+01:00",
+   "subject": "bsd: add BSDOperatorSemantics.lean"
+  },
+  {
+   "commit": "66763b6831130fea89e08bcb1088991094efd61d",
+   "date": "2026-09-27T15:37:53+01:00",
+   "subject": "bsd: add BSDAtomicCertificates.lean"
+  },
+  {
+   "commit": "d335c5f96b2ab2047ccc21823780ad8141301bcb",
+   "date": "2026-09-27T14:57:47+01:00",
+   "subject": "bsd: wire grounded habitant into aggregate build"
+  },
+  {
+   "commit": "650000c90552ab5d04c1a7133d0270c5a7efc748",
+   "date": "2026-09-27T14:57:38+01:00",
+   "subject": "bsd: formalize same-carrier grounded habitant interface"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.AutoCompose.extract",
+   "file": "lean/MCore/AutoCompose.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (c : TheoremCertificate P) : P"
+  },
+  {
+   "name": "MCore.BSDFinal.finalExternal_leading",
+   "file": "lean/MCore/BSDExactConsequences.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Curve Scalar : Type} (C : FinalExternalCertificate Curve Scalar) (E : Curve) : ((C.1).state E).leadingCoefficient = bsdArithmeticSide (C.1).algebra ((C.1).state E)"
+  },
+  {
+   "name": "MCore.BSDFinal.finalExternal_rank",
+   "file": "lean/MCore/BSDExactConsequences.lean",
+   "line": 5,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Curve Scalar : Type} (C : FinalExternalCertificate Curve Scalar) (E : Curve) : ((C.1).state E).analyticOrderAtOne = ((C.1).state E).algebraicRank"
+  },
+  {
+   "name": "MCore.BSDFinal.finalExternal_sha",
+   "file": "lean/MCore/BSDExactConsequences.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Curve Scalar : Type} (C : FinalExternalCertificate Curve Scalar) (E : Curve) : 0 < ((C.1).state E).shaOrder"
+  },
+  {
+   "name": "MCore.BSDFinal.residual_closes_final",
+   "file": "lean/MCore/FinalOpenMath.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Curve Scalar : Type} (h : OpenMathResidual Curve Scalar) : Nonempty (FinalExternalCertificate Curve Scalar)"
+  },
+  {
+   "name": "MCore.BSDRigorous.rigorous_to_legacy_FINAL_ROOT",
+   "file": "lean/MCore/BSDRigorousFrontier.lean",
+   "line": 67,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "{Curve Scalar : Type} (H : RIGOROUS_FINAL_ROOT Curve Scalar) : BSDFinal.FINAL_ROOT Curve Scalar"
+  },
+  {
+   "name": "MCore.BSDRigorous.shaOrder_pos",
+   "file": "lean/MCore/BSDRigorousFrontier.lean",
+   "line": 29,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{Curve Scalar : Type} (H : RigorousGroundedBSDHabitant Curve Scalar) (E : Curve) : 0 < (H.state E).shaOrder"
+  },
+  {
+   "name": "MCore.bsd_habitant_node_open",
+   "file": "lean/MCore/BSDConstructionFrontier.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (Curve Scalar : Type), (MCore.bsd_habitant_node Curve Scalar).status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.bsd_habitant_not_false_certified",
+   "file": "lean/MCore/BSDConstructionFrontier.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (Curve Scalar : Type), ¬Nonempty (MCore.ProofCertificate (MCore.bsd_habitant_node Curve Scalar))"
+  },
+  {
+   "name": "MCore.bsd_resolution_mechanism_node_open",
+   "file": "lean/MCore/BSDResolutionMechanism.lean",
+   "line": 134,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(Curve Scalar : Type) : (bsd_resolution_mechanism_node Curve Scalar).status = .openBridge"
+  },
+  {
+   "name": "MCore.bsd_resolution_mechanism_not_false_certified",
+   "file": "lean/MCore/BSDResolutionMechanism.lean",
+   "line": 137,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(Curve Scalar : Type) : ¬ Nonempty (ProofCertificate (bsd_resolution_mechanism_node Curve Scalar))"
+  },
+  {
+   "name": "MCore.bsd_universal_certificate_node_open",
+   "file": "lean/MCore/BSDConstructionFrontier.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (Curve Scalar : Type), (MCore.bsd_universal_certificate_node Curve Scalar).status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.bsd_universal_not_false_certified",
+   "file": "lean/MCore/BSDConstructionFrontier.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (Curve Scalar : Type), ¬Nonempty (MCore.ProofCertificate (MCore.bsd_universal_certificate_node Curve Scalar))"
+  },
+  {
+   "name": "MCore.groundedHabitant_closes_rank_interface",
+   "file": "lean/MCore/GroundedBSDHabitant.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Curve Scalar : Type} (H : MCore.GroundedBSDHabitant Curve Scalar) (E : Curve),   MCore.BSDOpenCore (H.state E).toArithmeticAnalyticData"
+  },
+  {
+   "name": "MCore.groundedHabitant_exposes_leading_identity",
+   "file": "lean/MCore/GroundedBSDHabitant.lean",
+   "line": 97,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Curve Scalar : Type} (H : MCore.GroundedBSDHabitant Curve Scalar) (E : Curve),   (H.state E).leadingCoefficient = MCore.bsdArithmeticSide H.algebra (H.state E)"
+  },
+  {
+   "name": "MCore.grounded_rank_views_equal",
+   "file": "lean/MCore/BSDOperatorSemantics.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Curve Scalar : Type} (H : MCore.GroundedBSDHabitant Curve Scalar) (E : Curve),   (MCore.analyticOperator (H.state E)).orderAtOne = (MCore.arithmeticOperator (H.state E)).rank"
+  },
+  {
+   "name": "MCore.k9_not_universal_analytic_to_arithmetic",
+   "file": "lean/MCore/K9.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬∀ (d : MCore.BSDRankData), MCore.BSDAnalyticToArithmetic d"
+  },
+  {
+   "name": "MCore.k9_not_universal_arithmetic_to_analytic",
+   "file": "lean/MCore/K9.lean",
+   "line": 73,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬∀ (d : MCore.BSDRankData), MCore.BSDArithmeticToAnalytic d"
+  },
+  {
+   "name": "MCore.resolutionMechanism_closes_leading",
+   "file": "lean/MCore/BSDResolutionMechanism.lean",
+   "line": 114,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{Curve Scalar : Type} (M : BSDResolutionMechanism Curve Scalar) (E : Curve) : ((M.toGroundedBSDHabitant).state E).leadingCoefficient = bsdArithmeticSide (M.toGroundedBSDHabitant).algebra ((M.toGroundedBSDHabitant).state E)"
+  },
+  {
+   "name": "MCore.resolutionMechanism_closes_rank",
+   "file": "lean/MCore/BSDResolutionMechanism.lean",
+   "line": 105,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{Curve Scalar : Type} (M : BSDResolutionMechanism Curve Scalar) (E : Curve) : BSDOpenCore (((M.toGroundedBSDHabitant).state E).toArithmeticAnalyticData)"
+  },
+  {
+   "name": "MCore.universalCertificate_closes_old_rank_core",
+   "file": "lean/MCore/BSDCompositeCertificate.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Curve Scalar : Type} (C : MCore.BSDUniversalCertificate Curve Scalar) (E : Curve),   MCore.BSDOpenCore (C.fst.state E).toArithmeticAnalyticData"
+  }
+ ],
+ "closed": 17,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/AutoCompose.lean": "82d237a328a26f6f2bd3fefd78eec2ed3f05d5db26e46f63bfee75658946a7de",
+  "lean/MCore/BSDAtomicCertificates.lean": "d7dd88c6a038b0d466e4d54ab88f2b5327543f10cbfa1812e23efe90be4d3c56",
+  "lean/MCore/BSDCompositeCertificate.lean": "4ef87c919bbcfbab4ea1c01a4d71244081cea053d19bb4923f2e7cdbfe38267e",
+  "lean/MCore/BSDConstructionFrontier.lean": "47f7da2f23a3713b8c03fcee8bd03c1050ef6f2df54e7a36619cf00e897a77b1",
+  "lean/MCore/BSDExactConsequences.lean": "152207f2714dbd80176413df71c7e11deb88b877f329c1ca0c4d944c6f6ca45c",
+  "lean/MCore/BSDOperatorSemantics.lean": "92a51590cbc1538070a2f413b8a938a22d68ecde9733f62c650668c210ab2747",
+  "lean/MCore/BSDResolutionMechanism.lean": "b40cbc989cb295178504cffe20fb4ca7d4f625150f83f7085a300fc4682a67e7",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/ExactFinalProducer.lean": "9b7fc7160c98043579a0c994a3b037644482f2e47f940c4e16ff5f129b62eda0",
+  "lean/MCore/FinalExternal.lean": "ebabc32839bc1f8a2e056b56a9be4808f63404279acf54ecf6b1d0ba28d09945",
+  "lean/MCore/FinalOpenMath.lean": "8eaf52c77522e80cf777d43b09f220b7f94ffd139dba0d4f5a4b9ae582c01164",
+  "lean/MCore/GroundedBSDHabitant.lean": "002475483050592b25ea853ddd62fb86db293854b753f2d84be00f921990bc93",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K14.lean": "ed01ddf91006fbc50791f6f86b03ee77f52385bb11cac98759aa9fa1ad776010",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "646c15250ac24f924847a3ade9ab735038da0f0336da807fbf41575b4d6fd42d",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "0d5e429c8d07697d84db144d7c69c4ffd9dee57391d73e4445de2575b0e8ba73"
+}

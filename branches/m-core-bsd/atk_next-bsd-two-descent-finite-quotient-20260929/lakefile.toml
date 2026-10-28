@@ -1,0 +1,16 @@
+name = "m-core-bsd"
+version = "0.2.0"
+defaultTargets = ["BSDAlgebraicProbe"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "6e123c3c89b870c447231b33425c2d17d07cb374"
+
+[[lean_lib]]
+name = "MCore"
+srcDir = "lean"
+
+[[lean_lib]]
+name = "BSDAlgebraicProbe"
+srcDir = "probe"

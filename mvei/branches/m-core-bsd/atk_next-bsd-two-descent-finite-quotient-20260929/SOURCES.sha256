@@ -1,0 +1,5 @@
+b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-bsd/atk_next-bsd-two-descent-finite-quotient-20260929/lake-manifest.json
+32a1aa8bc4f1d17b32fa2aa7552a89d56cf34b10c732ee7be0f1c89b3c8a27a7  branches/m-core-bsd/atk_next-bsd-two-descent-finite-quotient-20260929/lakefile.toml
+bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47  branches/m-core-bsd/atk_next-bsd-two-descent-finite-quotient-20260929/lean-toolchain
+ecaccae88185ff583e11422c9a5b18cd9fd424a81005e93cde89a68845374662  branches/m-core-bsd/atk_next-bsd-two-descent-finite-quotient-20260929/lean/MCore/BSD/MordellWeilDescentReduction.lean
+4bcc0f6856ca8b27ac91930d51e182b07399d2f34b5cb49472705e5e7794110e  branches/m-core-bsd/atk_next-bsd-two-descent-finite-quotient-20260929/lean/MCore/BSD/WeakMordellWeilReduction.lean

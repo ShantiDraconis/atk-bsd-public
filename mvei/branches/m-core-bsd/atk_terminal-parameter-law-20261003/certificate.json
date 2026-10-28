@@ -1,0 +1,201 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk/terminal-parameter-law-20261003",
+ "branch_state": "parada",
+ "head_commit": "9dcaf945382b8d497f697d95d3f694f8a8a1b3ba",
+ "head_commit_date": "2026-10-04T17:52:18+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "9dcaf945382b8d497f697d95d3f694f8a8a1b3ba",
+   "date": "2026-10-04T17:52:18+02:00",
+   "subject": "simplify BSD refutation to negated Nonempty"
+  },
+  {
+   "commit": "0f6b02090ebb04b833bc128db3232a22e3c858e6",
+   "date": "2026-10-04T17:51:10+02:00",
+   "subject": "use simp for concrete K9 counterexamples"
+  },
+  {
+   "commit": "480781b0f2523e2d1d7f40d9737e68f39d0e078f",
+   "date": "2026-10-04T17:48:58+02:00",
+   "subject": "fix K9 concrete counterexamples without Decidable synthesis"
+  },
+  {
+   "commit": "0953c064d9ce006bdd54d8249181f968b7deaa70",
+   "date": "2026-10-03T17:04:30+02:00",
+   "subject": "wire concrete terminal law into default build"
+  },
+  {
+   "commit": "8edee77517e415117ccf00311229b063f1f1c386",
+   "date": "2026-10-03T17:03:40+02:00",
+   "subject": "formalize concrete terminal certification/refutation law"
+  },
+  {
+   "commit": "b8b984132b29b09f168ac258072a755b9168f2e9",
+   "date": "2026-09-27T20:09:15+01:00",
+   "subject": "bsd: make raw-rank counterexample proofs decidable"
+  },
+  {
+   "commit": "18000eef4c5391dd990ab27caa219b339152a2b1",
+   "date": "2026-09-27T20:07:18+01:00",
+   "subject": "bsd: mark raw universal rank spec refuted and expose curve-derived target"
+  },
+  {
+   "commit": "c7610af869ae9a8c722411b3698065fd4d8dbe5c",
+   "date": "2026-09-27T20:07:04+01:00",
+   "subject": "bsd: falsify universal rank inequalities over raw BSDRankData"
+  },
+  {
+   "commit": "0dff429cedfb7daf5c0eeddb9ee5007c6d2f9669",
+   "date": "2026-09-27T20:02:17+01:00",
+   "subject": "bsd: collapse frontier to first empty producer types"
+  },
+  {
+   "commit": "410572bea457d4f704cd72af46a67826603b8f27",
+   "date": "2026-09-27T20:02:01+01:00",
+   "subject": "atk: freeze producer-first no-scaffold-escape rule"
+  },
+  {
+   "commit": "017cc7f1101eacd1b510df7ce6b1b1510ecb492e",
+   "date": "2026-09-27T20:01:59+01:00",
+   "subject": "bsd: producer-first remove resolution scaffold from canonical build"
+  },
+  {
+   "commit": "2e122dc56db958dcf2449fcc5379af2fa3e7208e",
+   "date": "2026-09-27T16:17:44+01:00",
+   "subject": "bsd: wire resolution mechanism into aggregate build"
+  },
+  {
+   "commit": "4a179fc4d7849b10cb57b8715f0730b0e96a950d",
+   "date": "2026-09-27T16:17:38+01:00",
+   "subject": "bsd: formalize full resolution mechanism and derive habitant"
+  },
+  {
+   "commit": "983b8b9e3756ba54c7c44e39787bcaa1073512e0",
+   "date": "2026-09-27T15:39:02+01:00",
+   "subject": "bsd: fix parametric frontier firewall proofs"
+  },
+  {
+   "commit": "4993f85293ed5194522bfdb9280e413e5ae53de9",
+   "date": "2026-09-27T15:38:35+01:00",
+   "subject": "bsd: expose grounded habitant construction frontier"
+  },
+  {
+   "commit": "239ea9475a0dbbd5e99a88e206a11a347f61ae64",
+   "date": "2026-09-27T15:38:12+01:00",
+   "subject": "bsd: wire full grounded certificate chain"
+  },
+  {
+   "commit": "00bf3473b89c08a1a6b6a95ac66c851bf7babab0",
+   "date": "2026-09-27T15:38:04+01:00",
+   "subject": "bsd: add BSD_GROUNDED_CHAIN.md"
+  },
+  {
+   "commit": "cc6124577de2234bd26c43eeedda0941bb8b3ba8",
+   "date": "2026-09-27T15:38:01+01:00",
+   "subject": "bsd: add BSDConstructionFrontier.lean"
+  },
+  {
+   "commit": "6758cb59304d4a269447d41036db30278e48c9a8",
+   "date": "2026-09-27T15:38:00+01:00",
+   "subject": "bsd: add BSDCompositeCertificate.lean"
+  },
+  {
+   "commit": "96fed2e4b0e84893bf4b97792cfe55c32a218580",
+   "date": "2026-09-27T15:37:55+01:00",
+   "subject": "bsd: add BSDOperatorSemantics.lean"
+  },
+  {
+   "commit": "66763b6831130fea89e08bcb1088991094efd61d",
+   "date": "2026-09-27T15:37:53+01:00",
+   "subject": "bsd: add BSDAtomicCertificates.lean"
+  },
+  {
+   "commit": "d335c5f96b2ab2047ccc21823780ad8141301bcb",
+   "date": "2026-09-27T14:57:47+01:00",
+   "subject": "bsd: wire grounded habitant into aggregate build"
+  },
+  {
+   "commit": "650000c90552ab5d04c1a7133d0270c5a7efc748",
+   "date": "2026-09-27T14:57:38+01:00",
+   "subject": "bsd: formalize same-carrier grounded habitant interface"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.bsd_terminal_cert_refute_disjoint",
+   "file": "lean/MCore/BSDTerminalLaw.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (Curve Scalar : Type), ¬(MCore.BSDTerminalCertifies Curve Scalar ∧ MCore.BSDTerminalRefutes Curve Scalar)"
+  },
+  {
+   "name": "MCore.not_bsdTerminalCertifies_iff_refutes",
+   "file": "lean/MCore/BSDTerminalLaw.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (Curve Scalar : Type), ¬MCore.BSDTerminalCertifies Curve Scalar ↔ MCore.BSDTerminalRefutes Curve Scalar"
+  },
+  {
+   "name": "MCore.terminalCertificate_exposes_rank",
+   "file": "lean/MCore/BSDTerminalLaw.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Curve Scalar : Type} (C : MCore.BSDUniversalCertificate Curve Scalar) (E : Curve),   MCore.BSDOpenCore (C.fst.state E).toArithmeticAnalyticData"
+  },
+  {
+   "name": "MCore.universalCertificate_certifies_terminal",
+   "file": "lean/MCore/BSDTerminalLaw.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Curve Scalar : Type}, MCore.BSDUniversalCertificate Curve Scalar → MCore.BSDTerminalCertifies Curve Scalar"
+  }
+ ],
+ "closed": 4,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BSDAtomicCertificates.lean": "d7dd88c6a038b0d466e4d54ab88f2b5327543f10cbfa1812e23efe90be4d3c56",
+  "lean/MCore/BSDCompositeCertificate.lean": "4ef87c919bbcfbab4ea1c01a4d71244081cea053d19bb4923f2e7cdbfe38267e",
+  "lean/MCore/BSDOperatorSemantics.lean": "92a51590cbc1538070a2f413b8a938a22d68ecde9733f62c650668c210ab2747",
+  "lean/MCore/BSDTerminalLaw.lean": "53d398328073593ad38f9ef0534151dd1216ea86059ebf31160545c1e0841777",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/GroundedBSDHabitant.lean": "002475483050592b25ea853ddd62fb86db293854b753f2d84be00f921990bc93",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K14.lean": "ed01ddf91006fbc50791f6f86b03ee77f52385bb11cac98759aa9fa1ad776010",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "0cacf851b2e9569f6c489fd88dd6f0bfdaf096c60d274a3f5031fe38a36d6797",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "1c7224f802966190961a2b6ca14f5d4a5b97b939383006bfc704a2c275afe9a1"
+}
