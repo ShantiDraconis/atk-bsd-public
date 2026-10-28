@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:47:17+00:00",
+ "generated_at": "2026-10-28T16:41:02+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": true,
-   "build_seconds": 14.7,
+   "build_seconds": 16.7,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -1151,6 +1151,59 @@
    ],
    "integrity": [],
    "note": "",
+   "corrections": [],
+   "lakefile_gerado": "",
+   "avulso": false,
+   "salvage": [
+    {
+     "arquivo": "audit/ATK_BSD_ABSTRACT_TYPE_COUNTERAUDIT.lean",
+     "linha": 20,
+     "nome": "MCore.abstractRankCounterexample_not_rankPart",
+     "status": "erro",
+     "axioms": [
+      "sorryAx"
+     ]
+    },
+    {
+     "arquivo": "audit/ATK_BSD_ABSTRACT_TYPE_COUNTERAUDIT.lean",
+     "linha": 24,
+     "nome": "MCore.no_universal_rank_part_over_arbitrary_data",
+     "status": "aberto-sorry",
+     "axioms": [
+      "sorryAx"
+     ]
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HypotheticalRankPartOracle.lean",
+     "linha": 8,
+     "nome": "MCore.BackwardAudit.hypothetical_rank_part",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/WithoutOracle.lean",
+     "linha": 7,
+     "nome": "MCore.BackwardAudit.rank_witness_contract_closes",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/WithoutOracle.lean",
+     "linha": 14,
+     "nome": "MCore.BackwardAudit.bsd_rank_part_without_oracle_still_open",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/Material/RankAdapter.lean",
+     "linha": 5,
+     "nome": "MCore.Material.bsd_rank_material_iff_existing_target",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/Material/Closure.olean' of module MCore.Material.Closure does not exist"
+    }
+   ],
+   "preenchimento": [],
    "summary": {
     "fechado": 156,
     "aberto-sorry": 0,
@@ -1164,7 +1217,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 76.4,
+   "build_seconds": 95.7,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -1207,6 +1260,11 @@
    ],
    "integrity": [],
    "note": "",
+   "corrections": [],
+   "lakefile_gerado": "",
+   "avulso": false,
+   "salvage": [],
+   "preenchimento": [],
    "summary": {
     "fechado": 3,
     "aberto-sorry": 0,
