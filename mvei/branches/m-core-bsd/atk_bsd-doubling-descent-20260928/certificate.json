@@ -379,6 +379,6 @@
   "lean-toolchain": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47",
   "lean/MCore/BSD/DoublingDescentReduction.lean": "0fb2d506945b372c5ef4190ffdcff11b00cf5cbac2becd355a7f1a4d34e95457"
  },
- "published_at": "2026-10-29T01:37:28Z",
- "certificate_sha256": "08721e16737826b1d05faa186b7b2674558f780916f761cc4fdb15920495960f"
+ "published_at": "2026-10-29T02:47:11Z",
+ "certificate_sha256": "75f12e693a2064999355badd0304134bab7f86a23b52950b794dd86cd4d070d3"
 }

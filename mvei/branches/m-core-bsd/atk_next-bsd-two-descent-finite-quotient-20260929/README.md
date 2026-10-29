@@ -5,7 +5,7 @@ Lean sources from the branch `atk/next-bsd-two-descent-finite-quotient-20260929`
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 69 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `06aa53b2c69b64727e5b1bcb52f4e672f7365d578844c4ffc08fc6104220dbe2`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_next-bsd-two-descent-finite-quotient-20260929/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `982d9724966b8d4f1acf91fe882a2f6344353915b11487967ccbb05af0f6e457`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_next-bsd-two-descent-finite-quotient-20260929/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

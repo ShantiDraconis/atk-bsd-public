@@ -5,7 +5,7 @@ Lean sources from the branch `k7-preflight/BSD-OfficialSpec` of the private repo
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 1 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `e184fa53cf504325236dcf98f298ae6ca4845f63d953e1096d6740cb7d384a1e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/k7-preflight_BSD-OfficialSpec/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `0a4a20ecc40c3b945d014cbe3a6351e8c0dcd344d9bcda9b87a6742406d22666`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/k7-preflight_BSD-OfficialSpec/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

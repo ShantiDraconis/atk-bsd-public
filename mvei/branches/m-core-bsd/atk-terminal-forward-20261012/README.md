@@ -5,7 +5,7 @@ Lean sources from the branch `atk-terminal-forward-20261012` of the private repo
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 2 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `1e3f43958bfb9d9393034acc077bd1b629c19420dc6fe6ee073435878ebdff12`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk-terminal-forward-20261012/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `6aae846b76a3ce0794dee052d480dafff9a03c71df14a7f1f04cc3ede50cdd85`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk-terminal-forward-20261012/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
