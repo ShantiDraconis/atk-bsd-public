@@ -1,0 +1,99 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk-kernel-check",
+ "branch_state": "em andamento",
+ "head_commit": "fe8ffaccfdc84a3fce785aefde1d29040fd9804a",
+ "head_commit_date": "2026-10-13T01:45:17+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "fe8ffaccfdc84a3fce785aefde1d29040fd9804a",
+   "date": "2026-10-13T01:45:17+01:00",
+   "subject": "bsd-lattice: resumo em uma anotação"
+  },
+  {
+   "commit": "3a4da2ceb45aa32ad7ef0dd04310ab02a5afde92",
+   "date": "2026-10-13T01:45:09+01:00",
+   "subject": "bsd_lattice: geometria do reticulado de Mordell–Weil com dados reais (posto ≥ 2, condutor ≤ 10000): autovalores, κ, altura mínima, razão de Hermite, h_min/log|Δ|"
+  },
+  {
+   "commit": "97a7463e9099532d33752e8b0d57942423ed2db5",
+   "date": "2026-10-12T21:14:45+01:00",
+   "subject": "atk-ficha: FICHA de matemática nova formalizada (ISK refinado, leis de escala, portões por problema) + propostas de 12/10 avaliadas"
+  },
+  {
+   "commit": "65d2edd8f949c5a362d13c8188b3013c3a0a2fdf",
+   "date": "2026-10-12T15:18:46+01:00",
+   "subject": "bsd_scan: estende a varredura até condutor 10000 (matriz 1000/10000), Sha_an com 15 algarismos"
+  },
+  {
+   "commit": "c3c5ec820ce2023fb78483b55c1ffde32e3347ad",
+   "date": "2026-10-12T15:13:59+01:00",
+   "subject": "bsd_scan: posto analítico vs algébrico e Sha_an em toda a base de Cremona (condutor ≤ 1000)"
+  },
+  {
+   "commit": "cc46458d43dc19c3e6fd5240e5d35072264bdaf7",
+   "date": "2026-10-12T00:52:26+01:00",
+   "subject": "atk-kernel: certificado v1 (5/5) do commit 83eb7e4, congelado na tag atk-kernel-cert-v1"
+  },
+  {
+   "commit": "83eb7e46b98fe8a5ac760c0ded60ff088ce2356a",
+   "date": "2026-10-12T00:43:59+01:00",
+   "subject": "atk-kernel: novos lemas de BSD (mesmos já verificados no M-Core)"
+  },
+  {
+   "commit": "b7c38f0d0d78629ef40fc6de7a0206e61a1b3046",
+   "date": "2026-10-12T00:21:58+01:00",
+   "subject": "bsd_data: tabela dos resultados"
+  },
+  {
+   "commit": "15327b7704efc8a8709794c2967350079bdfd263",
+   "date": "2026-10-12T00:14:24+01:00",
+   "subject": "bsd_data: regulador com geradores provados (Cremona) e Πc_p finito"
+  },
+  {
+   "commit": "6432e5a9f36ba924e678a29ed399d98182d4ef12",
+   "date": "2026-10-12T00:12:41+01:00",
+   "subject": "atk-kernel: termos da fórmula BSD para curvas concretas (PARI/GP)"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0",
+   "leanprover/lean4:v4.34.1"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "ATK.BSD.torsion_card_pos",
+   "file": "atk-kernel/ATK/BSD.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (W : WeierstrassCurve.Affine ℚ) [Finite ↥(AddCommGroup.torsion W.Point)], 0 < Nat.card ↥(AddCommGroup.torsion W.Point)"
+  },
+  {
+   "name": "ATK.BSD.torsion_contains_zero",
+   "file": "atk-kernel/ATK/BSD.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (W : WeierstrassCurve.Affine ℚ), 0 ∈ AddCommGroup.torsion W.Point"
+  }
+ ],
+ "closed": 2,
+ "files_sha256": {
+  "atk-kernel/ATK/BSD.lean": "a44134f53cf7360da2c520d46899561402d21e97b189f4b4f90ef1a509c82a73",
+  "atk-kernel/lakefile.toml": "139e6ddf32cce30e56e879c1770e14aabcae182a42f8f740d7912fbe7fc4946d",
+  "atk-kernel/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+ },
+ "published_at": "2026-10-29T01:37:28Z",
+ "certificate_sha256": "6cbaecb10e6f47d5034ded7ccf819857eafc5ecc91c586f64508b6fd79fef19f"
+}

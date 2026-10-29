@@ -14,5 +14,11 @@ Each row is a branch of a private repository of ShantiDraconis with theorems tha
 | m-core-bsd | `atk/terminal-parameter-law-20261003` | 2026-10-04 | parada | 4 / 4 | 25 | 23 | [certificate](../mvei/branches/m-core-bsd/atk_terminal-parameter-law-20261003/README.md) |
 | m-core-bsd | `atk/next-bsd-two-descent-finite-quotient-20260929` | 2026-09-29 | parada | 3 / 3 | 5 | 69 | [certificate](../mvei/branches/m-core-bsd/atk_next-bsd-two-descent-finite-quotient-20260929/README.md) |
 | m-core-bsd | `open-math/bsd-gaps-20261004` | 2026-10-04 | parada | 3 / 3 | 27 | 41 | [certificate](../mvei/branches/m-core-bsd/open-math_bsd-gaps-20261004/README.md) |
+| m-core-bsd | `k7-BSD` | 2026-09-15 | parada | 3 / 3 | 13 | 2 | [certificate](../mvei/branches/m-core-bsd/k7-BSD/README.md) |
+| m-core-bsd | `k7-preflight/BSD-OfficialSpec` | 2026-09-15 | parada | 3 / 3 | 13 | 1 | [certificate](../mvei/branches/m-core-bsd/k7-preflight_BSD-OfficialSpec/README.md) |
+| m-core-bsd | `atk/bsd-doubling-descent-20260928` | 2026-09-28 | parada | 2 / 2 | 4 | 67 | [certificate](../mvei/branches/m-core-bsd/atk_bsd-doubling-descent-20260928/README.md) |
+| m-core-bsd | `atk-kernel-check` | 2026-10-13 | em andamento | 2 / 2 | 3 | 10 | [certificate](../mvei/branches/m-core-bsd/atk-kernel-check/README.md) |
 | m-core-bsd | `research/pure-math-final-proof-v1` | 2026-09-20 | parada | 1 / 6 | 4 | 11 | [certificate](../mvei/branches/m-core-bsd/research_pure-math-final-proof-v1/README.md) |
 | m-core-bsd | `atk/first-real-open-math-bsd-20261005` | 2026-10-05 | parada | 1 / 5 | 33 | 70 | [certificate](../mvei/branches/m-core-bsd/atk_first-real-open-math-bsd-20261005/README.md) |
+| m-core-bsd | `atk-terminal-forward-20261012` | 2026-10-12 | parada | 1 / 1 | 3 | 2 | [certificate](../mvei/branches/m-core-bsd/atk-terminal-forward-20261012/README.md) |
+| m-core-bsd | `a0-preaudit` | 2026-09-17 | parada | 1 / 1 | 3 | 56 | [certificate](../mvei/branches/m-core-bsd/a0-preaudit/README.md) |

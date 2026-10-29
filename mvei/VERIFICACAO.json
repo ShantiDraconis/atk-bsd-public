@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T19:11:15+00:00",
+ "generated_at": "2026-10-29T01:06:09+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": true,
-   "build_seconds": 16.7,
+   "build_seconds": 13.5,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -1162,7 +1162,8 @@
      "status": "erro",
      "axioms": [
       "sorryAx"
-     ]
+     ],
+     "erro": "linha 23: failed to synthesize Decidable ¬BSDRankPart abstractRankCounterexample Additional diagnostic information may be available using the `set_option diagnostics true` command."
     },
     {
      "arquivo": "audit/ATK_BSD_ABSTRACT_TYPE_COUNTERAUDIT.lean",
@@ -1217,7 +1218,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 95.7,
+   "build_seconds": 65.6,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,

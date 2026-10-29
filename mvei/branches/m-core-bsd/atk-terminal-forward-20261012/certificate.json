@@ -1,0 +1,51 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk-terminal-forward-20261012",
+ "branch_state": "parada",
+ "head_commit": "46415d2869a0972161c1d1bbf7dc4e88595f26bb",
+ "head_commit_date": "2026-10-12T01:13:06+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "46415d2869a0972161c1d1bbf7dc4e88595f26bb",
+   "date": "2026-10-12T01:13:06+01:00",
+   "subject": "atk-kernel: incluir BSDTorsionPositive na auditoria do kernel"
+  },
+  {
+   "commit": "6d96eb67bdd8674a2c9554189906e92d41fa90c8",
+   "date": "2026-10-12T01:39:23+02:00",
+   "subject": "ATK: formalize positive cardinality of finite torsion group"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0",
+   "leanprover/lean4:v4.34.1"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "ATK.BSD.torsion_card_ge_one",
+   "file": "atk-kernel/ATK/BSDTorsionPositive.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (G : Type u_1) [Group G] [inst : Fintype G], 1 ≤ Fintype.card G"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "atk-kernel/ATK/BSDTorsionPositive.lean": "09981c316c5f45ba723f298dae46cc1b028bae5d80510fbeebc9418c178b1785",
+  "atk-kernel/lakefile.toml": "139e6ddf32cce30e56e879c1770e14aabcae182a42f8f740d7912fbe7fc4946d",
+  "atk-kernel/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+ },
+ "published_at": "2026-10-29T01:37:28Z",
+ "certificate_sha256": "1e3f43958bfb9d9393034acc077bd1b629c19420dc6fe6ee073435878ebdff12"
+}

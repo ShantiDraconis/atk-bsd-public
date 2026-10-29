@@ -1,0 +1,320 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "a0-preaudit",
+ "branch_state": "parada",
+ "head_commit": "0ee0a245a4f6d8ba6b798aa6e4b73b593df9597d",
+ "head_commit_date": "2026-09-17T12:27:06+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "0ee0a245a4f6d8ba6b798aa6e4b73b593df9597d",
+   "date": "2026-09-17T12:27:06+02:00",
+   "subject": "research: terminally classify spectral comparison and collapse BSD frontier"
+  },
+  {
+   "commit": "8d1e2c346e71f918b01d8547571d2c33c226eaf5",
+   "date": "2026-09-17T12:25:24+02:00",
+   "subject": "research: close S0 concrete model and isolate S1 comparison obstruction"
+  },
+  {
+   "commit": "18310dd7d528c5b2248512744def07873ffa15bd",
+   "date": "2026-09-17T12:23:54+02:00",
+   "subject": "research: terminally classify higher-rank route and open minimal spectral probe"
+  },
+  {
+   "commit": "4b739d17e80a356091f8a8ad13107ff147dd2658",
+   "date": "2026-09-17T10:55:41+02:00",
+   "subject": "research: reverse engineer independent BSD rank entry routes"
+  },
+  {
+   "commit": "8426023f2dd495b7cb876940a00109e4b70c6c5f",
+   "date": "2026-09-17T10:53:32+02:00",
+   "subject": "research: terminally classify plectic field-domain route"
+  },
+  {
+   "commit": "63dbdc73806284a97c6f1fd659ab99c350a4027f",
+   "date": "2026-09-17T10:52:13+02:00",
+   "subject": "research: refute minimal-extension shortcut and isolate exact plectic domain frontier"
+  },
+  {
+   "commit": "1edae224816cb0e664b5b34d45fd5563b3751beb",
+   "date": "2026-09-17T10:30:32+02:00",
+   "subject": "research: isolate first plectic domain-extension obstruction"
+  },
+  {
+   "commit": "3671bc436e9d7d8b5232b1e57c176ac5f5e38e37",
+   "date": "2026-09-17T10:06:35+02:00",
+   "subject": "research: isolate plectic domain-extension frontier"
+  },
+  {
+   "commit": "5d2e7a88c3f788d468053f54767644f0cde8dd1c",
+   "date": "2026-09-17T09:48:29+02:00",
+   "subject": "ci: compile plectic construction subgate decomposition"
+  },
+  {
+   "commit": "9a7fc8d720894dcd6f331aac6f5f942f858af63c",
+   "date": "2026-09-17T09:48:18+02:00",
+   "subject": "plectic: decompose universal construction into four explicit subgates"
+  },
+  {
+   "commit": "b1c5c3bd7b7b48b0d2b7a7089015fd1e13d81a02",
+   "date": "2026-09-17T09:39:41+02:00",
+   "subject": "research: register verified published plectic construction scopes"
+  },
+  {
+   "commit": "a6f4e69b92e80ecdd8ecf5dd99405afdd8d56cfc",
+   "date": "2026-09-17T09:38:30+02:00",
+   "subject": "cert: record plectic route promotion firewall GREEN"
+  },
+  {
+   "commit": "9463428b25eb78616e240e1f55eec55e326c4bc3",
+   "date": "2026-09-17T09:33:44+02:00",
+   "subject": "preaudit: bind plectic route dependency and promotion firewalls"
+  },
+  {
+   "commit": "fc57638180d66c2781306dac001c9d566a3f0918",
+   "date": "2026-09-17T09:27:16+02:00",
+   "subject": "cert: record compiled plectic construction firewall GREEN"
+  },
+  {
+   "commit": "7f2cecc4d63fe0dbe302094853d6d8aab95d4d25",
+   "date": "2026-09-17T09:22:37+02:00",
+   "subject": "ci: compile plectic construction firewall"
+  },
+  {
+   "commit": "0da0238acda564f977bcd7fd44d228b5426b2511",
+   "date": "2026-09-17T09:21:47+02:00",
+   "subject": "cert: freeze plectic construction interface gate"
+  },
+  {
+   "commit": "dcd97eae64053ccc9efe8f61fa79e5cd772eee88",
+   "date": "2026-09-17T05:23:03+02:00",
+   "subject": "plectic: separate published data from universal cycle specification"
+  },
+  {
+   "commit": "7fb34fbf7898760bbd93f01414a9aaf68ea06423",
+   "date": "2026-09-17T05:20:11+02:00",
+   "subject": "research: preaudit plectic construction bridge against literature"
+  },
+  {
+   "commit": "26649179528293b04c4c8a37bff8638a983d372b",
+   "date": "2026-09-17T05:18:22+02:00",
+   "subject": "research: register plectic BSD route with explicit open bridges"
+  },
+  {
+   "commit": "d634be927cbe0718e9f869f540f503ad566243ef",
+   "date": "2026-09-17T05:14:27+02:00",
+   "subject": "cert: record C0 exact-discovery policy GREEN"
+  },
+  {
+   "commit": "611517d9977fa2a6eff061db0b45c72b9696d2f3",
+   "date": "2026-09-17T04:46:39+02:00",
+   "subject": "preaudit: bind C0 identifier allowlist to layer schema"
+  },
+  {
+   "commit": "5289cd0c247d0498a99a910cfad7fee980a4463d",
+   "date": "2026-09-17T04:46:27+02:00",
+   "subject": "preaudit: make C0 exact discovery allowlist explicit"
+  },
+  {
+   "commit": "c25346481c4425f044da1df61089ccd494ff7499",
+   "date": "2026-09-17T04:34:34+02:00",
+   "subject": "cert: record bounded C0 scanner GREEN"
+  },
+  {
+   "commit": "7de6fb7d76e59490a051a1c09c2cc0ecab516889",
+   "date": "2026-09-17T04:32:02+02:00",
+   "subject": "preaudit: eliminate substring false positives from C0 discovery"
+  },
+  {
+   "commit": "8be2acf557e58ba601b950175cc537243cc7278c",
+   "date": "2026-09-17T04:25:30+02:00",
+   "subject": "cert: record frozen A0 C0 infrastructure GREEN"
+  },
+  {
+   "commit": "fd9e1b8195fc944a6b09e2b14d1bf7e30025af98",
+   "date": "2026-09-17T04:24:40+02:00",
+   "subject": "cert: record A0 metadata firewall GREEN at abf45a2d"
+  },
+  {
+   "commit": "abf45a2def9939f0fe9871fa5c03c7d520c46187",
+   "date": "2026-09-17T04:20:04+02:00",
+   "subject": "ci: enforce C0 metadata and open-math firewalls"
+  },
+  {
+   "commit": "def396c2a2210e54d33ec9fff3fceec32b46f692",
+   "date": "2026-09-17T04:19:57+02:00",
+   "subject": "preaudit: add fail-closed BSD metadata validator"
+  },
+  {
+   "commit": "526422dee65f26eb71870044ca01c8ff4e3e2345",
+   "date": "2026-09-17T04:19:45+02:00",
+   "subject": "meta: bind complete BSD C0 analytic layer coverage"
+  },
+  {
+   "commit": "b80309632b29aa0d6899c01a2787d08f68218dfa",
+   "date": "2026-09-17T04:19:38+02:00",
+   "subject": "meta: make BSD debt registry fail-closed per node"
+  },
+  {
+   "commit": "0150275882514daaa0c9af905297a1576c8d0726",
+   "date": "2026-09-17T04:04:30+02:00",
+   "subject": "preaudit: harden C0 into eight fail-closed analytic subgates"
+  },
+  {
+   "commit": "991db153f1fb5509b8b3623ae4e40b317cac0c10",
+   "date": "2026-09-17T03:49:29+02:00",
+   "subject": "meta: enforce five-evidence C0 subgate matrix"
+  },
+  {
+   "commit": "d833fdbf60a936ee960df07201f24601733833fb",
+   "date": "2026-09-17T03:49:19+02:00",
+   "subject": "meta: register BSD reference-statement scope policy"
+  },
+  {
+   "commit": "e0b7af04b3211cd44ba1527e420575847dd1dfad",
+   "date": "2026-09-17T03:49:09+02:00",
+   "subject": "meta: bind mathematical and audit status in certificate schema"
+  },
+  {
+   "commit": "7f9ea07ccca796a7a6ada28d45d71c8bfda692a6",
+   "date": "2026-09-17T03:47:03+02:00",
+   "subject": "meta: add BSD trust graph scaffold"
+  },
+  {
+   "commit": "b9dc4f66206b35023b948f445161392d491a2c21",
+   "date": "2026-09-17T03:46:57+02:00",
+   "subject": "meta: add append-only counterexample registry"
+  },
+  {
+   "commit": "e69bb85e1b27e024334d7d3b95f00f26655fb750",
+   "date": "2026-09-17T03:46:50+02:00",
+   "subject": "meta: add append-only BSD experiment registry"
+  },
+  {
+   "commit": "6751c5744d815d789200ca87aa0b0a85bc0eed99",
+   "date": "2026-09-17T03:46:44+02:00",
+   "subject": "meta: add BSD normalization registry scaffold"
+  },
+  {
+   "commit": "82cc50c5054e496b36341196159b5e29018653a0",
+   "date": "2026-09-17T03:46:36+02:00",
+   "subject": "meta: add per-node mathematical and formalization debt registry"
+  },
+  {
+   "commit": "dbbd4a96c6f371023cfb60d905b6b0d90af27838",
+   "date": "2026-09-17T03:46:29+02:00",
+   "subject": "meta: register BSD research and comparison protocol"
+  },
+  {
+   "commit": "20b9edeb1202c8cb19de317115d522c2b8ec5ce5",
+   "date": "2026-09-17T03:21:04+02:00",
+   "subject": "ci: run fail-closed BSD analytic preaudit"
+  },
+  {
+   "commit": "0abc564f1d2327c7479c6fc282ca3c1154dca702",
+   "date": "2026-09-17T03:20:57+02:00",
+   "subject": "preaudit: add fail-closed BSD analytic block scan"
+  },
+  {
+   "commit": "dfccfc8be9174c52d4a06582fe011aedcfa2b4ce",
+   "date": "2026-09-17T03:20:42+02:00",
+   "subject": "cert: freeze A0 Block B GREEN"
+  },
+  {
+   "commit": "785df53c9ba18afa887c730830ac1683196d747b",
+   "date": "2026-09-17T02:32:31+02:00",
+   "subject": "ci: add fail-closed Block B preaudit"
+  },
+  {
+   "commit": "e163ba7050e4c8216b9fa1d3157649e967e34dc3",
+   "date": "2026-09-17T02:32:17+02:00",
+   "subject": "a0: add fail-closed Mordell-Weil rank audit"
+  },
+  {
+   "commit": "60499a554d48a8a2f4cd264dc3f6889c6919c79a",
+   "date": "2026-09-17T02:32:10+02:00",
+   "subject": "a0: record raw Block A evidence"
+  },
+  {
+   "commit": "ccd8385405c16dfe3bf89a836f5f42a4df5f94c4",
+   "date": "2026-09-17T01:50:22+02:00",
+   "subject": "cert: freeze A0 block A preaudit"
+  },
+  {
+   "commit": "f064a512d4592ceac1b66ffa3198f16df244b7a8",
+   "date": "2026-09-17T01:10:25+02:00",
+   "subject": "ci: resolve A0 manifest before isolated checks"
+  },
+  {
+   "commit": "f2be20a04a68094490c7a78f2a453bcd666b5ff4",
+   "date": "2026-09-17T01:08:33+02:00",
+   "subject": "ci: add isolated pinned-Mathlib A0 preaudit"
+  },
+  {
+   "commit": "c99f676da755a311ed0cb1410407d67a1fc7fecd",
+   "date": "2026-09-17T01:08:24+02:00",
+   "subject": "a0: add pinned Mathlib A-block checks"
+  },
+  {
+   "commit": "fec2d046a860439907bbfe4f1f3f98c0a8747879",
+   "date": "2026-09-17T01:08:20+02:00",
+   "subject": "a0: pin isolated Mathlib dependency"
+  },
+  {
+   "commit": "012ec28d66ee66023d1ac5aff2248a999db9712e",
+   "date": "2026-09-17T01:08:16+02:00",
+   "subject": "a0: pin isolated Lean toolchain"
+  },
+  {
+   "commit": "19fe7da62a02419d99ac3cca34cc631acf2e4593",
+   "date": "2026-09-17T01:08:10+02:00",
+   "subject": "cert: freeze A0 governance checkpoint"
+  },
+  {
+   "commit": "8b36fd58a81daca58af0056686815b3222274976",
+   "date": "2026-09-17T00:37:30+02:00",
+   "subject": "a0: add BSD preaudit inventory"
+  },
+  {
+   "commit": "d71afea23390d23807542089d24fe470096d0ecf",
+   "date": "2026-09-17T00:37:14+02:00",
+   "subject": "a0: document Mathlib isolation"
+  },
+  {
+   "commit": "b1e15117f12228b909fd2f413e133b26d8655701",
+   "date": "2026-09-17T00:37:04+02:00",
+   "subject": "a0: add preaudit schema"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCoreBSD.Plectic.ConstructionGate.constructionConditional_proved",
+   "file": "a0/Plectic/ConstructionGate.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(o : ConstructionObligations) (hLocal : Discharge o.LOCAL_SYSTEM) (hCap : Discharge o.CAP_PRODUCT) (hIntegral : Discharge o.INTEGRALITY) (hGalois : Discharge o.GALOIS_COMPAT) : constructionConditional o hLocal hCap hIntegral hGalois"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "a0/Plectic/ConstructionGate.lean": "3d1273de332ba001c70d20597d57f949faf2a77aca19b87deecea295e904c906",
+  "a0/lakefile.toml": "bb858657d44c253e2874948767d0f47c760570f2ff3045b6d7c8c940ff6ec652",
+  "a0/lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+ },
+ "published_at": "2026-10-29T01:37:28Z",
+ "certificate_sha256": "043003a69b9f1ecb93d3107ff769e5a8f7eb58cba385da94cacb7797ae58a3fa"
+}
