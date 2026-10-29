@@ -398,6 +398,6 @@
   "lean/MCore/BSD/MordellWeilDescentReduction.lean": "ecaccae88185ff583e11422c9a5b18cd9fd424a81005e93cde89a68845374662",
   "lean/MCore/BSD/WeakMordellWeilReduction.lean": "4bcc0f6856ca8b27ac91930d51e182b07399d2f34b5cb49472705e5e7794110e"
  },
- "published_at": "2026-10-29T06:27:12Z",
- "certificate_sha256": "e5a380b04d111c5ede77504e670184e0182064db45779a514ee37d55aae0436a"
+ "published_at": "2026-10-29T20:15:56Z",
+ "certificate_sha256": "a0cdc553e076a527651c1376d818fe837809a9fbe8b5c769ea319cd54f4850c5"
 }

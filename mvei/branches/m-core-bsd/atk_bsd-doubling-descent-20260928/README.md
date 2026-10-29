@@ -5,7 +5,7 @@ Lean sources from the branch `atk/bsd-doubling-descent-20260928` of the private 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 67 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `03d6448b815013a43224935267df966c43d9290e4253cf9bf6e9e1af9f3e8572`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_bsd-doubling-descent-20260928/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `af665cde8f734cc2919f8fa463ac90bdada013b4e21f784b565c831ec50d81b6`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_bsd-doubling-descent-20260928/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

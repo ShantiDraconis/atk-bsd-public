@@ -5,7 +5,7 @@ Lean sources from the branch `atk/bsd-lowrank-material-bridge-20261007` of the p
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 25 — closed 25, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 15 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `32bccb78b3edd34d20154f459048bb84375306324d027858f7908d444c59bd12`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_bsd-lowrank-material-bridge-20261007/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `88eadff68b3071eb47a4bf59734ce2bac75d132e58d960a743c127976a282ad4`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_bsd-lowrank-material-bridge-20261007/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

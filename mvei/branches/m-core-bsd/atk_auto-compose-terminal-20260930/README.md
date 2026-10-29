@@ -5,7 +5,7 @@ Lean sources from the branch `atk/auto-compose-terminal-20260930` of the private
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 21 — closed 17, conditional 0, open 2, proof error 2, not reached 0, no result 0.
 * History: 62 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `94273ad9e4771ecdc531329b5f4d235b6f2f7cea5b914678dfdec6239c77a57d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_auto-compose-terminal-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9729910e85809998d0800b9020baa0cb939bcf4747e6f12c1006f5fd98a07806`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_auto-compose-terminal-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
