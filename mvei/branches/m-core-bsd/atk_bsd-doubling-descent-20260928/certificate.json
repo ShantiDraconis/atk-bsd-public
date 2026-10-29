@@ -343,7 +343,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.35.0-rc3"
   ],
@@ -379,6 +379,6 @@
   "lean-toolchain": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47",
   "lean/MCore/BSD/DoublingDescentReduction.lean": "0fb2d506945b372c5ef4190ffdcff11b00cf5cbac2becd355a7f1a4d34e95457"
  },
- "published_at": "2026-10-29T02:47:11Z",
- "certificate_sha256": "75f12e693a2064999355badd0304134bab7f86a23b52950b794dd86cd4d070d3"
+ "published_at": "2026-10-29T06:27:29Z",
+ "certificate_sha256": "03d6448b815013a43224935267df966c43d9290e4253cf9bf6e9e1af9f3e8572"
 }
