@@ -3,9 +3,9 @@
 Lean sources from the branch `atk/bsd-lowrank-material-bridge-20261007` of the private repository `ShantiDraconis/m-core-bsd`, commit `ead8bc557fab7cae347020b94c90c8ba055a9704` (2026-10-07T19:06:31+02:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 25 — closed 25, conditional 0, open 0, proof error 0, not reached 0, no result 0.
+* Theorems only on branches, in this branch: 25 — closed 24, conditional 0, open 0, proof error 0, not reached 0, no result 1.
 * History: 15 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `88eadff68b3071eb47a4bf59734ce2bac75d132e58d960a743c127976a282ad4`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_bsd-lowrank-material-bridge-20261007/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `7f55a5c1ac07c3f543777e34544db3b7050404877f8be1b413edfbad252ffde7`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/atk_bsd-lowrank-material-bridge-20261007/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
@@ -23,7 +23,7 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.BSDLowRankInhabitant.openCore` | `lean/MCore/BSDLowRankMaterial.lean`:74 | fechado |
 | `MCore.BSDLowRankInhabitant.rankEquality` | `lean/MCore/BSDLowRankMaterial.lean`:81 | fechado |
 | `MCore.BSDLowRankInhabitant.rankPart` | `lean/MCore/BSDLowRankMaterial.lean`:62 | fechado |
-| `MCore.BSDMaterialEndpointProbe.promotedBSDMaterial_sound` | `formal/BSDMaterialEndpointProbe.lean`:22 | fechado |
+| `MCore.BSDMaterialEndpointProbe.promotedBSDMaterial_sound` | `formal/BSDMaterialEndpointProbe.lean`:22 | nao_checado |
 | `MCore.BSDMaterialPromotion.BSDFullMaterialPayload.rankPart` | `lean/MCore/BSDMaterialPromotion.lean`:119 | fechado |
 | `MCore.BSDMaterialPromotion.BSDFullMaterialPayload.refined` | `lean/MCore/BSDMaterialPromotion.lean`:131 | fechado |
 | `MCore.BSDMaterialPromotion.BSDFullMaterialPayload.sha_finite` | `lean/MCore/BSDMaterialPromotion.lean`:125 | fechado |

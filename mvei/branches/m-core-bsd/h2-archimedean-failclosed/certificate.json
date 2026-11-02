@@ -243,7 +243,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -323,25 +323,25 @@
    "name": "MCore.Heights.h2_certified_of_certificate",
    "file": "lean/MCore/Heights/H2_Certificate.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "{D : ArchimedeanSeriesData} (c : H2Certificate D) : H2_ARCHIMEDEAN_CERTIFIED c"
+   "statement": "∀ {D : MCore.Heights.ArchimedeanSeriesData} (c : MCore.Heights.H2Certificate D),   MCore.Heights.H2_ARCHIMEDEAN_CERTIFIED c"
   },
   {
    "name": "MCore.Heights.independent_of_positive_gram",
    "file": "lean/MCore/Heights/H3_Regulator.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(h1 h2 h12 : ℝ) (hD : 0 < gramDet h1 h2 h12) : 0 < gramDet h1 h2 h12"
+   "statement": "∀ (h1 h2 h12 : ℝ), 0 < MCore.Heights.gramDet h1 h2 h12 → 0 < MCore.Heights.gramDet h1 h2 h12"
   },
   {
    "name": "MCore.Heights.term_bound_available",
    "file": "lean/MCore/Heights/ArchimedeanSeries.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(D : ArchimedeanSeriesData) (i : ℕ) : |D.term i| ≤ D.C"
+   "statement": "∀ (D : MCore.Heights.ArchimedeanSeriesData) (i : ℕ), |D.term i| ≤ D.C"
   },
   {
    "name": "MCore.S2.b6_3_conditional",
@@ -349,7 +349,7 @@
    "line": 12,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(D : MCore.B6.RankTwoData) (h : B6_3_Statement D) : MCore.B6.DerivativeHeightBridge D"
+   "statement": "∀ (D : MCore.B6.RankTwoData), MCore.S2.B6_3_Statement D → MCore.B6.DerivativeHeightBridge D"
   },
   {
    "name": "MCore.S2.b6_4_conditional",
@@ -357,7 +357,7 @@
    "line": 18,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(D : MCore.B6.RankTwoData) (h : B6_4_Statement D) : MCore.B6.HeightRegulatorBridge D"
+   "statement": "∀ (D : MCore.B6.RankTwoData), MCore.S2.B6_4_Statement D → MCore.B6.HeightRegulatorBridge D"
   },
   {
    "name": "MCore.S2.b6_5_conditional",
@@ -365,10 +365,10 @@
    "line": 23,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(D : MCore.B6.RankTwoData) (h3 : B6_3_Statement D) (h4 : B6_4_Statement D) : D.LDerivTwoAtOne = (2 : Int) * D.neronTateRegulator"
+   "statement": "∀ (D : MCore.B6.RankTwoData),   MCore.S2.B6_3_Statement D → MCore.S2.B6_4_Statement D → D.LDerivTwoAtOne = 2 * D.neronTateRegulator"
   }
  ],
- "closed": 11,
+ "closed": 14,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
@@ -376,8 +376,11 @@
   "lean/MCore/B6/Decomposition.lean": "c3a0f7386881b8c2a1d0c00b6ba5268c851951f73d78966da5dcd867d17056a2",
   "lean/MCore/B6/Normalization.lean": "26877d6ba5581412832e829de1d42d16fda138dc026c5070ed5931a6699bce33",
   "lean/MCore/B6/Status.lean": "7343852b0c3e834122b58033810dec169805ff4c1c6df8dbcff541d28fa7981d",
+  "lean/MCore/Heights/ArchimedeanSeries.lean": "6b34d3eb79ad7b511f933425ca90d08d149893ff918dfdab33b0e668e92d24ce",
+  "lean/MCore/Heights/H2_Certificate.lean": "12efbce3857b03a526f861eff56512055741bba0f024aeb30eeaca0dfa839247",
+  "lean/MCore/Heights/H3_Regulator.lean": "a955b2c70cd5d1d5f156d92b59517631f4534167659908c5bfc374338b701d28",
   "lean/MCore/S2/B6Conditional.lean": "00cefd280f2c0a0efaeeb7f710846be38b6f93f7195e9de17f196e7cc279f228"
  },
- "published_at": "2026-10-29T20:15:55Z",
- "certificate_sha256": "31aa5e4b8218f0061eb8b302a840c5b423c35f530d5c55701b48a1dce6ee8f87"
+ "published_at": "2026-11-02T20:55:37Z",
+ "certificate_sha256": "8e023e4d3437158b935c7109cc6757df0f6ecf9341d03464344944f6de2a8543"
 }

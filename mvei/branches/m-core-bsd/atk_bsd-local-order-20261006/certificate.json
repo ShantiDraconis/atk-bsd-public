@@ -978,7 +978,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1314,7 +1314,7 @@
    "name": "MCore.BSD.producer_min_cut_kernel_statement",
    "file": "lean/MCore/BSD/ProducerAudit.lean",
    "line": 4,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{D : RealizableEllipticCurveDomain} : Nonempty (RealizableBSDProducer D) ↔ Nonempty (RealizableBSDRankProducer D) ∧ Nonempty (RealizableBSDRefinedProducer D)"
   },
@@ -1418,7 +1418,7 @@
    "name": "MCore.BSDUniversalFirewall.finite_sample_does_not_force_universal",
    "file": "lean/MCore/BackwardAudit/D01UniversalFirewall.lean",
    "line": 29,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ ((∀ x ∈ ([false] : List Bool), Formula x) → (∀ x : Bool, Formula x))"
   },
@@ -1426,7 +1426,7 @@
    "name": "MCore.BSDUniversalFirewall.sampled_case_passes",
    "file": "lean/MCore/BackwardAudit/D01UniversalFirewall.lean",
    "line": 17,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ x ∈ ([false] : List Bool), Formula x"
   },
@@ -1434,7 +1434,7 @@
    "name": "MCore.BSDUniversalFirewall.universal_formula_fails",
    "file": "lean/MCore/BackwardAudit/D01UniversalFirewall.lean",
    "line": 23,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ ∀ x : Bool, Formula x"
   },
@@ -1442,7 +1442,7 @@
    "name": "P06.BSD.BSDCubeUpToThree_count",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 88,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": BSDCubeUpToThree.length = 14"
   },
@@ -1450,7 +1450,7 @@
    "name": "P06.BSD.CLOSED_CLOSED_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 54,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CLOSED_CLOSED_BSD = [.closed, .closed]"
   },
@@ -1458,7 +1458,7 @@
    "name": "P06.BSD.CLOSED_CLOSED_CLOSED_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 60,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CLOSED_CLOSED_CLOSED_BSD = [.closed, .closed, .closed]"
   },
@@ -1466,7 +1466,7 @@
    "name": "P06.BSD.CLOSED_CLOSED_OPEN_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 78,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CLOSED_CLOSED_OPEN_BSD = [.closed, .closed, .open]"
   },
@@ -1474,7 +1474,7 @@
    "name": "P06.BSD.CLOSED_OPEN_CLOSED_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CLOSED_OPEN_CLOSED_BSD = [.closed, .open, .closed]"
   },
@@ -1482,7 +1482,7 @@
    "name": "P06.BSD.CLOSED_OPEN_OPEN_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 69,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CLOSED_OPEN_OPEN_BSD = [.closed, .open, .open]"
   },
@@ -1490,7 +1490,7 @@
    "name": "P06.BSD.FULL_BSD_eq_GLOBAL_EXTERNAL_CERTIFICATE",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 145,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : FULL_BSD_State G refined ↔ GLOBAL_EXTERNAL_CERTIFICATE_BSD G refined"
   },
@@ -1498,7 +1498,7 @@
    "name": "P06.BSD.OPEN_BSD_ne_CLOSED_BSD",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OPEN_BSD ≠ CLOSED_BSD"
   },
@@ -1506,7 +1506,7 @@
    "name": "P06.BSD.OPEN_CLOSED_BSD_ne_CLOSED_OPEN_BSD",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 47,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OPEN_CLOSED_BSD ≠ CLOSED_OPEN_BSD"
   },
@@ -1514,7 +1514,7 @@
    "name": "P06.BSD.OPEN_CLOSED_CLOSED_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 72,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OPEN_CLOSED_CLOSED_BSD = [.open, .closed, .closed]"
   },
@@ -1522,7 +1522,7 @@
    "name": "P06.BSD.OPEN_CLOSED_OPEN_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 66,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OPEN_CLOSED_OPEN_BSD = [.open, .closed, .open]"
   },
@@ -1530,7 +1530,7 @@
    "name": "P06.BSD.OPEN_OPEN_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OPEN_OPEN_BSD = [.open, .open]"
   },
@@ -1538,7 +1538,7 @@
    "name": "P06.BSD.OPEN_OPEN_CLOSED_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 63,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OPEN_OPEN_CLOSED_BSD = [.open, .open, .closed]"
   },
@@ -1546,7 +1546,7 @@
    "name": "P06.BSD.OPEN_OPEN_OPEN_BSD_defined",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OPEN_OPEN_OPEN_BSD = [.open, .open, .open]"
   },
@@ -1554,7 +1554,7 @@
    "name": "P06.BSD.OpenMath.analyticShiftModel_not_P1",
    "file": "open_math/P06_AnalyticField_Independence.lean",
    "line": 48,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) : ¬ P06.BSD.BSDP1 (analyticShiftModel M)"
   },
@@ -1562,7 +1562,7 @@
    "name": "P06.BSD.OpenMath.analytic_field_independence",
    "file": "open_math/P06_AnalyticField_Independence.lean",
    "line": 63,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) : ∃ M' : ConcreteBSDModel, (∀ E, M'.mordellWeilRank E = M.mordellWeilRank E) ∧ (∀ E, M'.refinedData E = M.refinedData E) ∧ ¬ P06.BSD.BSDP1 M'"
   },
@@ -1570,7 +1570,7 @@
    "name": "P06.BSD.OpenMath.bsd_p1_from_known_and_residual",
    "file": "open_math/P06_BSD_P1_Residual.lean",
    "line": 18,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hKnown : Nonempty (RankOnSubdomain M S)) (hResidual : BSDP1ResidualOpenMath M S) : BSDP1 M"
   },
@@ -1578,7 +1578,7 @@
    "name": "P06.BSD.OpenMath.bsd_p2_from_known_and_residual",
    "file": "open_math/P06_BSD_P2_Residual.lean",
    "line": 17,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hKnown : Nonempty (RefinedOnSubdomain M S)) (hResidual : BSDP2ResidualOpenMath M S) : BSDP2 M"
   },
@@ -1586,7 +1586,7 @@
    "name": "P06.BSD.OpenMath.bsd_terminal_from_open_math",
    "file": "open_math/P06_BSD_P1_P2.lean",
    "line": 20,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP1 : BSDP1OpenMath M) (hP2 : BSDP2OpenMath M) : P06.BSD.BSDTerminal M"
   },
@@ -1594,7 +1594,7 @@
    "name": "P06.BSD.OpenMath.doublingFiniteIndex_of_representatives",
    "file": "open_math/P06_WeakMordellWeil_Producer.lean",
    "line": 56,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{E : EllipticCurveQ} (R : DoublingRepresentativeSystem E) : MordellWeilDoublingFiniteIndex E"
   },
@@ -1602,7 +1602,7 @@
    "name": "P06.BSD.OpenMath.doublingRepresentativeQuotientMap_surjective",
    "file": "open_math/P06_WeakMordellWeil_Producer.lean",
    "line": 29,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{E : EllipticCurveQ} (R : DoublingRepresentativeSystem E) : Function.Surjective (doublingRepresentativeQuotientMap R)"
   },
@@ -1610,7 +1610,7 @@
    "name": "P06.BSD.OpenMath.finite_doublingQuotient_of_representatives",
    "file": "open_math/P06_WeakMordellWeil_Producer.lean",
    "line": 48,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{E : EllipticCurveQ} (R : DoublingRepresentativeSystem E) : Finite (RationalPointGroup E ⧸ DoublingImage E)"
   },
@@ -1618,7 +1618,7 @@
    "name": "P06.BSD.OpenMath.frozenEmptySeed_rank_residual_is_universal",
    "file": "open_math/P06_KNOWN_Mining.lean",
    "line": 46,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(E : EllipticCurveQ) : FrozenKnownSeed.residual E"
   },
@@ -1626,7 +1626,7 @@
    "name": "P06.BSD.OpenMath.frozenEmptySeed_refined_residual_is_universal",
    "file": "open_math/P06_KNOWN_Mining.lean",
    "line": 54,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(E : EllipticCurveQ) : FrozenKnownSeed.residual E"
   },
@@ -1634,7 +1634,7 @@
    "name": "P06.BSD.OpenMath.ge_two_implies_rank01_residual",
    "file": "open_math/P06_Rank01_HigherRankCut.lean",
    "line": 58,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} (h : 2 ≤ M.analyticOrderAtOne E) : (Rank01Subdomain M).residual E"
   },
@@ -1642,7 +1642,7 @@
    "name": "P06.BSD.OpenMath.genuineP1Material_iff_BSDP1",
    "file": "open_math/P06_Total_Material_Mincut.lean",
    "line": 36,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) : GenuineP1Material analytic ↔ P06.BSD.BSDP1 (mordellWeilRealizedModel analytic refined)"
   },
@@ -1650,7 +1650,7 @@
    "name": "P06.BSD.OpenMath.genuineP1Material_iff_rank0_rank1_higher",
    "file": "open_math/P06_Total_Material_Mincut.lean",
    "line": 83,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(analytic : EllipticCurveQ → Nat) : GenuineP1Material analytic ↔ (∀ E, analytic E = 0 → genuineMordellWeilRank E = 0) ∧ (∀ E, analytic E = 1 → genuineMordellWeilRank E = 1) ∧ (∀ E, 2 ≤ analytic E → analytic E = genuineMordellWeilRank E)"
   },
@@ -1658,7 +1658,7 @@
    "name": "P06.BSD.OpenMath.genuineP2Material_iff_BSDP2",
    "file": "open_math/P06_Total_Material_Mincut.lean",
    "line": 56,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) : GenuineP2Material refined ↔ P06.BSD.BSDP2 (mordellWeilRealizedModel analytic refined)"
   },
@@ -1666,7 +1666,7 @@
    "name": "P06.BSD.OpenMath.genuineP2Material_of_torsion_and_quotient",
    "file": "open_math/P06_Total_Material_Mincut.lean",
    "line": 108,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{refined : EllipticCurveQ → BSDRefinedData} (hTor : ∀ E, 0 < (refined E).torsionOrder) (hQuot : ∀ E, (refined E).leadingCoefficient = MCore.BSD.refinedRHS (refined E) / ((refined E).torsionOrder : ℝ)^2) : GenuineP2Material refined"
   },
@@ -1674,7 +1674,7 @@
    "name": "P06.BSD.OpenMath.genuine_rank0_material_iff",
    "file": "open_math/P06_MordellWeil_Realization.lean",
    "line": 64,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) : GenuineRank0Material analytic ↔ Rank0ArithmeticMaterial (mordellWeilRealizedModel analytic refined)"
   },
@@ -1682,7 +1682,7 @@
    "name": "P06.BSD.OpenMath.higher_rank_of_p1_rank01_residual",
    "file": "open_math/P06_Rank01_HigherRankCut.lean",
    "line": 99,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} (hP1 : BSD_P1_Producer M (Rank01Subdomain M)) : HigherRankResidualP1 M"
   },
@@ -1690,7 +1690,7 @@
    "name": "P06.BSD.OpenMath.mordellWeilRealizedModel_analytic",
    "file": "open_math/P06_MordellWeil_Realization.lean",
    "line": 42,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (mordellWeilRealizedModel analytic refined).analyticOrderAtOne E = analytic E"
   },
@@ -1698,7 +1698,7 @@
    "name": "P06.BSD.OpenMath.mordellWeilRealizedModel_rank",
    "file": "open_math/P06_MordellWeil_Realization.lean",
    "line": 35,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (mordellWeilRealizedModel analytic refined).mordellWeilRank E = genuineMordellWeilRank E"
   },
@@ -1706,7 +1706,7 @@
    "name": "P06.BSD.OpenMath.mordellWeilRealizedModel_refined",
    "file": "open_math/P06_MordellWeil_Realization.lean",
    "line": 49,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (mordellWeilRealizedModel analytic refined).refinedData E = refined E"
   },
@@ -1714,7 +1714,7 @@
    "name": "P06.BSD.OpenMath.no_uniform_P1",
    "file": "open_math/P1_ATTACK.lean",
    "line": 60,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (∀ M : ConcreteBSDModel, ∀ S : CertifiedCurveSubdomain, P1MaterialTarget M S)"
   },
@@ -1722,7 +1722,7 @@
    "name": "P06.BSD.OpenMath.no_uniform_P2",
    "file": "open_math/P2_TORSION_ATTACK.lean",
    "line": 65,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (∀ M : ConcreteBSDModel, ∀ S : CertifiedCurveSubdomain, P2MaterialTarget M S)"
   },
@@ -1730,7 +1730,7 @@
    "name": "P06.BSD.OpenMath.no_universal_rank0_material",
    "file": "open_math/P06_Rank0_FrontierAudit.lean",
    "line": 43,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (∀ M : ConcreteBSDModel, Rank0ArithmeticMaterial M)"
   },
@@ -1738,7 +1738,7 @@
    "name": "P06.BSD.OpenMath.not_material_produces_rank0_counterexample",
    "file": "open_math/P06_Rank0_Exclusion.lean",
    "line": 33,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} (h : ¬ Rank0ArithmeticMaterial M) : Nonempty (Rank0Counterexample M)"
   },
@@ -1746,7 +1746,7 @@
    "name": "P06.BSD.OpenMath.p1_material_obligation_iff_producer",
    "file": "open_math/P06_MiningStatus.lean",
    "line": 52,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} : P1RankResidualObligation M S ↔ BSD_P1_Producer M S"
   },
@@ -1754,7 +1754,7 @@
    "name": "P06.BSD.OpenMath.p1_obstruction_of_residual_rank_mismatch",
    "file": "open_math/ObstructionKernel.lean",
    "line": 5,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} {E : EllipticCurveQ} (hResidual : S.residual E) (hMismatch : M.analyticOrderAtOne E ≠ M.mordellWeilRank E) : ¬ P1MaterialTarget M S"
   },
@@ -1762,7 +1762,7 @@
    "name": "P06.BSD.OpenMath.p1_of_rank01_and_higher_rank",
    "file": "open_math/P06_Rank01_HigherRankCut.lean",
    "line": 79,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} (h0 : Rank0ArithmeticMaterial M) (h1 : Rank1ArithmeticMaterial M) (hHigher : HigherRankResidualP1 M) : P06.BSD.BSDP1 M"
   },
@@ -1770,7 +1770,7 @@
    "name": "P06.BSD.OpenMath.p1_producer_forces_no_residual_mismatch",
    "file": "open_math/ObstructionKernel.lean",
    "line": 18,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} (hP1 : P1MaterialTarget M S) : ∀ E : EllipticCurveQ, S.residual E → M.analyticOrderAtOne E = M.mordellWeilRank E"
   },
@@ -1778,7 +1778,7 @@
    "name": "P06.BSD.OpenMath.p1_toy_all_residual",
    "file": "open_math/P1_ATTACK.lean",
    "line": 21,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(E : EllipticCurveQ) : p1ToySubdomain.residual E"
   },
@@ -1786,7 +1786,7 @@
    "name": "P06.BSD.OpenMath.p1_toy_good_residual",
    "file": "open_math/P1_ATTACK.lean",
    "line": 56,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": P1MaterialTarget p1ToyGoodModel p1ToySubdomain"
   },
@@ -1794,7 +1794,7 @@
    "name": "P06.BSD.OpenMath.p1_toy_no_residual",
    "file": "open_math/P1_ATTACK.lean",
    "line": 26,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ BSD_P1_Producer p1ToyModel p1ToySubdomain"
   },
@@ -1802,7 +1802,7 @@
    "name": "P06.BSD.OpenMath.p2_material_obligations_suffice",
    "file": "open_math/P06_MiningStatus.lean",
    "line": 62,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} (hTor : P2TorsionPositiveObligation M S) (hQuot : P2QuotientIdentityObligation M S) : BSD_P2_Producer M S"
   },
@@ -1810,7 +1810,7 @@
    "name": "P06.BSD.OpenMath.p2_obstruction_of_residual_defect_ne_zero",
    "file": "open_math/ObstructionKernel.lean",
    "line": 27,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} {E : EllipticCurveQ} (hResidual : S.residual E) (hDefect : MCore.BSD.refinedDefect (M.refinedData E) ≠ 0) : ¬ P2MaterialTarget M S"
   },
@@ -1818,7 +1818,7 @@
    "name": "P06.BSD.OpenMath.p2_obstruction_of_residual_quotient_mismatch",
    "file": "open_math/ObstructionKernel.lean",
    "line": 57,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} {E : EllipticCurveQ} (hResidual : S.residual E) (hTor : 0 < (M.refinedData E).torsionOrder) (hMismatch : (M.refinedData E).leadingCoefficient ≠ MCore.BSD.refinedRHS (M.refinedData E) / ((M.refinedData E).torsionOrder : ℝ)^2) : ¬ P2MaterialTarget M S"
   },
@@ -1826,7 +1826,7 @@
    "name": "P06.BSD.OpenMath.p2_producer_forces_residual_defect_zero",
    "file": "open_math/ObstructionKernel.lean",
    "line": 44,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} (hP2 : P2MaterialTarget M S) : ∀ E : EllipticCurveQ, S.residual E → MCore.BSD.refinedDefect (M.refinedData E) = 0"
   },
@@ -1834,7 +1834,7 @@
    "name": "P06.BSD.OpenMath.p2_torsion_toy_all_residual",
    "file": "open_math/P2_TORSION_ATTACK.lean",
    "line": 22,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(E : EllipticCurveQ) : p2TorsionToySubdomain.residual E"
   },
@@ -1842,7 +1842,7 @@
    "name": "P06.BSD.OpenMath.p2_toy_good_residual",
    "file": "open_math/P2_TORSION_ATTACK.lean",
    "line": 58,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": P2MaterialTarget p2ToyGoodModel p2TorsionToySubdomain"
   },
@@ -1850,7 +1850,7 @@
    "name": "P06.BSD.OpenMath.p2_toy_no_residual",
    "file": "open_math/P2_TORSION_ATTACK.lean",
    "line": 36,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ P2MaterialTarget p2TorsionToyModel p2TorsionToySubdomain"
   },
@@ -1858,7 +1858,7 @@
    "name": "P06.BSD.OpenMath.p2_toy_no_torsion_nontrivial",
    "file": "open_math/P2_TORSION_ATTACK.lean",
    "line": 26,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ Lemma_Torsion_Nontrivial p2TorsionToyModel p2TorsionToySubdomain"
   },
@@ -1866,7 +1866,7 @@
    "name": "P06.BSD.OpenMath.positiveTorsionBadRefinedData_defect",
    "file": "open_math/P06_RefinedField_Independence.lean",
    "line": 57,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MCore.BSD.refinedDefect positiveTorsionBadRefinedData = -1"
   },
@@ -1874,7 +1874,7 @@
    "name": "P06.BSD.OpenMath.positiveTorsionBadRefinedData_defect_ne_zero",
    "file": "open_math/P06_RefinedField_Independence.lean",
    "line": 64,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MCore.BSD.refinedDefect positiveTorsionBadRefinedData ≠ 0"
   },
@@ -1882,7 +1882,7 @@
    "name": "P06.BSD.OpenMath.positiveTorsionBadRefinedData_torsion",
    "file": "open_math/P06_RefinedField_Independence.lean",
    "line": 53,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": 0 < positiveTorsionBadRefinedData.torsionOrder"
   },
@@ -1890,7 +1890,7 @@
    "name": "P06.BSD.OpenMath.quotientWitness_to_identity",
    "file": "open_math/P2_ATTACK.lean",
    "line": 16,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} {E : EllipticCurveQ} (W : ResidualP2QuotientWitness M S E) : RefinedBSDIdentity (M.refinedData E)"
   },
@@ -1898,7 +1898,7 @@
    "name": "P06.BSD.OpenMath.rank01_residual_P1_iff_higher_rank",
    "file": "open_math/P06_Rank01_HigherRankCut.lean",
    "line": 109,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} : BSD_P1_Producer M (Rank01Subdomain M) ↔ HigherRankResidualP1 M"
   },
@@ -1906,7 +1906,7 @@
    "name": "P06.BSD.OpenMath.rank01_residual_iff",
    "file": "open_math/P06_Rank01_HigherRankCut.lean",
    "line": 39,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} : (Rank01Subdomain M).residual E ↔ M.analyticOrderAtOne E ≠ 0 ∧ M.analyticOrderAtOne E ≠ 1"
   },
@@ -1914,7 +1914,7 @@
    "name": "P06.BSD.OpenMath.rank01_residual_iff_ge_two",
    "file": "open_math/P06_Rank01_HigherRankCut.lean",
    "line": 65,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} : (Rank01Subdomain M).residual E ↔ 2 ≤ M.analyticOrderAtOne E"
   },
@@ -1922,7 +1922,7 @@
    "name": "P06.BSD.OpenMath.rank01_residual_implies_ge_two",
    "file": "open_math/P06_Rank01_HigherRankCut.lean",
    "line": 49,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} (h : (Rank01Subdomain M).residual E) : 2 ≤ M.analyticOrderAtOne E"
   },
@@ -1930,7 +1930,7 @@
    "name": "P06.BSD.OpenMath.rank0_compression_requires_material",
    "file": "open_math/P06_Rank0_Class.lean",
    "line": 55,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} (h : Rank0ArithmeticMaterial M) : Nonempty (RankOnSubdomain M (MCore.BSD.CertifiedCurveSubdomain.union FrozenKnownSeed (Rank0Subdomain M)))"
   },
@@ -1938,7 +1938,7 @@
    "name": "P06.BSD.OpenMath.rank0_counterexample_refutes_material",
    "file": "open_math/P06_Rank0_Exclusion.lean",
    "line": 23,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} (C : Rank0Counterexample M) : ¬ Rank0ArithmeticMaterial M"
   },
@@ -1946,7 +1946,7 @@
    "name": "P06.BSD.OpenMath.rank0_material_iff_no_counterexample",
    "file": "open_math/P06_Rank0_Exclusion.lean",
    "line": 47,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} : Rank0ArithmeticMaterial M ↔ ¬ Nonempty (Rank0Counterexample M)"
   },
@@ -1954,7 +1954,7 @@
    "name": "P06.BSD.OpenMath.rank0_material_iff_no_positive_rank_at_zero",
    "file": "open_math/P06_Rank0_Exclusion.lean",
    "line": 61,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} : Rank0ArithmeticMaterial M ↔ ∀ E : EllipticCurveQ, M.analyticOrderAtOne E = 0 → ¬ 0 < M.mordellWeilRank E"
   },
@@ -1962,7 +1962,7 @@
    "name": "P06.BSD.OpenMath.rank0_residual_iff",
    "file": "open_math/P06_Rank0_Class.lean",
    "line": 37,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} : (Rank0Subdomain M).residual E ↔ M.analyticOrderAtOne E ≠ 0"
   },
@@ -1970,7 +1970,7 @@
    "name": "P06.BSD.OpenMath.rank0_toy_all_in_class",
    "file": "open_math/P06_Rank0_FrontierAudit.lean",
    "line": 28,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(E : EllipticCurveQ) : (Rank0Subdomain rank0ToyModel).contains E"
   },
@@ -1978,7 +1978,7 @@
    "name": "P06.BSD.OpenMath.rank0_toy_counterexample_nonempty",
    "file": "open_math/P06_Rank0_Exclusion.lean",
    "line": 84,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty (Rank0Counterexample rank0ToyModel)"
   },
@@ -1986,7 +1986,7 @@
    "name": "P06.BSD.OpenMath.rank0_toy_no_material",
    "file": "open_math/P06_Rank0_FrontierAudit.lean",
    "line": 34,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ Rank0ArithmeticMaterial rank0ToyModel"
   },
@@ -1994,7 +1994,7 @@
    "name": "P06.BSD.OpenMath.rankProducer_iff_universalRealizedRankEquality",
    "file": "open_math/P06_FastRankMincut.lean",
    "line": 48,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Nonempty (MCore.BSD.ConcreteBSDRankProducer (fullyRealizedRankModel G refined)) ↔ UniversalRealizedRankEquality G"
   },
@@ -2002,7 +2002,7 @@
    "name": "P06.BSD.OpenMath.rank_field_independence_at_analytic_zero",
    "file": "open_math/P06_RankField_Independence.lean",
    "line": 51,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {E : EllipticCurveQ} (hE : M.analyticOrderAtOne E = 0) : ¬ Rank0ArithmeticMaterial (withMordellWeilRank M (fun _ => 1))"
   },
@@ -2010,7 +2010,7 @@
    "name": "P06.BSD.OpenMath.rationalTorsionSubgroup_nonempty",
    "file": "open_math/P2_TorsionRealization.lean",
    "line": 9,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(E : EllipticCurveQ) : Nonempty (RationalTorsionSubgroup E)"
   },
@@ -2018,7 +2018,7 @@
    "name": "P06.BSD.OpenMath.rationalTorsion_card_pos_of_finite",
    "file": "open_math/P2_TorsionRealization.lean",
    "line": 14,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(E : EllipticCurveQ) [Finite (RationalTorsionSubgroup E)] : 0 < Nat.card (RationalTorsionSubgroup E)"
   },
@@ -2026,7 +2026,7 @@
    "name": "P06.BSD.OpenMath.refined_field_independence_on_nonempty_residual",
    "file": "open_math/P06_RefinedField_Independence.lean",
    "line": 69,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (S : CertifiedCurveSubdomain) (hResidual : ∃ E : EllipticCurveQ, S.residual E) : ∃ M' : ConcreteBSDModel, (∀ E, M'.mordellWeilRank E = M.mordellWeilRank E) ∧ (∀ E, M'.analyticOrderAtOne E = M.analyticOrderAtOne E) ∧ (∀ E : EllipticCurveQ, S.residual E → 0 < (M'.refinedData E).torsionOrder) ∧ ¬ P2MaterialTarget M' S"
   },
@@ -2034,7 +2034,7 @@
    "name": "P06.BSD.OpenMath.same_analytic_refined_data_do_not_force_rank0",
    "file": "open_math/P06_RankField_Independence.lean",
    "line": 60,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (hZero : ∃ E : EllipticCurveQ, M.analyticOrderAtOne E = 0) : ∃ M' : ConcreteBSDModel, (∀ E, M'.analyticOrderAtOne E = M.analyticOrderAtOne E) ∧ (∀ E, M'.refinedData E = M.refinedData E) ∧ ¬ Rank0ArithmeticMaterial M'"
   },
@@ -2042,7 +2042,7 @@
    "name": "P06.BSD.OpenMath.terminal_iff_total_material",
    "file": "open_math/P06_Total_Material_Mincut.lean",
    "line": 72,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(analytic : EllipticCurveQ → Nat) (refined : EllipticCurveQ → BSDRefinedData) : P06.BSD.BSDTerminal (mordellWeilRealizedModel analytic refined) ↔ GenuineP1Material analytic ∧ GenuineP2Material refined"
   },
@@ -2050,7 +2050,7 @@
    "name": "P06.BSD.OpenMath.torsion_nontrivial_of_realization",
    "file": "open_math/P2_TorsionRealization.lean",
    "line": 37,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : ConcreteBSDModel} {S : CertifiedCurveSubdomain} (hFinite : RationalTorsionFiniteOnResidual S) (hRealized : TorsionOrderRealized M S) : Lemma_Torsion_Nontrivial M S"
   },
@@ -2058,7 +2058,7 @@
    "name": "P06.BSD.OpenMath.torsion_positive_does_not_force_P2",
    "file": "open_math/P06_RefinedField_Independence.lean",
    "line": 96,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (∀ M : ConcreteBSDModel, ∀ S : CertifiedCurveSubdomain, (∀ E : EllipticCurveQ, S.residual E → 0 < (M.refinedData E).torsionOrder) → P2MaterialTarget M S)"
   },
@@ -2066,7 +2066,7 @@
    "name": "P06.BSD.OpenMath.universalRealizedRankEquality_of_rankProducer",
    "file": "open_math/P06_FastRankMincut.lean",
    "line": 39,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} (R : MCore.BSD.ConcreteBSDRankProducer (fullyRealizedRankModel G refined)) : UniversalRealizedRankEquality G"
   },
@@ -2074,7 +2074,7 @@
    "name": "P06.BSD.OpenMath.weakMordellWeilProducer_to_descent",
    "file": "open_math/P06_WeakMordellWeil_Producer.lean",
    "line": 71,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(W : WeakMordellWeilProducer) : MordellWeilDescentProducer"
   },
@@ -2082,7 +2082,7 @@
    "name": "P06.BSD.OpenMath.weakMordellWeilProducer_to_finiteIndex",
    "file": "open_math/P06_WeakMordellWeil_Producer.lean",
    "line": 79,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(W : WeakMordellWeilProducer) : ∀ E : EllipticCurveQ, MordellWeilDoublingFiniteIndex E"
   },
@@ -2090,7 +2090,7 @@
    "name": "P06.BSD.OpenMath.withAnalyticOrder_analytic",
    "file": "open_math/P06_AnalyticField_Independence.lean",
    "line": 37,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (a : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withAnalyticOrder M a).analyticOrderAtOne E = a E"
   },
@@ -2098,7 +2098,7 @@
    "name": "P06.BSD.OpenMath.withAnalyticOrder_rank",
    "file": "open_math/P06_AnalyticField_Independence.lean",
    "line": 23,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (a : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withAnalyticOrder M a).mordellWeilRank E = M.mordellWeilRank E"
   },
@@ -2106,7 +2106,7 @@
    "name": "P06.BSD.OpenMath.withAnalyticOrder_refined",
    "file": "open_math/P06_AnalyticField_Independence.lean",
    "line": 30,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (a : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withAnalyticOrder M a).refinedData E = M.refinedData E"
   },
@@ -2114,7 +2114,7 @@
    "name": "P06.BSD.OpenMath.withMordellWeilRank_analytic",
    "file": "open_math/P06_RankField_Independence.lean",
    "line": 24,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (r : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withMordellWeilRank M r).analyticOrderAtOne E = M.analyticOrderAtOne E"
   },
@@ -2122,7 +2122,7 @@
    "name": "P06.BSD.OpenMath.withMordellWeilRank_rank",
    "file": "open_math/P06_RankField_Independence.lean",
    "line": 34,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (r : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withMordellWeilRank M r).mordellWeilRank E = r E"
   },
@@ -2130,7 +2130,7 @@
    "name": "P06.BSD.OpenMath.withMordellWeilRank_refined",
    "file": "open_math/P06_RankField_Independence.lean",
    "line": 29,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (r : EllipticCurveQ → Nat) (E : EllipticCurveQ) : (withMordellWeilRank M r).refinedData E = M.refinedData E"
   },
@@ -2138,7 +2138,7 @@
    "name": "P06.BSD.OpenMath.withRefinedData_analytic",
    "file": "open_math/P06_RefinedField_Independence.lean",
    "line": 30,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (d : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (withRefinedData M d).analyticOrderAtOne E = M.analyticOrderAtOne E"
   },
@@ -2146,7 +2146,7 @@
    "name": "P06.BSD.OpenMath.withRefinedData_rank",
    "file": "open_math/P06_RefinedField_Independence.lean",
    "line": 23,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (d : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (withRefinedData M d).mordellWeilRank E = M.mordellWeilRank E"
   },
@@ -2154,7 +2154,7 @@
    "name": "P06.BSD.OpenMath.withRefinedData_refined",
    "file": "open_math/P06_RefinedField_Independence.lean",
    "line": 37,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : ConcreteBSDModel) (d : EllipticCurveQ → BSDRefinedData) (E : EllipticCurveQ) : (withRefinedData M d).refinedData E = d E"
   },
@@ -2178,7 +2178,7 @@
    "name": "P06.BSD.boolean_choice_payload_invariant",
    "file": "lean/P06/BSD/CenterStability.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(b : Bool) (G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : PhasePayload (TerminalPhase.chooseSide b) G refined ↔ PhasePayload TerminalPhase.core G refined"
   },
@@ -2186,7 +2186,7 @@
    "name": "P06.BSD.both_diagonals_same_endpoint",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 60,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio11 G refined ↔ RatioPayload ratio22 G refined"
   },
@@ -2194,7 +2194,7 @@
    "name": "P06.BSD.bsdPayload_implies_finalRoot",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 180,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} {ShaFinite : EllipticCurveQ → Prop} (p : BSDMaterialPayload G refined ShaFinite) : BSDTerminal (fullyRealizedBSDModel G refined)"
   },
@@ -2202,7 +2202,7 @@
    "name": "P06.BSD.bsdPayload_implies_scientificEndpoint",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 171,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} {ShaFinite : EllipticCurveQ → Prop} (p : BSDMaterialPayload G refined ShaFinite) : ScientificEndpoint G refined"
   },
@@ -2210,7 +2210,7 @@
    "name": "P06.BSD.bsd_dual_endpoint_from_material_endpoint",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 105,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} (h : Endpoint G refined) : BSDDualEndpointState G refined"
   },
@@ -2218,7 +2218,7 @@
    "name": "P06.BSD.bsd_dual_endpoint_projects_closed",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 124,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} (h : BSDDualEndpointState G refined) : ViewPayload .closed G refined"
   },
@@ -2226,7 +2226,7 @@
    "name": "P06.BSD.bsd_dual_endpoint_projects_open",
    "file": "lean/P06/BSD/DualEndpointCube.lean",
    "line": 117,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} (h : BSDDualEndpointState G refined) : ViewPayload .open G refined"
   },
@@ -2234,7 +2234,7 @@
    "name": "P06.BSD.centerStability",
    "file": "lean/P06/BSD/CenterStability.lean",
    "line": 80,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (CenterStabilityCertificate G refined)"
   },
@@ -2250,7 +2250,7 @@
    "name": "P06.BSD.choose_false_is_start",
    "file": "lean/P06/BSD/CenterStability.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalPhase.chooseSide false = .start"
   },
@@ -2258,7 +2258,7 @@
    "name": "P06.BSD.choose_true_is_finish",
    "file": "lean/P06/BSD/CenterStability.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalPhase.chooseSide true = .finish"
   },
@@ -2266,7 +2266,7 @@
    "name": "P06.BSD.chosen_side_contracts_to_core",
    "file": "lean/P06/BSD/CenterStability.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(b : Bool) : (TerminalPhase.chooseSide b).contract = .core"
   },
@@ -2274,7 +2274,7 @@
    "name": "P06.BSD.closedConjuncture",
    "file": "lean/P06/BSD/ClosedConjuncture.lean",
    "line": 99,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (ClosedConjunctureCertificate G refined)"
   },
@@ -2282,7 +2282,7 @@
    "name": "P06.BSD.closedMathStructural",
    "file": "lean/P06/BSD/ClosedMath.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty ClosedMathStructuralCertificate"
   },
@@ -2290,7 +2290,7 @@
    "name": "P06.BSD.closedMath_iff_negOpenMath",
    "file": "lean/P06/BSD/TerminalDuality.lean",
    "line": 70,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ClosedMath G refined ↔ NegOpenMath G refined"
   },
@@ -2298,7 +2298,7 @@
    "name": "P06.BSD.closedView_ne_openView",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathView.closed ≠ MathView.open"
   },
@@ -2306,7 +2306,7 @@
    "name": "P06.BSD.closed_reverse_payload_equivalent",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 60,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload .closed G refined ↔ ViewPayload MathView.closed.reverse G refined"
   },
@@ -2314,7 +2314,7 @@
    "name": "P06.BSD.closed_stays_closed",
    "file": "lean/P06/BSD/OpenToClosed.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathView.closed.tend = .closed"
   },
@@ -2322,7 +2322,7 @@
    "name": "P06.BSD.diagonalClosure",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 95,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (DiagonalClosureCertificate G refined)"
   },
@@ -2330,7 +2330,7 @@
    "name": "P06.BSD.diagonal_payloads_same_endpoint",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 89,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio11 G refined ↔ RatioPayload ratio22 G refined"
   },
@@ -2338,7 +2338,7 @@
    "name": "P06.BSD.diagonalize_01",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": diagonalize ratio01 = ratio11"
   },
@@ -2346,7 +2346,7 @@
    "name": "P06.BSD.diagonalize_02",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": diagonalize ratio02 = ratio22"
   },
@@ -2354,7 +2354,7 @@
    "name": "P06.BSD.diagonalize_11_fixed",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": diagonalize ratio11 = ratio11"
   },
@@ -2362,7 +2362,7 @@
    "name": "P06.BSD.diagonalize_22_fixed",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": diagonalize ratio22 = ratio22"
   },
@@ -2370,7 +2370,7 @@
    "name": "P06.BSD.diagonalize_terminal_idempotent_01",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": diagonalize (diagonalize ratio01) = diagonalize ratio01"
   },
@@ -2378,7 +2378,7 @@
    "name": "P06.BSD.diagonalize_terminal_idempotent_02",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": diagonalize (diagonalize ratio02) = diagonalize ratio02"
   },
@@ -2386,7 +2386,7 @@
    "name": "P06.BSD.endpoint_normalization_idempotent",
    "file": "lean/P06/BSD/EndpointBehavior.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ScientificEndpoint G refined ↔ ScientificEndpoint G refined"
   },
@@ -2394,7 +2394,7 @@
    "name": "P06.BSD.endpoint_to_gap",
    "file": "lean/P06/BSD/TerminalSignature.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Endpoint G refined → Gap G refined"
   },
@@ -2402,7 +2402,7 @@
    "name": "P06.BSD.finalRoot_endpoint_cycle",
    "file": "lean/P06/BSD/EndpointBehavior.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : (BSDTerminal (fullyRealizedBSDModel G refined) ↔ ScientificEndpoint G refined) ∧ (ScientificEndpoint G refined ↔ BSDTerminal (fullyRealizedBSDModel G refined))"
   },
@@ -2410,7 +2410,7 @@
    "name": "P06.BSD.finalRoot_eq_mathematicalEndpoint",
    "file": "lean/P06/BSD/EndpointBehavior.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDTerminal (fullyRealizedBSDModel G refined) ↔ ScientificEndpoint G refined"
   },
@@ -2418,7 +2418,7 @@
    "name": "P06.BSD.finalRoot_iff_scientificFrontier",
    "file": "lean/P06/BSD/FinalRoot.lean",
    "line": 59,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDTerminal (fullyRealizedBSDModel G refined) ↔ UniversalRealizedRankEquality G ∧ UniversalRefinedBSDIdentity refined"
   },
@@ -2426,7 +2426,7 @@
    "name": "P06.BSD.finalRoot_iff_terminalSignature",
    "file": "lean/P06/BSD/TerminalSignature.lean",
    "line": 90,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDTerminal (fullyRealizedBSDModel G refined) ↔ Endpoint G refined"
   },
@@ -2434,7 +2434,7 @@
    "name": "P06.BSD.gap_to_habitant",
    "file": "lean/P06/BSD/TerminalSignature.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Gap G refined → Habitant G refined"
   },
@@ -2442,7 +2442,7 @@
    "name": "P06.BSD.global_external_structural_certified",
    "file": "lean/P06/BSD/GlobalExternalCertificate.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty BSDGlobalExternalStructuralCertificate"
   },
@@ -2450,7 +2450,7 @@
    "name": "P06.BSD.global_material_state_iff_dual_endpoint",
    "file": "lean/P06/BSD/GlobalExternalCertificate.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : GLOBAL_EXTERNAL_CERTIFICATE_BSD G refined ↔ BSDDualEndpointState G refined"
   },
@@ -2458,7 +2458,7 @@
    "name": "P06.BSD.habitant_to_inhabitant",
    "file": "lean/P06/BSD/TerminalSignature.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Habitant G refined → Inhabitant G refined"
   },
@@ -2466,7 +2466,7 @@
    "name": "P06.BSD.inhabitant_to_endpoint",
    "file": "lean/P06/BSD/TerminalSignature.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} : Inhabitant G refined → Endpoint G refined"
   },
@@ -2474,7 +2474,7 @@
    "name": "P06.BSD.mathematicalEndpoint_eq_finalRoot",
    "file": "lean/P06/BSD/EndpointBehavior.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ScientificEndpoint G refined ↔ BSDTerminal (fullyRealizedBSDModel G refined)"
   },
@@ -2482,7 +2482,7 @@
    "name": "P06.BSD.neg_signedRankDefect_eq_zero_iff",
    "file": "lean/P06/BSD/SignFlipGuard.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (E : EllipticCurveQ) : - signedRankDefect G E = 0 ↔ signedRankDefect G E = 0"
   },
@@ -2490,7 +2490,7 @@
    "name": "P06.BSD.normalize_01",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio01.normalize = ratio11"
   },
@@ -2498,7 +2498,7 @@
    "name": "P06.BSD.normalize_02",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio02.normalize = ratio22"
   },
@@ -2506,7 +2506,7 @@
    "name": "P06.BSD.normalize_11",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio11.normalize = ratio11"
   },
@@ -2514,7 +2514,7 @@
    "name": "P06.BSD.normalize_22",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio22.normalize = ratio22"
   },
@@ -2522,7 +2522,7 @@
    "name": "P06.BSD.not_iff_not_self",
    "file": "lean/P06/BSD/SignFlipGuard.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : Prop) : ¬ (P ↔ ¬ P)"
   },
@@ -2530,7 +2530,7 @@
    "name": "P06.BSD.openMath_iff_closedMath",
    "file": "lean/P06/BSD/TerminalDuality.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : OpenMath G refined ↔ ClosedMath G refined"
   },
@@ -2538,7 +2538,7 @@
    "name": "P06.BSD.openMath_iff_negClosedMath",
    "file": "lean/P06/BSD/TerminalDuality.lean",
    "line": 63,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : OpenMath G refined ↔ NegClosedMath G refined"
   },
@@ -2546,7 +2546,7 @@
    "name": "P06.BSD.openToClosed",
    "file": "lean/P06/BSD/OpenToClosed.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (OpenToClosedCertificate G refined)"
   },
@@ -2554,7 +2554,7 @@
    "name": "P06.BSD.openView_ne_closedView",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathView.open ≠ MathView.closed"
   },
@@ -2562,7 +2562,7 @@
    "name": "P06.BSD.open_closed_payload_equivalent",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload .open G refined ↔ ViewPayload .closed G refined"
   },
@@ -2570,7 +2570,7 @@
    "name": "P06.BSD.open_closed_views_distinct",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathView.open ≠ MathView.closed"
   },
@@ -2578,7 +2578,7 @@
    "name": "P06.BSD.open_reverse_payload_equivalent",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload .open G refined ↔ ViewPayload MathView.open.reverse G refined"
   },
@@ -2586,7 +2586,7 @@
    "name": "P06.BSD.open_tends_closed",
    "file": "lean/P06/BSD/OpenToClosed.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathView.open.tend = .closed"
   },
@@ -2594,7 +2594,7 @@
    "name": "P06.BSD.open_tends_closed_same_endpoint",
    "file": "lean/P06/BSD/OpenToClosed.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload .open G refined ↔ ViewPayload .closed G refined"
   },
@@ -2626,7 +2626,7 @@
    "name": "P06.BSD.p1_iff_universalRealizedRankEquality",
    "file": "lean/P06/BSD/FinalRoot.lean",
    "line": 27,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDP1 (fullyRealizedBSDModel G refined) ↔ UniversalRealizedRankEquality G"
   },
@@ -2666,7 +2666,7 @@
    "name": "P06.BSD.p2_iff_universalRefinedBSDIdentity",
    "file": "lean/P06/BSD/FinalRoot.lean",
    "line": 43,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : BSDP2 (fullyRealizedBSDModel G refined) ↔ UniversalRefinedBSDIdentity refined"
   },
@@ -2682,7 +2682,7 @@
    "name": "P06.BSD.payload_implies_global_final_certificate",
    "file": "lean/P06/BSD/GlobalExternalCertificate.lean",
    "line": 77,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} {ShaFinite : EllipticCurveQ → Prop} (p : BSDMaterialPayload G refined ShaFinite) : BSDFinalClosureCertificate G refined ShaFinite"
   },
@@ -2690,7 +2690,7 @@
    "name": "P06.BSD.payload_implies_global_material_state",
    "file": "lean/P06/BSD/GlobalExternalCertificate.lean",
    "line": 67,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : AnalyticGermFamily} {refined : EllipticCurveQ → BSDRefinedData} {ShaFinite : EllipticCurveQ → Prop} (p : BSDMaterialPayload G refined ShaFinite) : GLOBAL_EXTERNAL_CERTIFICATE_BSD G refined"
   },
@@ -2698,7 +2698,7 @@
    "name": "P06.BSD.phase_payload_preserved_by_contraction",
    "file": "lean/P06/BSD/ClosedConjuncture.lean",
    "line": 68,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : TerminalPhase) (G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : PhasePayload p G refined ↔ PhasePayload p.contract G refined"
   },
@@ -2706,7 +2706,7 @@
    "name": "P06.BSD.phase_payload_preserved_by_reverse",
    "file": "lean/P06/BSD/ClosedConjuncture.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : TerminalPhase) (G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : PhasePayload p G refined ↔ PhasePayload p.reverse G refined"
   },
@@ -2714,7 +2714,7 @@
    "name": "P06.BSD.polarity_neg_closed",
    "file": "lean/P06/BSD/TerminalDuality.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathPolarity.neg .closed = .open"
   },
@@ -2722,7 +2722,7 @@
    "name": "P06.BSD.polarity_neg_involutive",
    "file": "lean/P06/BSD/TerminalDuality.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : MathPolarity) : p.neg.neg = p"
   },
@@ -2730,7 +2730,7 @@
    "name": "P06.BSD.polarity_neg_open",
    "file": "lean/P06/BSD/TerminalDuality.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathPolarity.neg .open = .closed"
   },
@@ -2738,7 +2738,7 @@
    "name": "P06.BSD.ratio01_payload_normalized",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio01 G refined ↔ RatioPayload ratio11 G refined"
   },
@@ -2746,7 +2746,7 @@
    "name": "P06.BSD.ratio01_to_11_preserves_endpoint",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 48,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio01 G refined ↔ RatioPayload ratio11 G refined"
   },
@@ -2754,7 +2754,7 @@
    "name": "P06.BSD.ratio01_to_core_after_contract",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio01.normalize.toPhase.contract = .core"
   },
@@ -2762,7 +2762,7 @@
    "name": "P06.BSD.ratio01_to_core_after_normalize",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 47,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio01.normalize.toPhase = .core"
   },
@@ -2770,7 +2770,7 @@
    "name": "P06.BSD.ratio02_payload_normalized",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 82,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio02 G refined ↔ RatioPayload ratio22 G refined"
   },
@@ -2778,7 +2778,7 @@
    "name": "P06.BSD.ratio02_to_22_preserves_endpoint",
    "file": "lean/P06/BSD/DiagonalClosure.lean",
    "line": 54,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : RatioPayload ratio02 G refined ↔ RatioPayload ratio22 G refined"
   },
@@ -2786,7 +2786,7 @@
    "name": "P06.BSD.ratio02_to_core_after_contract",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio02.normalize.toPhase.contract = .core"
   },
@@ -2794,7 +2794,7 @@
    "name": "P06.BSD.ratio02_to_finish_after_normalize",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio02.normalize.toPhase = .finish"
   },
@@ -2802,7 +2802,7 @@
    "name": "P06.BSD.ratio_paths_hit_same_core",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio01.normalize.toPhase.contract = ratio02.normalize.toPhase.contract"
   },
@@ -2810,7 +2810,7 @@
    "name": "P06.BSD.reverse_chooseSide",
    "file": "lean/P06/BSD/CenterStability.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(b : Bool) : (TerminalPhase.chooseSide b).reverse = TerminalPhase.chooseSide (!b)"
   },
@@ -2818,7 +2818,7 @@
    "name": "P06.BSD.reverse_closed",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathView.closed.reverse = .open"
   },
@@ -2826,7 +2826,7 @@
    "name": "P06.BSD.reverse_involutive",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(v : MathView) : v.reverse.reverse = v"
   },
@@ -2834,7 +2834,7 @@
    "name": "P06.BSD.reverse_open",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathView.open.reverse = .closed"
   },
@@ -2842,7 +2842,7 @@
    "name": "P06.BSD.stable_is_core",
    "file": "lean/P06/BSD/CenterStability.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalPhase.stable = .core"
   },
@@ -2850,7 +2850,7 @@
    "name": "P06.BSD.structural_minus_is_not_logical_negation",
    "file": "lean/P06/BSD/TerminalDuality.lean",
    "line": 101,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ¬ (OpenMath G refined ↔ ¬ OpenMath G refined)"
   },
@@ -2858,7 +2858,7 @@
    "name": "P06.BSD.tend_idempotent",
    "file": "lean/P06/BSD/OpenToClosed.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(v : MathView) : v.tend.tend = v.tend"
   },
@@ -2866,7 +2866,7 @@
    "name": "P06.BSD.tend_preserves_payload",
    "file": "lean/P06/BSD/OpenToClosed.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(v : MathView) (G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : ViewPayload v G refined ↔ ViewPayload v.tend G refined"
   },
@@ -2874,7 +2874,7 @@
    "name": "P06.BSD.terminalDuality",
    "file": "lean/P06/BSD/TerminalDuality.lean",
    "line": 95,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (TerminalDualityCertificate G refined)"
   },
@@ -2882,7 +2882,7 @@
    "name": "P06.BSD.terminalPhase_codes",
    "file": "lean/P06/BSD/ClosedConjuncture.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalPhase.start.code = 0 ∧ TerminalPhase.core.code = 1 ∧ TerminalPhase.finish.code = 2"
   },
@@ -2890,7 +2890,7 @@
    "name": "P06.BSD.terminalPhase_contract_idempotent",
    "file": "lean/P06/BSD/ClosedConjuncture.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : TerminalPhase) : (p.contract).contract = p.contract"
   },
@@ -2898,7 +2898,7 @@
    "name": "P06.BSD.terminalPhase_finish_to_core",
    "file": "lean/P06/BSD/ClosedConjuncture.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalPhase.finish.contract = .core"
   },
@@ -2906,7 +2906,7 @@
    "name": "P06.BSD.terminalPhase_reverse_contract",
    "file": "lean/P06/BSD/ClosedConjuncture.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : TerminalPhase) : p.reverse.contract = p.contract"
   },
@@ -2914,7 +2914,7 @@
    "name": "P06.BSD.terminalPhase_reverse_involutive",
    "file": "lean/P06/BSD/ClosedConjuncture.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : TerminalPhase) : p.reverse.reverse = p"
   },
@@ -2922,7 +2922,7 @@
    "name": "P06.BSD.terminalPhase_start_to_core",
    "file": "lean/P06/BSD/ClosedConjuncture.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalPhase.start.contract = .core"
   },
@@ -2930,7 +2930,7 @@
    "name": "P06.BSD.terminalRatioClosed",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 120,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (TerminalRatioCertificate G refined)"
   },
@@ -2938,7 +2938,7 @@
    "name": "P06.BSD.terminalRatio_normalize_idempotent_on_01",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio01.normalize.normalize = ratio01.normalize"
   },
@@ -2946,7 +2946,7 @@
    "name": "P06.BSD.terminalRatio_normalize_idempotent_on_02",
    "file": "lean/P06/BSD/TerminalRatio.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ratio02.normalize.normalize = ratio02.normalize"
   },
@@ -2954,7 +2954,7 @@
    "name": "P06.BSD.terminal_cycle_inhabited_iff_endpoint",
    "file": "lean/P06/BSD/TerminalSignature.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (Inhabitant G refined) ↔ Endpoint G refined"
   },
@@ -3002,7 +3002,7 @@
    "name": "P06.BSD.terminal_inhabitance_equivalence",
    "file": "lean/P06/BSD/TerminalSignature.lean",
    "line": 64,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (Endpoint G refined) ↔ Nonempty (Gap G refined)"
   },
@@ -3026,7 +3026,7 @@
    "name": "P06.BSD.terminal_signature_cycle",
    "file": "lean/P06/BSD/TerminalSignature.lean",
    "line": 49,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : (Endpoint G refined ↔ Gap G refined) ∧ (Gap G refined ↔ Habitant G refined) ∧ (Habitant G refined ↔ Inhabitant G refined) ∧ (Inhabitant G refined ↔ Endpoint G refined)"
   },
@@ -3034,7 +3034,7 @@
    "name": "P06.BSD.three_paths_hit_same_terminal_bit",
    "file": "lean/P06/BSD/CenterStability.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalPhase.start.contract = TerminalPhase.core.contract ∧ TerminalPhase.finish.contract = TerminalPhase.core.contract"
   },
@@ -3042,7 +3042,7 @@
    "name": "P06.BSD.universalRealizedRankEquality_iff_defect_zero",
    "file": "lean/P06/BSD/SignFlipGuard.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) : UniversalRealizedRankEquality G ↔ ∀ E : EllipticCurveQ, signedRankDefect G E = 0"
   },
@@ -3050,7 +3050,7 @@
    "name": "P06.BSD.universal_negative_defect_zero_iff_rank_leaf",
    "file": "lean/P06/BSD/SignFlipGuard.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) : (∀ E : EllipticCurveQ, - signedRankDefect G E = 0) ↔ UniversalRealizedRankEquality G"
   },
@@ -3058,12 +3058,12 @@
    "name": "P06.BSD.viewSeparation",
    "file": "lean/P06/BSD/ViewSeparation.lean",
    "line": 92,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(G : AnalyticGermFamily) (refined : EllipticCurveQ → BSDRefinedData) : Nonempty (ViewSeparationCertificate G refined)"
   }
  ],
- "closed": 153,
+ "closed": 70,
  "files_sha256": {
   "lake-manifest.json": "347a8be44c83bf1e791eee474fe8f87803974566745bdb0a84fd1fb7387633d0",
   "lakefile.toml": "e9b8ecdc3025d1b5c33b994ec8d8391e18c5ca02d6b4e2102fccb026b93d89f8",
@@ -3072,7 +3072,6 @@
   "lean/MCore/BSD/CertifiedPrefixReuse.lean": "40c63eaf63ee22f369bd31c1d2af13fb1c2229be21920e4a36a891da9ce6886a",
   "lean/MCore/BSD/ConcreteDomain.lean": "fea6ac476560569749e6d1e719157cee10063a51b82d63423fb8319ad3750f82",
   "lean/MCore/BSD/DomainCover.lean": "f5ed08b40169161e46acdeacd8ae6eb94a343a3bbf47c300e7cb9f095dbc1566",
-  "lean/MCore/BSD/ProducerAudit.lean": "21e214eea2eec074c6071d82851d0a1e6f73e0fb8adc90c077b1db6a358e8ef9",
   "lean/MCore/BSD/RealizableProducer.lean": "feebc1c18cec92303034952df07f8555407ad9c9f1eea675b93c4965333958e9",
   "lean/MCore/BSD/RefinedAlgebra.lean": "e07e5acff6572628c7a7786dfc3db2f724bc5f118760597746a1c3582cffa89d",
   "lean/MCore/BSD/RefinedCertificateAlgebra.lean": "f01af609a179ce7792b88b20a35df57f88c7f455023b06936e65c533fe7b7918",
@@ -3080,7 +3079,6 @@
   "lean/MCore/BSD/SubdomainAlgebra.lean": "2717468234de77da22d5467fd7730d8607f58ea7c1e73d7524a9ceaf9f6bfc35",
   "lean/MCore/BSD/TerminalAssembly.lean": "d1e003abe20d399fc845c5d91a8544e9b9881f889c487863e912f4542aa20f8b",
   "lean/MCore/BSD/TerminalKernel.lean": "628b53974aca8afebfbdbfcbd4ec3e812303e00f0d51ff344a4bd345e000bc64",
-  "lean/MCore/BackwardAudit/D01UniversalFirewall.lean": "4e25d655a4bca48f0830aac80c6a0098ed07f04a567bffc93cd915efb7fc9a5b",
   "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
   "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
   "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
@@ -3100,36 +3098,12 @@
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9",
   "lean/P06/BSD/AnalyticOrderAtOne.lean": "527eba50ff1591209e7f699ecfe7672310aea6f5401e7e6788cf4bc78402ddd3",
   "lean/P06/BSD/ConcreteBSDProducer.lean": "79f653b6b1d0785599b0aff8a06f02a9581c3ac598ddce9a1af34018c86081ca",
-  "lean/P06/BSD/FinalRoot.lean": "8344fc25dbddf0e5de0f50055a6a36acf3767e0f5ae87817c65f164bc28f9fc5",
   "lean/P06/BSD/Frontier.lean": "3b0f24ce383ae0d83a2843e978b216f34d237065358b8aad930ccd268192d6d5",
   "lean/P06/BSD/KnownExpansion.lean": "4bf50e2923099592c743ccc8d977f6ed3c567a1ae991f9153258422c08acf099",
   "lean/P06/BSD/PartitionKernel.lean": "3e9a3671cd30683fadcf2c03562f1a766ab5a032aa86f6d51d234480a1488793",
   "lean/P06/BSD/RankRealization.lean": "7f2c347fadd9fac8b8e1842ef57150553b9c80159a7c2ae6b79d3a37a530cbd5",
-  "lean/P06/BSD/Spec.lean": "6a7f7f8dbb7539ac9323454d0cb7fe1315a3428b57c3ff792f13bc54257b0608",
-  "open_math/ForcingKernel.lean": "5468f99d7c221f9406d3d066fa3e76ff44042d9810e4e643c8943cc43e46dfb2",
-  "open_math/ObstructionKernel.lean": "7823092207a655706199de11083b019387ba841fd18327225faedae66c6a098a",
-  "open_math/P06_AnalyticField_Independence.lean": "4f0549dcbc4bbbd4277a6f1a85ab96133894fe13e6c73a003e3071c77e362281",
-  "open_math/P06_BSD_P1_P2.lean": "2c3992783fe10a602d17e31faccd4d10b5085e3e01af564caf91e253545075cd",
-  "open_math/P06_BSD_P1_Residual.lean": "2043772fe4635e91d340716171823ac2b456d3de038e97516ef03fcbe47e6fc9",
-  "open_math/P06_BSD_P2_Residual.lean": "3e6c49ceb62ea2e6fe20c0706eff594e1e0c866e5afb3cfd6033681d714a6bf2",
-  "open_math/P06_FastRankMincut.lean": "477f002c6a73584ef2b08a3ff701f1db9d5d71fa1bc2d6ba46ec757f10e881e9",
-  "open_math/P06_KNOWN_Mining.lean": "2be9b66d8632d9d4b000103f7e19173db11785afd5ce761a08be3bd147d92365",
-  "open_math/P06_MiningStatus.lean": "23035d00d8eb978cb3417d7b6e54fabcd0c744a3fcc842812c105f91e758c780",
-  "open_math/P06_MordellWeil_DescentForcing.lean": "a6da0b5579fd3cd937f8cfd402de9692854bd07234f2b32c6fd3abcca371500f",
-  "open_math/P06_MordellWeil_Realization.lean": "ba6617b5ac44053f16e18d0776d53055dafc21395d50d1424118ae91c217724c",
-  "open_math/P06_Rank01_HigherRankCut.lean": "587f1b1d573cb10ab287a855b8bc4da69e08f5025f1bf15b604e8ec6d691a458",
-  "open_math/P06_Rank0_Class.lean": "ebfe28d260ac2947d8292dac4cec3ff297fb07c007ade295fd32075db2440de3",
-  "open_math/P06_Rank0_Exclusion.lean": "3b399c6948915f19c9664667cdeb7947b7160d5d9ea1aedce84ad0415544a2e4",
-  "open_math/P06_Rank0_FrontierAudit.lean": "67e49d4a5fde7447bfceca919f59ba48f74fb7ef496397d6dff7c0909f7ada87",
-  "open_math/P06_RankField_Independence.lean": "330a54a4eceb4667a652d4d4ee909633c3a0ddefee4e219aec13cb07153e8d71",
-  "open_math/P06_RefinedField_Independence.lean": "a9ce38c513b2b710cc55f38b0ec12f815fa0699ad69c001fe33d841e9b83d451",
-  "open_math/P06_Total_Material_Mincut.lean": "5e96854e4c9fa14851ea9f1dd41e22bce191d2722d830f2028db5d0d046a3c2f",
-  "open_math/P06_WeakMordellWeil_Producer.lean": "a5eeece2f7ab6d410966c7f766e8de12f95cdb2b2161cb59802853e64364e61d",
-  "open_math/P1_ATTACK.lean": "19bf8957f03875a8cefc34a8514effecd9a7f0eb8efeba58ded00df2c6377cdd",
-  "open_math/P2_ATTACK.lean": "1bd6c38fa0eb0940a27d7cc1f07912ea77481b1face5487e24d3b689125592af",
-  "open_math/P2_TORSION_ATTACK.lean": "e3621f18492ac2efbf9fd321b26e90b6ec29dae713c3705bd03999f11914ac7c",
-  "open_math/P2_TorsionRealization.lean": "42ed84e4848892274cf5991588a2567b6117b932406a2226b0b1566d2e9a0e65"
+  "lean/P06/BSD/Spec.lean": "6a7f7f8dbb7539ac9323454d0cb7fe1315a3428b57c3ff792f13bc54257b0608"
  },
- "published_at": "2026-10-29T20:15:55Z",
- "certificate_sha256": "1683e0bec8f168d2c89492be7ca1e72997f5180b397a75a75b02ee6b26091136"
+ "published_at": "2026-11-02T20:55:36Z",
+ "certificate_sha256": "62ea8ca2eb3fec504942f94481624fd01d63e3aff6db7b928cffea2597a8ae30"
 }

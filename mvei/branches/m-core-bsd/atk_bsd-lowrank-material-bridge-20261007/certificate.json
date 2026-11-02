@@ -83,7 +83,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -195,7 +195,7 @@
    "name": "MCore.BSDMaterialEndpointProbe.promotedBSDMaterial_sound",
    "file": "formal/BSDMaterialEndpointProbe.lean",
    "line": 22,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : ProbeBSDStatement) : (∀ E, BSDOpenCore (universalRankDatum p.analyticOrderAtOne E)) ∧ (∀ E, p.shaFinite E) ∧ (∀ E, BSDRefinedIdentity (p.refinedData E))"
   },
@@ -296,9 +296,8 @@
    "statement": "∀ (d : MCore.BSDArithmeticAnalyticData),   d.analyticOrderAtOne ≤ 1 → MCore.BSDLowRankMaterialCertificate d → MCore.BSDRankPart d"
   }
  ],
- "closed": 25,
+ "closed": 24,
  "files_sha256": {
-  "formal/BSDMaterialEndpointProbe.lean": "0f45633b9430d26d87d06e981d37f0e3d397ac546ac38f8c495d39b65c373937",
   "lake-manifest.json": "347a8be44c83bf1e791eee474fe8f87803974566745bdb0a84fd1fb7387633d0",
   "lakefile.toml": "e9b8ecdc3025d1b5c33b994ec8d8391e18c5ca02d6b4e2102fccb026b93d89f8",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
@@ -323,6 +322,6 @@
   "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:15:55Z",
- "certificate_sha256": "88eadff68b3071eb47a4bf59734ce2bac75d132e58d960a743c127976a282ad4"
+ "published_at": "2026-11-02T20:55:37Z",
+ "certificate_sha256": "7f55a5c1ac07c3f543777e34544db3b7050404877f8be1b413edfbad252ffde7"
 }

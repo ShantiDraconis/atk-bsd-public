@@ -67,4 +67,4 @@ m-core-bsd,lean/MCore/BackwardAudit/HypotheticalRankPartOracle.lean,8,MCore.Back
 m-core-bsd,lean/MCore/BackwardAudit/WithoutOracle.lean,7,MCore.BackwardAudit.rank_witness_contract_closes,fechado,arquivo a arquivo,,.,,,
 m-core-bsd,lean/MCore/BackwardAudit/WithoutOracle.lean,14,MCore.BackwardAudit.bsd_rank_part_without_oracle_still_open,fechado,arquivo a arquivo,,.,,,
 m-core-bsd,lean/MCore/Frontier/K3Gaps.lean,9,MCore.k3_frontier_open,fechado,,,.,,,
-m-core-bsd,lean/MCore/Material/RankAdapter.lean,5,MCore.Material.bsd_rank_material_iff_existing_target,nao_checado,,"testado arquivo a arquivo: o Lean não chegou ao teorema (import ausente, erro de sintaxe que interrompe o arquivo ou tempo esgotado)",.,,,object file '././.lake/build/lib/lean/MCore/Material/Closure.olean' of module MCore.Material.Closure does not exist
+m-core-bsd,lean/MCore/Material/RankAdapter.lean,5,MCore.Material.bsd_rank_material_iff_existing_target,fechado,arquivo a arquivo,,.,,,

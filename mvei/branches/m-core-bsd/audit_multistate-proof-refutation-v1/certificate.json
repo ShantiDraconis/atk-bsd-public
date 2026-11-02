@@ -303,7 +303,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -321,7 +321,7 @@
    "line": 44,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.A = .pending"
+   "statement": "MCore.Audit8x5.sigma0.A = MCore.Audit8x5.AxisState.pending"
   },
   {
    "name": "MCore.Audit8x5.HC_blocking",
@@ -329,7 +329,7 @@
    "line": 39,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.HC = .blocking"
+   "statement": "MCore.Audit8x5.sigma0.HC = MCore.Audit8x5.AxisState.blocking"
   },
   {
    "name": "MCore.Audit8x5.K_pending",
@@ -337,7 +337,7 @@
    "line": 43,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.K = .pending"
+   "statement": "MCore.Audit8x5.sigma0.K = MCore.Audit8x5.AxisState.pending"
   },
   {
    "name": "MCore.Audit8x5.Q_pending",
@@ -345,7 +345,7 @@
    "line": 41,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.Q = .pending"
+   "statement": "MCore.Audit8x5.sigma0.Q = MCore.Audit8x5.AxisState.pending"
   },
   {
    "name": "MCore.Audit8x5.S_pending",
@@ -353,7 +353,7 @@
    "line": 42,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": sigma0.S = .pending"
+   "statement": "MCore.Audit8x5.sigma0.S = MCore.Audit8x5.AxisState.pending"
   },
   {
    "name": "MCore.Audit8x5.final_audit_not_certified",
@@ -361,7 +361,7 @@
    "line": 26,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": ¬ Nonempty (ProofCertificate k14_final_node)"
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k14_final_node)"
   },
   {
    "name": "MCore.Audit8x5.rank_core_not_certified",
@@ -369,7 +369,7 @@
    "line": 21,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": ¬ Nonempty (ProofCertificate k13_open_core_node)"
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k13_open_core_node)"
   },
   {
    "name": "MCore.Audit8x5.rank_part_reduction",
@@ -377,13 +377,13 @@
    "line": 16,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(d : BSDArithmeticAnalyticData) : BSDRankPart d ↔ BSDRankEquality d.toRankData"
+   "statement": "∀ (d : MCore.BSDArithmeticAnalyticData), MCore.BSDRankPart d ↔ MCore.BSDRankEquality d.toRankData"
   },
   {
    "name": "MCore.BackwardAudit.P_on_1933a1",
    "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": on1933a1 1 0"
   },
@@ -391,7 +391,7 @@
    "name": "MCore.BackwardAudit.PplusQ_on_curve",
    "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": on1933a1 5 (-13)"
   },
@@ -399,7 +399,7 @@
    "name": "MCore.BackwardAudit.Q_on_1933a1",
    "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": on1933a1 2 2"
   },
@@ -455,7 +455,7 @@
    "name": "MCore.BackwardAudit.exact_point_layer_closed",
    "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": on1933a1 1 0 ∧ on1933a1 2 2 ∧ on1933a1 5 (-13)"
   },
@@ -487,7 +487,7 @@
    "name": "MCore.BackwardAudit.generalized_negation_check",
    "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (-13 : Int) = -8 - 5"
   },
@@ -503,7 +503,7 @@
    "name": "MCore.BackwardAudit.line_through_PQ",
    "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (2 : Int) * 1 - 2 = 0 ∧ (2 : Int) * 2 - 4 = 0"
   },
@@ -521,7 +521,7 @@
    "line": 27,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": testVector1933a1.tamagawaProduct = 1 ∧ testVector1933a1.torsionOrder = 1"
+   "statement": "MCore.BackwardAudit.testVector1933a1.tamagawaProduct = 1 ∧ MCore.BackwardAudit.testVector1933a1.torsionOrder = 1"
   },
   {
    "name": "MCore.BackwardAudit.testVector1933a1_fail_closed",
@@ -529,7 +529,7 @@
    "line": 36,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": testVector1933a1NumericsCertified = false"
+   "statement": "MCore.BackwardAudit.testVector1933a1NumericsCertified = false"
   },
   {
    "name": "MCore.BackwardAudit.testVector1933a1_rank2",
@@ -537,13 +537,13 @@
    "line": 23,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": testVector1933a1.mwRank = 2 ∧ testVector1933a1.analyticRank = 2"
+   "statement": "MCore.BackwardAudit.testVector1933a1.mwRank = 2 ∧ MCore.BackwardAudit.testVector1933a1.analyticRank = 2"
   },
   {
    "name": "MCore.BackwardAudit.third_intersection_on_curve",
    "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": on1933a1 5 8"
   },
@@ -584,6 +584,6 @@
   "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:15:55Z",
- "certificate_sha256": "f33a83d1b48216ba9fa8ec4806b61e92a01e650b11c8eb0446746a01ff68d443"
+ "published_at": "2026-11-02T20:55:36Z",
+ "certificate_sha256": "42bf85eb66e4ba5a9cecc917c78087a4bfc7cd0f59e2ec1dd124c5157a03bab1"
 }
