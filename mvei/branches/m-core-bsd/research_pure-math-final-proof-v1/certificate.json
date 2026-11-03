@@ -63,7 +63,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -79,7 +79,7 @@
    "name": "MCore.BackwardAudit.bsd_constructor_closes_rank_part",
    "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(W : BSDWitnessConstructor) : ∀ d : MCore.BSDArithmeticAnalyticData, MCore.BSDOpenCore d"
   },
@@ -87,7 +87,7 @@
    "name": "MCore.BackwardAudit.bsd_constructor_iff_rank_contract",
    "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": BSDWitnessConstructor ↔ RankPartWitnessContract"
   },
@@ -95,7 +95,7 @@
    "name": "MCore.BackwardAudit.bsd_witness_constructor_still_open",
    "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdWitnessConstructorBuilt = false"
   },
@@ -103,7 +103,7 @@
    "name": "MCore.BackwardAudit.constructor_to_rank_contract",
    "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(W : BSDWitnessConstructor) : RankPartWitnessContract"
   },
@@ -111,7 +111,7 @@
    "name": "MCore.BackwardAudit.rank_contract_to_constructor",
    "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(W : RankPartWitnessContract) : BSDWitnessConstructor"
   },
@@ -124,13 +124,31 @@
    "statement": "{Goal : Prop} (a : ParallelAttack Goal) (h : a.Residual) : Goal"
   }
  ],
- "closed": 1,
+ "closed": 6,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
-  "lean/MCore/Research/ParallelClosure.lean": "0f9b91a26222e1fe7299d37a24d394082889720616d5a6944d1ddacf97177b6a"
+  "lean/MCore/BackwardAudit/WithoutOracle.lean": "3f8a3a4dd94a7d1bb5522a26851445cb14f18d326da6bca196bd7c051c523936",
+  "lean/MCore/BackwardAudit/WitnessKernel.lean": "e4d6ce7a9363e2db90147afb098f34338e8c3f976d91b5dbde0cdbf9af2446c8",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
+  "lean/MCore/Research/ParallelClosure.lean": "0f9b91a26222e1fe7299d37a24d394082889720616d5a6944d1ddacf97177b6a",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:15:55Z",
- "certificate_sha256": "7610c9c7c1d0ef82c2b5a9396bd6dd89ade588260d7daf239b59d849d6a2bebf"
+ "published_at": "2026-11-03T11:28:02Z",
+ "certificate_sha256": "a4ff4d6b365e76c63beb347c7f908320d252b4403c7ff2c33f4f87f06fa04171"
 }

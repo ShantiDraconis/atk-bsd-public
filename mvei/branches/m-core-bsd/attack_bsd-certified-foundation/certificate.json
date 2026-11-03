@@ -253,7 +253,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -269,32 +269,40 @@
    "name": "MCore.FF_is_closed",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 59,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": frontierClosed .falseBranch .falseBranch"
   },
   {
    "name": "MCore.FT_is_closed",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 55,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": frontierClosed .falseBranch .trueBranch"
   },
   {
    "name": "MCore.TF_is_closed",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 51,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": frontierClosed .trueBranch .falseBranch"
   },
   {
    "name": "MCore.TT_is_closed",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 47,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": frontierClosed .trueBranch .trueBranch"
   },
   {
@@ -325,7 +333,7 @@
    "name": "MCore.algebraic_rank_grounding_external_version_mismatch",
    "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
    "line": 16,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": currentAlgebraicRankGroundingStatus = .externalCandidateVersionMismatch"
   },
@@ -341,7 +349,7 @@
    "name": "MCore.analytic_order_grounding_missing",
    "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
    "line": 21,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": currentAnalyticOrderGroundingStatus = .missing"
   },
@@ -349,7 +357,7 @@
    "name": "MCore.arbitrary_maps_unconditional_claim_false",
    "file": "lean/MCore/BSD/UnconditionalRankClaim.lean",
    "line": 22,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (∀ M : SameCurveRankMaps, SameCurveRankStatement M)"
   },
@@ -365,7 +373,7 @@
    "name": "MCore.bsd_algebraic_grounding_not_available",
    "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
    "line": 56,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdAlgebraicGroundingAvailable = false"
   },
@@ -373,7 +381,7 @@
    "name": "MCore.bsd_analytic_grounding_not_available",
    "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
    "line": 52,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdAnalyticGroundingAvailable = false"
   },
@@ -381,7 +389,7 @@
    "name": "MCore.bsd_analytic_order_kernel_not_available",
    "file": "lean/MCore/BSD/F5AnalyticKernelTarget.lean",
    "line": 17,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdAnalyticOrderKernelAvailable = false"
   },
@@ -389,7 +397,7 @@
    "name": "MCore.bsd_atk_foundation_ready",
    "file": "lean/MCore/BSD/CertifiedFoundation.lean",
    "line": 36,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdATKFoundationReady = true"
   },
@@ -405,7 +413,7 @@
    "name": "MCore.bsd_exact_f5_producer_count_one",
    "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
    "line": 40,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdExactF5ProducerCount = 1"
   },
@@ -413,7 +421,7 @@
    "name": "MCore.bsd_exact_f5_producer_iff",
    "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
    "line": 34,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": BSDExactF5Producer ↔ GroundedBSDRankDefectVanishing"
   },
@@ -421,7 +429,7 @@
    "name": "MCore.bsd_f5_mathematical_closure_false",
    "file": "lean/MCore/BSD/F5GroundingFrontier.lean",
    "line": 46,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdF5MathematicalClosure = false"
   },
@@ -429,7 +437,7 @@
    "name": "MCore.bsd_f5_open_math_producer_count_one",
    "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
    "line": 66,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdF5OpenMathProducerCount = 1"
   },
@@ -437,7 +445,7 @@
    "name": "MCore.bsd_final_proof_ready_conditional",
    "file": "lean/MCore/BSD/BSDHabitant.lean",
    "line": 61,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdFinalProofReadyConditional = true"
   },
@@ -445,7 +453,7 @@
    "name": "MCore.bsd_grounded_material_producer_gaps_one",
    "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
    "line": 98,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdGroundedMaterialProducerGaps = 1"
   },
@@ -469,7 +477,7 @@
    "name": "MCore.bsd_material_producer_gaps_one",
    "file": "lean/MCore/BSD/BSDHabitant.lean",
    "line": 57,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdMaterialProducerGaps = 1"
   },
@@ -485,7 +493,7 @@
    "name": "MCore.bsd_mordell_weil_rank_kernel_not_available",
    "file": "lean/MCore/BSD/F5AlgebraicKernelTarget.lean",
    "line": 17,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdMordellWeilRankKernelAvailable = false"
   },
@@ -493,7 +501,7 @@
    "name": "MCore.bsd_no_sorry_material_producer_count_one",
    "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
    "line": 76,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdNoSorryMaterialProducerCount = 1"
   },
@@ -517,7 +525,7 @@
    "name": "MCore.bsd_rank_claims_zero",
    "file": "lean/MCore/BSD/BSDHabitant.lean",
    "line": 65,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdRankClaims = 0"
   },
@@ -533,7 +541,7 @@
    "name": "MCore.bsd_rank_equality_producer_not_available",
    "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
    "line": 60,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdRankEqualityProducerAvailable = false"
   },
@@ -541,7 +549,7 @@
    "name": "MCore.bsd_rank_of_habitant",
    "file": "lean/MCore/BSD/BSDHabitant.lean",
    "line": 20,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : BSDHabitant) : ∀ E : ShortWeierstrassCurveQ, H.semantics.analyticOrderAtOne E = H.semantics.mordellWeilRank E"
   },
@@ -581,7 +589,7 @@
    "name": "MCore.bsd_same_carrier_rank_equality_not_available",
    "file": "lean/MCore/BSD/F5SameCarrierEquality.lean",
    "line": 38,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdSameCarrierRankEqualityAvailable = false"
   },
@@ -597,7 +605,7 @@
    "name": "MCore.bsd_unconditional_claim_not_enabled",
    "file": "lean/MCore/BSD/UnconditionalOneGapEndpoint.lean",
    "line": 37,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdUnconditionalClaimEnabled = false"
   },
@@ -605,7 +613,7 @@
    "name": "MCore.bsd_unconditional_infrastructure_closed",
    "file": "lean/MCore/BSD/UnconditionalOneGapEndpoint.lean",
    "line": 30,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdUnconditionalInfrastructureClosed = true"
   },
@@ -613,7 +621,7 @@
    "name": "MCore.bsd_unconditional_open_math_count_one",
    "file": "lean/MCore/BSD/UnconditionalOneGapEndpoint.lean",
    "line": 23,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdUnconditionalOpenMathCount = 1"
   },
@@ -645,7 +653,7 @@
    "name": "MCore.canonical_bsd_rank_semantic_anchor_not_available",
    "file": "lean/MCore/BSD/SemanticCanonicalRankPackage.lean",
    "line": 44,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": canonicalBSDRankSemanticAnchorAvailable = false"
   },
@@ -653,7 +661,7 @@
    "name": "MCore.canonical_package_closes_rank",
    "file": "lean/MCore/BSD/CanonicalSameCurveRankPackage.lean",
    "line": 14,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : CanonicalSameCurveRankClaim) : ∃ M : SameCurveRankMaps, SameCurveRankStatement M"
   },
@@ -661,7 +669,7 @@
    "name": "MCore.canonical_rank_theorem_enabled_of_package",
    "file": "lean/MCore/BSD/CanonicalSameCurveRankPackage.lean",
    "line": 42,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : CanonicalSameCurveRankClaim) : canonicalRankTheoremEnabled H = true"
   },
@@ -669,7 +677,7 @@
    "name": "MCore.canonical_same_curve_rank_maps_not_available",
    "file": "lean/MCore/BSD/SameCurveRankMaps.lean",
    "line": 39,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": canonicalSameCurveRankMapsAvailable = false"
   },
@@ -677,7 +685,7 @@
    "name": "MCore.canonical_same_curve_rank_package_not_available",
    "file": "lean/MCore/BSD/CanonicalSameCurveRankPackage.lean",
    "line": 34,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": canonicalSameCurveRankPackageAvailable = false"
   },
@@ -685,7 +693,7 @@
    "name": "MCore.certified_foundation_frontier_zero",
    "file": "lean/MCore/BSD/CertifiedFoundation.lean",
    "line": 27,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdCertifiedFoundation.frontierOpenMathZero = current_bsd_frontier_open_math_count_zero"
   },
@@ -693,7 +701,7 @@
    "name": "MCore.classical_bsd_reuse_closed_negative_provenance",
    "file": "lean/MCore/BSD/F5AnalyticGroundingAudit.lean",
    "line": 19,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": classicalBSDReuseStatus = .closedNegativeProvenance"
   },
@@ -701,23 +709,27 @@
    "name": "MCore.closed_iff_distance_zero",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 63,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(a b : FrontierBranchState) : frontierClosed a b ↔ frontierDistance a b = 0"
   },
   {
    "name": "MCore.closed_implies_100_percent",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 67,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(a b : FrontierBranchState) (h : frontierClosed a b) : frontierClosurePercent a b = 100"
   },
   {
    "name": "MCore.closure_theorem_does_not_promote_bsd",
    "file": "lean/MCore/BSD/OpenMathClosureCertificate.lean",
    "line": 34,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": bsdHighRankMathematicsClosed = false"
   },
@@ -749,7 +761,7 @@
    "name": "MCore.create_same_curve_rank_theorem",
    "file": "lean/MCore/BSD/SameCurveRankTheoremFactory.lean",
    "line": 35,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : SameCurveRankMaps) (C : SameCurveRankDirectionalCertificate M) : ∀ E : ShortWeierstrassCurveQ, M.analyticOrderAtOne E = M.mordellWeilRank E"
   },
@@ -813,7 +825,7 @@
    "name": "MCore.directional_mathematics_not_available",
    "file": "lean/MCore/BSD/SameCurveRankTheoremFactory.lean",
    "line": 54,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": directionalMathematicsAvailable = false"
   },
@@ -821,7 +833,7 @@
    "name": "MCore.exact_unconditional_certificate_still_open",
    "file": "lean/MCore/BSD/UnconditionalProducerAudit.lean",
    "line": 37,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": exactUnconditionalCertificateStatus = false"
   },
@@ -829,7 +841,7 @@
    "name": "MCore.exact_unconditional_enable_gate",
    "file": "lean/MCore/BSD/UnconditionalProducerAudit.lean",
    "line": 29,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : CanonicalSameCurveRankClaim) : BSDUnconditionalRankTheorem"
   },
@@ -837,7 +849,7 @@
    "name": "MCore.external_classical_bsd_algebraic_rank_rejected",
    "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
    "line": 36,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": externalClassicalBSDAlgebraicRankStatus = .rejectedPlaceholder"
   },
@@ -845,7 +857,7 @@
    "name": "MCore.external_classical_bsd_known_cases_rejected",
    "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
    "line": 40,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": externalClassicalBSDKnownCaseStatus = .rejectedAxiom"
   },
@@ -853,7 +865,7 @@
    "name": "MCore.external_classical_bsd_proof_reuse_rejected",
    "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
    "line": 32,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": externalClassicalBSDProofReuseStatus = .rejectedSorry"
   },
@@ -861,15 +873,17 @@
    "name": "MCore.frontier_closure_theorem",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 82,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(a b : FrontierBranchState) : frontierClosed a b ↔ branchClosed a = true ∧ branchClosed b = true"
   },
   {
    "name": "MCore.grounded_bsd_habitant_not_available",
    "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
    "line": 92,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": groundedBSDHabitantAvailable = false"
   },
@@ -877,7 +891,7 @@
    "name": "MCore.grounded_bsd_of_habitant",
    "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
    "line": 59,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : GroundedBSDHabitant) : ∀ E : ShortWeierstrassCurveQ, H.semantics.analyticOrderAtOne E = H.semantics.mordellWeilRank E"
   },
@@ -885,7 +899,7 @@
    "name": "MCore.grounded_habitant_has_analytic_semantics",
    "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
    "line": 66,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : GroundedBSDHabitant) : ∀ E : ShortWeierstrassCurveQ, H.grounding.specification.analyticOrderSpec E (H.semantics.analyticOrderAtOne E)"
   },
@@ -893,7 +907,7 @@
    "name": "MCore.grounded_habitant_has_mordell_weil_semantics",
    "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
    "line": 76,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : GroundedBSDHabitant) : ∀ E : ShortWeierstrassCurveQ, H.grounding.specification.mordellWeilRankSpec E (H.semantics.mordellWeilRank E)"
   },
@@ -901,8 +915,10 @@
    "name": "MCore.grounded_rank_defect_zero",
    "file": "lean/MCore/BSD/GroundedBSDHabitant.lean",
    "line": 53,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(H : GroundedBSDHabitant) (E : ShortWeierstrassCurveQ) : groundedRankDefect H E = 0"
   },
   {
@@ -925,7 +941,7 @@
    "name": "MCore.legacy_directional_certificates_cannot_close_current_claim",
    "file": "lean/MCore/BSD/UnconditionalProducerAudit.lean",
    "line": 22,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": (¬ Nonempty (ProofCertificate k9_analytic_to_arithmetic_node)) ∧ (¬ Nonempty (ProofCertificate k9_arithmetic_to_analytic_node))"
   },
@@ -933,7 +949,7 @@
    "name": "MCore.legacy_to_canonical_bridge_not_available",
    "file": "lean/MCore/BSD/CanonicalSameCurveRankPackage.lean",
    "line": 27,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": legacyToCanonicalBridgeAvailable = false"
   },
@@ -941,7 +957,7 @@
    "name": "MCore.map_only_package_not_promotable_to_bsd",
    "file": "lean/MCore/BSD/SemanticCanonicalRankPackage.lean",
    "line": 37,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": mapOnlyPackagePromotableToBSD = false"
   },
@@ -949,7 +965,7 @@
    "name": "MCore.mismatch_same_curve_statement_false",
    "file": "lean/MCore/BSD/UnconditionalRankClaim.lean",
    "line": 16,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ SameCurveRankStatement mismatchSameCurveRankMaps"
   },
@@ -957,7 +973,7 @@
    "name": "MCore.no_sorry_kernel_target_closes_f5",
    "file": "lean/MCore/BSD/NoSorryF5Expansion.lean",
    "line": 68,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : BSDNoSorryKernelTarget) : GroundedBSDRankDefectVanishing"
   },
@@ -965,7 +981,7 @@
    "name": "MCore.nonzero_force_resolves_branch",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 109,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(f : FrontierForces) (h : netFrontierForce f ≠ 0) : branchClosed (forceState f) = true"
   },
@@ -973,15 +989,17 @@
    "name": "MCore.one_open_is_50_percent",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 73,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(a : FrontierBranchState) (ha : branchClosed a = true) : frontierClosurePercent a .open = 50"
   },
   {
    "name": "MCore.open_math_closure_theorem_enabled",
    "file": "lean/MCore/BSD/OpenMathClosureCertificate.lean",
    "line": 26,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": openMathClosureTheoremEnabled = true"
   },
@@ -989,7 +1007,7 @@
    "name": "MCore.open_open_is_0_percent",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 78,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": frontierClosurePercent .open .open = 0"
   },
@@ -1037,7 +1055,7 @@
    "name": "MCore.rank_defect_vanishing_closes_rank",
    "file": "lean/MCore/BSD/BSDHabitant.lean",
    "line": 40,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : BSDRankDefectVanishing) : ∃ S : BSDRankSemanticAnchor, ∀ E : ShortWeierstrassCurveQ, S.analyticOrderAtOne E = S.mordellWeilRank E"
   },
@@ -1045,15 +1063,17 @@
    "name": "MCore.rank_defect_zero",
    "file": "lean/MCore/BSD/BSDHabitant.lean",
    "line": 27,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(H : BSDHabitant) (E : ShortWeierstrassCurveQ) : rankDefect H E = 0"
   },
   {
    "name": "MCore.restricted_bsd_rank_theorem_not_enabled",
    "file": "lean/MCore/BSD/SameCurveRankMaps.lean",
    "line": 45,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": restrictedBSDRankTheoremEnabled = false"
   },
@@ -1061,7 +1081,7 @@
    "name": "MCore.same_carrier_rank_equality_closes_f5",
    "file": "lean/MCore/BSD/F5SameCarrierEquality.lean",
    "line": 30,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : BSDSameCarrierRankEqualityTarget) : GroundedBSDRankDefectVanishing"
   },
@@ -1069,7 +1089,7 @@
    "name": "MCore.same_curve_rank_part_iff",
    "file": "lean/MCore/BSD/ShortWeierstrassCurveQ.lean",
    "line": 31,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(d : SameCurveRankData) : SameCurveRankPart d ↔ d.analyticOrderAtOne = d.mordellWeilRank"
   },
@@ -1077,7 +1097,7 @@
    "name": "MCore.same_curve_rank_statement_of_directions",
    "file": "lean/MCore/BSD/SameCurveRankTheoremFactory.lean",
    "line": 18,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : SameCurveRankMaps) (C : SameCurveRankDirectionalCertificate M) : SameCurveRankStatement M"
   },
@@ -1085,7 +1105,7 @@
    "name": "MCore.same_curve_rank_theorem_factory_enabled",
    "file": "lean/MCore/BSD/SameCurveRankTheoremFactory.lean",
    "line": 48,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": sameCurveRankTheoremFactoryEnabled = true"
   },
@@ -1093,7 +1113,7 @@
    "name": "MCore.same_curve_rank_theorem_not_enabled",
    "file": "lean/MCore/BSD/ShortWeierstrassCurveQ.lean",
    "line": 45,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": sameCurveRankTheoremEnabled = false"
   },
@@ -1101,7 +1121,7 @@
    "name": "MCore.same_curve_rank_theorem_of_certificate",
    "file": "lean/MCore/BSD/SameCurveRankMaps.lean",
    "line": 30,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : SameCurveRankMaps) (C : SameCurveRankCertificate M) : SameCurveRankStatement M"
   },
@@ -1109,7 +1129,7 @@
    "name": "MCore.same_curve_statement_iff_rank_part",
    "file": "lean/MCore/BSD/SameCurveRankMaps.lean",
    "line": 21,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : SameCurveRankMaps) : SameCurveRankStatement M ↔ ∀ E : ShortWeierstrassCurveQ, SameCurveRankPart (M.toData E)"
   },
@@ -1117,7 +1137,7 @@
    "name": "MCore.semantic_canonical_package_closes_rank",
    "file": "lean/MCore/BSD/SemanticCanonicalRankPackage.lean",
    "line": 25,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : SemanticCanonicalSameCurveRankClaim) : ∃ S : BSDRankSemanticAnchor, SameCurveRankStatement S.toMaps"
   },
@@ -1125,7 +1145,7 @@
    "name": "MCore.semantic_unconditional_bsd_rank_claim_not_enabled",
    "file": "lean/MCore/BSD/SemanticCanonicalRankPackage.lean",
    "line": 51,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": semanticUnconditionalBSDRankClaimEnabled = false"
   },
@@ -1133,7 +1153,7 @@
    "name": "MCore.short_weierstrass_concrete_carrier_enabled",
    "file": "lean/MCore/BSD/ShortWeierstrassCurveQ.lean",
    "line": 38,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": shortWeierstrassConcreteCarrierEnabled = true"
   },
@@ -1141,15 +1161,17 @@
    "name": "MCore.two_nonzero_forces_close_open_math",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 118,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(f g : FrontierForces) (hf : netFrontierForce f ≠ 0) (hg : netFrontierForce g ≠ 0) : frontierClosed (forceState f) (forceState g)"
   },
   {
    "name": "MCore.unconditional_certificate_closes_open_math",
    "file": "lean/MCore/BSD/UnconditionalOneGapEndpoint.lean",
    "line": 13,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(H : BSDUnconditionalRankOpenMath) : BSDUnconditionalRankTheorem"
   },
@@ -1157,7 +1179,7 @@
    "name": "MCore.unconditional_claim_closes_rank",
    "file": "lean/MCore/BSD/UnconditionalRankClaim.lean",
    "line": 34,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : SameCurveRankMaps) (H : UnconditionalSameCurveRankClaim M) : SameCurveRankStatement M"
   },
@@ -1165,7 +1187,7 @@
    "name": "MCore.unconditional_rank_claim_certificate_not_available",
    "file": "lean/MCore/BSD/UnconditionalRankClaim.lean",
    "line": 45,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": unconditionalRankClaimCertificateAvailable = false"
   },
@@ -1186,21 +1208,41 @@
    "statement": "¬∀ (d : MCore.BSDArithmeticAnalyticData), MCore.BSDRankPart d"
   }
  ],
- "closed": 39,
+ "closed": 104,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BSD/BSDHabitant.lean": "280982828fc7005c0e700a21127957512123f5c33fb9a107b944a3b067d286cf",
+  "lean/MCore/BSD/CanonicalSameCurveRankPackage.lean": "2dd9e788aa280fb042eda91ee7b1049720ac288d98d483a9536ac2f3d8530c0f",
+  "lean/MCore/BSD/CertifiedFoundation.lean": "aadd5f9d2d65bff5cfadf9265cc52f2982e69ba7e05ad8ee29a27b318b02a408",
   "lean/MCore/BSD/ConcreteCarrierGap.lean": "56a06bebe50539759d725de67e33045566f5c37011c8e5cfcc2f253d0f62401e",
   "lean/MCore/BSD/ExternalRouteClosure.lean": "5dd058c2b0f083548a13d03f7b8bbc6391bb4bcdf08843757dc8b913f2b46533",
+  "lean/MCore/BSD/F5AlgebraicKernelTarget.lean": "45fd7d5680c80d56bed33d4e2bc3b0b771e688f856871613f3b801fc80d747be",
+  "lean/MCore/BSD/F5AnalyticGroundingAudit.lean": "b741b98dc5afdea90b658fbe4e49837f80ca14a8285656710700c4d2506b9233",
+  "lean/MCore/BSD/F5AnalyticKernelTarget.lean": "873d74eccda475dbc556e0838aca167108d9d8e1774c1b597eeaa7bb80281d2e",
+  "lean/MCore/BSD/F5GroundingFrontier.lean": "e4780c0b690b03680498e414cf8130d360335601f97396c570b7db99c7ab5a70",
+  "lean/MCore/BSD/F5SameCarrierEquality.lean": "6bbf8e6f4e0cc2a9448c5c0c47740705240693b1a231063afad56b35189a8739",
+  "lean/MCore/BSD/GroundedBSDHabitant.lean": "3306e9b93ed2eb862cb4a5ee964c54b53ca3862a6bddf4889ce7823d9686b485",
   "lean/MCore/BSD/HighRankDomainGapClosure.lean": "6f16c26a06418b9c84bac0760b146c28613b9ee3669d820d71608ed575c1689e",
   "lean/MCore/BSD/HigherRankHeightDomainGapClosure.lean": "2f1ed9ee3f5b813f8f09fd724baad9b55a5d34a8899bec5be9aa1b3e8c0b2bae",
   "lean/MCore/BSD/LeadingCoefficientDomainGapClosure.lean": "fcca23a1e6bd74b81094d6288bf2779690fc96b37eddf3491a4410f4b9874479",
+  "lean/MCore/BSD/NoSorryF5Expansion.lean": "9de08cf8b731b0b739ec147c92e6ee2fb93362b0de6f1db259bf712e3c1e3944",
+  "lean/MCore/BSD/OpenMathClosureCertificate.lean": "46d719ccbc40b42b4b0a6d824abc33124fdb1729161e72a3a036e8cc65e3dc51",
+  "lean/MCore/BSD/OpenMathClosureGeometry.lean": "272bbf646695ee52bb8723dc20ba1ca11ee28073ad6dfcab6af196344e017132",
   "lean/MCore/BSD/OpenMathRankGE2.lean": "c538ee09a79fac51ddabf3256d5d60b2e18a5cc49d922aaf69b291845a89ba7b",
   "lean/MCore/BSD/PostFrontierState.lean": "0933e3d2bd1d4408eef21f90f54e429ace4e639d8e592feb3534ae1a9581663c",
   "lean/MCore/BSD/ProofTermGap.lean": "a736b364ec5236c016e49767cfc00c53cdd13e38a4839d6ca2e7465c602e431e",
   "lean/MCore/BSD/RealizableRankFrontier.lean": "a40e62851a42599dce0d1688a62d7e74e193df5d33621fb618503c74be14fe67",
+  "lean/MCore/BSD/SameCurveRankMaps.lean": "1f23fdf55feace288072ccd6f97ec378d35bbeca6d317a958ab6d6efbf5ca5b4",
+  "lean/MCore/BSD/SameCurveRankTheoremFactory.lean": "bd0dcd7eb2355c81a43854caad1f41811ac5945515e00ca0489adce19748ec14",
+  "lean/MCore/BSD/SemanticCanonicalRankPackage.lean": "235b49feda2ca38292a36c6a8c8611fda9de7c725f34ef7a6aa056f9e697e4b6",
+  "lean/MCore/BSD/ShortWeierstrassCurveQ.lean": "bd787a5f192580a92465e419bb9c89562ee39b05e17e07db0fd986aeac90f462",
+  "lean/MCore/BSD/UnconditionalOneGapEndpoint.lean": "395fed15ec415c10670ea95991e65126f1f40c74959e4a1a4891b04e59638a4e",
+  "lean/MCore/BSD/UnconditionalProducerAudit.lean": "c67bc7fa0dd1c9da828af70c45e37736f4012181452969a7d4c548ee336026c1",
+  "lean/MCore/BSD/UnconditionalRankClaim.lean": "c1513d0b4c45932c2bcf2cd83e5ccfb2557038c4ef013822e785cd1a652172b2",
   "lean/MCore/BSDUniversalCountermodel.lean": "0ebaa05245eab2e8744e9010e2d46e46dfed46f06b4aa946eb1efb8aac679d7f",
+  "lean/MCore/BackwardAudit/WithoutOracle.lean": "3f8a3a4dd94a7d1bb5522a26851445cb14f18d326da6bca196bd7c051c523936",
   "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
   "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
   "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
@@ -1208,6 +1250,7 @@
   "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
   "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
   "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K14.lean": "ed01ddf91006fbc50791f6f86b03ee77f52385bb11cac98759aa9fa1ad776010",
   "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
   "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
   "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
@@ -1218,6 +1261,6 @@
   "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-02T20:55:36Z",
- "certificate_sha256": "c22d553f6234ed670acefb05b8e02219a328605baa5473d18ffb6a373afc1100"
+ "published_at": "2026-11-03T11:28:02Z",
+ "certificate_sha256": "fd6292e96aa3450b4b01bd30aa585c2539053c997fa3b4fd3b9fc08f692247a8"
 }

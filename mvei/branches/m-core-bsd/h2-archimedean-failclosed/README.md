@@ -5,7 +5,7 @@ Lean sources from the branch `h2-archimedean-failclosed` of the private reposito
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 14 — closed 14, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 47 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `8e023e4d3437158b935c7109cc6757df0f6ecf9341d03464344944f6de2a8543`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/h2-archimedean-failclosed/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `5287496e8b6076bad05d4d78f704e69459b78826e74df4e1521b4e08650e0f6c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/h2-archimedean-failclosed/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
