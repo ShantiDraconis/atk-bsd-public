@@ -303,7 +303,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -383,10 +383,8 @@
    "name": "MCore.BackwardAudit.P_on_1933a1",
    "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
    "line": 9,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": on1933a1 1 0"
   },
   {
@@ -403,10 +401,8 @@
    "name": "MCore.BackwardAudit.Q_on_1933a1",
    "file": "lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean",
    "line": 11,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": on1933a1 2 2"
   },
   {
@@ -566,7 +562,7 @@
    "statement": "MCore.BackwardAudit.yunZhangAudit.exactMatch = false"
   }
  ],
- "closed": 25,
+ "closed": 27,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
@@ -595,6 +591,6 @@
   "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:02Z",
- "certificate_sha256": "9696aa5bb3dcce043ca6def1625b73c2dbbd3583d79ca364cbea8047f5d03d98"
+ "published_at": "2026-11-05T17:43:02Z",
+ "certificate_sha256": "a37d1afc65f4dd7a81790b040d38bb23a09c4b0227d5871f99c194420404c93f"
 }

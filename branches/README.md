@@ -5,8 +5,8 @@ Each row is a branch of a private repository of ShantiDraconis with theorems tha
 | Repository | Branch | Last commit | State | Closed / theorems only on branches | Files | Commits not in default | Certificate |
 |---|---|---|---|---:|---:|---:|---|
 | m-core-bsd | `atk/bsd-local-order-20261006` | 2026-10-07 | parada | 259 / 259 | 77 | 194 | [certificate](../mvei/branches/m-core-bsd/atk_bsd-local-order-20261006/README.md) |
-| m-core-bsd | `attack/bsd-certified-foundation` | 2026-09-26 | parada | 104 / 115 | 50 | 49 | [certificate](../mvei/branches/m-core-bsd/attack_bsd-certified-foundation/README.md) |
-| m-core-bsd | `audit/multistate-proof-refutation-v1` | 2026-09-19 | parada | 25 / 30 | 26 | 59 | [certificate](../mvei/branches/m-core-bsd/audit_multistate-proof-refutation-v1/README.md) |
+| m-core-bsd | `attack/bsd-certified-foundation` | 2026-09-26 | parada | 108 / 115 | 50 | 49 | [certificate](../mvei/branches/m-core-bsd/attack_bsd-certified-foundation/README.md) |
+| m-core-bsd | `audit/multistate-proof-refutation-v1` | 2026-09-19 | parada | 27 / 30 | 26 | 59 | [certificate](../mvei/branches/m-core-bsd/audit_multistate-proof-refutation-v1/README.md) |
 | m-core-bsd | `atk/bsd-lowrank-material-bridge-20261007` | 2026-10-07 | parada | 25 / 25 | 24 | 15 | [certificate](../mvei/branches/m-core-bsd/atk_bsd-lowrank-material-bridge-20261007/README.md) |
 | m-core-bsd | `atk/auto-compose-terminal-20260930` | 2026-10-01 | parada | 15 / 21 | 30 | 62 | [certificate](../mvei/branches/m-core-bsd/atk_auto-compose-terminal-20260930/README.md) |
 | m-core-bsd | `h2-archimedean-failclosed` | 2026-09-18 | parada | 14 / 14 | 10 | 47 | [certificate](../mvei/branches/m-core-bsd/h2-archimedean-failclosed/README.md) |
@@ -22,3 +22,4 @@ Each row is a branch of a private repository of ShantiDraconis with theorems tha
 | m-core-bsd | `atk/first-real-open-math-bsd-20261005` | 2026-10-05 | parada | 1 / 5 | 33 | 70 | [certificate](../mvei/branches/m-core-bsd/atk_first-real-open-math-bsd-20261005/README.md) |
 | m-core-bsd | `atk-terminal-forward-20261012` | 2026-10-12 | parada | 1 / 1 | 3 | 2 | [certificate](../mvei/branches/m-core-bsd/atk-terminal-forward-20261012/README.md) |
 | m-core-bsd | `a0-preaudit` | 2026-09-17 | parada | 1 / 1 | 3 | 56 | [certificate](../mvei/branches/m-core-bsd/a0-preaudit/README.md) |
+| m-core-bsd | `atk/material-rigid-integration-20261009` | 2026-10-09 | parada | 1 / 1 | 26 | 4 | [certificate](../mvei/branches/m-core-bsd/atk_material-rigid-integration-20261009/README.md) |

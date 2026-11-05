@@ -3,9 +3,9 @@
 Lean sources from the branch `audit/multistate-proof-refutation-v1` of the private repository `ShantiDraconis/m-core-bsd`, commit `20f96533d64d04e3db4df0f186f255529a2d6750` (2026-09-19T10:39:49+02:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 30 — closed 25, conditional 0, open 1, proof error 4, not reached 0, no result 0.
+* Theorems only on branches, in this branch: 30 — closed 27, conditional 0, open 1, proof error 2, not reached 0, no result 0.
 * History: 59 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `9696aa5bb3dcce043ca6def1625b73c2dbbd3583d79ca364cbea8047f5d03d98`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/audit_multistate-proof-refutation-v1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `a37d1afc65f4dd7a81790b040d38bb23a09c4b0227d5871f99c194420404c93f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/audit_multistate-proof-refutation-v1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
@@ -19,9 +19,9 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.Audit8x5.final_audit_not_certified` | `lean/MCore/Audit8x5.lean`:26 | fechado |
 | `MCore.Audit8x5.rank_core_not_certified` | `lean/MCore/Audit8x5.lean`:21 | fechado |
 | `MCore.Audit8x5.rank_part_reduction` | `lean/MCore/Audit8x5.lean`:16 | fechado |
-| `MCore.BackwardAudit.P_on_1933a1` | `lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean`:9 | erro |
+| `MCore.BackwardAudit.P_on_1933a1` | `lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean`:9 | fechado |
 | `MCore.BackwardAudit.PplusQ_on_curve` | `lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean`:18 | erro |
-| `MCore.BackwardAudit.Q_on_1933a1` | `lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean`:11 | erro |
+| `MCore.BackwardAudit.Q_on_1933a1` | `lean/MCore/BackwardAudit/BSD1933A1ExactPoints.lean`:11 | fechado |
 | `MCore.BackwardAudit.adapted_control_rejected` | `lean/MCore/BackwardAudit/BSDBridgeLabCertificate.lean`:63 | fechado |
 | `MCore.BackwardAudit.audited_set_leaves_operator_open` | `lean/MCore/BackwardAudit/NumberFieldComplexSecondDerivativeHeightOperator.lean`:45 | fechado |
 | `MCore.BackwardAudit.banwait_not_exact` | `lean/MCore/BackwardAudit/NumberFieldComplexSecondDerivativeHeightOperator.lean`:40 | fechado |

@@ -1,0 +1,83 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-bsd",
+ "branch": "atk/material-rigid-integration-20261009",
+ "branch_state": "parada",
+ "head_commit": "e11615e8ac47bc1fc171bceb663097fa357d2718",
+ "head_commit_date": "2026-10-09T12:58:32+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "e11615e8ac47bc1fc171bceb663097fa357d2718",
+   "date": "2026-10-09T12:58:32+02:00",
+   "subject": "ci(atk): compile dense BSD material entrypoint in certificate workflow"
+  },
+  {
+   "commit": "50bf0b3a042d32c082026fe96e0bbda02ba77849",
+   "date": "2026-10-09T12:56:21+02:00",
+   "subject": "feat(atk): integrate concrete material closure interface and axiom check"
+  },
+  {
+   "commit": "45426319b118db4cf323624ae97847e7a0bbdb93",
+   "date": "2026-10-09T12:11:09+02:00",
+   "subject": "feat(atk): add non-circular dense Lean consolidation entrypoint"
+  },
+  {
+   "commit": "6d030aeb794195d8ec46c0d40f904b64086665a1",
+   "date": "2026-10-09T12:09:23+02:00",
+   "subject": "chore(atk): establish material-only integration and certification gate"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-05T15:19:16+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "ATK.BSD.producer_of_concrete",
+   "file": "lean/ATK/BSD_MaterialDense.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{R T Q : Prop} (h : MCore.Material.BSDClosure R T Q) : Material R T Q"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/ATK/BSD_MaterialDense.lean": "3a24b374b6d26661e4c80fdb6ac46360aa54a710f384ac7a195da5f910e26298",
+  "lean/MCore.lean": "f441dd2853e2e27b5f82ec7bb1322ead2631393ef7e4cc53188fa94a1bcc3c72",
+  "lean/MCore/AttackDAG/K3AlgebraAttacks.lean": "c76c177447069d02936aaf3bcc243225459baf94c756d8ce11313ea63d57eaf1",
+  "lean/MCore/Audit.lean": "2073dffa499a29e19d8171c07d175606a327263f81e52c3e34b8adb183efe7c6",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/Frontier/K3Gaps.lean": "02d594363d98ebade1bd21a486c49129fe1fe780f58b18ce925fd28a2da7fbd0",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "222fae467b808ffb2fc0d5f3aca17863c9c2c4d7957e8fb3dd9866e4e4398477",
+  "lean/MCore/K10.lean": "32d370334e0ce06fa2a09319f5372020c03ab59875749432f0dc4bf1ee1a906c",
+  "lean/MCore/K11.lean": "6d91a498abf1dd8e254587c5f3a437b20f322b6ae8890e5cc0156b416418a084",
+  "lean/MCore/K12.lean": "03732ff56fca051e4e0a17dcb64f052f9edae443870ea0ce7254679ab10d4d9b",
+  "lean/MCore/K13.lean": "4060682f609b024d6203744fc4bdc4c9ba0d2e47f4a53bc299d0eb208a261a1c",
+  "lean/MCore/K14.lean": "ed01ddf91006fbc50791f6f86b03ee77f52385bb11cac98759aa9fa1ad776010",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "159574b0e6a109f924cc66f4dca93f38d58a56fa09d74fee9e85112ec09dc3c6",
+  "lean/MCore/K8.lean": "267c4083d71295cbe98b1fd1e16f02484a03ab15aa2acd3d899b4fe254d33af9",
+  "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
+  "lean/MCore/Material/Closure.lean": "b67afc8a64f7af59aafaff77469dcb99f67f5153dd2c086f00a329fbf0f4b94a",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-11-05T17:43:18Z",
+ "certificate_sha256": "8dbacc19d72579e7fd6ed03e0d85d91f38e17a0209a28f0f564063958be04ad1"
+}

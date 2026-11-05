@@ -5,7 +5,7 @@ Lean sources from the branch `a0-preaudit` of the private repository `ShantiDrac
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 56 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `54829929361914daa794900177b34b6a07c6eebb7382e3c523d83b5496ca39da`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/a0-preaudit/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `67bd737eba746f311d8fb6ea1b9f673d56ab1d6c7eca53746b73dda8e9925b4d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/a0-preaudit/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

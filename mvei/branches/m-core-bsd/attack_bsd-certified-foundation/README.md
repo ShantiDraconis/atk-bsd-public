@@ -3,18 +3,18 @@
 Lean sources from the branch `attack/bsd-certified-foundation` of the private repository `ShantiDraconis/m-core-bsd`, commit `405bc5a9982f082c172ebbfbc55a5b90d4787967` (2026-09-26T23:19:51+01:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 115 — closed 104, conditional 0, open 2, proof error 7, not reached 2, no result 0.
+* Theorems only on branches, in this branch: 115 — closed 108, conditional 0, open 2, proof error 3, not reached 2, no result 0.
 * History: 49 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `fd6292e96aa3450b4b01bd30aa585c2539053c997fa3b4fd3b9fc08f692247a8`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/attack_bsd-certified-foundation/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `1f69905237fde94b9e0e2a19dda48bcaa8035534fc685c2b88bb80186cf8e3a9`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/attack_bsd-certified-foundation/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
 | Theorem | File | State |
 |---|---|---|
-| `MCore.FF_is_closed` | `lean/MCore/BSD/OpenMathClosureGeometry.lean`:59 | erro |
-| `MCore.FT_is_closed` | `lean/MCore/BSD/OpenMathClosureGeometry.lean`:55 | erro |
-| `MCore.TF_is_closed` | `lean/MCore/BSD/OpenMathClosureGeometry.lean`:51 | erro |
-| `MCore.TT_is_closed` | `lean/MCore/BSD/OpenMathClosureGeometry.lean`:47 | erro |
+| `MCore.FF_is_closed` | `lean/MCore/BSD/OpenMathClosureGeometry.lean`:59 | fechado |
+| `MCore.FT_is_closed` | `lean/MCore/BSD/OpenMathClosureGeometry.lean`:55 | fechado |
+| `MCore.TF_is_closed` | `lean/MCore/BSD/OpenMathClosureGeometry.lean`:51 | fechado |
+| `MCore.TT_is_closed` | `lean/MCore/BSD/OpenMathClosureGeometry.lean`:47 | fechado |
 | `MCore.abstract_high_rank_open_math_closed` | `lean/MCore/BSD/HighRankDomainGapClosure.lean`:53 | fechado |
 | `MCore.abstract_higher_rank_height_open_math_closed` | `lean/MCore/BSD/HigherRankHeightDomainGapClosure.lean`:25 | fechado |
 | `MCore.abstract_leading_coefficient_open_math_closed` | `lean/MCore/BSD/LeadingCoefficientDomainGapClosure.lean`:24 | fechado |

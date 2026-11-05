@@ -253,7 +253,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -269,40 +269,32 @@
    "name": "MCore.FF_is_closed",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 59,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": frontierClosed .falseBranch .falseBranch"
   },
   {
    "name": "MCore.FT_is_closed",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 55,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": frontierClosed .falseBranch .trueBranch"
   },
   {
    "name": "MCore.TF_is_closed",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 51,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": frontierClosed .trueBranch .falseBranch"
   },
   {
    "name": "MCore.TT_is_closed",
    "file": "lean/MCore/BSD/OpenMathClosureGeometry.lean",
    "line": 47,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": frontierClosed .trueBranch .trueBranch"
   },
   {
@@ -1208,7 +1200,7 @@
    "statement": "¬∀ (d : MCore.BSDArithmeticAnalyticData), MCore.BSDRankPart d"
   }
  ],
- "closed": 104,
+ "closed": 108,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "c344a9ff55bf54d696edd227b2c7be0242fd52112c61edb838969a08113d78ae",
@@ -1261,6 +1253,6 @@
   "lean/MCore/K9.lean": "a1d556b7b3f043ba922c6abe9abbe5713e2025eb519b7ee4cb069863f80a2d89",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:02Z",
- "certificate_sha256": "fd6292e96aa3450b4b01bd30aa585c2539053c997fa3b4fd3b9fc08f692247a8"
+ "published_at": "2026-11-05T17:43:02Z",
+ "certificate_sha256": "1f69905237fde94b9e0e2a19dda48bcaa8035534fc685c2b88bb80186cf8e3a9"
 }
