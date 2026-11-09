@@ -288,7 +288,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -315,6 +315,6 @@
   "a0/lakefile.toml": "bb858657d44c253e2874948767d0f47c760570f2ff3045b6d7c8c940ff6ec652",
   "a0/lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
  },
- "published_at": "2026-11-05T17:43:18Z",
- "certificate_sha256": "67bd737eba746f311d8fb6ea1b9f673d56ab1d6c7eca53746b73dda8e9925b4d"
+ "published_at": "2026-11-09T23:13:15Z",
+ "certificate_sha256": "86711420718978822a2adea16424c6cf2b95b507b2ffb75f7680b79fee1f27a0"
 }
