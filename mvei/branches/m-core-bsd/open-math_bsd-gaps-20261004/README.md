@@ -5,7 +5,7 @@ Lean sources from the branch `open-math/bsd-gaps-20261004` of the private reposi
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 41 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `d4ecf5478cc74fb5d4cc2d1e3d5dbd519299b858758dc801cdbbaf4ed9c8ab31`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/open-math_bsd-gaps-20261004/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `21666cfa9809517b572314ae009882644f47699b658f9bbed5667469f00522b3`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-bsd/open-math_bsd-gaps-20261004/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

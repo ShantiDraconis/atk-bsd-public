@@ -353,7 +353,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.35.0-rc3"
   ],
@@ -398,6 +398,6 @@
   "lean/MCore/BSD/MordellWeilDescentReduction.lean": "ecaccae88185ff583e11422c9a5b18cd9fd424a81005e93cde89a68845374662",
   "lean/MCore/BSD/WeakMordellWeilReduction.lean": "4bcc0f6856ca8b27ac91930d51e182b07399d2f34b5cb49472705e5e7794110e"
  },
- "published_at": "2026-11-09T23:12:58Z",
- "certificate_sha256": "f035cea8365a140a256bf74178d5de63983575e86df429e1a16b2d0c2e4e540c"
+ "published_at": "2026-11-11T15:17:09Z",
+ "certificate_sha256": "95f435079c56598089f5e88bf3251fafdfcf8c37c86025ab4b6975fcde3d7a46"
 }

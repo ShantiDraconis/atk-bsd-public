@@ -978,7 +978,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -3143,6 +3143,6 @@
   "open_math/P2_TORSION_ATTACK.lean": "e3621f18492ac2efbf9fd321b26e90b6ec29dae713c3705bd03999f11914ac7c",
   "open_math/P2_TorsionRealization.lean": "42ed84e4848892274cf5991588a2567b6117b932406a2226b0b1566d2e9a0e65"
  },
- "published_at": "2026-11-09T23:12:57Z",
- "certificate_sha256": "c7889d21492c1e4019193abf90ed489c47cff3b2c3c9e587c5f4d74cb249e3eb"
+ "published_at": "2026-11-11T15:17:09Z",
+ "certificate_sha256": "b88f279ae6458a8e5161ddfb1bfcb50470266eb1d18a1936bc9cae91404eac90"
 }

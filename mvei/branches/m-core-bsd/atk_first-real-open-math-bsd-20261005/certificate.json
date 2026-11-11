@@ -358,7 +358,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -455,6 +455,6 @@
   "lean/P06/BSD/OpenMath/ForcingKernel.lean": "02f3947afde5b7ffa330a5eedf2eb13525758841d6a8ae7cb28be202185a9c06",
   "lean/P06/BSD/Spec.lean": "f8b3d314d9a42485d6922a40a2de94841633b662e5d5e260066ad350b3511d13"
  },
- "published_at": "2026-11-09T23:12:58Z",
- "certificate_sha256": "fcd306442c29ac632fe4e9cff4db466aa1a2af035ef19d64eba2572aa73beba2"
+ "published_at": "2026-11-11T15:17:09Z",
+ "certificate_sha256": "f96366a23e8d19eed2db7b9dffad10bfe25a4be563768c2ca1fdb4e2a00f6923"
 }
